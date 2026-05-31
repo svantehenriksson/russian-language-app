@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluenzo UX Mockup - Focus Mode</title>
+  <style>
+    :root {
+      --bg0: #070a12; --bg1: #0b1020; --border: rgba(255, 255, 255, 0.10); --border2: rgba(255, 255, 255, 0.14);
+      --text: rgba(255, 255, 255, 0.92); --muted: rgba(255, 255, 255, 0.62); --shadow2: 0 10px 30px rgba(0, 0, 0, 0.45);
+      --radius2: 24px; --accent: #6ee7ff; --accent2: #a78bfa; --maxw: 760px; --headerw: 760px;
+    }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; }
+    body {
+      margin: 0; font-size: 18px; color: var(--text);
+      background:
+        radial-gradient(1200px 800px at 15% 10%, rgba(167, 139, 250, 0.20), transparent 55%),
+        radial-gradient(900px 700px at 85% 18%, rgba(110, 231, 255, 0.16), transparent 55%),
+        linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 100%);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      letter-spacing: -0.01em;
+    }
+    .topbar { backdrop-filter: blur(16px); background: rgba(6, 10, 20, 0.55); border-bottom: 1px solid var(--border); }
+    .topbar-inner { max-width: var(--headerw); margin: 0 auto; padding: 10px 16px; display: flex; justify-content: space-between; align-items: center; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand-mark {
+      width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; font-weight: 800; font-size: 18px;
+      color: rgba(0, 0, 0, 0.82); background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 70%);
+      box-shadow: 0 12px 30px rgba(110, 231, 255, 0.18);
+    }
+    .brand-name { font-weight: 800; font-size: 18px; }
+    .ghost-btn, .primary-btn {
+      border-radius: 999px; padding: 10px 14px; font-size: 13px; border: 1px solid var(--border2); color: var(--text);
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .primary-btn {
+      border: 1px solid rgba(255, 255, 255, 0.18); color: rgba(0, 0, 0, 0.82);
+      background: linear-gradient(135deg, rgba(110, 231, 255, 0.95), rgba(167, 139, 250, 0.92));
+      box-shadow: 0 18px 40px rgba(110, 231, 255, 0.14);
+    }
+    .main { padding: 16px 0 24px; min-height: 100vh; }
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 10px; }
+    .home-grid { display: grid; gap: 12px; }
+    .card {
+      border-radius: var(--radius2); border: 1px solid var(--border); background: rgba(255, 255, 255, 0.05);
+      box-shadow: var(--shadow2); overflow: hidden;
+    }
+    .card-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 12px 8px; border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .card-title { font-weight: 800; letter-spacing: -0.02em; }
+    .card-chip {
+      font-size: 12px; color: var(--muted); border: 1px solid rgba(255, 255, 255, 0.10);
+      background: rgba(0, 0, 0, 0.16); padding: 6px 10px; border-radius: 999px;
+    }
+    .card-body { padding: 10px 12px 12px; }
+    .home-story-image {
+      width: 100%; border-radius: 16px; border: 1px solid var(--border2); box-shadow: var(--shadow2); margin-bottom: 12px; display: block;
+    }
+    .home-story-caption { font-size: 16px; line-height: 1.2; font-weight: 700; }
+    .home-story-header-cta { width: 100%; padding: 14px 12px; margin: 8px 0; font-size: 16px; }
+    .home-practice-list { display: grid; grid-template-columns: 1fr; gap: 10px; }
+    .home-practice-cta { width: 100%; justify-content: center; padding: 12px 14px; border-radius: 16px; }
+    .home-practice-label { font-size: 17px; font-weight: 800; }
+    .home-practice-progress { font-size: 17px; font-weight: 700; color: rgba(0, 0, 0, 0.72); }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><div class="brand-mark">F</div><div class="brand-name">Fluenzo</div></div>
+      <button class="ghost-btn">Menu</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="home-grid">
+        <section class="card">
+          <div class="card-header">
+            <div class="card-title">Philosophy A: One Next Action</div>
+            <div class="card-chip">Best for first session</div>
+          </div>
+          <div class="card-body">
+            <svg class="home-story-image" viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" aria-label="Airport story illustration">
+              <rect width="720" height="360" fill="#617f8d"/>
+              <rect x="0" y="240" width="720" height="120" fill="#314754"/>
+              <circle cx="520" cy="122" r="28" fill="#e7c39f"/>
+              <rect x="500" y="145" width="75" height="100" rx="22" fill="#243f54"/>
+              <rect x="60" y="56" width="180" height="52" rx="10" fill="#f9d061"/>
+              <text x="86" y="89" fill="#1a2430" font-size="34" font-family="Arial" font-weight="700">Arrivals</text>
+            </svg>
+            <div class="home-story-caption">Ch. 1: Lentokentällä - At the airport</div>
+            <div class="muted" style="font-size: 14px; margin-top: 6px;">You are here: Story first. Practice unlocks right after.</div>
+
+            <button class="primary-btn home-story-header-cta">Start Story · 5 min</button>
+
+            <div class="home-practice-list">
+              <button class="ghost-btn home-practice-cta"><span class="home-practice-label">Quiz</span> <span class="home-practice-progress">Locked</span></button>
+              <button class="ghost-btn home-practice-cta"><span class="home-practice-label">Visual Dictionary</span> <span class="home-practice-progress">Locked</span></button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

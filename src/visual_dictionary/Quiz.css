@@ -1,0 +1,81 @@
+.quiz-container {
+  text-align: center;
+  padding: 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius2);
+  box-shadow: var(--shadow2);
+  position: relative;
+}
+
+.quiz-container h2 {
+  font-size: 26px;
+  margin: 0 0 12px;
+  letter-spacing: -0.02em;
+}
+
+.quiz-image {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border2);
+  border-radius: 18px;
+  margin: 12px auto 4px;
+  background: rgba(0, 0, 0, 0.18);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.35);
+}
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.quiz-options button {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 14px;
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease, border 140ms ease;
+}
+
+.quiz-options button:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--border2);
+  transform: translateY(-1px);
+}
+
+.quiz-options button:disabled {
+  cursor: default;
+}
+
+.quiz-container p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 12px;
+}
+
+/* floating feedback animation */
+.floating-feedback {
+  position: absolute;
+  font-size: 18px;
+  background: rgba(7, 10, 18, 0.95);
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(110, 231, 255, 0.35);
+  box-shadow: 0 0 16px rgba(110, 231, 255, 0.25);
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  animation: fadeout 1.5s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes fadeout {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}

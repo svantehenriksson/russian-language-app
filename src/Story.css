@@ -1,0 +1,627 @@
+.story-page {
+  padding: 16px 0 32px;
+  overflow-x: hidden;
+}
+
+.story-card {
+  padding: 20px;
+  width: 100%;
+  min-width: 0;
+}
+
+.story-header {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.story-title {
+  margin: 0 0 6px;
+  font-size: clamp(22px, 2.2vw, 30px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.story-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.story-illustration-container {
+  text-align: left;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.story-hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.story-illustration {
+  width: 420px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  border-radius: 16px;
+  border: 1px solid var(--border2);
+  box-shadow: var(--shadow2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.highlight-words-container {
+  margin: 14px auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.highlight-span {
+  transition: color 0.2s, background 0.2s;
+  font-size: 18px;
+  margin-left: 0.35em;
+  color: var(--text);
+}
+
+.highlight-span.highlighted {
+  background-color: rgba(110, 231, 255, 0.18);
+  color: #f8fbff;
+  border-radius: 0.16em;
+  box-shadow: 0 1px 6px rgba(110, 231, 255, 0.2);
+  outline: 1px solid rgba(110, 231, 255, 0.35);
+  outline-offset: -1px;
+}
+
+.ending1 {
+  color: rgba(110, 231, 255, 0.95);
+  margin-left: 0;
+}
+
+.ending2 {
+  color: rgba(74, 222, 128, 0.95);
+  margin-left: 0;
+}
+
+.story-actions {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.story-chapter-switch {
+  position: relative;
+}
+
+.story-chapter-menu {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 8px;
+  background: rgba(7, 10, 18, 0.95);
+  border: 1px solid var(--border2);
+  border-radius: 14px;
+  padding: 8px;
+  display: grid;
+  gap: 6px;
+  min-width: 160px;
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(14px);
+  z-index: 10;
+}
+
+.story-chapter-option {
+  border-radius: 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease, border 140ms ease;
+}
+
+.story-chapter-option:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--border2);
+}
+
+.story-chapter-option.active {
+  border-color: rgba(110, 231, 255, 0.35);
+  background: linear-gradient(135deg, rgba(110, 231, 255, 0.18), rgba(167, 139, 250, 0.16));
+}
+
+.story-action-btn {
+  font-size: 13px;
+  padding: 10px 16px;
+}
+
+.story-progress-login-hint {
+  align-self: center;
+  font-size: 12px;
+  color: #fca5a5;
+  white-space: nowrap;
+}
+
+.status-mark-btn[aria-disabled="true"] {
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.story-play-btn {
+  min-width: 130px;
+}
+
+.story-play-btn-large {
+  font-size: 15px;
+  padding: 8px 12px;
+  min-width: 0;
+  width: fit-content;
+  border-radius: 16px;
+}
+
+.story-reset-btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.story-audio-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  min-width: 0;
+  text-align: left;
+  padding: 3px 6px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.story-audio-label {
+  font-size: 12px;
+  color: var(--muted);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.story-speed-stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 1px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.story-speed-step-btn {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border-radius: 7px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.story-speed-step-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.story-speed-value {
+  min-width: 36px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  padding: 0 1px;
+}
+
+/* The next four are just for the horizontal story version, remove if that trial is discarded */
+.story-horizontal-scroll {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 6px 0;
+  margin: 6px 0 0;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+  scrollbar-width: auto;
+  scrollbar-color: rgba(110, 231, 255, 0.35) transparent;
+}
+
+.story-scroll-rail {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  padding: 8px 10px 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.story-scroll-rail-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.story-scroll-progress-label,
+.story-scroll-progress-percent {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.story-scroll-progress-percent {
+  color: rgba(110, 231, 255, 0.9);
+  font-weight: 700;
+}
+
+.story-scroll-range {
+  width: 100%;
+  height: 24px;
+  background: transparent;
+  cursor: ew-resize;
+}
+
+.story-scroll-range:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.story-scroll-range::-webkit-slider-runnable-track {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.story-scroll-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  margin-top: -6px;
+  background: linear-gradient(135deg, rgba(110, 231, 255, 0.95), rgba(167, 139, 250, 0.92));
+  border: 2px solid rgba(7, 10, 18, 0.8);
+  box-shadow: 0 4px 14px rgba(110, 231, 255, 0.25);
+}
+
+.story-scroll-range::-moz-range-track {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.story-scroll-range::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(110, 231, 255, 0.95), rgba(167, 139, 250, 0.92));
+  border: 2px solid rgba(7, 10, 18, 0.8);
+  box-shadow: 0 4px 14px rgba(110, 231, 255, 0.25);
+}
+
+.story-horizontal-scroll::-webkit-scrollbar {
+  height: 18px;
+}
+
+.story-horizontal-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.story-horizontal-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, rgba(110, 231, 255, 0.65), rgba(167, 139, 250, 0.55));
+  border-radius: 999px;
+  border: 3px solid rgba(7, 10, 18, 0.7);
+  box-shadow: inset 0 0 8px rgba(110, 231, 255, 0.35);
+}
+
+.story-horizontal-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, rgba(110, 231, 255, 0.85), rgba(167, 139, 250, 0.75));
+}
+
+.story-horizontal-scroll::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.story-sentence-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  /* EDITED: Keep sentences from shrinking to fit the parent; prevents clipping at line ends. */
+  flex: 0 0 auto;
+  /* EDITED: Make each sentence block size to its content so horizontal scroll can reveal full text. */
+  width: max-content;
+}
+
+.story-sentence-row {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.story-sentence-row-primary {
+  font-size: 30px !important;
+  margin-bottom: 20px;
+}
+
+.story-sentence-row-secondary .highlight-span {
+  color: var(--muted);
+}
+
+.story-sentence-row-secondary .ending1 {
+  color: rgba(110, 231, 255, 0.95);
+}
+
+.story-sentence-row-secondary .ending2 {
+  color: rgba(74, 222, 128, 0.95);
+}
+
+.story-sentence-row-gap {
+  margin-bottom: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 0.35em;
+}
+
+.story-sentence-row-gap .highlight-span {
+  margin-left: 0;
+}
+
+.story-sentence-row-small .highlight-span {
+  font-size: 15px;
+}
+
+.story-sentence-row-grammar {
+  margin-top: 2px;
+  position: relative;
+}
+
+.story-grammar-toggle,
+.story-grammar-hide {
+  font-size: 12px;
+  color: #d7deea;
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+.story-grammar-note {
+  font-size: 16px;
+  color: var(--muted);
+  white-space: pre-line;
+}
+
+.story-grammar-panel {
+  margin: 10px 0 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border2);
+  background: rgba(7, 10, 18, 0.65);
+  color: var(--muted);
+  font-size: 12px;
+  display: inline-block;
+  width: fit-content;
+  max-width: min(100%, 520px);
+  white-space: normal;
+}
+
+.story-grammar-toggle:hover,
+.story-grammar-hide:hover {
+  color: var(--text);
+}
+
+.story-grammar-toggle-disabled {
+  color: #9ca5b5;
+  cursor: default;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.story-sentence-row .highlight-span:first-child {
+  margin-left: 0;
+}
+
+.story-quiz {
+  margin: 12px auto 0;
+  max-width: 640px;
+  text-align: center;
+  position: relative;
+}
+
+.story-quiz-header h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+}
+
+.story-quiz-header p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.story-quiz-question {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.story-quiz-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.story-quiz-option {
+  border-radius: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease, border 140ms ease;
+}
+
+.story-quiz-option:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--border2);
+  transform: translateY(-1px);
+}
+
+.story-quiz-option.correct {
+  border-color: rgba(74, 222, 128, 0.8);
+  background: rgba(74, 222, 128, 0.2);
+  color: #eafff3;
+}
+
+.story-quiz-option.incorrect {
+  border-color: rgba(248, 113, 113, 0.8);
+  background: rgba(248, 113, 113, 0.2);
+  color: #ffecec;
+}
+
+.story-quiz-option.disabled {
+  opacity: 0.6;
+}
+
+.story-quiz-feedback {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.story-quiz-end h2 {
+  margin-bottom: 6px;
+}
+
+.story-quiz-end p {
+  margin: 0 0 16px;
+  color: var(--text);
+}
+
+.story-quiz-result-subtext {
+  margin: 6px 0 10px;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.story-quiz-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .story-title {
+    font-size: 21px;
+  }
+  .highlight-span {
+    font-size: 16px;
+  }
+  .story-play-btn-large {
+    max-width: 100%;
+  }
+  .story-hero {
+    gap: 10px;
+  }
+  .story-audio-controls {
+    padding: 2px 4px;
+  }
+  .story-speed-step-btn {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+  .story-speed-value {
+    min-width: 32px;
+    font-size: 11px;
+  }
+}
+
+
+
+
+
+@media (max-width: 720px) {
+  .story-hero {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Bring horizontal scroll back */
+  .story-horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: 8px 0;
+  }
+
+  /* Keep rows unwrapped so blocks are stable */
+  .story-sentence-row {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  /* Make each sentence block behave like a swipeable “card” */
+  /* Removed max-width, which was causing the blocks to wrap in mobile view */
+  .story-sentence-block {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+
+  /* Tone down sizes for mobile */
+  .story-sentence-row-primary {
+    font-size: 22px !important;
+    margin-bottom: 10px;
+  }
+
+  .story-sentence-row-secondary .highlight-span {
+    font-size: 14px;
+  }
+
+  .story-scroll-rail {
+    padding: 7px 8px 9px;
+  }
+
+  .story-scroll-progress-label,
+  .story-scroll-progress-percent {
+    font-size: 11px;
+  }
+}

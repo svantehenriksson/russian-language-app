@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluenzo UX Mockup - Dashboard Mode</title>
+  <style>
+    :root {
+      --bg0: #070a12; --bg1: #0b1020; --border: rgba(255, 255, 255, 0.10); --border2: rgba(255, 255, 255, 0.14);
+      --text: rgba(255, 255, 255, 0.92); --muted: rgba(255, 255, 255, 0.62); --shadow2: 0 10px 30px rgba(0, 0, 0, 0.45);
+      --radius2: 24px; --accent: #6ee7ff; --accent2: #a78bfa; --maxw: 760px; --headerw: 760px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-size: 18px; color: var(--text);
+      background:
+        radial-gradient(1200px 800px at 15% 10%, rgba(167, 139, 250, 0.20), transparent 55%),
+        radial-gradient(900px 700px at 85% 18%, rgba(110, 231, 255, 0.16), transparent 55%),
+        linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 100%);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    .topbar { backdrop-filter: blur(16px); background: rgba(6, 10, 20, 0.55); border-bottom: 1px solid var(--border); }
+    .topbar-inner {
+      max-width: var(--headerw); margin: 0 auto; padding: 10px 16px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand-mark {
+      width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; font-weight: 800;
+      font-size: 18px; color: rgba(0, 0, 0, 0.82); background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 70%);
+    }
+    .brand-name { font-weight: 800; font-size: 18px; }
+    .primary-btn, .ghost-btn {
+      border-radius: 999px; padding: 10px 14px; font-size: 13px; border: 1px solid var(--border2);
+      color: var(--text); background: rgba(255, 255, 255, 0.04);
+    }
+    .primary-btn {
+      border: 1px solid rgba(255, 255, 255, 0.18); color: rgba(0, 0, 0, 0.82);
+      background: linear-gradient(135deg, rgba(110, 231, 255, 0.95), rgba(167, 139, 250, 0.92));
+      box-shadow: 0 18px 40px rgba(110, 231, 255, 0.14);
+    }
+    .main { padding: 16px 0 24px; }
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 10px; }
+    .home-grid { display: grid; gap: 12px; }
+    .card {
+      border-radius: var(--radius2); border: 1px solid var(--border); background: rgba(255, 255, 255, 0.05);
+      box-shadow: var(--shadow2); overflow: hidden;
+    }
+    .card-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 12px 8px; border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .card-title { font-weight: 800; letter-spacing: -0.02em; }
+    .card-chip {
+      font-size: 12px; color: var(--muted); border: 1px solid rgba(255, 255, 255, 0.10);
+      background: rgba(0, 0, 0, 0.16); padding: 6px 10px; border-radius: 999px;
+    }
+    .card-body { padding: 10px 12px 12px; }
+    .home-practice-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .home-practice-cta { width: 100%; justify-content: center; padding: 12px 14px; border-radius: 16px; min-width: 0; }
+    .home-practice-label { font-size: 17px; font-weight: 800; text-align: center; }
+    .home-practice-progress { font-size: 17px; font-weight: 700; color: rgba(0, 0, 0, 0.72); white-space: nowrap; }
+    .progress-label { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+    .progress-track {
+      height: 10px; border-radius: 999px; background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.08); overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%; border-radius: 999px;
+      background: linear-gradient(90deg, rgba(52, 211, 153, 0.90), rgba(110, 231, 255, 0.90));
+    }
+    .home-word-fi { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .home-word-en { color: var(--muted); font-size: 16px; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><div class="brand-mark">F</div><div class="brand-name">Fluenzo</div></div>
+      <button class="ghost-btn">Menu</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="home-grid">
+        <section class="card">
+          <div class="card-header">
+            <div class="card-title">Philosophy B: Returning User Dashboard</div>
+            <div class="card-chip">Best for habit users</div>
+          </div>
+          <div class="card-body">
+            <button class="primary-btn" style="width: 100%; font-size: 15px; padding: 12px 10px;">Resume Chapter 1 · Scene 4</button>
+            <div class="muted" style="font-size: 14px; margin: 8px 0 4px;">Last seen yesterday · 3-day streak · 11 mins to finish chapter</div>
+            <button class="ghost-btn" style="margin-bottom: 10px;">Jump to Chapter</button>
+
+            <div class="progress-label"><span>Story completion</span><span>62%</span></div>
+            <div class="progress-track"><div class="progress-fill" style="width: 62%;"></div></div>
+
+            <div class="home-practice-list" style="margin-top: 12px;">
+              <button class="primary-btn home-practice-cta"><span class="home-practice-label">Quiz</span> <span class="home-practice-progress">1/43</span></button>
+              <button class="ghost-btn home-practice-cta"><span class="home-practice-label">Visual Dictionary</span> <span class="home-practice-progress">0/18</span></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header">
+            <div class="card-title">Optional Practice</div>
+            <div class="card-chip">Low priority</div>
+          </div>
+          <div class="card-body">
+            <div class="home-word-fi">hiljaa</div>
+            <div class="home-word-en">quietly</div>
+            <div class="muted" style="font-size: 14px; margin-top: 8px;">Shown below the core action to reduce distraction.</div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

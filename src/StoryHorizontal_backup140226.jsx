@@ -1,0 +1,827 @@
+// These old ones could be deleted, but leaving them here for now.
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import "./Story.css";
+import StoryQuiz from "./story/StoryQuiz";
+import { chapterTitles } from "./story/titles/titles";
+
+//For Supabase analytics:
+import { trackStoryOpened } from "./supabaseAnalytics";
+import { fetchProgress, getCurrentUserId, incrementProgress } from "./supabaseProgress";
+
+const MAX_ENDING_CHAIN = 3;
+const TOTAL_CHAPTERS = 5;
+
+
+const sanitizeToken = (token = "") => token.replace(/\s+/g, " ").trim();
+
+const buildWordEntry = (word1, word2, word3, word4) => {
+  const raw1 = sanitizeToken(word1);
+  const raw2 = sanitizeToken(word2);
+  const raw3 = sanitizeToken(word3);
+  const raw4 = sanitizeToken(word4);
+
+  const isEnding1 = raw1.startsWith("-");
+  const isEnding2 = raw1.startsWith("==") || raw1.startsWith("=");
+
+  let display1 = raw1;
+  let display2 = raw2;
+  let display4 = raw4;
+
+  if (isEnding1) {
+    display1 = raw1.slice(1);
+    display4 = raw4.startsWith("-") ? raw4.slice(1) : raw4;
+  }
+
+  if (isEnding2) {
+    display1 = raw1.replace(/^=+/, "");
+    display4 = raw4.replace(/^=+/, "");
+    display2 = raw2.replace("=", "-");
+  }
+
+  return {
+    display1,
+    display2,
+    display3: raw3,
+    display4,
+    isEnding1,
+    isEnding2,
+  };
+};
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const endsSentence = (token) => /[.!?]["”']?$/.test(token);
+
+export default function Story({ initialChapter = 1 }) {
+  const [currentChapter, setCurrentChapter] = useState(initialChapter);
+  const [view, setView] = useState("story");
+  const [showChapterMenu, setShowChapterMenu] = useState(false);
+  const [storyData, setStoryData] = useState(null);
+  const [startTimes, setStartTimes] = useState([]);
+  const [quizQuestions, setQuizQuestions] = useState([]);
+
+  // wordsPerQuiz almost certainly shouldn't be "state" and now we manipulate this in many places of the code.
+  // Coding quickly now but will pay later for this mess with a slower re-factoring:
+  const [wordsPerQuiz, setWordsPerQuiz] = useState(0);
+  const [quizLoadError, setQuizLoadError] = useState(null);
+  const [loadError, setLoadError] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [activeIndexes, setActiveIndexes] = useState([]);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [audioSpeed, setAudioSpeed] = useState(0.75);
+  const [openGrammarIndex, setOpenGrammarIndex] = useState(null);
+  const [isPaused, setIsPaused] = useState(false);
+  const [pausedTime, setPausedTime] = useState(0);
+
+  /* SUPABASE START */
+  const [readCount, setReadCount] = useState(0);
+  const [isReadAnimating, setIsReadAnimating] = useState(false);
+  const [canMarkRead, setCanMarkRead] = useState(false);
+  /* SUPABASE END */
+
+  const scrollRef = useRef(null);
+  const audioRef = useRef(null);
+  const runIdRef = useRef(0);
+
+  /* SUPABASE START */
+  const readTimerRef = useRef(null);
+  /* SUPABASE END */
+
+  const wordEntries = useMemo(() => {
+    if (!storyData) return [];
+    const { highlightWords, highlightWords2, highlightWords4 } = storyData;
+    const length = Math.min(
+      highlightWords.length,
+      highlightWords2.length,
+      highlightWords4.length,
+    );
+
+    return Array.from({ length }, (_, idx) =>
+      buildWordEntry(
+        highlightWords[idx],
+        highlightWords2[idx],
+        "",
+        highlightWords4[idx],
+      ),
+    );
+  }, [storyData]);
+
+  const englishWords = useMemo(
+    () => (storyData?.highlightWords3 ?? []).filter((word) => word.trim() !== ""),  //AI added this filter to remove empty words - would be better to find root cause instead.
+    [storyData],
+  );
+
+  useEffect(() => {
+    let isMounted = true;
+
+    const loadChapter = async () => {
+      try {
+        setLoadError(null);
+        setStoryData(null);
+        setStartTimes([]);
+        setQuizQuestions([]);
+        setWordsPerQuiz(0);
+        setQuizLoadError(null);
+
+// Here was some other AI-generated code before with @vite-ignore that apparently still works in dev mode, but not in production.
+        const storyTextModules = import.meta.glob('./story/chapter*/story_text.js');
+        const timesModules = import.meta.glob('./story/chapter*/words_and_start_times.js');
+        const quizModules = import.meta.glob('./story/chapter*/quiz_questions.js');
+        const grammarModules = import.meta.glob('./story/chapter*/grammar.js');
+
+        const chapterId = String(currentChapter);
+
+        const storyModule = await storyTextModules[`./story/chapter${chapterId}/story_text.js`]?.();
+        if (!storyModule) throw new Error(`Missing story_text for chapter ${chapterId}`);
+
+        const timesModule = await timesModules[`./story/chapter${chapterId}/words_and_start_times.js`]?.();
+        if (!timesModule) throw new Error(`Missing words_and_start_times for chapter ${chapterId}`);
+
+        const quizModule = await quizModules[`./story/chapter${chapterId}/quiz_questions.js`]?.();
+        const grammarModule = await grammarModules[`./story/chapter${chapterId}/grammar.js`]?.();
+        const quizList = quizModule?.quizQuestions ?? [];
+        const grammarNotes = grammarModule?.grammarNotes ?? [];
+
+        if (!isMounted) return;
+
+        setStoryData({
+          highlightWords: storyModule.highlightWords ?? [],
+          highlightWords2: storyModule.highlightWords2 ?? [],
+          highlightWords3: storyModule.highlightWords3 ?? [],
+          highlightWords4: storyModule.highlightWords4 ?? [],
+          grammarNotes,
+        });
+        
+        /* SUPABASE START */
+        // Log that a story chapter has been opened for minimal analytics.
+        trackStoryOpened(chapterId);
+        /* SUPABASE END */
+        
+        setStartTimes(timesModule.startTimes ?? []);
+        setQuizQuestions(quizList);
+        setWordsPerQuiz(Array.isArray(quizList) ? quizList.length : 0);
+        if (!quizModule) {
+          setQuizLoadError(`Chapter ${currentChapter} quiz not available yet.`);
+        }
+      } catch (error) {
+        console.error("Failed to load chapter:", error);
+        if (isMounted) {
+          setLoadError(`Chapter ${currentChapter} not available yet.`);
+        }
+      }
+    };
+
+    loadChapter();
+
+    return () => {
+      isMounted = false;
+    };
+  }, [currentChapter]);
+
+
+  /* SUPABASE START */
+  useEffect(() => {
+    let isMounted = true;
+
+    const loadProgress = async () => {
+      
+      /* SUPABASE START */
+      // Load chapter progress for the Mark as Read button.
+      const userId = await getCurrentUserId();
+      if (!isMounted) return;
+      setCanMarkRead(Boolean(userId));
+      if (!userId) {
+        setReadCount(0);
+        return;
+      }
+      const completed = await fetchProgress({
+        contentType: "story_chapter",
+        contentKey: `chapter_${currentChapter}`,
+      });
+      if (!isMounted) return;
+      setReadCount(completed);
+      /* SUPABASE END */
+      
+    };
+
+    loadProgress();
+
+    return () => {
+      isMounted = false;
+      if (readTimerRef.current) {
+        clearTimeout(readTimerRef.current);
+        readTimerRef.current = null;
+      }
+    };
+  }, [currentChapter]);
+  /* SUPABASE END */
+
+
+  useEffect(() => {
+    return () => {
+      runIdRef.current += 1;
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = audioSpeed;
+    }
+  }, [audioSpeed]);
+
+  useEffect(() => {
+    if (openGrammarIndex === null) return;
+
+    const handleOutsideClick = (event) => {
+      if (event.target.closest(".story-grammar-toggle")) return;
+      if (event.target.closest(".story-grammar-panel")) return;
+      setOpenGrammarIndex(null);
+    };
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setOpenGrammarIndex(null);
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("touchstart", handleOutsideClick);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("touchstart", handleOutsideClick);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [openGrammarIndex]);
+
+  const findWordNumberForTime = (timeSeconds) => {
+    if (!Array.isArray(startTimes) || startTimes.length === 0) return 1;
+    let wordNumber = 1;
+    for (let i = 0; i < startTimes.length; i += 1) {
+      const startTime = startTimes[i];
+      if (typeof startTime !== "number") break;
+      if (startTime <= timeSeconds + 0.01) {
+        wordNumber = i + 1;
+      } else {
+        break;
+      }
+    }
+    return wordNumber;
+  };
+
+  const findWordIndexForWordNumber = (wordNumber) => {
+    if (wordNumber <= 1) return 0;
+    let count = 0;
+    for (let i = 0; i < wordEntries.length; i += 1) {
+      if (wordEntries[i].isEnding1) continue;
+      count += 1;
+      if (count === wordNumber) return i;
+    }
+    return 0;
+  };
+
+  const scrollToWordIndex = (wordIndex, behavior = "smooth") => {
+    if (!scrollRef.current) return;
+    const target = scrollRef.current.querySelector(
+      `[data-word-index="${wordIndex}"]`,
+    );
+    if (!target) return;
+
+    const containerLeft = scrollRef.current.getBoundingClientRect().left;
+    const targetLeft = target.getBoundingClientRect().left;
+    const nextLeft = scrollRef.current.scrollLeft + (targetLeft - containerLeft);
+    scrollRef.current.scrollTo({
+      left: Math.max(0, nextLeft),
+      behavior,
+    });
+  };
+
+  const handlePlay = async () => {
+    if (isPlaying || wordEntries.length === 0 || startTimes.length === 0) return;
+
+    const resumeTime = isPaused ? pausedTime : 0;
+    const resumeWordNumber = resumeTime > 0 ? findWordNumberForTime(resumeTime) : 1;
+    const resumeIndex = resumeTime > 0 ? findWordIndexForWordNumber(resumeWordNumber) : 0;
+    const sentenceStartIndex =
+      resumeTime > 0
+        ? sentenceGroups.find((sentence) => sentence.includes(resumeIndex))?.[0] ?? 0
+        : 0;
+
+    setIsPlaying(true);
+    setIsPaused(false);
+    setPausedTime(0);
+    setActiveIndexes([]);
+    runIdRef.current += 1;
+    const runId = runIdRef.current;
+
+    if (!audioRef.current || !isPaused) {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+      audioRef.current = new Audio(
+        `${import.meta.env.BASE_URL}story/chapter${currentChapter}/chapter${currentChapter}.mp3`,
+      );
+    }
+
+    const audio = audioRef.current;
+    audio.playbackRate = audioSpeed;
+    audio.currentTime = resumeTime;
+    try {
+      await audio.play();
+    } catch (error) {
+      console.error("Audio playback failed:", error);
+      setIsPlaying(false);
+      setIsPaused(false);
+      return;
+    }
+
+    scrollToWordIndex(sentenceStartIndex, "smooth");
+
+    let wordCounter = resumeTime > 0 ? Math.max(0, resumeWordNumber - 1) : 0;
+
+    for (let i = resumeIndex; i < wordEntries.length; i += 1) {
+      if (runIdRef.current !== runId) return;
+      if (wordEntries[i].isEnding1) {
+        continue;
+      }
+
+      wordCounter += 1;
+      const nextStart = startTimes[wordCounter];
+      if (typeof nextStart !== "number") break;
+
+      const indexes = [i];
+      for (let step = 1; step <= MAX_ENDING_CHAIN; step += 1) {
+        const nextIndex = i + step;
+        if (wordEntries[nextIndex]?.isEnding1) {
+          indexes.push(nextIndex);
+        } else {
+          break;
+        }
+      }
+
+      setActiveIndexes(indexes);
+      const delay = Math.max(
+        0,
+        (1000 * (nextStart - audio.currentTime)) / audio.playbackRate,
+      );
+      await sleep(delay);
+
+      if (runIdRef.current !== runId) return;
+      setActiveIndexes([]);
+    }
+
+    if (runIdRef.current === runId) {
+      setIsPlaying(false);
+      setIsPaused(false);
+      setPausedTime(0);
+    }
+  };
+
+  const handlePause = () => {
+    runIdRef.current += 1;
+    setIsPlaying(false);
+    setIsPaused(true);
+    setActiveIndexes([]);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      setPausedTime(audioRef.current.currentTime);
+    }
+  };
+
+  const handleReset = () => {
+    runIdRef.current += 1;
+    setIsPlaying(false);
+    setIsPaused(false);
+    setPausedTime(0);
+    setActiveIndexes([]);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    scrollToWordIndex(0, "smooth");
+  };
+
+
+  /* SUPABASE START */
+  const handleMarkRead = async () => {
+    if (!canMarkRead) return;
+    setIsReadAnimating(true);
+    if (readTimerRef.current) {
+      clearTimeout(readTimerRef.current);
+    }
+    readTimerRef.current = setTimeout(() => {
+      setIsReadAnimating(false);
+      readTimerRef.current = null;
+    }, 650);
+
+    
+    /* SUPABASE START */
+    // Increment read progress for the current story chapter.
+    const nextCompleted = await incrementProgress({
+      contentType: "story_chapter",
+      contentKey: `chapter_${currentChapter}`,
+    });
+    if (typeof nextCompleted === "number") {
+      setReadCount(nextCompleted);
+    }
+    /* SUPABASE END */
+    
+  };
+
+  /* SUPABASE END */
+
+  const activeSet = useMemo(() => new Set(activeIndexes), [activeIndexes]);
+  const activeAnchorIndex = hoveredIndex ?? activeIndexes[0] ?? null;
+  const sentenceGroups = useMemo(() => {
+    const groups = [];
+    let current = [];
+
+    wordEntries.forEach((word, idx) => {
+      if (
+        word.display1.trim() === "" &&
+        word.display2.trim() === "" &&
+        word.display4.trim() === ""
+      ) {
+        return;
+      }
+
+      current.push(idx);
+      if (endsSentence(word.display1)) {
+        groups.push(current);
+        current = [];
+      }
+    });
+
+    if (current.length > 0) {
+      groups.push(current);
+    }
+
+    return groups;
+  }, [wordEntries]);
+
+
+  // The code is getting patchy and spaghetti-like but the English translations are not working as expected.
+// That's because the English sentences are a different length than the other 3, that are designed to be the same length.
+// Below a vibe-coded helper function, but stuff in the beginning was heavily edited as well by AI.
+// For example, the English story is now imported in a separate statement from the rest.
+
+  const englishSentenceGroups = useMemo(() => {
+    const groups = [];
+    let current = [];
+
+    englishWords.forEach((word, idx) => {
+      current.push(idx);
+      if (endsSentence(word)) {
+        groups.push(current);
+        current = [];
+      }
+    });
+
+    if (current.length > 0) {
+      groups.push(current);
+    }
+
+    return groups;
+  }, [englishWords]);
+
+  useEffect(() => {
+    console.log("englishSentenceGroups:", englishSentenceGroups);
+  }, [englishSentenceGroups]);
+
+
+
+
+
+
+  const getWordClass = (word, idx) => {
+    const isHighlighted = hoveredIndex === idx || activeSet.has(idx);
+    return [
+      "highlight-span",
+      word.isEnding1 ? "ending1" : "",
+      word.isEnding2 ? "ending2" : "",
+      isHighlighted ? "highlighted" : "",
+    ]
+      .filter(Boolean)
+      .join(" ");
+  };
+
+  useEffect(() => {
+    if (!scrollRef.current || activeAnchorIndex === null) return;
+    const target = scrollRef.current.querySelector(
+      `[data-word-index="${activeAnchorIndex}"]`,
+    );
+    if (!target) return;
+
+    const containerLeft = scrollRef.current.getBoundingClientRect().left;
+    const targetLeft = target.getBoundingClientRect().left;
+    const nextLeft = scrollRef.current.scrollLeft + (targetLeft - containerLeft);
+
+    if (
+      isPlaying &&
+      activeAnchorIndex !== null &&
+      wordEntries[activeAnchorIndex] &&
+      endsSentence(wordEntries[activeAnchorIndex - 1]?.display1 || "")
+    ) {
+      scrollRef.current.scrollTo({
+        left: Math.max(0, nextLeft),
+        behavior: "smooth",
+      });
+    }
+  }, [activeAnchorIndex, isPlaying, wordEntries]);
+
+  if (loadError) {
+    return (
+      <div className="story-page">
+        <div className="container">
+          <section className="card story-card">
+            <header className="story-header">
+              <h1 className="story-title">
+                {chapterTitles[currentChapter] ?? `Chapter ${currentChapter}`}
+              </h1>
+              <p className="story-subtitle">{loadError}</p>
+            </header>
+          </section>
+        </div>
+      </div>
+    );
+  }
+
+  if (!storyData) {
+    return (
+      <div className="story-page">
+        <div className="container">
+          <section className="card story-card">
+            <header className="story-header">
+              <h1 className="story-title">
+                {chapterTitles[currentChapter] ?? `Chapter ${currentChapter}`}
+              </h1>
+              <p className="story-subtitle">Loading chapter {currentChapter}…</p>
+            </header>
+          </section>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="story-page">
+      <div className="container">
+        <section className="card story-card">
+          <header className="story-header">
+            <h1 className="story-title">
+              {chapterTitles[currentChapter] ?? `Chapter ${currentChapter}`}
+            </h1>
+          </header>
+
+          {view === "story" ? (
+            <>
+              {/* 
+                In web design, a "hero" section refers to a large, prominent banner area at the top of a page,
+                often used to draw attention to key content or actions. Here, "story-hero" is used 
+                to style the intro/audio controls as the visually prominent top section of the story card.
+              */}
+              <div className="story-hero">
+                <button
+                  className="primary-btn story-play-btn-large"
+                  type="button"
+                  onClick={isPlaying ? handlePause : handlePlay}
+                  aria-pressed={isPlaying}
+                >
+                  {isPlaying
+                    ? "⏸️ Pause audio"
+                    : isPaused
+                      ? "▶️ Resume audio"
+                      : "▶️ Play audio"}
+                </button>
+                <button
+                  className="ghost-btn story-reset-btn"
+                  type="button"
+                  onClick={handleReset}
+                  aria-label="Reset audio"
+                  title="Reset audio"
+                >
+                  ↺
+                </button>
+                <div className="story-audio-controls">
+                  <label className="story-audio-label" htmlFor="audio-speed">
+                    Speed: {audioSpeed.toFixed(1)}x
+                  </label>
+                  <input
+                    className="story-audio-slider"
+                    id="audio-speed"
+                    type="range"
+                    min="0.3"
+                    max="2"
+                    step="0.1"
+                    value={audioSpeed}
+                    onChange={(event) => setAudioSpeed(Number(event.target.value))}
+                  />
+                </div>
+              </div>
+
+              <div className="story-horizontal-scroll" ref={scrollRef}>
+                {sentenceGroups.map((sentence, sentenceIndex) => (
+                  <div key={`sentence-${sentenceIndex}`} className="story-sentence-block">
+                    <div className="story-sentence-row story-sentence-row-primary">
+                    
+                      {sentence.map((idx) => {
+                        const word = wordEntries[idx];
+                        return (
+                          <span
+                            key={`fi-${idx}`}
+                            className={getWordClass(word, idx)}
+                            data-word-index={idx}
+                            onMouseEnter={() => setHoveredIndex(idx)}
+                            onMouseLeave={() => setHoveredIndex(null)}
+                          >
+                            {word.display1}
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <div className="story-sentence-row story-sentence-row-secondary story-sentence-row-gap">
+                      {sentence.map((idx) => {
+                        const word = wordEntries[idx];
+                        return (
+                          <span key={`fake-en-${idx}`} className={getWordClass(word, idx)}>
+                            {word.display2}
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <div className="story-sentence-row story-sentence-row-secondary story-sentence-row-small">
+                      {sentence.map((idx) => {
+                        const word = wordEntries[idx];
+                        return (
+                          <span key={`fi-spoken-${idx}`} className={getWordClass(word, idx)}>
+                            {word.display4}
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <div className="story-sentence-row story-sentence-row-secondary story-sentence-row-small">
+                      {(englishSentenceGroups[sentenceIndex] ?? []).map((idx) => (
+                        <span key={`en-${sentenceIndex}-${idx}`} className="highlight-span">
+                          {englishWords[idx]}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="story-sentence-row story-sentence-row-secondary story-sentence-row-grammar">
+                      {(() => {
+                        const note =
+                          storyData?.grammarNotes?.[sentenceIndex] ?? "No grammar notes for this sentence";
+                        const isOpen = openGrammarIndex === sentenceIndex;
+
+                        return (
+                          <span
+                            className="story-grammar-toggle"
+                            role="button"
+                            tabIndex={0}
+                            aria-label={note}
+                            onClick={() => setOpenGrammarIndex(isOpen ? null : sentenceIndex)}
+                            onKeyDown={(event) => {
+                              if (event.key === "Enter" || event.key === " ") {
+                                event.preventDefault();
+                                setOpenGrammarIndex(isOpen ? null : sentenceIndex);
+                              }
+                            }}
+                          >
+                            💡 Grammar 💡
+                          </span>
+                        );
+                      })()}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {openGrammarIndex !== null && (
+                <div className="story-grammar-panel" role="region" aria-live="polite">
+                  <span className="story-grammar-note">
+                    {storyData?.grammarNotes?.[openGrammarIndex] ?? "No grammar notes for this sentence"}
+                  </span>{" "}
+                  <span
+                    className="story-grammar-hide"
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => setOpenGrammarIndex(null)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        setOpenGrammarIndex(null);
+                      }
+                    }}
+                  >
+                    Hide
+                  </span>
+                </div>
+              )}
+              <div className="story-illustration-container">
+                <img
+                  className="story-illustration"
+                  src={`${import.meta.env.BASE_URL}story/chapter${currentChapter}/image${currentChapter}.png`}
+                  alt={`Chapter ${currentChapter} illustration`}
+                />
+              </div>
+            </>
+          ) : (
+            <StoryQuiz
+              chapterNumber={currentChapter}
+              questions={quizQuestions}
+                wordsPerQuiz={wordsPerQuiz}
+              loadError={quizLoadError}
+              onBack={() => setView("story")}
+              onNextChapter={() => {
+                const nextChapter = Math.min(currentChapter + 1, TOTAL_CHAPTERS);
+                setCurrentChapter(nextChapter);
+                setShowChapterMenu(false);
+                setView("story");
+              }}
+            />
+          )}
+
+          <div className="story-actions">
+            {view === "story" ? (
+              <>
+                <button
+                  className="primary-btn story-action-btn"
+                  type="button"
+                  onClick={() => {
+                    if (isPlaying || isPaused) {
+                      handleReset();
+                    }
+                    setView("quiz");
+                  }}
+                >
+                  🧠 Chapter Quiz
+                </button>
+                    <button
+                      className={`ghost-btn status-mark-btn ${isReadAnimating ? "status-animate" : ""}`}
+                      type="button"
+                      onClick={handleMarkRead}
+                      disabled={!canMarkRead}
+                      title={canMarkRead ? "Mark chapter as read" : "Login to track progress"}
+                    >
+                      {readCount > 0 ? `✅ ${readCount >= 9 ? "9+" : readCount} Mark as re-read` : "Mark as Read ✅"}
+                    </button>
+                <div className="story-chapter-switch">
+                  <button
+                    className="ghost-btn story-action-btn"
+                    type="button"
+                    onClick={() => setShowChapterMenu((prev) => !prev)}
+                  >
+                    Change Chapter
+                  </button>
+                  {showChapterMenu && (
+                    <div className="story-chapter-menu">
+                      {Array.from({ length: TOTAL_CHAPTERS }, (_, idx) => {
+                        const chapterNumber = idx + 1;
+                        return (
+                          <button
+                            key={chapterNumber}
+                            type="button"
+                            className={`story-chapter-option ${chapterNumber === currentChapter ? "active" : ""}`}
+                            onClick={() => {
+                              if (isPlaying || isPaused) {
+                                handleReset();
+                              }
+                              setCurrentChapter(chapterNumber);
+                              setShowChapterMenu(false);
+                              setView("story");
+                            }}
+                          >
+                            Chapter {chapterNumber}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              </>
+            ) : (
+              <>
+                <button
+                  className="ghost-btn story-action-btn"
+                  type="button"
+                  onClick={() => setView("story")}
+                >
+                  🔙 Back to story
+                </button>
+                <button
+                  className={`ghost-btn status-mark-btn ${isReadAnimating ? "status-animate" : ""}`}
+                  type="button"
+                  onClick={handleMarkRead}
+                  disabled={!canMarkRead}
+                  title={canMarkRead ? "Mark chapter as read" : "Login to track progress"}
+                >
+                  {readCount > 0 ? `✅ ${readCount >= 9 ? "9+" : readCount} Mark as re-read` : "Mark as Read ✅"}
+                </button>
+              </>
+            )}
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}

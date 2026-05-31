@@ -1,0 +1,23 @@
+export const quizQuestions = [
+  { fi: "Asiakas", answer: "Client / customer", options: ["Client / customer", "Employee", "Neighbor"] },
+  { fi: "Toimisto", answer: "Office", options: ["Office", "Factory", "Hospital"] },
+  { fi: "Keskustassa", answer: "In the city center", options: ["In the city center", "At the airport", "In the countryside"] },
+  { fi: "Lentokenttä", answer: "Airport", options: ["Airport", "Train station", "Harbor"] },
+  { fi: "Sihteeri", answer: "Secretary", options: ["Secretary", "Manager", "Lawyer"] },
+  { fi: "Kerros", answer: "Floor (of a building)", options: ["Floor (of a building)", "Wall", "Ceiling"] },
+  { fi: "Hymyillä", answer: "To smile", options: ["To smile", "To frown", "To whisper"] },
+  { fi: "Matka", answer: "Trip / journey", options: ["Trip / journey", "Meeting", "Project"] },
+  { fi: "Ikkuna", answer: "Window", options: ["Window", "Door", "Desk"] },
+  { fi: "Ruotsalainen", answer: "Swedish person", options: ["Swedish person", "Finnish person", "Danish person"] },
+  { fi: "Esitellä", answer: "To present / introduce", options: ["To present / introduce", "To cancel", "To postpone"] },
+  { fi: "Ohjelma", answer: "Agenda / program", options: ["Agenda / program", "Map", "Invoice"] },
+  { fi: "Vuoro", answer: "Turn", options: ["Turn", "Seat", "Chance"] },
+  { fi: "Kuunnella", answer: "To listen", options: ["To listen", "To read", "To write"] },
+  { fi: "Mainita", answer: "To mention", options: ["To mention", "To forget", "To explain"] },
+  { fi: "Mielenkiintoinen", answer: "Interesting", options: ["Interesting", "Expensive", "Boring"] },
+  { fi: "Kehittää", answer: "To develop", options: ["To develop", "To hide", "To break"] },
+  { fi: "Varoittaa", answer: "To warn", options: ["To warn", "To promise", "To praise"] },
+  { fi: "Keskeytyä", answer: "To be interrupted", options: ["To be interrupted", "To begin", "To continue"] },
+  { fi: "Aamiainen", answer: "Breakfast", options: ["Breakfast", "Dinner", "Snack"] },
+  { fi: "Päättyä", answer: "To end", options: ["To end", "To start", "To return"] }
+];

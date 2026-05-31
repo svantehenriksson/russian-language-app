@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluenzo UX Mockup - Guided Path</title>
+  <style>
+    :root {
+      --bg0: #070a12;
+      --bg1: #0b1020;
+      --card: rgba(255, 255, 255, 0.06);
+      --border: rgba(255, 255, 255, 0.10);
+      --border2: rgba(255, 255, 255, 0.14);
+      --text: rgba(255, 255, 255, 0.92);
+      --muted: rgba(255, 255, 255, 0.62);
+      --muted2: rgba(255, 255, 255, 0.48);
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+      --shadow2: 0 10px 30px rgba(0, 0, 0, 0.45);
+      --radius2: 24px;
+      --accent: #6ee7ff;
+      --accent2: #a78bfa;
+      --maxw: 760px;
+      --headerw: 760px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body, #root { min-height: 100%; }
+    body {
+      margin: 0;
+      font-size: 18px;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 800px at 15% 10%, rgba(167, 139, 250, 0.20), transparent 55%),
+        radial-gradient(900px 700px at 85% 18%, rgba(110, 231, 255, 0.16), transparent 55%),
+        radial-gradient(800px 600px at 55% 90%, rgba(52, 211, 153, 0.10), transparent 55%),
+        linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 100%);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      letter-spacing: -0.01em;
+    }
+
+    .app-shell { min-height: 100%; display: grid; grid-template-rows: auto 1fr; }
+    .topbar {
+      position: sticky; top: 0; z-index: 40; backdrop-filter: blur(16px);
+      background: rgba(6, 10, 20, 0.55); border-bottom: 1px solid var(--border);
+    }
+    .topbar-inner {
+      max-width: var(--headerw); margin: 0 auto; padding: 10px 16px; display: flex;
+      justify-content: space-between; align-items: center; gap: 14px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+    .brand-mark {
+      width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; font-weight: 800;
+      font-size: 18px; letter-spacing: -0.03em; color: rgba(0, 0, 0, 0.82);
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 70%);
+      box-shadow: 0 12px 30px rgba(110, 231, 255, 0.18);
+    }
+    .brand-name { font-weight: 800; font-size: 18px; line-height: 1.1; }
+    .topbar-actions { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-left: auto; }
+
+    .primary-btn, .ghost-btn {
+      border-radius: 999px; padding: 10px 14px; font-size: 13px; line-height: 1;
+      border: 1px solid var(--border2); background: transparent; color: var(--text);
+      transition: transform 140ms ease, background 140ms ease, border 140ms ease, filter 140ms ease;
+      user-select: none;
+    }
+    .primary-btn {
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: linear-gradient(135deg, rgba(110, 231, 255, 0.95), rgba(167, 139, 250, 0.92));
+      color: rgba(0, 0, 0, 0.82); box-shadow: 0 18px 40px rgba(110, 231, 255, 0.14);
+    }
+    .ghost-btn { background: rgba(255, 255, 255, 0.04); }
+
+    .main { padding: 16px 0 24px; min-height: 100vh; overflow-x: hidden; }
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 10px; width: 100%; min-width: 0; }
+    .home-grid {
+      margin-top: 8px; display: grid; grid-template-columns: minmax(0, 1fr);
+      gap: 12px; max-width: 760px; margin-left: auto; margin-right: auto;
+    }
+
+    .card {
+      border-radius: var(--radius2); border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.05); box-shadow: var(--shadow2); overflow: hidden;
+    }
+    .card-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 12px 8px; border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .card-title { font-weight: 800; letter-spacing: -0.02em; }
+    .card-chip {
+      font-size: 12px; color: var(--muted); border: 1px solid rgba(255, 255, 255, 0.10);
+      background: rgba(0, 0, 0, 0.16); padding: 6px 10px; border-radius: 999px;
+    }
+    .card-body { padding: 10px 12px 12px; }
+
+    .home-practice-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .home-practice-cta {
+      width: 100%; justify-content: center; align-items: center; gap: 12px;
+      padding: 12px 14px; border-radius: 16px; min-width: 0;
+    }
+    .home-practice-label {
+      font-size: 17px; font-weight: 800; white-space: normal; text-align: center; line-height: 1.05;
+    }
+    .home-practice-progress {
+      font-size: 17px; font-weight: 700; color: rgba(0, 0, 0, 0.72); white-space: nowrap;
+    }
+    .home-story-image {
+      width: 100%; border-radius: 16px; border: 1px solid var(--border2);
+      box-shadow: var(--shadow2); margin-bottom: 12px; display: block;
+    }
+    .home-story-caption { font-size: 16px; line-height: 1.2; font-weight: 700; letter-spacing: -0.01em; }
+    .home-story-header-cta { padding: 6px 10px; min-height: 0; gap: 0; }
+    .home-story-header-cta .home-quick-label { font-size: 16px; line-height: 1; }
+    .home-chapter-btn { font-size: 15px; padding: 6px 10px; }
+    .hint {
+      display: flex; gap: 10px; align-items: center; border: 1px solid rgba(255, 255, 255, 0.10);
+      background: rgba(0, 0, 0, 0.18); padding: 10px 12px; border-radius: 14px;
+    }
+    .hint-dot {
+      width: 10px; height: 10px; border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, rgba(110, 231, 255, 0.95), rgba(167, 139, 250, 0.85));
+      box-shadow: 0 10px 24px rgba(110, 231, 255, 0.16);
+    }
+    .hint-text { font-size: 12px; color: var(--muted); }
+    .progress-label {
+      display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 8px;
+    }
+    .progress-track {
+      height: 10px; border-radius: 999px; background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.08); overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%; border-radius: 999px;
+      background: linear-gradient(90deg, rgba(52, 211, 153, 0.90), rgba(110, 231, 255, 0.90));
+    }
+    .home-word-fi { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .home-word-en { color: var(--muted); font-size: 16px; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <div class="brand-mark">F</div>
+          <div class="brand-name">Fluenzo</div>
+        </div>
+        <div class="topbar-actions">
+          <button class="ghost-btn">Login</button>
+          <button class="ghost-btn">Menu</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="home-grid">
+          <section class="card">
+            <div class="card-header">
+              <div class="card-title">First-Time User State</div>
+              <div class="card-chip">Onboarding</div>
+            </div>
+            <div class="card-body">
+              <button class="primary-btn home-story-header-cta"><span class="home-quick-label">Start Story</span></button>
+              <button class="ghost-btn home-chapter-btn">Chapter 1 · 5 min</button>
+              <div class="hint" style="margin-top: 10px;">
+                <span class="hint-dot"></span>
+                <span class="hint-text">Learn with story -> Quiz -> Visual Dictionary</span>
+              </div>
+
+              <svg class="home-story-image" viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" aria-label="Airport story illustration">
+                <defs>
+                  <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#8eaeb7"/>
+                    <stop offset="100%" stop-color="#496574"/>
+                  </linearGradient>
+                </defs>
+                <rect width="720" height="360" fill="url(#sky)"/>
+                <rect x="0" y="250" width="720" height="110" fill="#2f4350"/>
+                <rect x="30" y="40" width="190" height="54" rx="10" fill="#f9d061"/>
+                <text x="55" y="76" fill="#1a2430" font-size="34" font-family="Arial" font-weight="700">Arrivals</text>
+                <ellipse cx="180" cy="250" rx="140" ry="22" fill="#263742"/>
+                <rect x="510" y="95" width="145" height="170" rx="20" fill="#354c59"/>
+                <circle cx="560" cy="130" r="28" fill="#e7c39f"/>
+                <rect x="540" y="155" width="68" height="90" rx="20" fill="#1f3549"/>
+              </svg>
+              <div class="home-story-caption">Ch. 1: Lentokentällä - At the airport</div>
+              <div class="muted" style="font-size: 14px; margin-top: 6px;">Start here to unlock practice and dictionary.</div>
+
+              <div class="home-practice-list" style="margin-top: 12px;">
+                <button class="ghost-btn home-practice-cta"><span class="home-practice-label">Quiz</span><span class="home-practice-progress">Not started</span></button>
+                <button class="ghost-btn home-practice-cta"><span class="home-practice-label">Visual Dictionary</span><span class="home-practice-progress">Locked</span></button>
+              </div>
+            </div>
+          </section>
+
+          <section class="card">
+            <div class="card-header">
+              <div class="card-title">Returning User State</div>
+              <div class="card-chip">Progress-driven</div>
+            </div>
+            <div class="card-body">
+              <button class="primary-btn home-story-header-cta"><span class="home-quick-label">Resume Chapter 1 · Scene 4</span></button>
+              <button class="ghost-btn home-chapter-btn">Jump to Chapter</button>
+              <div class="muted" style="font-size: 14px; margin: 10px 0 8px;">62% complete · last seen yesterday · 3-day streak</div>
+
+              <div class="progress-label"><span>Chapter progress</span><span>62%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 62%;"></div></div>
+
+              <div class="home-practice-list" style="margin-top: 12px;">
+                <button class="primary-btn home-practice-cta"><span class="home-practice-label">Quiz</span><span class="home-practice-progress">1/43</span></button>
+                <button class="ghost-btn home-practice-cta"><span class="home-practice-label">Visual Dictionary</span><span class="home-practice-progress">0/18</span></button>
+              </div>
+
+              <section class="card" style="margin-top: 12px;">
+                <div class="card-header">
+                  <div class="card-title">Random Word</div>
+                  <div class="card-chip">Optional</div>
+                </div>
+                <div class="card-body">
+                  <div class="home-word-fi">hiljaa</div>
+                  <div class="home-word-en">quietly</div>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

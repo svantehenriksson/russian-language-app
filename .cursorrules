@@ -1,0 +1,8 @@
+We're of course trying to write clean, modular code. But we're also trying to write code that is easy to understand and easy to maintain.
+
+Don't be stingy with comments. But you don't have to go back and comment on code that already exists.
+
+In particular, any code that's written for Supabase analytics should be commented well.
+Also "indirect" code that only exists for the purpose of Supabase should be commented well.
+Before any Supabase block comment /*SUPABASE START*/ and after any Supabase block comment /*SUPABASE END*/.
+Because we'll probably edit Supabase code later, heavily, and we need to know where the Supabase code starts and ends.

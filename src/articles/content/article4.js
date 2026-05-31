@@ -1,0 +1,27 @@
+const article4 = [
+  "The 20 most common Finnish words cover a whopping 32% of all text. So if you know them well, you already understand a third of all Finnish text!",
+  "Make sure you study them, repeatedly if you need to. They feature in the 2 first levels of our Quiz.",
+  "<b>Top 20 words</b>",
+  "olla = to be / to have",
+  "ei = not / no",
+  "ja = and",
+  "se = it / that",
+  "hän = he / she",
+  "mikä = what / which",
+  "että = that",
+  "niin = so / thus",
+  "mutta = but",
+  "vain = only",
+  "minä = I",
+  "jos = if",
+  "tämä = this",
+  "nyt = now",
+  "voida = can / to be able to",
+  "sinä = you",
+  "kun = when",
+  "kuin = than / as",
+  "täällä = here",
+  "kaikki = all / everything",
+];
+
+export default article4;
