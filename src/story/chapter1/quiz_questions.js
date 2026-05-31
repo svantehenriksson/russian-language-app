@@ -1,61 +1,61 @@
 export const quizQuestions = [
   {
-    fi: "Lentokenttä",
+    fi: "aeroport - аэропорт",
     answer: "Airport",
     options: ["Airport", "Bus", "Hotel"],
   },
   {
-    fi: "Väsynyt",
+    fi: "ustalyy - усталый",
     answer: "Tired",
     options: ["Tired", "Happy", "Warm"],
   },
   {
-    fi: "Kahvi",
+    fi: "kofe - кофе",
     answer: "Coffee",
     options: ["Coffee", "Tea", "Milk"],
   },
   {
-    fi: "Kallis",
+    fi: "dorogoy - дорогой",
     answer: "Expensive",
     options: ["Expensive", "Cheap", "Late"],
   },
   {
-    fi: "Outo",
+    fi: "strannyy - странный",
     answer: "Strange",
     options: ["Strange", "Strong", "Quiet"],
   },
   {
-    fi: "Suomalaiset",
+    fi: "finny - финны",
     answer: "Finns",
     options: ["Finns", "Swedes", "Drivers"],
   },
   {
-    fi: "Bussi",
+    fi: "avtobus - автобус",
     answer: "Bus",
     options: ["Bus", "Train", "Taxi"],
   },
   {
-    fi: "Kuljettaja",
+    fi: "voditel - водитель",
     answer: "Driver",
     options: ["Driver", "Passenger", "Pilot"],
   },
   {
-    fi: "Lumi",
+    fi: "sneg - снег",
     answer: "Snow",
     options: ["Snow", "Rain", "Wind"],
   },
   {
-    fi: "Kylmä",
+    fi: "kholodnyy - холодный",
     answer: "Cold",
     options: ["Cold", "Hot", "Dry"],
   },
   {
-    fi: "Juoda",
+    fi: "pit - пить",
     answer: "Drink",
     options: ["Drink", "Eat", "Sleep"],
   },
   {
-    fi: "Päivä",
+    fi: "den - день",
     answer: "Day",
     options: ["Day", "Night", "Week"],
   },
