@@ -1,115 +1,115 @@
 const storyFinnish = `
-Teko -äly =projekti on valmis. 
-Asiakas: Kiitos tei -lle hyvä -stä työ -stä. 
-Asiakas: Nyt voi -mme säästää paljon raha -a. 
-Lucan työ -kaveri Jarno: Ei -pä kestä. 
-Luca: Ilo palvella. 
-Asiakas: No niin, kiitos vielä. Näkemiin. 
-Video -puhelu loppu -u. 
-Toimisto -ssa on hiljais -ta. 
-Jarno katsoo kelloa. 
-Jarno: Kello on vasta kaksi. Mennä -än =kö kävely -lle? 
-Luca: Kävely -lle? 
-Jarno: Joo. Ulkona on aurinko -ista. 
-Luca katsoo ulos ikkuna -sta. 
-Aurinko paistaa. 
-Kaikki on valkois -ta. 
-He puke -vat takit pää -lle. 
-He laitta -vat pipot pää -hän. 
-He kävele -vät kohti mer -ta. 
-Luca pysähty -y. 
-Luca: Mene -mme -kö me jää -lle? 
-Jarno: Kyllä. 
-Luca: On -ko se turvallis -ta? 
-Jarno: On. 
-He astu -vat jää -lle. 
-Jää narsku -u. 
-Luca katsoo alas. 
-Luca näke -e kala -n. 
-Kala ui pois. 
-Luca: Jää pitää ään -tä. 
-Jarno: Se kuuluu asia -an. 
-He kävele -vät piene -lle saare -lle. 
-Saari on täynnä mänty -jä. 
-Männy -n vihrei -tä neulas -ia on pudo -nnut jää -lle. 
-Luca ja Jarno saa -vat lun -ta take -i =lle -en. 
-Saare -n takana on pilkkijä. 
-Hän istu -u piene -llä jakkara -lla. 
-Hän juo kahvi -a termos -pullo =sta. 
-Ohi menee isä, joka vetää las -ta kelka -ssa. 
-Lapsi nauraa. 
-Jarno: Miten sinu -lla mene -e? 
-Luca: Ihan hyvin. 
-Jarno: Oikeasti? 
-Luca: Vähän yksinäis -tä joskus. 
-Jarno: Suome -ssa on aina alu -ssa yksinäis -tä. 
-Jarno: Saa -t varmasti vielä ystäv -iä. 
-Jarno: Tsemppiä. 
-Aurinko on jo matala -lla. 
-Luca hengittää syvä -än. 
-Luca: Ilma on puhdas -ta. 
-Jarno: On. 
-Jää paukahtaa. 
-Luca pelästy -y. 
-Jarno: Se kestää. 
-He kävele -vät takaisin ranta -an. 
+II -proekt gotov. 
+Klient: Spasib -o vam za khorosh -uyu rabot -u. 
+Klient: Teper my mozhe -m sekonomit mnogo dene -g. 
+Kolleg -a Luca -y Jarno: Ne -za chto. 
+Luca: Rad pomoch. 
+Klient: Nu ladno, eshchyo raz spasibo. Do svidaniya. 
+Video -zvonok zakonchi -lsya. 
+V ofis -e tikh -o. 
+Jarno smotr -it na chasy. 
+Jarno: Seichas tolko dva. Poydyo -m =li na progulk -u? 
+Luca: Na progulk -u? 
+Jarno: Da. Na ulitse solnechn -o. 
+Luca smotr -it v okn -o. 
+Solntse svet -it. 
+Vsyo bel -oe. 
+Oni nadeva -yut kurtk -i. 
+Oni nadeva -yut shapk -i. 
+Oni id -ut k mor -yu. 
+Luca ostanavliva -etsya. 
+Luca: My poydyo -m na lyod? 
+Jarno: Da. 
+Luca: Eto bezopasn -o? 
+Jarno: Da. 
+Oni stupa -yut na lyod. 
+Lyod skripi -t. 
+Luca smotr -it vniz. 
+Luca vidi -t ryb -u. 
+Ryb -a uplyva -et. 
+Luca: Lyod izd -ayet zvu -k. 
+Jarno: Tak i dolzhn -o byt. 
+Oni id -ut k malen -komu ostrov -u. 
+Ostrov polon sos -en. 
+Zelyon -ye khvoy -inki upa -li na lyod. 
+Luca i Jarno polucha -yut sneg na kurtk -i. 
+Za ostrov -om sid -it rybak. 
+On sid -it na malen -kom stul -e. 
+On py -yot kof -e iz termos -a. 
+Mimo idyot otets, kotoryy tyan -et rebyonk -a na sanka -kh. 
+Rebyonok sme -yotsya. 
+Jarno: Kak u teb -ya del -a? 
+Luca: Vpolne khorosh -o. 
+Jarno: Pravda? 
+Luca: Inogda nemnogo odinok -o. 
+Jarno: V Finlyandi -i v nachal -e vsegda odinok -o. 
+Jarno: Ty eshchyo obyazatelno naydyo -sh druze -y. 
+Jarno: Derzhi -s. 
+Solntse uzhe nizk -o. 
+Luca dysh -it glubok -o. 
+Luca: Vozdukh chist -yy. 
+Jarno: Da. 
+Lyod gromko treska -etsya. 
+Luca puga -etsya. 
+Jarno: On vyderzhi -t. 
+Oni id -ut obratno k bereg -u. 
 `;
 
 const storyFakeEnglish = `
-Artificial intelligence project is ready. 
-Customer: Thank you_all -to good -for work -for. 
-Customer: Now can -we save much money -some. 
-Luca's work -buddy Jarno: Not -indeed endure. 
-Luca: Pleasure to_serve. 
-Customer: Well then, thanks still. Goodbye. 
-Video -call end -s. 
-Office -in is quiet -some. 
-Jarno looks clock. 
-Jarno: Clock is only two. Go -we =? walk -to? 
-Luca: Walk -to? 
-Jarno: Yeah. Outside is sunny -ish. 
-Luca looks out window -from. 
-Sun shines. 
-Everything is white -some. 
-They dress -they jackets on -to. 
-They put -they beanies head -to. 
-They walk -they toward sea -some. 
+AI -project ready. 
+Customer: Thank -you to_you for good -ADJ work -OBJ. 
+Customer: Now we can -PL save much mone -y. 
+Cowork -er Luca -GEN Jarno: Not -for what. 
+Luca: Glad help. 
+Customer: Well then, okay, once_more again thanks. Goodbye. 
+Video -call finish -PAST. 
+In offic -e quiet -STATE. 
+Jarno look -s at clock. 
+Jarno: Now only two. We_go -Q =Q to walk -OBJ? 
+Luca: To walk -OBJ? 
+Jarno: Yes. Outside is sunni -ly. 
+Luca look -s into wind -ow. 
+Sun shin -es. 
+Everything whit -e. 
+They put_on -PL jacket -PL. 
+They put_on -PL beanie -PL. 
+They go -PL to sea -DAT. 
 Luca stop -s. 
-Luca: Go -we -? we ice -onto? 
+Luca: We_go -Q we onto ice? 
 Jarno: Yes. 
-Luca: Is -? it safe -some? 
-Jarno: Is. 
-They step -s ice -onto. 
+Luca: This saf -e? 
+Jarno: Yes. 
+They step -PL onto ice. 
 Ice creak -s. 
-Luca looks down. 
-Luca see -s fish -the. 
-Fish swims away. 
-Luca: Ice keep sound -some. 
-Jarno: It belongs matter -into. 
-They walk -they small -onto island -onto. 
-Island is full_of pine -s. 
-Pine -'s green -many needle -s has drop -ped ice -onto. 
-Luca and Jarno get -they snow -some jacket -s =onto -theirs. 
-Island -'s behind is ice_fisher. 
-He sit -s small -on stool -on. 
-He drink coffee -some thermos -bottle =from. 
-Past goes father, who pulls child -some sledge -in. 
-Child laughs. 
-Jarno: How you -with go -es? 
-Luca: Quite well. 
+Luca look -s down. 
+Luca se -es fish -OBJ. 
+Fish -SUBJ swim_away -s. 
+Luca: Ice make -s soun -d. 
+Jarno: So and shoul -d be. 
+They go -PL to small -DAT island -OBJ. 
+Island full pine -PL. 
+Green -PL needle -DIM fall -PAST onto ice. 
+Luca and Jarno get -PL snow on jacket -PL. 
+Behind island -INS sit -s fisher. 
+He sit -s on small -DAT stool -LOC. 
+He dr -inks coff -ee from thermos -GEN. 
+Past goes father, who pull -s child -OBJ on sled -LOC. 
+Child laugh -s. 
+Jarno: How at you -GEN affair -PL? 
+Luca: Quite good -STATE. 
 Jarno: Really? 
-Luca: Bit lonely -some sometimes. 
-Jarno: Finland -in is always beginning -in lonely -some. 
-Jarno: Get -you surely still friend -s. 
-Jarno: You_can_do_it. 
-Sun is already low -on. 
-Luca breathes deep -into. 
-Luca: Air is clean -some. 
-Jarno: Is. 
-Ice bangs. 
-Luca frighten -s. 
-Jarno: It endures. 
-They walk -they back shore -to. 
+Luca: Sometimes a_little lone -STATE. 
+Jarno: In Finland -LOC in begin -LOC always lone -STATE. 
+Jarno: You still surely fin -d friend -PL. 
+Jarno: Hold_on -IMP. 
+Sun already low -STATE. 
+Luca breath -s deep -STATE. 
+Luca: Air clean -ADJ. 
+Jarno: Yes. 
+Ice loudly crack -s. 
+Luca fear -s. 
+Jarno: It endur -es. 
+They go -PL back to shore -OBJ. 
 `;
 
 const storyEnglish = `
@@ -170,60 +170,60 @@ They walk back to the shore.
 `;
 
 const storySpokenFinnish = `
-Teko -äly =projekti on valmis. 
-Asiakas: Kiitti tei -lle hyvä -st työ -st. 
-Asiakas: Nyt voi -daan säästää paljo raha -a. 
-Lucan työ -kaveri Jarno: Ei -pä kestä. 
-Luca: Ilo palvella. 
-Asiakas: No nii, kiitti viel. Moido. 
-Video -puhelu loppu -u. 
-Toimisto -s on hiljas -ta. 
-Jarno kattoo kelloo. 
-Jarno: Kello on vasta kaks. Mennä -än =ks kävely -lle? 
-Luca: Kävely -lle? 
-Jarno: Joo. Ulkona on aurinkoi -st. 
-Luca kattoo ulos ikkuna -st. 
-Aurinko paistaa. 
-Kaikki on valkos -ta. 
-Ne puke -e takit pää -lle. 
-Ne laitta -a pipot pää -hän. 
-Ne kävele -e kohti mer -ta. 
-Luca pysähty -y. 
-Luca: Mennää -n =ks me jää -lle? 
-Jarno: Joo. 
-Luca: On -ks se turvallis -t? 
-Jarno: On. 
-Ne astu -u jää -lle. 
-Jää narsku -u. 
-Luca kattoo alas. 
-Luca näke -e kala -n. 
-Kala ui pois. 
-Luca: Jää pitää ään -tä. 
-Jarno: Se kuuluu asia -an. 
-Ne kävele -e piene -lle saare -lle. 
-Saari on täynnä mänty -i. 
-Männy -n vihrei -t neulas -ii on pudo -nnu jää -lle. 
-Luca ja Jarno saa - lun -ta take -i =ll -e. 
-Saare -n takana on pilkkijä. 
-Se istu -u piene -l jakkara -lla. 
-Se juo kahvi -i termos -pullo =st. 
-Ohi menee isä, joka vetää las -ta kelka -s. 
-Lapsi nauraa. 
-Jarno: Miten su -lla mene -e? 
-Luca: Ihan hyvin. 
-Jarno: Oikeesti? 
-Luca: Vähän yksinäis -t joskus. 
-Jarno: Suome -s on aina alu -s yksinäis -t. 
-Jarno: Saa -t varmasti vielä ystäv -ii. 
-Jarno: Tsemppiä. 
-Aurinko on jo matala -l. 
-Luca hengittää syvä -än. 
-Luca: Ilma on puhdas -t. 
-Jarno: On. 
-Jää paukahtaa. 
-Luca pelästy -y. 
-Jarno: Se kestää. 
-Ne kävele -e takasin ranta -an. 
+ИИ -проект готов. 
+Клиент: Спасиб -о вам за хорош -ую работ -у. 
+Клиент: Теперь мы може -м сэкономить много дене -г. 
+Коллег -а Лука -ы Ярно: Не -за что. 
+Лука: Рад помочь. 
+Клиент: Ну ладно, ещё раз спасибо. До свидания. 
+Видео -звонок закончи -лся. 
+В офис -е тих -о. 
+Ярно смотр -ит на часы. 
+Ярно: Сейчас только два. Пойдё -м =ли на прогулк -у? 
+Лука: На прогулк -у? 
+Ярно: Да. На улице солнечн -о. 
+Лука смотр -ит в окн -о. 
+Солнце свет -ит. 
+Всё бел -ое. 
+Они надева -ют куртк -и. 
+Они надева -ют шапк -и. 
+Они ид -ут к мор -ю. 
+Лука останавлива -ется. 
+Лука: Мы пойдё -м на лёд? 
+Ярно: Да. 
+Лука: Это безопасн -о? 
+Ярно: Да. 
+Они ступа -ют на лёд. 
+Лёд скрипи -т. 
+Лука смотр -ит вниз. 
+Лука види -т рыб -у. 
+Рыб -а уплыва -ет. 
+Лука: Лёд изд -аёт зву -к. 
+Ярно: Так и должн -о быть. 
+Они ид -ут к мален -кому остров -у. 
+Остров полон сос -ен. 
+Зелён -ые хвой -инки упа -ли на лёд. 
+Лука и Ярно получа -ют снег на куртк -и. 
+За остров -ом сид -ит рыбак. 
+Он сид -ит на мален -ком стул -е. 
+Он пь -ёт коф -е из термос -а. 
+Мимо идёт отец, который тян -ет ребёнк -а на санка -х. 
+Ребёнок сме -ётся. 
+Ярно: Как у теб -я дел -а? 
+Лука: Вполне хорош -о. 
+Ярно: Правда? 
+Лука: Иногда немного одинок -о. 
+Ярно: В Финлянди -и в начал -е всегда одинок -о. 
+Ярно: Ты ещё обязательно найдё -ш друзе -й. 
+Ярно: Держи -сь. 
+Солнце уже низк -о. 
+Лука дыш -ит глубок -о. 
+Лука: Воздух чист -ый. 
+Ярно: Да. 
+Лёд громко треска -ется. 
+Лука пуга -ется. 
+Ярно: Он выдержи -т. 
+Они ид -ут обратно к берег -у. 
 `;
 
 const createWordArrays = () => {

@@ -1,99 +1,99 @@
 const storyFinnish = `
-Seuraava -na päivä -nä Luca on taas toimisto -lla. 
-On perjantai. 
-Luca mietti -i, mitä tek -isi viikon -loppu =na. 
-Hän saa viesti -n. 
-Ranska -lainen työ -kaveri Emanuel on kirjoitta -nut. 
-”Tule -t =ko päivällise -lle tänä ilta -na? Tuo jälki -ruoka =a.” 
-Luca hymyile -e ja vasta -a. 
-”Tule -n mielellä -ni, kiitos kutsu -sta. Nähdä -än illa -lla.” 
-Töi -den jälkeen Luca mene -e ruoka -kauppa =an. 
-Kaupa -n eteise -ssä Luca ottaa ostos -kärry =t. 
-Ostos -kori ol -isi tänä -än liian pieni. 
-Automaattinen portti aukeaa. 
-Hedelmä- ja vihannes -osasto on ensimmäise -nä. 
-Appelsiini -t muodosta -vat pyramidi -n. 
-Vesi -melone -ja on suure -ssa pahvi -laatiko =ssa. 
-Kaikkia -lla on väre -jä. 
-Oranssi -a, vihreä -ä, keltais -ta ja punai -sta. 
-Luca hymyile -e hieman. 
-Näin paljon tuorei -ta hedelmi -ä ja vihanneksi -a keske -llä talve -a. 
-Hän laitta -a kärryi -hin kurkku -a, tomaatti -a ja lehti -salaatti =a. 
-Hän valitse -e myös muutama -n sopiva -n pehmeä -n kiivi -n. 
-Luca rakastaa kiivi -ä. 
-Luca kävele -e juusto -je =n ohi. 
-Seuraava -na on liha- ja kala -tiski. 
-Luca ei tarvitse liha -a eikä kala -a tänään. 
-Hän etsi -i jälki -ruoa =n aine -ksi =a. 
-Hän otta -a kuohu -kerma -a. 
-Hän löytä -ä sokeri -n ja laitta -a se -n kärry -ihin. 
-Leivonta -hylly =llä on liivate -lehti =ä. 
-Luca luke -e paketi -n teksti -n. 
-Liivate saa pannacotta -n hyyty -mään. 
-Hän otta -a myös vanilja -a. 
-Vanilja -jauhe on paljon parempi kuin vanilliini -sokeri. 
-Maito on viimeinen puuttu -va aines. 
-Kärry -i =ssä on jo paljon tavara -a. 
-Luca tarvitse -e kahvi -a koti -in. 
-Hän valitse -e italia -laista espresso -kahvi =a. 
-Merkki ei ole paras. 
-Mutta se on tarpeeksi hyvä. 
-Luca ottaa myös WC-paperi -a, hammas -tahna =a ja deodoranti -n. 
-Luca mene -e kassa -lle. 
-Myyjä kysy -y, on -ko Luca kanta -asiaka =s. 
-Luca sano -o, että on vasta muutta -nut Suome -en. 
-Myyjä hymyile -e ja sano -o, että kanta -asiakka =at saa -vat alennus -ta. 
-Liitty -minen kanta -asiakkaa =ksi on ilmais -ta. 
-Jos käy usein juuri tämä -n ketju -n kaupa -ssa, säästä -ä paljon raha -a. 
+Na sleduyushch -iy den Luca snov -a v ofis -e. 
+Pyatnits -a. 
+Luca duma -et, chto on dela -l by na vykhodn -ykh. 
+On polucha -et soobshcheni -e. 
+Frantsuz -skiy kolleg -a Emanuel napisa -l. 
+"Pridyosh =li na uzhin segodnya vecher -om? Prinesi desert." 
+Luca ulyba -etsya i otvecha -et. 
+"Pridu s udovolstvi -em, spasibo za priglasheni -e. Uvid -imsya vecher -om." 
+Posle rabot -y Luca idyot v produktov -yy magazin. 
+Vkhod -e v magazin Luca beryot telezhk -u. 
+Korzin -a segodnya byl -a by slishkom malen -koy. 
+Avtomatichesk -ie vorot -a otkryva -yutsya. 
+Otdel frukt -ov i ovoshch -ey perv -yy. 
+Apelsin -y obrazu -yut piramid -u. 
+Arbuz -y v bolsh -oy kartonn -oy korobk -e. 
+Vezde est tsvet -a. 
+Oranzhev -yy, zelyon -yy, zhyolt -yy i krasn -yy. 
+Luca nemnogo ulyba -etsya. 
+Tak mnogo svezh -ikh frukt -ov i ovoshch -ey v seredin -e zim -y. 
+On kladyot v telezhk -u ogurets, pomidor i salat. 
+On vybira -et tozhe neskolko podkhodyashch -ikh myagk -ikh kivi. 
+Luca obozha -et kivi. 
+Luca idyot mimo syr -ov. 
+Dal -she myasn -oy i rybn -yy prilavok. 
+Segodnya Luca ne nuzhn -o myas -o i ryb -a. 
+On ishch -et ingredient -y dlya desert -a. 
+On beryot slivk -i. 
+On nakhod -it sakhar i kladyot ego v telezhk -u. 
+Na pekarsk -oy polk -e est list -y zhelatin -a. 
+Luca chita -et tekst na upakovk -e. 
+Zhelatin pomoga -et panna-kotta zasty -t. 
+On beryot tozhe vanil. 
+Vaniln -yy poroshok namnogo luch -she, chem vanilinov -yy sakhar. 
+Molok -o posledn -iy nedostayushch -iy ingredient. 
+V telezhk -e uzhe mnogo veshch -ey. 
+Luca nuzhen kof -e domoy. 
+On vybira -et italyansk -iy espresso-kofe. 
+Mark -a ne sam -aya luchsh -aya. 
+No ona dostatochn -o khorosh -aya. 
+Luca beryot tozhe tualetn -uyu bumag -u, zubn -uyu past -u i deodorant. 
+Luca idyot k kass -e. 
+Prodavets sprashiva -et, Luca postoyann -yy klient? 
+Luca govori -t, chto on tolko chto pereeha -l v Finlyandi -yu. 
+Prodavets ulyba -etsya i govori -t, chto postoyann -ye klient -y polucha -yut skidk -u. 
+Stat postoyann -ym klient -om besplatn -o. 
+Esli chasto khod -ish v et -u set -ev -uyu set magazin -ov, ekonom -ish mnogo dene -g. 
 `;
 
 const storyFakeEnglish = `
-Next -at day -at Luca is again office -in. 
-Is Friday. 
-Luca think -s, what do -would week -end =at. 
-He gets message -one. 
-France -ish work -friend Emanuel has write -n. 
-"Come -you =? dinner -to this evening -on? Bring after -food =some." 
-Luca smile -s and replie -s. 
-"Come -I gladly -I, thanks invite -for. See -we evening -at." 
-Work -'s after Luca go -es food -store =to. 
-Store -'s lobby -in Luca takes shopping -cart =s. 
-Shopping -basket be -would today -on too small. 
-Automatic gate opens. 
-Fruit- and vegetable -section is first -as. 
-Orange -s form -they pyramid -one. 
-Water -melon =s is big -in cardboard -box =in. 
-Everywhere -at is color -pl. 
-Orange -some, green -some, yellow -some and red -some. 
-Luca smile -s a_little. 
-So much fresh -many fruit -s and vegetable -s middle -in winter -of. 
-He put -s cart -into cucumber -some, tomato -some and leaf -salad =some. 
-He choose -s also few -one suitable -one soft -one kiwi -one. 
-Luca loves kiwi -some. 
-Luca walk -s cheese -s =of past. 
-Next -as is meat- and fish -counter. 
-Luca not need meat -some nor fish -some today. 
-He search -es after -food -'s ingredient -s =some. 
-He take -s whipped -cream -some. 
-He find -s sugar -the and put -s it -the cart -into. 
-Baking -shelf =on is gelatin -leave =s. 
-Luca read -s package -'s text -of. 
-Gelatin makes panna_cotta -the coagulate -to. 
-He take -s also vanilla -some. 
-Vanilla -powder is much better than vanillin -sugar. 
-Milk is last missing -one ingredient. 
-Cart -s =in is already much stuff -some. 
-Luca need -s coffee -some home -to. 
-He choose -s Italian -like espresso -coffee =some. 
-Brand is not best. 
-But it is enough good. 
-Luca takes also toilet-paper -some, tooth -paste =some and deodorant -one. 
-Luca go -es checkout -to. 
-Cashier ask -s, is -? Luca stem -customer =one. 
-Luca say -s, that has only move -d Finland -to. 
-Cashier smile -s and say -s, that stem -customer =s get -they discount -some. 
-Join -ing stem -customer =into is free -some. 
-If go often just this -'s chain -'s store -in, save -s much money -some. 
+On next -ADJ day Luca again -STATE in office -LOC. 
+Friday -SUBJ. 
+Luca think -s, what he there do -would on weekend -PL. 
+He receive -s message -OBJ. 
+French -ADJ coworker -SUBJ Emanuel write -PAST. 
+"Come =Q to dinner today evening -INS? Bring dessert." 
+Luca smile -s_self and answer -s. 
+"Come_I with pleasure -INS, thanks for invitation -OBJ. See -we evening -INS." 
+After work -GEN Luca goes to grocery -ADJ store. 
+Entrance -LOC in store Luca take_s cart -OBJ. 
+Basket -SUBJ today be -PAST would too small -INS. 
+Automatic -PL gate -PL open -REFL. 
+Section fruit -PL and vegetable -PL first -ADJ. 
+Orange -PL form -PL pyramid -OBJ. 
+Watermelon -PL in big -LOC cardboard -LOC box -LOC. 
+Everywhere is color -PL. 
+Orange -ADJ, green -ADJ, yellow -ADJ and red -ADJ. 
+Luca a_little smile -s_self. 
+So much fresh -PL fruit -PL and vegetable -PL in middle -LOC winter -GEN. 
+He put_s into cart -OBJ cucumber, tomato and lettuce. 
+He choose -s also several fitting -PL soft -PL kiwi. 
+Luca adore -s kiwi. 
+Luca goes past cheese -PL. 
+Further -ADV meat -ADJ and fish -ADJ counter. 
+Today Luca not need -STATE meat -OBJ and fish -SUBJ. 
+He search -s ingredient -PL for dessert -GEN. 
+He take_s cream -PL. 
+He find -s sugar and put_s it into cart -OBJ. 
+On bakery -LOC shelf -LOC is sheet -PL gelatin -GEN. 
+Luca read -s text on package -LOC. 
+Gelatin help -s panna-cotta harden -INF. 
+He take_s also vanilla. 
+Vanilla -ADJ powder more good -COMP, than vanillin -ADJ sugar. 
+Milk -OBJ last -ADJ missing -ADJ ingredient. 
+In cart -LOC already many thing -PL. 
+Luca need coffee -OBJ home. 
+He choose -s Italian -ADJ espresso-coffee. 
+Brand -SUBJ not most -ADJ good -ADJ. 
+But it enough -STATE good -ADJ. 
+Luca take_s also toilet -ADJ paper -OBJ, tooth -ADJ paste -OBJ and deodorant. 
+Luca goes to cashier -LOC. 
+Seller ask -s, Luca regular -ADJ customer? 
+Luca say -s, that he only just move -PAST to Finland -OBJ. 
+Seller smile -s_self and say -s, that regular -PL customer -PL receive -PL discount -OBJ. 
+Become regular -INS customer -INS free -STATE. 
+If often go -you to this -OBJ chain -ADJ -ADJ chain store -PL, save -you much money -GEN. 
 `;
 
 const storyEnglish = `
@@ -146,52 +146,52 @@ If you shop often in this chain, you save a lot of money.
 `;
 
 const storySpokenFinnish = `
-Seuraava -na päivä -nä Luca on taas toimisto -lla. 
-On perjantai. 
-Luca mietti -i, mitä tek -is viikon -loppu =na. 
-Se saa viesti -n. 
-Ranska -lainen työ -kaveri Emanuel on kirjotta -nu. 
-"Tuu -t =ko päivällise -lle tänä ilta -na? Tuo jälki -ruoka =a." 
-Luca hymyile -e ja vasta -a. 
-"Tuu -n mielellä -ni, kiitti kutsu -sta. Nähä -än illa -lla." 
-Töi -den jälkeen Luca mene -e ruoka -kauppa =an. 
-Kaupa -n eteise -s Luca ottaa ostos -kärry =t. 
-Ostos -kori oli -s tänä -än liian pieni. 
-Automaattinen portti aukee. 
-Hedelmä- ja vihannes -osasto on eka -na. 
-Appelsiini -t muodosta -a pyramidi -n. 
-Vesi -melone -i on suure -ssa pahvi -laatiko =ssa. 
-Kaikkia -lla on väre -jä. 
-Oranssi -a, vihree -ä, keltais -ta ja punai -sta. 
-Luca hymyile -e vähän. 
-Näin paljo tuorei -t hedelmi -i ja vihanneksi -i keske -l talve -e. 
-Se laitta -a kärryi -hin kurkku -u, tomaatti -i ja lehti -salaatti =i. 
-Se valitse -e kans muutama -n sopiva -n pehmee -n kiivi -n. 
-Luca rakastaa kiivi -i. 
-Luca kävele -e juusto -je =n ohi. 
-Seuraava -na on liha- ja kala -tiski. 
-Luca ei tarvii liha -a eikä kala -a tänään. 
-Se etti -i jälki -ruoa =n aines -ksi =i. 
-Se otta -a kuohu -kerma -a. 
-Se löytä -ä sokeri -n ja laitta -a se -n kärry -ihin. 
-Leivonta -hylly =l on liivate -lehti =i. 
-Luca luke -e paketi -n teksti -n. 
-Liivate saa pannacotta -n hyyty -mään. 
-Se otta -a kans vanilja -a. 
-Vanilja -jauhe on paljo parempi ku vanilliini -sokeri. 
-Maito on viimenen puuttu -va aines. 
-Kärry -i =ssä on jo paljon tavara -a. 
-Luca tarvi -i kahvi -i koti -in. 
-Se valitse -e italia -laist espresso -kahvi =i. 
-Merkki ei oo paras. 
-Mut se on tarpeeks hyvä. 
-Luca ottaa myös WC-paperi -i, hammas -tahna =a ja deodoranti -n. 
-Luca mene -e kassa -lle. 
-Myyjä kysy -y, on -ks Luca kanta -asiaka =s. 
-Luca sano -o, et on vasta muutta -nu Suome -en. 
-Myyjä hymyile -e ja sano -o, et kanta -asiakka =at sa -a alennus -t. 
-Liitty -minen kanta -asiakkaa =ks on ilmas -ta. 
-Jos käy usein just tä -n ketju -n kaupa -ssa, säästä -ä paljo raha -a. 
+На следующ -ий день Лука снов -а в офис -е. 
+Пятниц -а. 
+Лука дума -ет, что он дела -л бы на выходн -ых. 
+Он получа -ет сообщени -е. 
+Француз -ский коллег -а Эмануэль написа -л. 
+"Придёш =ли на ужин сегодня вечер -ом? Принеси десерт." 
+Лука улыба -ется и отвеча -ет. 
+"Приду с удовольстви -ем, спасибо за приглашени -е. Увид -имся вечер -ом." 
+После работ -ы Лука идёт в продуктов -ый магазин. 
+Вход -е в магазин Лука берёт тележк -у. 
+Корзин -а сегодня был -а бы слишком малень -кой. 
+Автоматическ -ие ворот -а открыва -ются. 
+Отдел фрукт -ов и овощ -ей перв -ый. 
+Апельсин -ы образу -ют пирамид -у. 
+Арбуз -ы в больш -ой картонн -ой коробк -е. 
+Везде есть цвет -а. 
+Оранжев -ый, зелён -ый, жёлт -ый и красн -ый. 
+Лука немного улыба -ется. 
+Так много свеж -их фрукт -ов и овощ -ей в середин -е зим -ы. 
+Он кладёт в тележк -у огурец, помидор и салат. 
+Он выбира -ет тоже несколько подходящ -их мягк -их киви. 
+Лука обожа -ет киви. 
+Лука идёт мимо сыр -ов. 
+Дал -ше мясн -ой и рыбн -ый прилавок. 
+Сегодня Лука не нужн -о мяс -о и рыб -а. 
+Он ищ -ет ингредиент -ы для десерт -а. 
+Он берёт сливк -и. 
+Он наход -ит сахар и кладёт его в тележк -у. 
+На пекарск -ой полк -е есть лист -ы желатин -а. 
+Лука чита -ет текст на упаковк -е. 
+Желатин помога -ет панна-котта засты -ть. 
+Он берёт тоже ваниль. 
+Ванильн -ый порошок намного луч -ше, чем ванилинов -ый сахар. 
+Молок -о последн -ий недостающ -ий ингредиент. 
+В тележк -е уже много вещ -ей. 
+Лука нужен коф -е домой. 
+Он выбира -ет итальянск -ий эспрессо-кофе. 
+Марк -а не сам -ая лучш -ая. 
+Но она достаточн -о хорош -ая. 
+Лука берёт тоже туалетн -ую бумаг -у, зубн -ую паст -у и дезодорант. 
+Лука идёт к касс -е. 
+Продавец спрашива -ет, Лука постоянн -ый клиент? 
+Лука говори -т, что он только что перееха -л в Финлянди -ю. 
+Продавец улыба -ется и говори -т, что постоянн -ые клиент -ы получа -ют скидк -у. 
+Стать постоянн -ым клиент -ом бесплатн -о. 
+Если часто ход -иш в эт -у сет -ев -ую сеть магазин -ов, эконом -иш много дене -г. 
 `;
 
 const createWordArrays = () => {

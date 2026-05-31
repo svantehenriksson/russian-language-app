@@ -1,160 +1,56 @@
 export const grammarNotes = [
-  `No grammar notes for this line yet.`, // Teko -äly =projekti on valmis.
-  `te = you all, teille = to you all. \n
-  hyvä = good, työ = work, hyvästä työstä = for good work. \n
-  -stä is literally from in, but here it's very close to English "for" as there is no separate ending for "for".`, // Asiakas: Kiitos tei -lle hyvä -stä työ -stä.
-  `voida = can, to be able to. \n
-  Minä voin = I can \n
-  Sinä voit = You can \n
-  Hän voi = He/she can \n
-  Me voimme = We can \n
-  Te voitte = You all can \n
-  He voivat = They can \n
-  `, // Asiakas: Nyt voi -mme säästää paljon raha -a.
-  `ei-pä = not at all, or more like not-indeed. \n
-  The -pa/-pä ending is not very common, but it's a kind of emphasis. Other examples: \n
-  kyllä = yes. kylläpa = indeed (yes), often used to express astonishment. \n
-  sanoa = to say. sanon = I say. sanonpa = I will indeed say. \n
-  kysyä = to ask. kysyn = I ask. kysynpa = I will indeed ask.`, // Lucan työ -kaveri Jarno: Ei -pä kestä.
-  `No grammar notes for this line yet.`, // Luca: Ilo palvella.
-  `"No niin" is a common expression meaning roughly "well then" or "so". \n
-  But the usage of "no niin" can be very nuanced and depends on the context.`, // Asiakas: No niin, kiitos vielä.
-  `näkemiin = goodbye (formal). There are other words for bye too: \n
-  hei hei = bye bye (informal). \n
-  hyvästi = farewell (formal, a more final version of goodbye) \n
-  Other greeting words can also be used informally for goodbyes. \n
-  Then tone and context are important.`, // Näkemiin.
-  `loppua = to end. loppuu = it ends. \n
-  It doesn't really make sense to say minä lopun (I end), sinä loput (you end) etc., \n
-  unless in some metaphorical context.`, // Video -puhelu loppu -u.
-  `hiljainen = quiet, adjective basic form. \n
-  hiljaista = "quiet-some", the form needed in this kind of sentence. \n
-  You can also say "toimisto on hiljainen" = the office is quiet. \n
-  But when you want to say that it is quiet in the office, you need "-ta".`, // Toimisto -ssa on hiljais -ta.
-  `kello = clock. kelloa = clock-some, used in A does something to B type sentences.`, // Jarno katsoo kelloa.
-  `No grammar notes for this line yet.`, // Jarno: Kello on vasta kaksi.
-  `-ko/-kö at the end of a verb makes it into a question. \n
-  the -än ending in the middle of mennä-än is a passive form, \n
-  but often also used for a let's go or we go kind of meaning. \n
-  mennä = to go.`, // Mennä -än =kö kävely -lle?
-  `No grammar notes for this line yet.`, // Luca: Kävely -lle?
-  `No grammar notes for this line yet.`, // Jarno: Joo.
-  `aurinkoinen = sunny. aurinko-ista = sunny-some, the form used in this kind of sentence.`, // Ulkona on aurinko -ista.
-  `No grammar notes for this line yet.`, // Luca katsoo ulos ikkuna -sta.
-  `No grammar notes for this line yet.`, // Aurinko paistaa.
-  `valkoinen = white. valkois-ta = white-some, the form used in this kind of sentence.`, // Kaikki on valkois -ta.
-  `pukea = to put on (clothes). \n
-  Minä puen = I put on \n
-  Sinä puet = You put on \n
-  Hän pukee = He/she puts on \n
-  Me puemme = We put on \n
-  Te puette = You all put on \n
-  He pukevat = They put on \n
-  `, // He puke -vat takit pää -lle.
-  `No grammar notes for this line yet.`, // He laitta -vat pipot pää -hän.
-  `meri = sea. mer-ta = sea-some, the form used in this kind of sentence. \n
-  kävellä = to walk. \n
-  Minä kävelen = I walk \n
-  Sinä kävelet = You walk \n
-  Hän kävelee = He/she walks \n
-  Me kävelemme = We walk \n
-  Te kävelette = You all walk \n
-  He kävelevät = They walk \n
-  `, // He kävele -vät kohti mer -ta.
-  `No grammar notes for this line yet.`, // Luca pysähty -y.
-  `No grammar notes for this line yet.`, // Luca: Mene -mme -kö me jäälle?
-  `No grammar notes for this line yet.`, // Jarno: Kyllä.
-  `olla = to be. se on = it is. on-ko se = is it?`, // Luca: On -ko se turvallis -ta?
-  `No grammar notes for this line yet.`, // Jarno: On.
-  `astua = to step. \n
-  Minä astun = I step \n
-  Sinä astut = You step \n
-  Hän astuu = He/she steps \n
-  Me astumme = We step \n
-  Te astutte = You all step \n
-  He astuvat = They step \n
-  `, // He astu -vat jää -lle.
-  `narskua = to creak, to crunch (roughly). \n
-  There's probably no exact equivalent in English. \n
-  narskuttaa hampaita = to crunch one's teeth, is a typical context for this rarer word. \n
-  In English one says "to grind one's teeth", but in Finnish the sound is described.`, // Jää narsku -u.
-  `alas = down. Other direction words: \n
-  ylös = up, taakse = back, eteen = forward. \n
-  These words often get another form with a slightly different meaning: \n
-  alaspäin = downwards, ylöspäin = upwards, taaksepäin = backwards, eteenpäin = forwards.`, // Luca katsoo alas.
-  `nähdä = to see. \n
-  Minä näen = I see \n
-  Sinä näet = You see \n
-  Hän näkee = He/she sees \n
-  Me näemme = We see \n
-  Te näette = You all see \n
-  He näkevät = They see \n
-  `, // Luca näke -e kala -n.
-  `uida = to swim. \n
-  Minä uin = I swim \n
-  Sinä uit = You swim \n
-  Se/hän ui = It/he/she swims (kala ui = the fish swims)\n
-  Me uimme = We swim \n
-  Te uitte = You all swim \n
-  He uivat = They swim \n
-  `, // Kala ui pois.
-  `pitää = to keep, hold. So in Finnish you "keep" a sound, not make it. \n
-  In some other context, you can also say se tuottaa ääntä = it produces a sound. \n
-  Or like we had in an earlier chapter: Siitä lähtee ääni = From it leaves a sound.`, // Luca: Jää pitää ään -tä.
-  `kuulua = belong, be part of (also that a sound is heard in other contexts). \n
-  kuulua asiaan is a common expression, meaning that something is supposed to be part of something else. \n
-  A bit like "It's the way it's supposed to be."`, // Jarno: Se kuuluu asia -an.
-  `No grammar notes for this line yet.`, // He kävelevät piene -lle saare -lle.
-  `mänty = pine, mänty -jä = pine trees (indefinite), männyt = the pines, kaksi mäntyä = two pines.\n
-  puu = tree in general. Some other common trees: \n
-  koivu = birch, kuusi = spruce, vahtera = maple, tammi = oak, omenapuu = apple tree.`, // Saari on täynnä mänty -jä.
-  `pudota = to fall, to drop. on pudo-nnut = has fallen \n
-  This is a similar past tense form to English. Examples: \n
-  tehdä = to do. on tehnyt = has done \n
-  olla = to be. on ollut = has been `, // Männy -n vihrei -tä neulas -ia on pudo -nnut jää -lle.
-  `No grammar notes for this line yet.`, // Luca -n ja Jarno -n take -i -lle on pudo -nnut lumi -hiutale =i -ta.
-  `No grammar notes for this line yet.`, // Saare -n takana on pilkkijä.
-  `Again the -lla/-llä ending is used for both the object and the adjective. \n
-  pieni = small, jakkara = little stool. piene -llä jakkara -lla = on a small stool.`, // Hän istu -u piene -llä jakkara -lla.
-  `No grammar notes for this line yet.`, // Hän juo kahvi -a termos -pullo =sta.
-  `No grammar notes for this line yet.`, // Ohi menee isä, joka vetää las -ta kelka -ssa.
-  `nauraa = to laugh. \n
-  Minä nauran = I laugh \n
-  Sinä naurat = You laugh \n
-  Hän nauraa = He/she laughs \n
-  Me nauramme = We laugh \n
-  Te nauratte = You all laugh \n
-  He nauravat = They laugh \n
-  `, // Lapsi nauraa.
-  `No grammar notes for this line yet.`, // Jarno: Miten sinu -lla mene -e?
-  `No grammar notes for this line yet.`, // Luca: Ihan hyvin.
-  `No grammar notes for this line yet.`, // Jarno: Oikeasti?
-  `yksin = alone, yksinäinen = lonely \n
-  yksinäis-tä is conjugated from yksinäinen.`, // Luca: Vähän yksinäis -tä joskus.
-  `alku = beginning, start. alussa = in the beginning.`, // Jarno: Suome -ssa on aina alku -ssa yksinäis -tä.
-  `No grammar notes for this line yet.`, // Jarno: Saa -t varmasti vielä ystäv -iä.
-  `Cheers is maybe a better translation of Tsemppiä. \n
-  It is an active encouragement, cheering.`, // Jarno: Tsemppiä.
-  `No grammar notes for this line yet.`, // Aurinko on jo matala -lla.
-  `No grammar notes for this line yet.`, // Luca hengittää syvä -än.
-  `No grammar notes for this line yet.`, // Luca: Ilma on puhdas -ta.
-  `No grammar notes for this line yet.`, // Jarno: On.
-  `No grammar notes for this line yet.`, // Jää paukahtaa.
-  `pelästyä = to get a fright. \n
-  Minä pelästyn = I get a fright \n
-  Sinä pelästyt = You get a fright \n
-  Hän pelästyy = He/she gets a fright \n
-  Me pelästymme = We get a fright \n
-  Te pelästytte = You all get a fright \n
-  He pelästyvät = They get a fright \n
-  `, // Luca pelästy -y.
-  `No grammar notes for this line yet.`, // Jarno: Se kestää.
-  `kävellä = to walk. \n
-  Minä kävelen = I walk \n
-  Sinä kävelet = You walk \n
-  Hän kävelee = He/she walks \n
-  Me kävelemme = We walk \n
-  Te kävelette = You all walk \n
-  He kävelevät = They walk \n
-  `, // He kävelevät takaisin rantaan.
+  `proekt = project; gotov = ready.`, //II -proekt gotov.
+  `spasibo = thanks; rabota = work; rabot-u is object form.`, //Klient: Spasib-o vam za khorosh-uyu rabot-u.
+  `moch = can/be able; mozhe-m = we can.`, //Klient: Teper my mozhe-m sekonomit mnogo dene-g.
+  `kollega = coworker.`, //Kolleg-a Luca-y Jarno: Ne-za chto.
+  `No grammar notes for this line yet.`, //Luca: Rad pomoch.
+  `No grammar notes for this line yet.`, //Klient: Nu ladno, eshchyo raz spasibo. Do svidaniya.
+  `zakanchivat'sya = to end; zakonchi-lsya = ended.`, //Video-zvonok zakonchi-lsya.
+  `tikho = quiet (state form).`, //V ofis-e tikh-o.
+  `smotret = to look; smotr-it = looks.`, //Jarno smotr-it na chasy.
+  `=li marks yes/no question.`, //Jarno: Seichas tolko dva. Poydyo-m =li na progulk-u?
+  `No grammar notes for this line yet.`, //Luca: Na progulk-u?
+  `solnechno = sunny.`, //Jarno: Da. Na ulitse solnechn-o.
+  `okno = window; v okn-o = into/at the window.`, //Luca smotr-it v okn-o.
+  `svetit = shines.`, //Solntse svet-it.
+  `belyy = white; bel-oe is neuter form.`, //Vsyo bel-oe.
+  `nadevat = to put on; nadeva-yut = they put on.`, //Oni nadeva-yut kurtk-i.
+  `No grammar notes for this line yet.`, //Oni nadeva-yut shapk-i.
+  `idti = to go; id-ut = they go.`, //Oni id-ut k mor-yu.
+  `ostanavlivat'sya = to stop; ostanavliva-etsya = stops.`, //Luca ostanavliva-etsya.
+  `No grammar notes for this line yet.`, //Luca: My poydyo-m na lyod?
+  `No grammar notes for this line yet.`, //Jarno: Da.
+  `bezopasnyy = safe; bezopasn-o = safe (state).`, //Luca: Eto bezopasn-o?
+  `No grammar notes for this line yet.`, //Jarno: Da.
+  `stupat = to step; stupa-yut = they step.`, //Oni stupa-yut na lyod.
+  `skripet = to creak; skripi-t = creaks.`, //Lyod skripi-t.
+  `vniz = down.`, //Luca smotr-it vniz.
+  `videt = to see; vidi-t = sees.`, //Luca vidi-t ryb-u.
+  `uplyvat = to swim away; uplyva-et = swims away.`, //Ryb-a uplyva-et.
+  `izdavat = to make/emit; izd-ayet = makes.`, //Luca: Lyod izd-ayet zvu-k.
+  `dolzhen = should/must; dolzhn-o agrees with neuter "tak".`, //Jarno: Tak i dolzhn-o byt.
+  `malenkiy = small; malen-komu is dative form.`, //Oni id-ut k malen-komu ostrov-u.
+  `sosna = pine; sos-en = of pines (genitive plural).`, //Ostrov polon sos-en.
+  `upast = to fall; upa-li = fell (plural past).`, //Zelyon-ye khvoy-inki upa-li na lyod.
+  `poluchat = to get; polucha-yut = they get.`, //Luca i Jarno polucha-yut sneg na kurtk-i.
+  `rybak = fisher.`, //Za ostrov-om sid-it rybak.
+  `stul = chair/stool; stul-e = on/in the stool (locative here).`, //On sid-it na malen-kom stul-e.
+  `pit = to drink; py-yot = drinks.`, //On py-yot kof-e iz termos-a.
+  `tyanut = to pull; tyan-et = pulls.`, //Mimo idyot otets, kotoryy tyan-et rebyonk-a na sanka-kh.
+  `smeyat'sya = to laugh; sme-yotsya = laughs.`, //Rebyonok sme-yotsya.
+  `dela = affairs/things; Kak dela? = How are things?`, //Jarno: Kak u teb-ya del-a?
+  `No grammar notes for this line yet.`, //Luca: Vpolne khorosh-o.
+  `No grammar notes for this line yet.`, //Jarno: Pravda?
+  `odinokiy = lonely; odinok-o = lonely (state).`, //Luca: Inogda nemnogo odinok-o.
+  `nachalo = beginning; v nachal-e = at the beginning.`, //Jarno: V Finlyandi-i v nachal-e vsegda odinok-o.
+  `nayti = to find; naydyo-sh = you will find.`, //Jarno: Ty eshchyo obyazatelno naydyo-sh druze-y.
+  `derzhat'sya = to hold on; Derzhi-s = hang in there.`, //Jarno: Derzhi-s.
+  `nizko = low.`, //Solntse uzhe nizk-o.
+  `dyshat = to breathe; dysh-it = breathes.`, //Luca dysh-it glubok-o.
+  `chistyy = clean; chist-yy = clean (masculine adjective).`, //Luca: Vozdukh chist-yy.
+  `No grammar notes for this line yet.`, //Jarno: Da.
+  `treskat'sya = to crack; treska-etsya = cracks.`, //Lyod gromko treska-etsya.
+  `pugat'sya = to get scared; puga-etsya = gets scared.`, //Luca puga-etsya.
+  `vyderzhat = to endure/hold; vyderzhi-t = will hold.`, //Jarno: On vyderzhi-t.
+  `bereg = shore; bereg-u is dative/goal form here.`, //Oni id-ut obratno k bereg-u.
 ];
