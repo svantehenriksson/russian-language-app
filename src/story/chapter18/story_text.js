@@ -1,103 +1,102 @@
 const storyFinnish = `
 
-Luca herä -ä seuraava -na päivä -nä. 
-Kurkku on vielä -kin kipeä. 
-Pään -särky jatku -u. 
-Luca kävele -e apteekki -in. 
-Apteeki -ssa on kirkas valkoinen valaistus. 
-Hylly -t ovat täynnä laattikko -ja, purkke -ja ja pakkauks -ia. 
-Luca otta -a vuoro -numero =n. 
+Luca prosy -paetsya na sleduyushch -iy den. 
+Gorl -o vsyo yeshchyo bol -it. 
+Golovn -aya =bol prodolzha -etsya. 
+Luca id -yot v aptek -u. 
+V aptek -e yark -iy belyy svet. 
+Polk -i poln -y korob -ok, bank -ok i upakov -ok. 
+Luca bery -ot ochered -noy =nomer. 
 A12. 
-Hetke -n kuluttua näytö -stä lähte -e kova ääni. 
+Cherez mgnoveni -e so =ekran -a idyot gromkiy zvuk. 
 A12. 
-Luca mene -e tiski -lle. 
-Luca kerto -o oire -i =sta. 
-Kurkku -kipu. 
-Pään -särky. 
-Vähän kuume -tta. 
-Farmaseutti kuuntele -e rauhallise -sti. 
-Hän otta -a hylly -stä ibuprofeeni -a. 
-Luca kysy -y, on -ko jotain vahve -mpa =a. 
-Ibuprofeeni ei autta -nut paljon. 
-Farmaseutti mainitse -e aspiriini -n ja parasetamoli -n. 
-Vahve -mpi lääke tarvitse -e resepti -n. 
-Luca otta -a aspiriini -a ja parasetamoli -a. 
-Luca otta -a myös kuume -mittari =n. 
-Koto -na ei ole sellais -ta. 
-Farmaseutti ehdotta -a nenä -suihke =tta. 
-Luca sano -o ei kiitos. 
-Farmaseutti ehdotta -a silmä -tippo =ja. 
-Luca sano -o taas ei kiitos. 
-Farmaseutti mietti -i hetke -n. 
-Sitten hän ehdotta -a vitamiine -ja. 
-Luca hymyile -e hieman. 
-Luca sano -o, että ehkä ensi viiko -lla. 
-Luca mene -e kassa -lle. 
-Toinen farmaseutti kysy -y, ovat -ko lääkke -et Luca -lle vai jo -lle =kin toise -lle. 
-Luca sano -o, että lääkkee -t ovat häne -lle. 
-Kortti toimi -i heti. 
-Luca laitta -a lääkke -et reppu -un. 
-Luca palele -e. 
-Luca kävele -e nopea -sti koti -in. 
-Koto -na Luca mitta -a kuume -en. 
-Lämpö -ä on vielä -kin 38 astet -ta. 
-Luca otta -a särky -lääkkee =n. 
-Sitten hän mene -e takaisin sohva -lle. 
-Flunssa ei ole mukava. 
-Viikon -loppu on tulo -ssa. 
-Luca -a harmitta -a olla viikon -loppu sairaa -na. 
+Luca id -yot k stojk -e. 
+Luca rasskazyva -et o simptom -akh. 
+Bol -v =gorle. 
+Golovn -aya =bol. 
+Nemnogo temperatur -y. 
+Farmatsevt slusha -et spokoyn -o. 
+On bery -ot s polk -i ibuprofen. 
+Luca sprashiva -et, est =li chto-to siln -ee =ego. 
+Ibuprofen ne pomo -g mnogo. 
+Farmatsevt upomina -et aspirin i paratsetamol. 
+Bole -e siln -oe lekarstvo nuzhda -etsya v retsept -e. 
+Luca bery -ot aspirin i paratsetamol. 
+Luca bery -ot tozhe termo -metr. 
+Doma net tak -ogo. 
+Farmatsevt predlaga -et sprey =dlya nos -a. 
+Luca govori -t net spasibo. 
+Farmatsevt predlaga -et glaz =kapli. 
+Luca govori -t snova net spasibo. 
+Farmatsevt duma -et mgnoveni -e. 
+Potom on predlaga -et vitamin -y. 
+Luca ulyba -etsya nemnogo. 
+Luca govori -t, chto mozhet na sleduyushch -ey nedele. 
+Luca id -yot k kass -e. 
+Vtoroy farmatsevt sprashiva -et, lekarstv -a =li dlya Luca ili dlya =kogo-to drug -ogo. 
+Luca govori -t, chto lekarstv -a dlya neg -o. 
+Karta rabota -et srazu. 
+Luca klady -ot lekarstv -a v ryukzak. 
+Luca myorz -net. 
+Luca id -yot bystr -o domoy. 
+Doma Luca izmerya -et temperatur -u. 
+Temperatur -a vsyo yeshchyo 38 gradus -ov. 
+Luca bery -ot obezbolivayushch -ee =lekarstv -o. 
+Potom on id -yot obratno na divan. 
+Gripp ne priyat -en. 
+Vykhodn -ye uzhe id -ut. 
+Luca -u dosad -no byt na vykhodn -ykh boln -ym. 
 `;
 
 const storyFakeEnglish = `
 
 Luca wake -s next -as day -as. 
-Throat is still -also sore. 
-Head -ache continue -s. 
-Luca walk -s pharmacy -to. 
-Pharmacy -in is bright white lighting. 
+Throat is still -also sore. x 
+Head -ache continue -s. x 
+Luca walk -s pharmacy -to. x 
+Pharmacy -in is bright white lighting. x 
 Shelf -s are full box -es, jar -s and package -s. 
 Luca take -s turn -number -one. 
 A12. 
 Moment -'s after display -from leave -s loud sound. 
 A12. 
-Luca go -es counter -to. 
+Luca go -es counter -to. x 
 Luca tell -s symptom -s -from. 
-Throat -pain. 
-Head -ache. 
+Throat -pain. x 
+Head -ache. x 
 Little fever -some. 
 Pharmacist listen -s calm -ly. 
 He take -s shelf -from ibuprofen -some. 
 Luca ask -s, is -? something strong -er -some. 
 Ibuprofen not help -ed much. 
-Pharmacist mention -s aspirin -one and paracetamol -one. 
-Strong -er medicine need -s prescription -one. 
-Luca take -s aspirin -some and paracetamol -some. 
-Luca take -s also fever -meter -one. 
-Home -at not is such -some. 
-Pharmacist suggest -s nose -spray -some. 
+Pharmacist mention -s aspirin -one and 
+Strong -er medicine need -s prescription -one. x x x 
+Luca take -s aspirin -some and 
+Luca take -s also fever -meter 
+Home -at not is 
+Pharmacist suggest -s nose -spray -some. x 
 Luca say -s no thanks. 
-Pharmacist suggest -s eye -drop -s. 
+Pharmacist suggest -s eye -drop 
 Luca say -s again no thanks. 
 Pharmacist think -s moment -one. 
 Then she suggest -s vitamin -s. 
 Luca smile -s a_bit. 
-Luca say -s, that maybe next week -on. 
-Luca go -es cashier -to. 
-Second pharmacist ask -s, are -? medicine -s Luca -for or who -for -some other -for. 
+Luca say -s, that maybe next week -on. x 
+Luca go -es cashier -to. x 
+Second pharmacist ask -s, are -? medicine -s Luca -for or who -for -some 
 Luca say -s, that medicine -s are him -for. 
 Card work -s immediately. 
 Luca put -s medicine -s backpack -into. 
 Luca feel_cold -s. 
-Luca walk -s fast -ly home -to. 
-Home -at Luca measure -s fever -one. 
-Temperature -some is still -even 38 degree -s. 
-Luca take -s pain -medicine -one. 
+Luca walk -s fast -ly home 
+Home -at Luca measure -s fever 
+Temperature -some is still -even 38 degree 
+Luca take -s pain -medicine -one. x 
 Then he go -es back couch -onto. 
 Cold not is pleasant. 
 Week -end is come -ing. 
-Luca -some bother -s be week -end sick -as. 
+Luca -some bother -s be week -end sick -as. x 
 `;
-
 const storyEnglish = `
 
 Luca wakes up the next day. 
@@ -150,52 +149,52 @@ Luca is upset about being sick for the weekend.
 
 const storySpokenFinnish = `
 
-Luca herä -ä seuraava -na päivä -nä. 
-Kurkku on vielä -ki kipee. 
-Pään -särky jatku -u. 
-Luca kävele -e apteekki -in. 
-Apteeki -s on kirkas valkonen valaistus. 
-Hylly -t on täynnä laatiko -it, purkke -i ja pakkauks -ii. 
-Luca otta -a vuoro -numero =n. 
+Лука просы -пается на следующ -ий день. 
+Горл -о всё ещё бол -ит. 
+Головн -ая =боль продолжа -ется. 
+Лука ид -ёт в аптек -у. 
+В аптек -е ярк -ий белый свет. 
+Полк -и полн -ы короб -ок, банк -ок и упаков -ок. 
+Лука бере -ёт очеред -ной =номер. 
 A12. 
-Hetke -n kuluttuu näytö -stä lähte -e kova ääni. 
+Через мгновени -е со =экран -а идёт громкий звук. 
 A12. 
-Luca mene -e tiski -lle. 
-Luca kerto -o oire -i =st. 
-Kurkku -kipu. 
-Pään -särky. 
-Vähän kuume -tta. 
-Farmaseutti kuuntele -e rauhallise -sti. 
-Se otta -a hylly -st ibuprofeeni -i. 
-Luca kysy -y, on -ks jotain vahve -mpa =a. 
-Ibuprofeeni ei autta -nu paljo. 
-Farmaseutti mainitse -e aspiriini -n ja parasetamoli -n. 
-Vahve -mpi lääke tarvitse -e resepti -n. 
-Luca otta -a aspiriini -a ja parasetamoli -a. 
-Luca otta -a myös kuume -mittari =n. 
-Koto -na ei oo sellas -ta. 
-Farmaseutti ehdotta -a nenä -suihke =tta. 
-Luca sano -o ei kiitti. 
-Farmaseutti ehdotta -a silmä -tippo =i. 
-Luca sano -o taas ei kiitti. 
-Farmaseutti mietti -i hetke -n. 
-Sit se ehdotta -a vitamiine -i. 
-Luca hymyile -e vähän. 
-Luca sano -o, et ehkä ens viiko -lla. 
-Luca mene -e kassa -lle. 
-Toinen farmaseutti kysy -y, on -ks lääkke -et Luca -lle vai jo -lle =ki toise -lle. 
-Luca sano -o, et lääkkee -t on si -lle. 
-Kortti toimi -i heti. 
-Luca laitta -a lääkke -et reppu -un. 
-Luca palele -e. 
-Luca kävele -e nopee -sti koti -in. 
-Koto -na Luca mitta -a kuume -en. 
-Lämpö -ö on vielä -ki 38 astet -ta. 
-Luca otta -a särky -lääkkee =n. 
-Sit se mene -e takas sohva -lle. 
-Flunssa ei oo mukava. 
-Viikon -loppu on tulo -s. 
-Luca -a harmitta -a olla viikon -loppu sairaa -na. 
+Лука ид -ёт к стойк -е. 
+Лука рассказыва -ет о симптом -ах. 
+Бол -в =горле. 
+Головн -ая =боль. 
+Немного температур -ы. 
+Фармацевт слуша -ет спокойн -о. 
+Он бере -ёт с полк -и ибупрофен. 
+Лука спрашива -ет, есть =ли что-то сильн -ее =его. 
+Ибупрофен не помо -г много. 
+Фармацевт упомина -ет аспирин и парацетамол. 
+Боле -е сильн -ое лекарство нужда -ется в рецепт -е. 
+Лука бере -ёт аспирин и парацетамол. 
+Лука бере -ёт тоже термо -метр. 
+Дома нет так -ого. 
+Фармацевт предлага -ет спрей =для нос -а. 
+Лука говори -т нет спасибо. 
+Фармацевт предлага -ет глаз =капли. 
+Лука говори -т снова нет спасибо. 
+Фармацевт дума -ет мгновени -е. 
+Потом он предлага -ет витамин -ы. 
+Лука улыба -ется немного. 
+Лука говори -т, что может на следующ -ей неделе. 
+Лука ид -ёт к касс -е. 
+Второй фармацевт спрашива -ет, лекарств -а =ли для Лука или для =кого-то друг -ого. 
+Лука говори -т, что лекарств -а для нег -о. 
+Карта работа -ет сразу. 
+Лука клады -от лекарств -а в рюкзак. 
+Лука мёрз -нет. 
+Лука ид -ёт быстр -о домой. 
+Дома Лука измеря -ет температур -у. 
+Температур -а всё ещё 38 градус -ов. 
+Лука бере -ёт обезболивающ -ее =лекарств -о. 
+Потом он ид -ёт обратно на диван. 
+Грипп не прият -ен. 
+Выходн -ые уже ид -ут. 
+Лука -у досад -но быть на выходн -ых больн -ым. 
 `;
 
 const createWordArrays = () => {

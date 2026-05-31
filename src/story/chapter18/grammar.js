@@ -1,52 +1,48 @@
 export const grammarNotes = [
-  `Seuraavana päivänä means "on the following day / the next day."`, // Luca herä -ä seuraava -na päivä -nä.
-  `Vieläkin means "still."`, // Kurkku on vielä -kin kipeä.
-  `No grammar notes for this line yet.`, // Pään -särky jatku -u.
-  `Apteekkiin means "to the pharmacy."`, // Luca kävele -e apteekki -in.
-  `Apteekissa means "in the pharmacy."`, // Apteeki -ssa on kirkas valkoinen valaistu -s.
-  `No grammar notes for this line yet.`, // Hylly -t ovat täynnä laattikko -ja, purkke -ja ja pakkauks -ia.
-  `Vuoronumero means queue number / turn number.`, // Luca otta -a vuoro -numero =n.
-  `No grammar notes for this line yet.`, // A12.
-  `Näytöstä means "from the display."`, // Hetke -n kuluttua näytö -stä lähte -e kova ääni.
-  `No grammar notes for this line yet.`, // A12.
-  `Tiskille means "to the counter."`, // Luca mene -e tiski -lle.
-  `Oireista means "about/from the symptoms."`, // Luca kerto -o oire -i =sta.
-  `No grammar notes for this line yet.`, // Kurkku -kipu.
-  `No grammar notes for this line yet.`, // Pään -särky.
-  `Kuumetta is partitive: some fever / a bit of fever.`, // Vähän kuume -tta.
-  `No grammar notes for this line yet.`, // Farmaseutti kuuntele -e rauhallise -sti.
-  `Hyllystä means "from the shelf."`, // Hän otta -a hylly -stä ibuprofeeni -a.
-  `Vahvempaa means "something stronger."`, // Luca kysy -y, on -ko jotain vahve -mpa =a.
-  `No grammar notes for this line yet.`, // Ibuprofeeni ei autta -nut paljon.
-  `No grammar notes for this line yet.`, // Farmaseutti mainitse -e aspiriini -n ja parasetamoli -n.
-  `Resepti means prescription.`, // Vahve -mpi lääke tarvitse -e resepti -n.
-  `No grammar notes for this line yet.`, // Luca otta -a aspiriini -a ja parasetamoli -a.
-  `Kuumemittari means thermometer.`, // Luca otta -a myös kuume -mittari =n.
-  `Kotona means "at home."`, // Koto -na ei ole sellais  -ta.
-  `Nenäsuihketta is partitive: nasal spray.`, // Farmaseutti ehdotta -a nenä -suihke =tta.
-  `No grammar notes for this line yet.`, // Luca sano -o ei kiitos.
-  `Silmätippoja is partitive plural: eye drops.`, // Farmaseutti ehdotta -a silmä -tippo =ja.
-  `No grammar notes for this line yet.`, // Luca sano -o taas ei kiitos.
-  `No grammar notes for this line yet.`, // Farmaseutti mietti -i hetke -n.
-  `Vitamiineja is partitive plural: vitamins.`, // Sitten hän ehdotta -a vitamiine -ja.
-  `No grammar notes for this line yet.`, // Luca hymyile -e hieman.
-  `Ensi viikolla means "next week."`, // Luca sano -o, että ehkä ensi viiko -lla.
-  `Kassalle means "to the checkout / cashier."`, // Luca mene -e kassa -lle.
-  `jo-lle-kin doesn't translate very well part by part to English. \n
-  But it means for someone. Some related words are:\n
-  joka = who, which \n
-  jolle = to whom, to which \n`, // Toinen farmaseutti kysy -y, ovat -ko lääkke -et Luca -lle vai jolle -kin toise -lle.
-  `Hänelle means "for him/her."`, // Luca sano -o, että lääkkee -t ovat häne -lle.
-  `Heti means "immediately / right away."`, // Kortti toimi -i heti.
-  `Reppuun means "into the backpack."`, // Luca laitta -a lääkke -et reppu -un.
-  `Palelee means "feels cold / is shivering."`, // Luca palele -e.
-  `Kotiin means "home / to home."`, // Luca kävele -e nopea -sti koti -in.
-  `No grammar notes for this line yet.`, // Koto -na Luca mitta -a kuume -en.
-  `Astetta is partitive after a number.`, // Lämpö -ä on vielä -kin 38 astet -ta.
-  `Särkylääkkeen is the object form of pain medicine / painkiller.`, // Luca otta -a särky -lääkkee =n.
-  `Takaisin means "back."`, // Sitten hän mene -e takaisin sohva -lle.
-  `No grammar notes for this line yet.`, // Flunssa ei ole mukava.
-  `Tulossa means "coming / on the way."`, // Viikon -loppu on tulo -ssa.
-  `Harmittaa means "it bothers / upsets", in a bit of a sad-like way. \n
-  There's no completely equivalent word in English.`, // Luca -a harmitta -a olla viikon -loppu sairaa -na.
+  `prosy-pat'sya = to wake up; prosy-paetsya = wakes up.`, //Luca prosy-paetsya na sleduyushch-iy den.
+  `No grammar notes for this line yet.`, //Gorl-o vsyo yeshchyo bol-it.
+  `No grammar notes for this line yet.`, //Golovn-aya =bol prodolzha-etsya.
+  `apteka = pharmacy; v aptek-u = to the pharmacy.`, //Luca id-yot v aptek-u.
+  `No grammar notes for this line yet.`, //V aptek-e yark-iy belyy svet.
+  `No grammar notes for this line yet.`, //Polk-i poln-y korob-ok, bank-ok i upakov-ok.
+  `ocherednoy nomer = queue number.`, //Luca bery-ot ochered-noy =nomer.
+  `No grammar notes for this line yet.`, //A12.
+  `No grammar notes for this line yet.`, //Cherez mgnoveni-e so =ekran-a idyot gromkiy zvuk.
+  `No grammar notes for this line yet.`, //A12.
+  `No grammar notes for this line yet.`, //Luca id-yot k stojk-e.
+  `simptom = symptom; o simptomakh = about symptoms.`, //Luca rasskazyva-et o simptom-akh.
+  `No grammar notes for this line yet.`, //Bol-v =gorle.
+  `No grammar notes for this line yet.`, //Golovn-aya =bol.
+  `No grammar notes for this line yet.`, //Nemnogo temperatur-y.
+  `No grammar notes for this line yet.`, //Farmatsevt slusha-et spokoyn-o.
+  `No grammar notes for this line yet.`, //On bery-ot s polk-i ibuprofen.
+  `No grammar notes for this line yet.`, //Luca sprashiva-et, est =li chto-to siln-ee =ego.
+  `pomoch = to help; pomo-g = helped.`, //Ibuprofen ne pomo-g mnogo.
+  `No grammar notes for this line yet.`, //Farmatsevt upomina-et aspirin i paratsetamol.
+  `retsept = prescription.`, //Bole-e siln-oe lekarstvo nuzhda-etsya v retsept-e.
+  `No grammar notes for this line yet.`, //Luca bery-ot aspirin i paratsetamol.
+  `termometr = thermometer.`, //Luca bery-ot tozhe termo-metr.
+  `No grammar notes for this line yet.`, //Doma net tak-ogo.
+  `No grammar notes for this line yet.`, //Farmatsevt predlaga-et sprey =dlya nos-a.
+  `No grammar notes for this line yet.`, //Luca govori-t net spasibo.
+  `No grammar notes for this line yet.`, //Farmatsevt predlaga-et glaz =kapli.
+  `No grammar notes for this line yet.`, //Luca govori-t snova net spasibo.
+  `No grammar notes for this line yet.`, //Farmatsevt duma-et mgnoveni-e.
+  `No grammar notes for this line yet.`, //Potom on predlaga-et vitamin-y.
+  `No grammar notes for this line yet.`, //Luca ulyba-etsya nemnogo.
+  `No grammar notes for this line yet.`, //Luca govori-t, chto mozhet na sleduyushch-ey nedele.
+  `kassa = checkout/cash desk.`, //Luca id-yot k kass-e.
+  `No grammar notes for this line yet.`, //Vtoroy farmatsevt sprashiva-et, lekarstv-a =li dlya Luca ili dlya =kogo-to drug-ogo.
+  `No grammar notes for this line yet.`, //Luca govori-t, chto lekarstv-a dlya neg-o.
+  `srazu = immediately.`, //Karta rabota-et srazu.
+  `No grammar notes for this line yet.`, //Luca klady-ot lekarstv-a v ryukzak.
+  `myorznut = to feel cold/shiver.`, //Luca myorz-net.
+  `No grammar notes for this line yet.`, //Luca id-yot bystr-o domoy.
+  `izmeryat = to measure.`, //Doma Luca izmerya-et temperatur-u.
+  `No grammar notes for this line yet.`, //Temperatur-a vsyo yeshchyo 38 gradus-ov.
+  `obezbolivayushchee lekarstvo = pain medicine.`, //Luca bery-ot obezbolivayushch-ee =lekarstv-o.
+  `No grammar notes for this line yet.`, //Potom on id-yot obratno na divan.
+  `No grammar notes for this line yet.`, //Gripp ne priyat-en.
+  `No grammar notes for this line yet.`, //Vykhodn-ye uzhe id-ut.
+  `dosadno = upsetting/annoying (emotion state).`, //Luca-u dosad-no byt na vykhodn-ykh boln-ym.
 ];
