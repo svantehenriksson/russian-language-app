@@ -38,8 +38,7 @@ Jarkko govori -t: Prodolzha -em v tom -zhe dukh -e.
 Luca vozvrashcha -etsya obratno k raboch -emu mest -u. 
 `;
 
-const storyFakeEnglish = 
-` 
+const storyFakeEnglish = `
 When Luca arrive -s work -to Monday -as, he -with has invitation email -in. x x x x x x x 
 Invitation -'s name is development -discussion. x x x 
 Evening -day -at Luca seek -s meeting -room -some. x 
@@ -77,8 +76,7 @@ Not even cleaner. x x
 Discussion end -s. 
 Jarkko say -s: Continue -let's same -in model -to. x 
 Luca leave -s back work -station -to -his. x 
-` 
-;
+`;
 
 const storyEnglish = `
 When Luca arrives at work on Monday, he has an invitation in his email. 
