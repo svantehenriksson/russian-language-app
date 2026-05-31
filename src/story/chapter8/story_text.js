@@ -1,81 +1,81 @@
 const storyFinnish = `
 
-Luca istu -u keittiö -ssä. 
-On ilta. 
-Ulkona on pimeä -ä. 
-Luca ava -a tietokone -en. 
-Luca aloittaa video -puhelu =n. 
-Näytö -lle tul -ee Luca -n äiti. 
-Äiti hymyil -ee. 
-Äiti: Hei Luca. 
-Luca: Hei äiti. 
-Äiti: On -ko kaikki hyvin? 
-Luca: On, kaikki hyvin. 
-Äiti: On -ko sinu -lla ruoka -a? 
-Luca: On. On maito -a. On leipä -ä. 
-Äiti: Vain maito -a ja leipä -ä? 
-Luca: Ja pasta -a. 
-Äiti: Hyvä. 
-Äiti: On -ko sinu -lla lämmin takki? 
-Luca: On. Musta takki. 
-Äiti: Entä pipo? 
-Luca: On pipo. Ja hanska -t. 
-Äiti: Hyvä. Suome -ssa on tosi kylmä. 
-Äiti on hetken hiljaa. 
-Äiti: Koto -na on hiljais -ta. 
-Luca: Täällä -kin on hiljais -ta. Tosi hiljais -ta. 
-Äiti: On -ko sinu -lla ystäv -iä? 
-Luca: Ei vielä. 
-Äiti: Halua -t =ko tulla koti -in? 
-Luca: En. Minä pidä -n Suome -sta. 
-Äiti: Oikeasti? 
-Luca: Oikeasti. 
-Äiti: Soita pian uudestaan. 
-Luca: Soita -n, lupaa -n. Hyvää yötä, äiti. 
-Luca sulke -e tietokone -en. 
-Luca katso -o puhelin -ta. 
-Futsal—ryhmä -ssä on uusi viesti. 
-Hän hymyil -ee vähän. 
+Luca sid -it na kukhn -e. 
+Vecher. 
+Na ulitse temn -o. 
+Luca otkryva -et kompyuter. 
+Luca nachina -et video -zvonok. 
+Na ekran -e poyavlya -etsya mam -a Luca -y. 
+Mama ulyba -etsya. 
+Mama: Privet Luca. 
+Luca: Privet, mama. 
+Mama: Vsyo =li khorosh -o? 
+Luca: Da, vsyo khorosh -o. 
+Mama: U teb -ya est yed -a? 
+Luca: Da. Est molok -o. Est khleb. 
+Mama: Tolko molok -o i khleb? 
+Luca: I past -a. 
+Mama: Khorosh -o. 
+Mama: U teb -ya est tyoplyy kurtk -a? 
+Luca: Da. Chyorn -aya kurtk -a. 
+Mama: A shapk -a? 
+Luca: Est shapk -a. I perchatk -i. 
+Mama: Khorosh -o. V Finlyandi -i ochen kholodn -o. 
+Mama nemnogo molch -it. 
+Mama: Doma tikh -o. 
+Luca: Zdes =tozhe tikh -o. Ochen tikh -o. 
+Mama: U teb -ya est drug -ya? 
+Luca: Net poka. 
+Mama: Khoch -esh =li priyti domoy? 
+Luca: Net. Ya lyubl -yu Finlyandi -yu. 
+Mama: Pravda? 
+Luca: Pravda. 
+Mama: Pozvoni skoro snova. 
+Luca: Pozvon -yu, obeshcha -yu. Spokoynoy noch -i, mama. 
+Luca zakryva -et kompyuter. 
+Luca smotr -it na telefon. 
+V futzal—chat -e nov -oe soobshcheni -e. 
+On ulyba -etsya nemnog -o. 
 `;
 
 const storyFakeEnglish = `
 
-Luca sit -s kitchen -in. 
-Is evening. 
-Outside is dark -some. 
-Luca open -s computer -the. 
-Luca starts video -call =one. 
-Screen -to come -s Luca -'s mother. 
-Mother smile -s. 
-Mother: Hi Luca. 
-Luca: Hi mom. 
-Mother: Is -? all good? 
-Luca: Is, all good. 
-Mother: Have -? you -with food -some? 
-Luca: Have. Have milk -some. Have bread -some. 
-Mother: Only milk -some and bread -some? 
-Luca: And pasta -some. 
-Mother: Good. 
-Mother: Have -? you -with warm jacket? 
-Luca: Have. Black jacket. 
-Mother: And beanie? 
-Luca: Have beanie. And glove -s. 
-Mother: Good. Finland -in is very cold. 
-Mother is moment quiet. 
-Mother: Home -at is quiet -some. 
-Luca: Here -too is quiet -some. Very quiet -some. 
-Mother: Is -? you -with friend -s? 
-Luca: Not yet. 
-Mother: Want -you -? come home -to? 
-Luca: No. I like -I Finland -of. 
-Mother: Really? 
-Luca: Really. 
-Mother: Call soon again. 
-Luca: Call -I, promise -I. Good night, mother. 
-Luca close -s computer -the. 
-Luca look -s phone -the. 
-Futsal—group -in is new message. 
-He smile -s little. 
+Luca sit -s in kitch -en. 
+Evening. 
+On street dark -ly. 
+Luca open -s computer. 
+Luca start -s video -call. 
+On screen -in appear -s_self mom -a Luca -'s. 
+Mom smile -s_self. 
+Mom: Hi Luca. 
+Luca: Hi, mom. 
+Mom: All =Q good -ly? 
+Luca: Yes, all good -ly. 
+Mom: At you -obj is food -a? 
+Luca: Yes. Is milk -o. Is bread. 
+Mom: Only milk -o and bread? 
+Luca: And past -a. 
+Mom: Good -ly. 
+Mom: At you -obj is warm jacket -a? 
+Luca: Yes. Black -ish jacket -a. 
+Mom: And beanie -a? 
+Luca: Is beanie -a. And glove -s. 
+Mom: Good -ly. In Finland -in very cold -ly. 
+Mom a_little keep_silent -s. 
+Mom: At_home quiet -ly. 
+Luca: Here =also quiet -ly. Very quiet -ly. 
+Mom: At you -obj is friend -s? 
+Luca: No yet. 
+Mom: Want -you =Q come home? 
+Luca: No. I love -I Finland -obj. 
+Mom: True? 
+Luca: True. 
+Mom: Call soon again. 
+Luca: Call -I, promise -I. Good_night night -of, mom. 
+Luca close -s computer. 
+Luca look -s at phone. 
+In futsal—chat -in new -ish message -e. 
+He smile -s_self a_little -ly. 
 `;
 
 const storyEnglish = `
@@ -120,42 +120,42 @@ He smiles a little.
 
 const storySpokenFinnish = `
 
-Luca istu -u keittiö -s. 
-On ilta. 
-Ulkona on pimee -tä. 
-Luca ava -a tietokonee -n. 
-Luca alottaa video -puhelu =n. 
-Näytö -lle tul -ee Luca -n äiti. 
-Äiti hymyil -ee. 
-Äiti: Hei Luca. 
-Luca: Hei äiti. 
-Äiti: On -ks kaikki hyvin? 
-Luca: On, kaikki hyvin. 
-Äiti: On -ks su -lla ruoka -a? 
-Luca: On. On maito -o. On leipä -ä. 
-Äiti: Vaan maito -o ja leipä -ä? 
-Luca: Ja pasta -a. 
-Äiti: Hyvä. 
-Äiti: On -ks su -lla lämmin takki? 
-Luca: On. Musta takki. 
-Äiti: Entä pipo? 
-Luca: On pipo. Ja hanska -t. 
-Äiti: Hyvä. Suome -s on tosi kylmä. 
-Äiti on hetken hiljaa. 
-Äiti: Koto -na on hiljas -ta. 
-Luca: Tääl -ki on hiljas -ta. Tosi hiljas -ta. 
-Äiti: On -ks su -lla ystäv -ii? 
-Luca: Ei viel. 
-Äiti: Haluu -k =s tulla koti -in? 
-Luca: En. Mä tykkää -n Suome -st. 
-Äiti: Oikeesti? 
-Luca: Oikeesti. 
-Äiti: Soita pian uudestaan. 
-Luca: Soita -n, mä_lupaa -n. Hyvää yötä, äiti. 
-Luca sulke -e tietokonee -n. 
-Luca katto -o puhelin -t. 
-Futsal—ryhmä -s on uus viesti. 
-Se hymyil -ee vähän. 
+Лука сид -ит на кухн -е. 
+Вечер. 
+На улице темн -о. 
+Лука открыва -ет компьютер. 
+Лука начина -ет видео -звонок. 
+На экран -е появля -ется мам -а Лука -ы. 
+Мама улыба -ется. 
+Мама: Привет Лука. 
+Лука: Привет, мама. 
+Мама: Всё =ли хорош -о? 
+Лука: Да, всё хорош -о. 
+Мама: У теб -я есть ед -а? 
+Лука: Да. Есть молок -о. Есть хлеб. 
+Мама: Только молок -о и хлеб? 
+Лука: И паст -а. 
+Мама: Хорош -о. 
+Мама: У теб -я есть тёплый куртк -а? 
+Лука: Да. Чёрн -ая куртк -а. 
+Мама: А шапк -а? 
+Лука: Есть шапк -а. И перчатк -и. 
+Мама: Хорош -о. В Финлянди -и очень холодн -о. 
+Мама немного молч -ит. 
+Мама: Дома тих -о. 
+Лука: Здесь =тоже тих -о. Очень тих -о. 
+Мама: У теб -я есть друг -я? 
+Лука: Нет пока. 
+Мама: Хоч -ешь =ли прийти домой? 
+Лука: Нет. Я любл -ю Финлянди -ю. 
+Мама: Правда? 
+Лука: Правда. 
+Мама: Позвони скоро снова. 
+Лука: Позвон -ю, обеща -ю. Спокойной ноч -и, мама. 
+Лука закрыва -ет компьютер. 
+Лука смотр -ит на телефон. 
+В футзал—чат -е нов -ое сообщени -е. 
+Он улыба -ется немног -о. 
 `;
 
 const createWordArrays = () => {
