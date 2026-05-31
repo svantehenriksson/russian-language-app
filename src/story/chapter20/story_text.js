@@ -1,82 +1,84 @@
 const storyFinnish = `
-Kun Luca saapu -u töi -hin maanantai -na, häne -llä on kutsu sähköposti -ssa. 
-Kutsu -n nimi on kehitys -keskustelu. 
-Ilta -päivä =llä Luca ets -ii neuvottelu -huone =tta. 
-Jarkko on jo siellä. 
-Jarkko: Tule tänne, Luca. 
-Jarkko: Anteeksi, että kutsu tul -i viime hetke -llä. 
-Pöydä -llä on kahvi -a. 
-Jarkko kaata -a kaksi kuppi -a. 
-He juo -vat hetke -n hiljaa. 
-Sitten Jarkko otta -a paperi -n esiin. 
-Jarkko sano -o, että HR vaati -i lomakke -en. 
-Joten se täyty -y täyttää. 
-Sii -nä on asteikko yhde -stä viite -en. 
-Jarkko kohautta -a olka -päitä =än. 
-Jarkko: Minu -sta tämä on vähän tyhmä -ä. 
-Luca katso -o lomake -tta. 
-Yksi kysymys koske -e yhteis -työ =taito -ja. 
-Toinen kysymys koske -e työ -n laatu -a. 
-Luca mietti -i hetke -n. 
-Hän valitse -e useimpi -in koht -i =in nelose -n. 
-Jarkko nyökkä -ä. 
-Jarkko: Neljä viide -stä on oikein hyvä. 
-He puhu -vat Luca -n ensimmäise -stä projekti -sta. 
-Jarkko sano -o, että työ on men -nyt hyvin. 
-Sitten Jarkko kysy -y, mitä Luca halua -isi kehittä -ä. 
-Luca mietti -i hetke -n. 
-Luca sano -o, että hän puhu -u vielä liian hitaa -sti suome -a. 
-Jarkko nyökkä -ä. 
-Jarkko sano -o, että se tule -e aja -n kanssa. 
-Sitten Jarkko kerto -o lom -i =sta. 
-Jarkko kerto -o, että heinäkuu -ssa toimisto on tyhjä. 
-Jarkko mene -e möki -lle perhee -nsä kanssa. 
-Kukaan ei jää työ -paika =lle. 
-Ei edes siivooja. 
-Keskustelu päätty -y. 
-Jarkko sano -o: Jatke -taan sama -an malli -in. 
-Luca lähte -e takaisin työ -pistee =lle -en. 
+Kogda Luca prikhod -it na rabot -u v ponedel -nik, u ne -go est priglasheni -e v elektronn -oy pocht -e. 
+Nazvani -e priglasheni -ya - razgovor o razvit -ii. 
+Posle obed -a Luca ishch -et peregovorn -uyu komnat -u. 
+Jarkko uzhe tam. 
+Jarkko: Idi syuda, Luca. 
+Jarkko: Izvini, chto priglasheni -e prishl -o v posledn -iy moment. 
+Na stol -e est kofe. 
+Jarkko naliva -et dve chashk -i. 
+Oni pyu -t mgnoveni -e molcha. 
+Potom Jarkko dosta -yot bumag -u. 
+Jarkko govori -t, chto HR trebu -et anket -u. 
+Poetomu yeyo nado zapolnit. 
+V ne -y est shkala ot od -nogo do pyat -i. 
+Jarkko pozhima -et plech -ami. 
+Jarkko: Po mne eto nemnogo glup -o. 
+Luca smotr -it na anket -u. 
+Odin vopros kasa -etsya navyk -ov sotrudnichestv -a. 
+Drugoy vopros kasa -etsya kachestv -a rabot -y. 
+Luca duma -et mgnoveni -e. 
+On vybira -et v bolshinstv -e punkt -ov chetvyork -u. 
+Jarkko kiva -et. 
+Jarkko: Chetyre iz pyat -i - ochen khorosh -o. 
+Oni govori -at o perv -om proekt -e Luca. 
+Jarkko govori -t, chto rabot -a proshl -a khorosh -o. 
+Potom Jarkko sprashiva -et, chto Luca khotel by uluchsh -it. 
+Luca duma -et mgnoveni -e. 
+Luca govori -t, chto on vsyo eshchyo govori -t po-finsk -i slishkom medlenn -o. 
+Jarkko kiva -et. 
+Jarkko govori -t, chto eto pridyot so vremen -em. 
+Potom Jarkko govori -t pro otpusk -a. 
+Jarkko govori -t, chto v iyul -e ofis pust -oy. 
+Jarkko yed -et na dach -u s semy -yoy. 
+Nikto ne ostay -otsya na raboch -em mest -e. 
+Dazhe uborshchik ne ostay -otsya. 
+Razgovor zakanchiva -etsya. 
+Jarkko govori -t: Prodolzha -em v tom -zhe dukh -e. 
+Luca vozvrashcha -etsya obratno k raboch -emu mest -u. 
 `;
 
-const storyFakeEnglish = `
-When Luca arrive -s work -to Monday -as, he -with has invitation email -in. 
-Invitation -'s name is development -discussion. 
-Evening -day -at Luca seek -s meeting -room -some. 
-Jarkko is already there. 
+const storyFakeEnglish = 
+` 
+When Luca arrive -s work -to Monday -as, he -with has invitation email -in. x x x x x x x 
+Invitation -'s name is development -discussion. x x x 
+Evening -day -at Luca seek -s meeting -room -some. x 
+Jarkko is already 
 Jarkko: Come here, Luca. 
-Jarkko: Sorry, that invitation come -d last moment -on. 
+Jarkko: Sorry, that invitation come -d last moment -on. x x 
 Table -on is coffee -some. 
 Jarkko pour -s two cup -s. 
 They drink -they moment -one quietly. 
-Then Jarkko take -s paper -one out. 
+Then Jarkko take -s paper -one 
 Jarkko say -s, that HR demand -s form -one. 
-So it must -s fill. 
-It -in is scale one -from five -to. 
-Jarkko shrug -s shoulder -heads -his. 
-Jarkko: Me -from this is a_bit stupid -some. 
-Luca look -s form -some. 
+So it must -s 
+It -in is scale one -from five -to. x x x 
+Jarkko shrug -s shoulder -heads 
+Jarkko: Me -from this is a_bit stupid 
+Luca look -s form -some. x 
 One question concern -s joint -work -skill -s. 
 Other question concern -s work -'s quality -some. 
 Luca think -s moment -one. 
 He choose -s most -to point -s -to four -one. 
 Jarkko nod -s. 
-Jarkko: Four five -from is really good. 
+Jarkko: Four five -from is really good. x x 
 They speak -they Luca -'s first -from project -from. 
-Jarkko say -s, that work has go -ne well. 
+Jarkko say -s, that work has go -ne well. x 
 Then Jarkko ask -s, what Luca want -would develop -to. 
 Luca think -s moment -one. 
-Luca say -s, that he speak -s still too slow -ly Finnish -some. 
+Luca say -s, that he speak -s still too slow -ly Finnish -some. x 
 Jarkko nod -s. 
-Jarkko say -s, that it come -s time -'s with. 
+Jarkko say -s, that it come -s time -'s 
 Then Jarkko tell -s vacation -s -about. 
-Jarkko tell -s, that July -in office is empty. 
-Jarkko go -es cabin -to family -his with. 
-Nobody not stay work -place -at. 
-Not even cleaner. 
+Jarkko tell -s, that July -in office is empty. x 
+Jarkko go -es cabin -to family -his with. x 
+Nobody not stay work -place -at. x x x 
+Not even cleaner. x x 
 Discussion end -s. 
-Jarkko say -s: Continue -let's same -in model -to. 
-Luca leave -s back work -station -to -his. 
-`;
+Jarkko say -s: Continue -let's same -in model -to. x 
+Luca leave -s back work -station -to -his. x 
+` 
+;
 
 const storyEnglish = `
 When Luca arrives at work on Monday, he has an invitation in his email. 
@@ -119,43 +121,43 @@ Luca leaves back to his workstation.
 `;
 
 const storySpokenFinnish = `
-Ku Luca saapu -u töi -hin maanantai -na, si -l on kutsu sähköposti -s. 
-Kutsu -n nimi on kehitys -keskustelu. 
-Ilta -päivä =l Luca ett -ii neuvottelu -huone =tta. 
-Jarkko on jo siellä. 
-Jarkko: Tuu tänne, Luca. 
-Jarkko: Sori, et kutsu tul -i vikal hetke -llä. 
-Pöydä -l on kahvi -i. 
-Jarkko kaata -a kaks kuppi -i. 
-Ne ju -o hetke -n hiljaa. 
-Sit Jarkko otta -a paperi -n esiin. 
-Jarkko sano -o, et HR vaati -i lomakke -en. 
-Eli se täyty -y täyttää. 
-Sii -n on asteikko yhe -st viite -en. 
-Jarkko kohautta -a olka -päitä =än. 
-Jarkko: Mu -st tää on vähän tyhmä -ä. 
-Luca katto -o lomake -tta. 
-Yks kysymys koske -e yhteis -työ =taito -i. 
-Toinen kysymys koske -e työ -n laatu -u. 
-Luca mietti -i hetke -n. 
-Se valitse -e useimpi -in koht -i =in nelose -n. 
-Jarkko nyökkä -ä. 
-Jarkko: Neljä viide -st on oikein hyvä. 
-Ne puhu -u Luca -n eka -st projekti -st. 
-Jarkko sano -o, et työ on men -ny hyvin. 
-Sit Jarkko kysy -y, mitä Luca halu -is kehittä -ä. 
-Luca mietti -i hetke -n. 
-Luca sano -o, et se puhu -u viel liian hitaa -sti suome -e. 
-Jarkko nyökkä -ä. 
-Jarkko sano -o, et se tule -e aja -n kans. 
-Sit Jarkko kerto -o lom -i =st. 
-Jarkko kerto -o, et heinäkuu -s toimisto on tyhjä. 
-Jarkko mene -e möki -lle perhee -nsä kans. 
-Kukaan ei jää työ -paika =lle. 
-Ei ees siivooja. 
-Keskustelu päätty -y. 
-Jarkko sano -o: Jatke -taan sama -an malli -in. 
-Luca lähte -e takas työ -pistee =lle -en. 
+Когда Luca приход -ит на работ -у в понедел -ник, у не -го есть приглашени -е в электронн -ой почт -е. 
+Названи -е приглашени -я - разговор о развит -ии. 
+После обед -а Luca ищ -ет переговорн -ую комнат -у. 
+Jarkko уже там. 
+Jarkko: Иди сюда, Luca. 
+Jarkko: Извини, что приглашени -е пришл -о в последн -ий момент. 
+На стол -е есть кофе. 
+Jarkko налива -ет две чашк -и. 
+Они пью -т мгновени -е молча. 
+Потом Jarkko доста -ёт бумаг -у. 
+Jarkko говори -т, что HR требу -ет анкет -у. 
+Поэтому её надо заполнить. 
+В не -й есть шкала от од -ного до пят -и. 
+Jarkko пожима -ет плеч -ами. 
+Jarkko: По мне это немного глуп -о. 
+Luca смотр -ит на анкет -у. 
+Один вопрос каса -ется навык -ов сотрудничеств -а. 
+Другой вопрос каса -ется качеств -а работ -ы. 
+Luca дума -ет мгновени -е. 
+Он выбира -ет в большинств -е пункт -ов четвёрк -у. 
+Jarkko кива -ет. 
+Jarkko: Четыре из пят -и - очень хорош -о. 
+Они говори -ат о перв -ом проект -е Luca. 
+Jarkko говори -т, что работ -а прошл -а хорош -о. 
+Потом Jarkko спрашива -ет, что Luca хотел бы улучш -ить. 
+Luca дума -ет мгновени -е. 
+Luca говори -т, что он всё ещё говори -т по-финск -и слишком медленн -о. 
+Jarkko кива -ет. 
+Jarkko говори -т, что это придёт со времен -ем. 
+Потом Jarkko говори -т про отпуск -а. 
+Jarkko говори -т, что в июл -е офис пуст -ой. 
+Jarkko ед -ет на дач -у с семь -ёй. 
+Никто не оста -ётся на рабоч -ем мест -е. 
+Даже уборщик не оста -ётся. 
+Разговор заканчива -ется. 
+Jarkko говори -т: Продолжа -ем в том -же дух -е. 
+Luca возвраща -ется обратно к рабоч -ему мест -у. 
 `;
 
 const createWordArrays = () => {
