@@ -1,63 +1,63 @@
 const storyFinnish = `
-Luca herä -ä kova -an ääne -en. 
-Luca pelästy -y. 
-Seinä -n takana porata -an. 
-Kuka pora -a näin aikaisin? 
-Kello on seitsemän. 
-Luca on vielä väsynyt. 
+Luca prosypa -et -sya ot gromk -ogo zvuk -a. 
+Luca puga -et -sya. 
+Za sten -oy sverl -yat. 
+Kto sverl -it tak rano? 
+Seychas sem chas -ov. 
+Luca vsyo eshchyo ustal -yy. 
 
-Luca nouse -e sängy -stä. 
-Luca keittää kahvi -n. 
-Luca mene -e porras -käytävä =än. 
-Luca näke -e Aino -n. 
-Aino: Hieno yö -puku. 
-Luca: Ööh, grazie. 
-Luca: Mikä tämä kova ääni on? 
-Aino: Putki -remontti. 
-Luca: Putki -remontti? 
-Aino: Kyllä. Sii -tä kerrot -tiin talo -yhtiö =n WhatsApp -—ryhmä =ssä. 
-Luca: Kuinka kauan se kestää? 
-Aino: Kolme kuukau -tta. 
+Luca vstay -ot s krovat -i. 
+Luca var -it kofe. 
+Luca id -yot v pod-yezd. 
+Luca vid -it Aino. 
+Aino: Krasiv -aya nochn -aya rubashk -a. 
+Luca: Eeeh, grazie. 
+Luca: Chto eto za gromk -iy zvuk? 
+Aino: Trub -remont. 
+Luca: Trub -remont? 
+Aino: Da. Ob et -om soobshcha -li v dom -chat WhatsApp -a. 
+Luca: Kak dolgo eto dlits -sya? 
+Aino: Tri mesyats -a. 
 Luca: Mamma mia! 
-Aino: Minä muuta -n äidi -n luo huomenna. 
+Aino: Ya pereezha -yu k mam -e zavtra. 
 
-Luca mene -e toimisto -lle. 
-Jarkko: Luca, näytä -t väsynee -ltä. 
-Jarkko: Ole -t =ko kunno -ssa? 
-Luca: Talo -ssa =ni on putki -remontti. 
-Luca: Minu -n pitää muuttaa. 
-Jarkko: Hei, ei hätä -ä. Yritykse -llä on asunto. Se on vapaa -na. 
+Luca id -yot v ofis. 
+Jarkko: Luca, ty vyglyad -ish ustal -ym. 
+Jarkko: Ty =li v poryadk -e? 
+Luca: V dom -e =moyom trub -remont. 
+Luca: Men -e nuzhn -o pereekhat. 
+Jarkko: Hey, ne panik -uy. U kompani -i est kvartir -a. Ona svobodn -a. 
 `;
 
 const storyFakeEnglish = `
-Luca wake -s hard -to sound -to. 
-Luca frighten -s. 
-Wall 's behind to_drill -happens. 
+Luca wake -s -self from loud -ish sound -of. 
+Luca scare -s -self. 
+Behind wall -behind drill -they_passive. 
 Who drill -s so early? 
-Clock is seven. 
-Luca is still tired. 
+Now seven hour -s. 
+Luca still still tired -is. 
 
-Luca rise -s bed -from. 
-Luca boils coffee -one. 
-Luca goe -s stair -case =into. 
-Luca see -s Aino -one. 
-Aino: Nice night -suit. 
+Luca rise -s from bed -from. 
+Luca brew -s coffee. 
+Luca go -es into stairwell. 
+Luca see -s Aino. 
+Aino: Nice -ish night -ish shirt -a. 
 Luca: Uhh, grazie. 
-Luca: What this loud sound is? 
+Luca: What this as loud -ish sound? 
 Aino: Pipe -renovation. 
 Luca: Pipe -renovation? 
-Aino: Yes. About -it tell -was house -company -'s WhatsApp -group -in. 
-Luca: How long it lasts? 
+Aino: Yes. About it -about inform -ed in house -chat WhatsApp -in. 
+Luca: How long this last -s_self? 
 Aino: Three month -s. 
 Luca: Mamma mia! 
-Aino: I move -I mother -'s home tomorrow. 
+Aino: I move -I to mom -to tomorrow. 
 
-Luca goe -s office -to. 
-Jarkko: Luca, look -you tired -of. 
-Jarkko: Be -you =? condition -in? 
-Luca: House -in =my is pipe -renovation. 
-Luca: Me -of must move. 
-Jarkko: Hey, no emergency -some. Company -with has apartment. It is free -as. 
+Luca go -es to office. 
+Jarkko: Luca, you look -s tired -ish. 
+Jarkko: You =Q in okay -state? 
+Luca: In build -ing =my pipe -renovation. 
+Luca: Me -dat need -ly move. 
+Jarkko: Hey, no panic -imp. At company -of is apartment -a. It free -is. 
 `;
 
 const storyEnglish = `
@@ -92,34 +92,34 @@ Jarkko: Hey, no worries. The company has an apartment. It's free.
 `;
 
 const storySpokenFinnish = `
-Luca herä -ä kova -an ääne -en. 
-Luca pelästy -y. 
-Seinä -n takana porata -an. 
-Kuka pora -a näin aikasin? 
-Kello on seittemän. 
-Luca on viel väsyny. 
+Лука просыпа -ет -ся от громк -ого звук -а. 
+Лука пуга -ет -ся. 
+За стен -ой сверл -ят. 
+Кто сверл -ит так рано? 
+Сейчас семь час -ов. 
+Лука всё ещё устал -ый. 
 
-Luca nouse -e sängy -st. 
-Luca keittää kahvi -n. 
-Luca mene -e rappu -käytävä =än. 
-Luca näke -e Aino -n. 
-Aino: Hieno yö -puku. 
-Luca: Ööh, grazie. 
-Luca: Mikä tää kova ääni on? 
-Aino: Putki -remontti. 
-Luca: Putki -remontti? 
-Aino: Joo. Sii -t kerrot -tiin talo -yhtiö =n WhatsApp -—ryhmä =s. 
-Luca: Kuin kauan se kestää? 
-Aino: Kolme kuukau -t. 
+Лука вста -ёт с кроват -и. 
+Лука вар -ит кофе. 
+Лука ид -ёт в подъезд. 
+Лука вид -ит Аино. 
+Аино: Красив -ая ночн -ая рубашк -а. 
+Лука: Эээх, grazie. 
+Лука: Что это за громк -ий звук? 
+Аино: Труб -ремонт. 
+Лука: Труб -ремонт? 
+Аино: Да. Об эт -ом сообща -ли в дом -чат WhatsApp -а. 
+Лука: Как долго это длит -ся? 
+Аино: Три месяц -а. 
 Luca: Mamma mia! 
-Aino: Mä muuta -n äidi -n luo huomen. 
+Аино: Я переезжа -ю к мам -е завтра. 
 
-Luca mene -e toimisto -l. 
-Jarkko: Luca, sä_näytä -t väsynee -lt. 
-Jarkko: Oo -t =sä kunno -s? 
-Luca: Mun_talo -s = on putki -remontti. 
-Luca: Mu -n pitää muuttaa. 
-Jarkko: Hei, ei hätä -ä. Firma -l on asunto. Se on vapaa -na. 
+Лука ид -ёт в офис. 
+Яркко: Лука, ты выгляд -ишь устал -ым. 
+Яркко: Ты =ли в порядк -е? 
+Лука: В дом -е =моём труб -ремонт. 
+Лука: Мен -е нужн -о переехать. 
+Яркко: Эй, не панику -й. У компани -и есть квартир -а. Она свободн -а. 
 `;
 
 const createWordArrays = () => {
