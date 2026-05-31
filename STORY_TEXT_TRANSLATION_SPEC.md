@@ -36,6 +36,15 @@ Alignment must hold per line and per token/morpheme segment.
 6. Keep `storyEnglish` natural and line-faithful.
 7. Validate line/token alignment with helper script.
 
+## Grammar Notes Rule (Lean)
+- Keep grammar notes very short.
+- For any split/conjugated form in a sentence (for example `aeroport -e`, `ustal -yy`, `govor -it`), include the base dictionary form in the corresponding grammar note.
+- Prefer minimal dictionary-style mapping:
+  - `govorit = to speak`
+  - `govor-it = speaks`
+- Add extra grammar insight only sparingly and only when clearly useful.
+- Do not add long paradigm dumps unless explicitly requested.
+
 ## Morpheme Split Policy (Russian)
 Split only where it helps learning and can be mirrored consistently:
 - adjective endings: `krasiv -yy`
