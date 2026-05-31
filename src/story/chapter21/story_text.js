@@ -1,135 +1,135 @@
 const storyFinnish = `
-Luca seiso -o laituri -lla. 
-Hän katso -o avanto -on. 
-Työ -kaveri =t ovat tuo -neet häne -t Kuusi -järve =lle. 
-Luca -a hermostutta -a. 
-Mitä jos jotain tapahtu -u? 
-Mitä jos hän saa hypotermia -n? 
-Luca -n iho -lta nouse -e höyry -ä. 
-Hän on juuri tul -lut sauna -sta. 
-Olli mene -e alas tikkai -ta. 
-Hän u -i hetke -n ja tule -e ylös. 
-Olli: Ei tunnu missään. 
-Emanuel ja Sofia mene -vät vete -en. 
-Sofia: Tule, Luca. 
-Luca epärö -i. 
-Hän katso -o vette -ä. 
-Vesi on musta -a. 
-Lopulta Luca alka -a kiivetä alas. 
-Ensimmäinen askel. 
-Jala -t palele -vat. 
-Toinen askel. 
-Luca hengittä -ä syvä -än. 
-Kolmas askel. 
-Luca mene -e vete -en. 
-Hän huuta -a. 
-Luca käänty -y heti. 
-Hän u -i takaisin tikkai -lle. 
-Hän kiipeä -ä ylös nopea -sti. 
-Luca juokse -e sauna -an. 
-Sauna -ssa on pimeä -ä. 
-Laute -et ovat musta -t. 
-Savu -sauna =ssa ei ole savu -piippu =a. 
-Savu tule -e sisään. 
-Sitten se tuulete -taan. 
-Luca -n varpa -i =ta pistele -e. 
-Koko keho -a pistele -e. 
-Luca: Mennä -än =kö kohta takaisin? 
-Olli: Nyt vasta aloitet -tiin. 
-Hetke -n kuluttua he mene -vät takaisin ulos. 
-Tä -llä kertaa Luca on rauhallise -mpi. 
-Hän laskeutu -u vete -en. 
-Hän ei huuda. 
-Luca u -i piene -n ympyrä -n. 
-Hän katso -o ympäri -lle =en. 
-Lumi -sia pui -ta. 
-Kuu. 
-Tähde -t. 
-Luca hengittä -ä hitaa -mmin. 
-Sitten hän kiipeä -ä ylös. 
-Hän otta -a pyyhke -en. 
-Olli anta -a häne -lle olue -n. 
-Olli: Tämä autta -a. 
-Luca otta -a olue -n. 
-Luca: Mi -hin? 
-Olli: Kaikke -en. 
-He seiso -vat laituri -lla. 
-Myöhe -mmin he aja -vat koti -in. 
-Auto on lämmin. 
-Luca on todella rentoutu -nut. 
-Luca melkein nukahta -a. 
-Auto pysähty -y. 
-Luca on koto -na. 
-Luca: Kiitos. 
-Luca: Tämä oli outo -a, mutta mukava -a. 
-Olli: Huomen -na uudestaan? 
+Luca sto -it na pristan -i. 
+On smotr -it v prorub. 
+Kolleg -i po rabot -e priv -ezli ye -go na Kuusi -yarvi. 
+Luca nerviru -et =sya. 
+A chto yesli chto -to proizoid -yot? 
+A chto yesli on poluch -it gipotermiyu? 
+S kozh -i Luca podnima -etsya par. 
+On tolko chto vysh -el iz saun -y. 
+Olli spusk -aetsya vniz po lestnits -e. 
+On plava -et mgnoveni -e i vykhod -it obratno. 
+Olli: Voobshche ne chuvstvu -etsya. 
+Emanuel i Sofia zakhod -yat v vod -u. 
+Sofia: Idi, Luca. 
+Luca kolebl -etsya. 
+On smotr -it na vod -u. 
+Voda chyorn -aya. 
+Nakonets Luca nachina -et spusk -atsya vniz. 
+Perv -yy shag. 
+Nog -i myorzn -ut. 
+Vtor -oy shag. 
+Luca gluboko vdykha -et. 
+Tret -iy shag. 
+Luca zakhod -it v vod -u. 
+On krich -it. 
+Luca srazu razvorachiva -etsya. 
+On plava -et obratno k lestnits -e. 
+On bystro podnima -etsya naverkh. 
+Luca bezh -it v saun -u. 
+V saun -e temn -o. 
+Polk -i chyorn -ye. 
+V dymov -oy saun -e net dymokhod -a. 
+Dym zakhod -it vnutr. 
+Potom ye -ye provetriva -yut. 
+Palts -y nog Luca pokalyva -et. 
+Vsyo tel -o pokalyva -et. 
+Luca: Poid -yom =li skoro obratno? 
+Olli: My tolko chto nach -ali. 
+Cherez mgnoveni -e oni snova vykhod -yat naruzhu. 
+V et -ot raz Luca spoko -ynee. 
+On opuska -etsya v vod -u. 
+On ne krich -it. 
+Luca plava -et malen -kiy krug. 
+On smotr -it vokrug seb -ya. 
+Snezhny -ye derev -ya. 
+Luna. 
+Zvyozd -y. 
+Luca d -yshit medlenn -ee. 
+Potom on podnima -etsya naverkh. 
+On bery -ot polotentse. 
+Olli day -ot ye -mu pivo. 
+Olli: Eto pomoga -et. 
+Luca bery -ot pivo. 
+Luca: V chyom? 
+Olli: Vo vsyom. 
+Oni sto -yat na pristan -i. 
+Pozzhe oni yed -ut domoy. 
+Mashina tyopl -aya. 
+Luca deistvitelno rasslab -ilsya. 
+Luca pochti zasypa -et. 
+Mashina ostanavliva -etsya. 
+Luca doma. 
+Luca: Spasibo. 
+Luca: Eto byl -o strann -o, no priyatn -o. 
+Olli: Zavtra snova? 
 `;
 
 const storyFakeEnglish = `
-Luca stand -s pier -on. 
+Luca stand -s pier -on. x 
 He look -s ice_hole -into. 
-Work -mate -s have brough -t hi -m Spruce -lake -to. 
+Work -mate -s have brough -t hi -m Spruce -lake -to. x 
 Luca -some make_nervous -s. 
-What if something happen -s? 
-What if he gets hypothermia -one? 
-Luca -'s skin -from rise -s steam -some. 
-He has just come -en sauna -from. 
-Olli go -es down ladder -some. 
+What if something happen -s? x x 
+What if he gets hypothermia -one? x 
+Luca -'s skin -from rise -s steam 
+He has just come -en sauna -from. x 
+Olli go -es down ladder -some. x 
 He swim -s moment -one and come -s up. 
-Olli: Not feel anywhere. 
-Emanuel and Sofia go -they water -into. 
+Olli: Not feel anywhere. x 
+Emanuel and Sofia go -they water -into. x 
 Sofia: Come, Luca. 
 Luca hesitate -s. 
-He look -s water -into. 
-Water is black -some. 
-Finally Luca begin -s climb down. 
-First step. 
+He look -s water -into. x 
+Water is black 
+Finally Luca begin -s climb down. x 
+First step. x 
 Leg -s freeze -they. 
-Second step. 
-Luca breathe -s deep -into. 
-Third step. 
-Luca go -es water -into. 
+Second step. x 
+Luca breathe -s deep 
+Third step. x 
+Luca go -es water -into. x 
 He shout -s. 
 Luca turn -s immediately. 
-He swim -s back ladder -onto. 
-He climb -s up fast -ly. 
-Luca run -s sauna -into. 
+He swim -s back ladder -onto. x 
+He climb -s up fast 
+Luca run -s sauna -into. x 
 Sauna -in is dark -some. 
-Bench -es are black -s. 
+Bench -es are black 
 Smoke -sauna -in not is smoke -pipe -some. 
 Smoke come -s in. 
-Then it ventilate -d_is. 
-Luca -'s toe -s -some tingle -s. 
+Then it ventilate -d_is. x 
+Luca -'s toe -s -some tingle 
 Whole body -some tingle -s. 
 Luca: Go -let's -? soon back? 
-Olli: Now only start -was. 
+Olli: Now only start -was. x 
 Moment -'s after they go -they back out. 
 This -on time Luca is calm -er. 
-He descend -s water -into. 
-He not shout. 
-Luca swim -s small -one circle -one. 
+He descend -s water -into. x 
+He not shout. x 
+Luca swim -s small -one circle 
 He look -s around -to -his. 
 Snow -y tree -s. 
 Moon. 
 Star -s. 
 Luca breathe -s slow -er. 
 Then he climb -s up. 
-He take -s towel -one. 
-Olli give -s him -to beer -one. 
+He take -s towel 
+Olli give -s him -to beer 
 Olli: This help -s. 
-Luca take -s beer -one. 
+Luca take -s beer 
 Luca: What -for? 
 Olli: Everything -to. 
-They stand -they pier -on. 
-Late -r they drive -they home -to. 
+They stand -they pier -on. x 
+Late -r they drive -they 
 Car is warm. 
-Luca is really relax -ed. 
+Luca is really relax 
 Luca almost fall_asleep -s. 
 Car stop -s. 
-Luca is home -at. 
+Luca is 
 Luca: Thanks. 
-Luca: This was strange -some, but nice -some. 
-Olli: Tomorrow -at again? 
+Luca: This was strange -some, but nice -some. x 
+Olli: Tomorrow -at 
 `;
 
 const storyEnglish = `
@@ -200,70 +200,70 @@ Olli: Again tomorrow?
 `;
 
 const storySpokenFinnish = `
-Luca seiso -o laituri -lla. 
-Se katto -o avanto -on. 
-Työ -kaveri =t on tuo -nu se -n Kuusi -järve =lle. 
-Luca -a hermostutta -a. 
-Mitä jos jotain tapahtu -u? 
-Mitä jos se saa hypotermia -n? 
-Luca -n iho -lta nouse -e höyry -y. 
-Se on just tul -lu sauna -st. 
-Olli mene -e alas tikkai -ta. 
-Se u -i hetke -n ja tule -e ylös. 
-Olli: Ei tunnu missään. 
-Emanuel ja Sofia mene -e vete -en. 
-Sofia: Tuu, Luca. 
-Luca epärö -i. 
-Se katto -o vett -ä. 
-Vesi on musta -a. 
-Lopult Luca alka -a kiivetä alas. 
-Eka askel. 
-Jala -t palele -e. 
-Toka askel. 
-Luca hengittä -ä syvää -n. 
-Kolmas askel. 
-Luca mene -e vete -en. 
-Se huuta -a. 
-Luca käänty -y heti. 
-Se u -i takas tikkai -lle. 
-Se kiipe -e ylös nopee -sti. 
-Luca juokse -e sauna -an. 
-Sauna -s on pimee -tä. 
-Laute -et on musta -t. 
-Savu -sauna =s ei oo savu -piippu =u. 
-Savu tule -e sisään. 
-Sit se tuulete -taan. 
-Luca -n varpa -i =t pistele -e. 
-Koko keho -o pistele -e. 
-Luca: Mennä -än =ks kohta takas? 
-Olli: Nyt vast alotet -tiin. 
-Hetke -n kuluttuu ne mene -e takas ulos. 
-Tä -l kertaa Luca on rauhallise -mpi. 
-Se laskeutu -u vete -en. 
-Se ei huuda. 
-Luca u -i piene -n ympyrä -n. 
-Se katto -o ympäri -lle =en. 
-Lumi -sii pui -ta. 
-Kuu. 
-Tähde -t. 
-Luca hengittä -ä hitaa -mmin. 
-Sit se kiipe -e ylös. 
-Se otta -a pyyhke -en. 
-Olli anta -a si -lle olue -n. 
-Olli: Tää autta -a. 
-Luca otta -a olue -n. 
-Luca: Mi -hin? 
-Olli: Kaikke -en. 
-Ne seiso -o laituri -lla. 
-Myöhe -mmin ne aja -a koti -in. 
-Auto on lämmin. 
-Luca on tosi rentoutu -nu. 
-Luca melkein nukahta -a. 
-Auto pysähty -y. 
-Luca on koto -na. 
-Luca: Kiitti. 
-Luca: Tää oli outo -o, mut mukava -a. 
-Olli: Huomen -na uudestaan? 
+Лука сто -ит на пристан -и. 
+Он смотр -ит в прорубь. 
+Коллег -и по работ -е прив -езли е -го на Kuusi -yarvi. 
+Лука нервиру -ет =ся. 
+А что если что -то произойд -ёт? 
+А что если он получ -ит гипотермию? 
+С кож -и Лука поднима -ется пар. 
+Он только что выш -ел из саун -ы. 
+Olli спуск -ается вниз по лестниц -е. 
+Он плава -ет мгновени -е и выход -ит обратно. 
+Olli: Вообще не чувству -ется. 
+Emanuel и Sofia заход -ят в вод -у. 
+Sofia: Иди, Luca. 
+Лука колебл -ется. 
+Он смотр -ит на вод -у. 
+Вода чёрн -ая. 
+Наконец Luca начина -ет спуск -аться вниз. 
+Перв -ый шаг. 
+Ног -и мёрзн -ут. 
+Втор -ой шаг. 
+Лука глубоко вдыха -ет. 
+Трет -ий шаг. 
+Luca заход -ит в вод -у. 
+Он крич -ит. 
+Лука сразу разворачива -ется. 
+Он плава -ет обратно к лестниц -е. 
+Он быстро поднима -ется наверх. 
+Luca беж -ит в саун -у. 
+В саун -е темн -о. 
+Полк -и чёрн -ые. 
+В дымов -ой саун -е нет дымоход -а. 
+Дым заход -ит внутрь. 
+Потом е -ё проветрива -ют. 
+Пальц -ы ног Luca покалыва -ет. 
+Всё тел -о покалыва -ет. 
+Luca: Пойд -ём =ли скоро обратно? 
+Olli: Мы только что нач -али. 
+Через мгновени -е они снова выход -ят наружу. 
+В эт -от раз Лука споко -йнее. 
+Он опуска -ется в вод -у. 
+Он не крич -ит. 
+Luca плава -ет мален -кий круг. 
+Он смотр -ит вокруг себ -я. 
+Снежн -ые дерев -я. 
+Луна. 
+Звёзд -ы. 
+Luca д -ышит медленн -ее. 
+Потом он поднима -ется наверх. 
+Он беры -от полотенце. 
+Olli да -ёт е -му пиво. 
+Olli: Это помога -ет. 
+Luca беры -от пиво. 
+Luca: В чём? 
+Olli: Во всём. 
+Они сто -ят на пристан -и. 
+Позже они ед -ут домой. 
+Машина тёпл -ая. 
+Luca действительно расслаб -ился. 
+Luca почти засыпа -ет. 
+Машина останавлива -ется. 
+Luca дома. 
+Luca: Спасибо. 
+Luca: Это был -о странн -о, но приятн -о. 
+Olli: Завтра снова? 
 `;
 
 const createWordArrays = () => {
