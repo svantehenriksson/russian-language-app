@@ -1,63 +1,63 @@
 
 
 const storyFinnish = `
-Luca -lla on kylmä. 
-Luca menee vaate -kauppa =an. 
-Myyjä: Hei! Miten voi -n auttaa? 
-Luca: Minu -lla on kylmä. 
-Myyjä: Suosittel -en pitk -iä kalsar -eita. 
-Luca: Suosittel -et pitk -iä kalsar -eita? 
-Myyjä: Kyllä. Kuten kalsarit, mutta pitkä -t. Ne näyttä -vät leggings -eiltä. 
-Luca: Mies -ten leggingsit. 
-Myyjä: Ja sinu -n takki -si on ohut. Osta talvi -takki. 
-Luca: Missä talvi -taki =t ovat? 
-Myyjä: Suoraan eteenpäin ja vasemma -lle. 
-Luca: Kiitos. 
-Luca löytää musta -n talvi -taki =n. 
-Myyjä: Siinä kaikki? 
-Luca: Siinä kaikki. 
-Myyjä: Osta vielä pipo. 
-Luca: Okei, pipo vielä. 
-Myyjä: Musta vai valkoinen? 
-Luca: Valkoinen. 
-Myyjä: 238 euro -a, kiitos. 
-Luca maksaa korti -lla. 
-Myyjä: Halua -t ==ko kuiti -n? 
-Luca: Kyllä, kiitos. 
-Myyjä: Entä muovi -pussi =n? 
-Luca: En, kiitos. 
-Luca: Kiitos! Hei hei. 
-Myyjä: Kiitos! Moi moi.
+U Luca -y kholodn -o. 
+Luca id -yot v odezhd -magazin. 
+Prodavets: Privet! Kak mog -u pomoch? 
+Luca: U men -ya kholodn -o. 
+Prodavets: Rekomendu -yu dlinn -ye kalson -y. 
+Luca: Rekomendu -esh dlinn -ye kalson -y? 
+Prodavets: Da. Kak kalsony, no dlinn -ye. Oni vyglyad -yat kak leggings -i. 
+Luca: Muzhsk -ie leggings -y. 
+Prodavets: I tvoy kurtk -a tonk -aya. Kupi zimn -yu kurtk -u. 
+Luca: Gde zimn -ie kurtk -i? 
+Prodavets: Pryam -o vperyod i nalev -o. 
+Luca: Spasib -o. 
+Luca nakhod -it chyorn -uyu zimn -yu kurtk -u. 
+Prodavets: Eto vsyo? 
+Luca: Eto vsyo. 
+Prodavets: Kupi yeshchyo shapk -u. 
+Luca: Okei, shapk -u yeshchyo. 
+Prodavets: Chyorn -aya ili bel -aya? 
+Luca: Bel -aya. 
+Prodavets: 238 evro -a, spasib -o. 
+Luca plat -it kart -oy. 
+Prodavets: Khoch -esh ==li chek? 
+Luca: Da, spasib -o. 
+Prodavets: A plastikov -yy paket =odin? 
+Luca: Net, spasib -o. 
+Luca: Spasib -o! Poka poka. 
+Prodavets: Spasib -o! Poka poka.
 `;
 
 const storyFakeEnglish = `
-Luca -with is cold. 
-Luca goes clothing -store -into. 
-Salesperson: Hello! How can -I help? 
-Luca: I -with is cold. 
-Salesperson: Recommend -I long -some underwear -some. 
-Luca: Recommend -you long -some underwear -some? 
-Salesperson: Yes. Like underwear, but long -s. They look -they leggings -like. 
-Luca: Men 's leggings. 
-Salesperson: And you -r jacket -your is thin. Buy winter -coat. 
-Luca: Where winter -coat =s are? 
-Salesperson: Straight ahead and left -onto.
-Luca: Thanks. 
-Luca finds black  -one winter -coat =one. 
-Salesperson: There all? 
-Luca: There all. 
-Salesperson: Buy also beanie. 
-Luca: Okay, beanie also. 
-Salesperson: Black or white? 
-Luca: White. 
-Salesperson: 238 euro -s, thank_you. 
-Luca pays card -with. 
-Salesperson: Want -you ==(question) receipt -one? 
-Luca: Yes, thanks. 
-Salesperson: How_about plastic -bag =one? 
-Luca: No, thanks. 
-Luca: Thanks! Bye bye. 
-Salesperson: Thanks! Bye bye. 
+At Luca -dat cold -ly. 
+Luca go -es to clothing -store. 
+Seller: Hi! How can -I help? 
+Luca: At me -obj cold -ly. 
+Seller: Recommend -I long -ones longjohn -s. 
+Luca: Recommend -you long -ones longjohn -s? 
+Seller: Yes. Like longjohns, but long -ones. They look -they like leggings -s. 
+Luca: Men -'s legging -s. 
+Seller: And your jacke -t thin -is. Buy winte -r jacke -t. 
+Luca: Where winte -r jacke -ts? 
+Seller: Straigh -t ahead and lef -t. 
+Luca: Thank -s. 
+Luca find -s blac -k winte -r jacke -t. 
+Seller: That all? 
+Luca: That all. 
+Seller: Buy also beani -e. 
+Luca: Okay, beani -e also. 
+Seller: Blac -k or whit -e? 
+Luca: Whit -e. 
+Seller: 238 euro -s, thank -you. 
+Luca pay -s car -d. 
+Seller: Wan -t ==Q chek? 
+Luca: Yes, thank -s. 
+Seller: And plasti -c bag =one? 
+Luca: No, thank -s. 
+Luca: Thank -s! Bye bye. 
+Seller: Thank -s! Bye bye. 
 `;
 
 
@@ -92,33 +92,33 @@ Salesperson: Thanks! Bye bye.
 `;
 
 const storySpokenFinnish = `
-Luca -l on kylmä. 
-Luca menee vaate -kauppa =a. 
-Myyjä: Moi! Mite voi -n auttaa? 
-Luca: Mu -l on kylmä. 
-Myyjä: Suosittel -en pitk -ii kalsar -eit. 
-Luca: Suosittel -et pitk -ii kalsar -eit? 
-Myyjä: Joo. Niinku kalsarit mut pitkä -t. Ne näyttä -ä leggingsei -lt. 
-Luca: Mies -ten leggingsit. 
-Myyjä: Ja su -n takki -s on ohut. Osta talvi -takki. 
-Luca: Mis talvi- tak =it on? 
-Myyjä: Suoraa eteenpäin ja vasemma -l. 
-Luca: Kiitti. 
-Luca löytää musta -n talvi -taki =n. 
-Myyjä: Siin kaikki? 
-Luca: Siin kaikki. 
-Myyjä: Osta viel pipo. 
-Luca: Okei, pipo viel. 
-Myyjä: Musta vai valkonen? 
-Luca: Valkonen. 
-Myyjä: 238 euro -o, kiitti. 
-Luca maksaa korti -l. 
-Myyjä: Haluu -t ==sä kuiti -n? 
-Luca: Joo, kiitti. 
-Myyjä: Entä muovi -kassi =n? 
-Luca: En, kiitti. 
-Luca: Kiitos! Hei hei. 
-Myyjä: Kiitos! Moi moi. 
+У Лука -и холодн -о. 
+Лука ид -ёт в одежд -магазин. 
+Продавец: Привет! Как мог -у помочь? 
+Лука: У мен -я холодн -о. 
+Продавец: Рекоменд -ую длинн -ые кальсон -ы. 
+Лука: Рекоменд -уешь длинн -ые кальсон -ы? 
+Продавец: Да. Как кальсоны, но длинн -ые. Они выгляд -ят как леггинс -ы. 
+Лука: Мужск -ие леггинс -ы. 
+Продавец: И твой куртк -а тонк -ая. Купи зимн -юю куртк -у. 
+Лука: Где зимн -ие куртк -и? 
+Продавец: Прям -о вперёд и налев -о. 
+Лука: Спасиб -о. 
+Лука наход -ит чёрн -ую зимн -юю куртк -у. 
+Продавец: Это всё? 
+Лука: Это всё. 
+Продавец: Купи ещё шапк -у. 
+Лука: Окей, шапк -у ещё. 
+Продавец: Чёрн -ая или бел -ая? 
+Лука: Бел -ая. 
+Продавец: 238 евро -а, спасиб -о. 
+Лука плат -ит карт -ой. 
+Продавец: Хоч -ешь ==ли чек? 
+Лука: Да, спасиб -о. 
+Продавец: А пластиков -ый пакет =один? 
+Лука: Нет, спасиб -о. 
+Лука: Спасиб -о! Пока пока. 
+Продавец: Спасиб -о! Пока пока. 
 `;
 
 
