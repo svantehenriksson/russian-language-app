@@ -157,7 +157,8 @@ const Quiz = ({ wordsAndImages }) => {
 
   return (
     <div className="quiz-container">
-      <h2>Mikä sana?</h2>
+      <h2>Kakoye eto slovo?</h2>
+ 
       <img
         src={getImageSrc(current.img)}
         alt={current.fi}

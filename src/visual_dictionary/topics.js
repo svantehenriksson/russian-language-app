@@ -1,6 +1,6 @@
 export const topics = [
     {
-      name: 'Tunteet — Emotions',
+      name: 'Emotsii — Emotions',
       wordsAndImages: [
         { en: 'happy', fi: 'schastlivyy - счастливый', img: 'emotions/happy.png' },
         { en: 'excited', fi: 'vzvolnovannyy - взволнованный', img: 'emotions/excited.png' },
@@ -17,7 +17,7 @@ export const topics = [
       ]
     },
     {
-      name: 'Eläimet — Animals',
+      name: 'Zhivotnye — Animals',
       wordsAndImages: [
         { en: 'bear', fi: 'medved - медведь', img: 'animals/bear.png' },
         { en: 'bee', fi: 'pchela - пчела', img: 'animals/bee.png' },
@@ -44,7 +44,7 @@ export const topics = [
     
     
     {
-      name: 'Ruoka — Food',
+      name: 'Yeda — Food',
       wordsAndImages: [
         { en: 'bread', fi: 'khleb - хлеб', img: 'food/bread.png' },
         { en: 'butter', fi: 'maslo - масло', img: 'food/butter.png' },
@@ -65,7 +65,7 @@ export const topics = [
     },
     
     {
-      name: 'Hedelmät — Fruits',
+      name: 'Frukty — Fruits',
       wordsAndImages: [
         { en: 'apple', fi: 'yabloko - яблоко', img: 'fruits/apple.png' },
         { en: 'banana', fi: 'banan - банан', img: 'fruits/banana.png' },
@@ -90,7 +90,7 @@ export const topics = [
     
     
     {
-      name: 'Kulkuvälineet — Vehicles',
+      name: 'Transport — Vehicles',
       wordsAndImages: [
         { en: 'airplane', fi: 'samolet - самолёт', img: 'vehicles/airplane.png' },
         { en: 'ambulance', fi: 'skoraya pomoshch - скорая помощь', img: 'vehicles/ambulance.png' },
@@ -115,7 +115,7 @@ export const topics = [
     },
     
     {
-      name: 'Koti — Home',
+      name: 'Dom — Home',
       wordsAndImages: [
         { en: 'bathroom', fi: 'vannaya komnata - ванная комната', img: 'home/bathroom.png' },
         { en: 'bed', fi: 'krovat - кровать', img: 'home/bed.png' },
@@ -161,7 +161,7 @@ export const topics = [
     
     
     {
-      name: 'Yleiset verbit — Common Verbs',
+      name: 'Obshchie glagoly — Common Verbs',
       wordsAndImages: [
         { en: 'drink', fi: 'pit - пить', img: 'verbs1/drink.jfif' },
         { en: 'drive', fi: 'vodit - водить', img: 'verbs1/drive.jfif' },
@@ -192,7 +192,7 @@ export const topics = [
     
     
     {
-      name: 'Lisää verbejä — More Verbs',
+      name: 'Yeshchyo glagoly — More Verbs',
       wordsAndImages: [
         { en: 'blow', fi: 'dut - дуть', img: 'verbs2/blow.jfif' },
         { en: 'clean', fi: 'ubirat - убирать', img: 'verbs2/clean.jfif' },
@@ -221,7 +221,7 @@ export const topics = [
     },
     
     {
-      name: 'Adjektiivit — Adjectives',
+      name: 'Prilagatelnye — Adjectives',
       wordsAndImages: [
         { en: 'bad', fi: 'plokhoy - плохой', img: 'adjectives/bad.png' },
         { en: 'big', fi: 'bolshoy - большой', img: 'adjectives/big.png' },
@@ -253,7 +253,7 @@ export const topics = [
     },
     
     {
-      name: 'Vaatteet — Clothing',
+      name: 'Odezhda — Clothing',
       wordsAndImages: [
         { en: 'backpack', fi: 'ryukzak - рюкзак', img: 'clothing/backpack.png' },
         { en: 'belt', fi: 'remen - ремень', img: 'clothing/belt.png' },
@@ -287,7 +287,7 @@ export const topics = [
     },
     
     {
-      name: 'Terveys — Health',
+      name: 'Zdorovye — Health',
       wordsAndImages: [
         { en: 'ambulance', fi: 'skoraya pomoshch - скорая помощь', img: 'health/ambulance.png' },
         { en: 'bacteria', fi: 'bakteriya - бактерия', img: 'health/bacteria.png' },
@@ -312,7 +312,7 @@ export const topics = [
     },
     
     {
-      name: 'Paikat — Places',
+      name: 'Mesta — Places',
       wordsAndImages: [
         { en: 'airport', fi: 'aeroport - аэропорт', img: 'places/airport.png' },
         { en: 'bakery', fi: 'pekarnya - пекарня', img: 'places/bakery.png' },
@@ -346,7 +346,7 @@ export const topics = [
     },
     
     {
-      name: 'Ostokset ja raha — Shopping and Money',
+      name: 'Pokupki i dengi — Shopping and Money',
       wordsAndImages: [
         { en: 'ATM', fi: 'bankomat - банкомат', img: 'shopping_and_money/ATM.png' },
         { en: 'bank', fi: 'bank - банк', img: 'shopping_and_money/bank.png' },
@@ -378,7 +378,7 @@ export const topics = [
       ]
     },
     {
-      name: 'Teknologia — Technology',
+      name: 'Tekhnologiya — Technology',
       wordsAndImages: [
         { en: 'battery', fi: 'batareya - батарея', img: 'technology/battery.png' },
         { en: 'camera', fi: 'kamera - камера', img: 'technology/camera.png' },
@@ -405,7 +405,7 @@ export const topics = [
     },
     
     {
-      name: 'Sää ja luonto — Weather and Nature',
+      name: 'Pogoda i priroda — Weather and Nature',
       wordsAndImages: [
         { en: 'cloud', fi: 'oblako - облако', img: 'weather_and_nature/cloud.png' },
         { en: 'cold', fi: 'kholod - холод', img: 'weather_and_nature/cold.png' },
@@ -436,7 +436,7 @@ export const topics = [
     },
     
     {
-      name: 'Harrastukset — Hobbies',
+      name: 'Khobbi — Hobbies',
       wordsAndImages: [
         { en: 'badminton', fi: 'badminton - бадминтон', img: 'hobbies/badminton.png' },
         { en: 'basketball', fi: 'basketbol - баскетбол', img: 'hobbies/basketball.png' },
@@ -464,7 +464,7 @@ export const topics = [
     
     
     {
-      name: 'Kehon osat — Body Parts',
+      name: 'Chasti tela — Body Parts',
       wordsAndImages: [
         { en: 'ankle', fi: 'shcholotka - щолотка', img: 'body_parts/ankle.png' },
         { en: 'arm', fi: 'ruka - рука', img: 'body_parts/arm.png' },
@@ -494,7 +494,7 @@ export const topics = [
     },
     
     {
-      name: 'Numerot ja aika — Numbers and Time',
+      name: 'Chisla i vremya — Numbers and Time',
       wordsAndImages: [
         { en: 'one', fi: 'odin - один', img: 'numbers_and_time/one.png' },
         { en: 'two', fi: 'dva - два', img: 'numbers_and_time/two.png' },
