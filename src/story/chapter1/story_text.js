@@ -1,46 +1,46 @@
 const storyFinnish = `
-Luca on lentokentä -llä. 
-Luca on väsynyt. 
-Luca juo kahvi -a. 
-Kahvi on kallis -ta. 
-Kahvi on vähän outo -a. 
-Mutta kahvi auttaa. 
-Suomalai -set juo -vat tätä joka päivä? 
-Luca ets -ii bussi -a. 
-Bussi tul -ee. 
-Kuljettaja ei puhu englanti -a. 
-Kuljettaja ei puhu mitään. 
-Luca sanoo: "Hei." 
-Kuljettaja ei sano mitään. 
-Ulkona sataa lun -ta. 
-Paljon lun -ta. 
-On kylmä. 
-Tosi kylmä. 
-Lumi on kaunis -ta. 
-Luca hymyil -ee. 
-Tämä on Suomi.`;
+Luca v aeroport -e. 
+Luca ustal -yy. 
+Luca pyot kofe. 
+Kofe dorog -oy. 
+Kofe nemnog -o strann -yy. 
+No kofe pomoga -et. 
+Finn -y pyut eto kazhd -yy den? 
+Luca ishch -et avtobus. 
+Avtobus prikhod -it. 
+Voditel ne govor -it po-angliysk -i. 
+Voditel ne govor -it nichego. 
+Luca govor -it: "Privet." 
+Voditel ne govor -it nichego. 
+Na ulitse id -yot sneg. 
+Mnogo sneg -a. 
+Kholodn -o. 
+Ochen kholodn -o. 
+Sneg krasiv -yy. 
+Luca ulyba -etsya. 
+Eto Finlyandiya.`;
 
 const storyFakeEnglish = `
-Luca is airport -at. 
-Luca is tired. 
-Luca drinks coffee -some. 
-Coffee is expensive -some. 
-Coffee is a_bit strange -some. 
-But coffee helps. 
-Finn -s(the) drink -they this every day? 
-Luca look -he bus -some. 
-The_bus come -s. 
-Driver not speak English -some. 
-Driver not say anything. 
-Luca says: "Hi." 
-The_driver not say anything. 
-Outside rains snow -some. 
-A_lot_of snow -some. 
-It's cold. 
-Really cold. 
-The_snow is beautiful -some. 
-Luca smile -s. 
-This is Finland.
+Luca in airport -in. 
+Luca tired -is. 
+Luca drink -s coffee. 
+Coffee expensive -is. 
+Coffee a_little -of strange -is. 
+But coffee help -s. 
+Finn -s drink this every -y day? 
+Luca search -s bus. 
+Bus arrive -s. 
+Driver not speak -s English -ly. 
+Driver not speak -s nothing. 
+Luca speak -s: "Hi." 
+Driver not speak -s nothing. 
+On street go -es snow. 
+Many snow -of. 
+Cold -ly. 
+Very cold -ly. 
+Snow beautiful -is. 
+Luca smile -s_self. 
+This Finland.
 `;
 
 const storyEnglish = `
@@ -66,26 +66,26 @@ Luca smiles.
 This is Finland.`;
 
 const storySpokenFinnish = `
-Luca on lentokentä -l. 
-Luca on väsyny. 
-Luca juo kahvi -i. 
-Kahvi on kallis -t. 
-Kahvi on vähän outo -o. 
-Mut kahvi auttaa. 
-Suomalai -set juo - tätä joka päivä?" 
-Luca ett -ii bussi -i. 
-Bussi tul -ee. 
-Kuljettaja ei puhu englanti -i. 
-Kuljettaja ei puhu mitää. 
-Luca sanoo: "Hei." 
-Kuljettaja ei sano mitää. 
-Ulkona sataa lun -ta. 
-Paljon lun -ta. 
-On kylmä. 
-Tosi kylmä. 
-Lumi on kaunis -t. 
-Luca hymyil -ee. 
-Tää on Suomi.`;
+Лука в аэропорт -е. 
+Лука устал -ый. 
+Лука пьёт кофе. 
+Кофе дорог -ой. 
+Кофе немного странн -ый. 
+Но кофе помога -ет. 
+Финн -ы пьют это кажд -ый день? 
+Лука ищ -ет автобус. 
+Автобус приход -ит. 
+Водитель не говор -ит по-английск -и. 
+Водитель не говор -ит ничего. 
+Лука говор -ит: "Привет." 
+Водитель не говор -ит ничего. 
+На улице ид -ёт снег. 
+Много снег -а. 
+Холодн -о. 
+Очень холодн -о. 
+Снег красив -ый. 
+Лука улыба -ется. 
+Это Финляндия.`;
 
 
 const createWordArrays = () => {
