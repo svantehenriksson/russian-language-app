@@ -1,7 +1,11 @@
 # Russian Story Translation Notes (Agent Guide)
 
 ## Scope
-Use these notes when translating chapter stories in `src/story/chapter*/`, especially `story_text.js`.
+Use these notes when translating chapter content in `src/story/chapter*/`, especially:
+- `story_text.js`
+- `grammar.js`
+- `quiz_questions.js`
+- `words_and_start_times.js`
 
 The source baseline is:
 - ready Finnish sentence lines
@@ -35,6 +39,16 @@ Alignment must hold per line and per token/morpheme segment.
 5. Build `storyFakeEnglish` as explicit morpheme-level gloss of `storyFinnish`.
 6. Keep `storyEnglish` natural and line-faithful.
 7. Validate line/token alignment with helper script.
+
+## `quiz_questions.js` Rule (Russian `fi` Field)
+For `src/story/chapter*/quiz_questions.js`:
+- Translate each `fi` value from Finnish to Russian.
+- Store Russian in **Latin first, Cyrillic second**, using this exact format:
+  - `latin - кириллица`
+  - example: `dvernoy zvonok - дверной звонок`
+- A simple direct translation is enough for now.
+- Keep existing `answer` and `options` as they are unless explicitly requested otherwise.
+- No consistency/alignment checks are required for quiz entries at this stage.
 
 ## Grammar Notes Rule (Lean)
 - Keep grammar notes very short.
