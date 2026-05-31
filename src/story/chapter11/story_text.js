@@ -1,64 +1,64 @@
 const storyFinnish = `
-Luca tule -e koti -in. 
-Luca laitta -a ostok -set pöydä -lle. 
-Hän huoma -a, että maito on laktoosi -ton. 
+Luca prikhod -it domoy. 
+Luca kladyot pokupk -i na stol. 
+On zamecha -et, chto molok -o bezlaktozn -oe. 
 
-Luca mietti -i. 
-On -ko laktoosi -ton maito hyvä pannacotta -an. 
-Luca kysy -y teko -äly =ltä. 
-Teko -äly vasta -a: Kyllä, laktoosi -ton maito sopi -i erinomaise -sti pannacotta =an. 
-Luca on helpottu -nut. 
+Luca duma -et. 
+Podkhod -it =li bezlaktozn -oe molok -o dlya panna-kott -y? 
+Luca sprashiva -et u II. 
+II otvecha -et: Da, bezlaktozn -oe molok -o otlichn -o podkhod -it dlya panna-kott -y. 
+Luca oblegchyonn -yy. 
 
-Luca pese -e käde -t. 
-Luca ottaa kulho -n. 
-Hän kaata -a maito -a kulho -on. 
-Hän laitta -a liivate -lehde =t maito -on. 
+Luca moy -et ruk -i. 
+Luca beryot misk -u. 
+On naliva -et molok -o v misk -u. 
+On kladyot list -y zhelatin -a v molok -o. 
 
-Luca ottaa kattila -n kaapi -sta. 
-Luca kaata -a kerma -a kattila -an. 
-Hän kuumenta -a kerma -a. 
-Kerma ei saa kiehu -a. 
-Luca lisä -ä muu -t ainekse -t. 
-Hän sekoitta -a. 
-Hän ottaa nopea -sti kattila -n pois levy -ltä. 
+Luca beryot kastryuly -u iz shkaf -a. 
+Luca naliva -et slivk -i v kastryuly -u. 
+On nagreva -et slivk -i. 
+Slivk -i ne dolzhn -y kipet. 
+Luca dobavlya -et ostaln -ye ingredient -y. 
+On peremeshiva -et. 
+On bystr -o ubira -et kastryuly -u s plit -y. 
 
-Luca ottaa lase -ja kaapi -sta. 
-Hän kaata -a pannacotta -a lasei -hin. 
-Yksi lasi tule -e liian täytee -n. 
-Luca maista -a sii -tä lusika -lla. 
-Ei ehkä yhtä hyvä -ä kuin Italia -ssa. 
-Mutta melkein. 
+Luca beryot stakan -y iz shkaf -a. 
+On naliva -et panna-kott -u v stakan -y. 
+Odin stakan stanov -itsya slishkom poln -ym. 
+Luca probu -et iz ne -go lozhk -oy. 
+Mozhet byt, ne stol khorosh -o, kak v Itali -i. 
+No pochti. 
 `;
 
 const storyFakeEnglish = `
-Luca come -s home -to. 
-Luca put -s purchase -s table -onto. 
-He notice -s, that milk is lactose -free. 
+Luca come -s home. 
+Luca put -s purchase -s table. 
+He notice -s, that milk -o lactosefree -is. 
 
 Luca think -s. 
-Is -? lactose -free milk good panna_cotta -for. 
-Luca ask -s artificial -intelligence =from. 
-Artificial -intelligence answer -s: Yes, lactose -free milk fit -s excellent -ly panna_cotta -for. 
-Luca is relieve -d. 
+Fit -s =Q lactosefree -oe milk -o for panna-cotta -GEN? 
+Luca ask -s from AI. 
+AI answer -s: Yes, lactosefree -oe milk -o excellent -ly fit -s for panna-cotta -GEN. 
+Luca relieve -d. 
 
 Luca wash -es hand -s. 
-Luca takes bowl -a. 
-He pour -s milk -some bowl -into. 
-He put -s gelatin -leaf =s milk -into. 
+Luca take -s bowl. 
+He pour -s milk -o into bowl -OBJ. 
+He put -s sheet -s gelatin -GEN milk -o. 
 
-Luca takes pot -the cupboard -from. 
-Luca pour -s cream -some pot -into. 
-He heat -s cream -some. 
-Cream not may boil -to. 
-Luca add -s other -s ingredient -s. 
+Luca take -s pot -OBJ cupboard -GEN. 
+Luca pour -s cream -PL into pot -OBJ. 
+He heat -s cream -PL. 
+Cream -PL not must -PL boil. 
+Luca add -s remain -ing ingredient -s. 
 He mix -es. 
-He takes quick -ly pot -the away stove -from. 
+He quick -ly remove -s pot -OBJ from stove -GEN. 
 
-Luca takes glass -es cupboard -from. 
-He pour -s panna_cotta -some glasses -into. 
-One glass come -s too full -into. 
-Luca taste -s it -from spoon -with. 
-Not maybe equally good -some than Italy -in. 
+Luca take -s glass -PL cupboard -GEN. 
+He pour -s panna-cotta -OBJ into glass -PL. 
+One glass become -s too full -INS. 
+Luca tast -es from it -GEN spoon -INS. 
+Maybe be, not so good -ly, as in Italy -LOC. 
 But almost. 
 `;
 
@@ -95,35 +95,35 @@ But almost.
 `;
 
 const storySpokenFinnish = `
-Luca tule -e koti -in. 
-Luca laitta -a ostok -set pöydä -lle. 
-Se huoma -a, et maito on laktoosi -ton. 
+Лука приход -ит домой. 
+Лука кладёт покупк -и на стол. 
+Он замеча -ет, что молок -о безлактозн -ое. 
 
-Luca mietti -i. 
-On -ks laktoosi -ton maito hyvä pannacotta -an. 
-Luca kysy -y teko -äly =lt. 
-Teko -äly vasta -a: Joo, laktoosi -ton maito sopi -i erinomas -esti pannacotta =an. 
-Luca on helpottu -nu. 
+Лука дума -ет. 
+Подход -ит =ли безлактозн -ое молок -о для панна-котт -ы? 
+Лука спрашива -ет у ИИ. 
+ИИ отвеча -ет: Да, безлактозн -ое молок -о отличн -о подход -ит для панна-котт -ы. 
+Лука облегчённ -ый. 
 
-Luca pese -e käde -t. 
-Luca ottaa kulho -n. 
-Se kaata -a maito -o kulho -on. 
-Se laitta -a liivate -lehde =t maito -on. 
+Лука мо -ет рук -и. 
+Лука берёт миск -у. 
+Он налива -ет молок -о в миск -у. 
+Он кладёт лист -ы желатин -а в молок -о. 
 
-Luca ottaa kattila -n kaapi -st. 
-Luca kaata -a kerma -a kattila -an. 
-Se kuumenta -a kerma -a. 
-Kerma ei saa kiehu -u. 
-Luca lisä -ä muu -t ainekse -t. 
-Se sekotta -a. 
-Se ottaa nopee -sti kattila -n pois levy -lt. 
+Лука берёт кастрюл -ю из шкаф -а. 
+Лука налива -ет сливк -и в кастрюл -ю. 
+Он нагрева -ет сливк -и. 
+Сливк -и не должн -ы кипеть. 
+Лука добавля -ет остальн -ые ингредиент -ы. 
+Он перемешива -ет. 
+Он быстр -о убира -ет кастрюл -ю с плит -ы. 
 
-Luca ottaa lase -i kaapi -st. 
-Se kaata -a pannacotta -a lasei -hin. 
-Yks lasi tule -e liian täytee -n. 
-Luca maista -a sii -t lusika -l. 
-Ei ehkä yht hyvä -ä ku Italia -s. 
-Mut melkein. 
+Лука берёт стакан -ы из шкаф -а. 
+Он налива -ет панна-котт -у в стакан -ы. 
+Один стакан станов -ится слишком полн -ым. 
+Лука пробу -ет из не -го ложк -ой. 
+Может быть, не столь хорош -о, как в Итали -и. 
+Но почти. 
 `;
 
 const createWordArrays = () => {
@@ -141,4 +141,3 @@ const createWordArrays = () => {
 };
 
 export const { highlightWords, highlightWords2, highlightWords3, highlightWords4 } = createWordArrays();
-

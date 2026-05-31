@@ -1,113 +1,113 @@
 const storyFinnish = `
-Luca soitta -a ovi -kello =a. 
-Emanuel avaa ove -n. 
-Emanuel: Tervetuloa! 
-Luca: Kiitos, tosi mukava -a, että kutsu -i =t. 
-Sofia tule -e eteis -een. 
-Sofia on myös Lucan ja Emanuelin työ -kaveri. 
-Ja Emanuelin tyttö -ystävä. 
-Sofia: Hei Luca. 
-Luca: Hei. 
-Luca anta -a jälki -ruoa =n. 
-He mene -vät pöytä -än. 
-Pöydä -llä on keitto -a ja leipä -ä. 
-Pöydä -ssä istu -u myös neljäs työ -kaveri Olli. 
-Luca ja Olli kättele -vät. 
-Olli: Jarno kerto -i, että sinä et pelän -nyt jää -tä. 
-Luca: Pelkäsi -n vähän. 
-Olli: Hyvä. 
-Emanuel: Olli vie me -idät joskus Lappi -in. 
-Olli kohautta -a olkapä -i =tä -än. 
-Olli: Lapi -ssa on ainoa oikea luonto. 
-Luca: Oli -si hieno -a käydä sie -llä. 
-Sofia: Syö -dään ennen kuin keitto jäähty -y. 
-Emanuel nosta -a viini -lasi =n. 
-Emanuel: Tervetuloa Luca, ja onnittelu -t ensimmäise -stä projekti -sta! 
-Kaikki nosta -vat viini -lasi =t. 
-Sofia: Miksi muut -i =t Suome -en? 
-Luca: Äiti -ni on suoma -lainen. 
-Luca: Käv -i =n täällä lapse -na. 
-Luca: Halu -si =n kokeilla, millais -ta täällä on. 
-Emanuel kaata -a lisää viini -ä. 
-Luca: Entä te, olet -te =ko aina asu -neet täällä? 
-Sofia: Emanuel on asu -nut täällä 10 vuotta. 
-Emanuel: Ihan pian totu -n talve -en. Ehkä. 
-Ilta etene -e rauhallise -sti. 
-He puhu -vat työ -stä ja talve -sta. 
-Ruoka loppu -u. 
-Sofia hake -e jälki -ruoa =n. 
-Kaikki maista -vat. 
-Luca katso -o pöytä -ä. 
-Hän katso -o mui -ta. 
-Hetke -n on hiljais -ta. 
-Sofia: Todella hyvä -ä. 
-Emanuel: Sinu -n pitää tehdä tätä uudestaan. 
-Olli nyökkä -ä hyväksyvä -sti. 
-Luca hymyile -e. 
-Ulko -na on pimeä -ä. 
-On jo myöhä. 
-Luca laitta -a taki -n pää -lle. 
-Luca: Kiitos, oli tosi mukava -a. 
-Sofia: Näh -dään töi -ssä. 
-Emanuel: Ja ehkä sauna -ssa. 
-Luca kävele -e koti -in. 
-Lumi -hiutalee =t tippu -vat hitaa -sti. 
+Luca zvon -it v dver -noy zvonok. 
+Emanuel otkryva -et dver. 
+Emanuel: Dobro pozhalovat! 
+Luca: Spasibo, ochen priyatn -o, chto priglas -i =l. 
+Sofia podkhod -it v prikhozh -uyu. 
+Sofia tozhe kolleg -a Luca -y i Emanuel -ya. 
+I devushk -a Emanuel -ya. 
+Sofia: Privet Luca. 
+Luca: Privet. 
+Luca pereda -yot dessert. 
+Oni id -ut k stol -u. 
+Na stol -e sup i khleb. 
+Za stol -om sid -it tozhe chetvyort -yy kolleg -a Olli. 
+Luca i Olli zdorova -yutsya za ruk -u. 
+Olli: Jarno skaza -l, chto ty ne boya -lsya lyod -a. 
+Luca: Boyal -sya nemnogo. 
+Olli: Khorosh -o. 
+Emanuel: Olli inogda vezyot n -as v Lappi -yu. 
+Olli pozhima -et plech -am =i. 
+Olli: V Lappi -i yedin -stvenn -aya nastoyashch -aya prirod -a. 
+Luca: Byl -o by zdorov -o syezdit tuda. 
+Sofia: Dava -yte poyed -im, poka sup ne ost -yl. 
+Emanuel podnima -et vin -nyy bokal. 
+Emanuel: Dobro pozhalovat, Luca, i pozdravleni -ya s perv -ym proekt -om! 
+Vse podnima -yut vin -nye bokal -y. 
+Sofia: Pochemu pereeha -l =li ty v Finlyandi -yu? 
+Luca: Mo -ya mama fin -ka. 
+Luca: Ya pryekha -l syuda rebyonk -om. 
+Luca: Ya khotel prover -it, kak zdes. 
+Emanuel naliva -et yeshchyo vin -a. 
+Luca: A vy, vy vsegda zdes zh -ili? 
+Sofia: Emanuel zh -iv -yot zdes desyat let. 
+Emanuel: Ya skoro privykn -u k zim -e. Mozhet byt. 
+Vecher prokhod -it spokoyn -o. 
+Oni govori -at o rabot -e i o zim -e. 
+Yed -a zakanchiva -etsya. 
+Sofia prinos -it dessert. 
+Vse probu -yut. 
+Luca smotr -it na stol. 
+On smotr -it na drug -ikh. 
+Mgnoveni -e tikh -o. 
+Sofia: Ochen vkusn -o. 
+Emanuel: Teb -e nado sdelat eto snova. 
+Olli kiv -ayet odobritel -no. 
+Luca ulyba -etsya. 
+Na ulits -e temn -o. 
+Uzhe pozdn -o. 
+Luca nadeva -et palt -o. 
+Luca: Spasibo, byl -o ochen priyatn -o. 
+Sofia: Uvid -imsya na rabot -e. 
+Emanuel: I mozhet byt v saun -e. 
+Luca id -yot domoy. 
+Snezh -nye khlopy -a pada -yut medlenn -o. 
 `;
 
 const storyFakeEnglish = `
-Luca ring -s door -bell -some. 
-Emanuel opens door -the. 
-Emanuel: Welcome! 
-Luca: Thanks, really nice -some, that invite -d -you. 
-Sofia come -s entryway -into. 
-Sofia is also Luca's and Emanuel's work -buddy. 
-And Emanuel's girl -friend. 
+Luca ring -s in door -ADJ bell. 
+Emanuel open -s door. 
+Emanuel: Welcome all! 
+Luca: Thanks, very pleasant -ly, that invite -PAST =you. 
+Sofia come -s into hallway -OBJ. 
+Sofia also coworker -SUBJ Luca -GEN and Emanuel -GEN. 
+And girlfriend -SUBJ Emanuel -GEN. 
 Sofia: Hi Luca. 
 Luca: Hi. 
-Luca give -s after -food -the. 
-They go -they table -to. 
-Table -on is soup -some and bread -some. 
-Table -at sit -s also fourth work -buddy Olli. 
-Luca and Olli shake_hands -they. 
-Olli: Jarno tell -ed, that you not fear -ed ice -some. 
-Luca: I_feared -I a_little. 
-Olli: Good. 
-Emanuel: Olli takes we -us sometime Lapland -to. 
-Olli shrug -s shoulder -s -some -his. 
-Olli: Lapland -in is only real nature. 
-Luca: Be -would nice -some visit there -at. 
-Sofia: Eat -let_us before than soup cool -s. 
-Emanuel raise -s wine -glass -the. 
-Emanuel: Welcome Luca, and congratulation -s first -from project -from! 
-Everyone raise -they wine -glass -es. 
-Sofia: Why move -d -you Finland -to? 
-Luca: Mother -my is Finn -ish. 
-Luca: Go -did -I here as_child -as. 
-Luca: Want -ed -I try, what_kind -some here is. 
-Emanuel pour -s more wine -some. 
-Luca: What_about you_all, are -you_all -? always live -d here? 
-Sofia: Emanuel has live -d here 10 years. 
-Emanuel: Quite soon get_used -I winter -to. Maybe. 
-Evening proceed -s calm -ly. 
-They speak -they work -about and winter -about. 
-Food end -s. 
-Sofia fetch -es after -food -the. 
-Everyone taste -they. 
-Luca look -s table -some. 
-He look -s others -some. 
-Moment -one is quiet -some. 
-Sofia: Really good -some. 
-Emanuel: You -'s must do this again. 
+Luca give -s dessert. 
+They go -PL to table -OBJ. 
+On table -LOC soup and bread. 
+Behind table -INS sit -s also fourth -ADJ coworker -SUBJ Olli. 
+Luca and Olli greet -PL by hand -OBJ. 
+Olli: Jarno say -PAST, that you not fear -PAST ice -GEN. 
+Luca: Fear -PAST a_little. 
+Olli: Good -ly. 
+Emanuel: Olli sometimes take us -OBJ to Lapland -OBJ. 
+Olli shrug -s shoulder -DAT =PL. 
+Olli: In Lapland -LOC only -ADJ -ADJ real -ADJ nature -SUBJ. 
+Luca: Be -PAST would great -ly go_there there. 
+Sofia: Let -PL eat -PL, while soup not cool -PAST. 
+Emanuel raise -s wine -ADJ glass. 
+Emanuel: Welcome, Luca, and congratulation -PL with your first -INS project -INS! 
+All raise -PL wine -ADJ glass -PL. 
+Sofia: Why move -PAST =Q you to Finland -OBJ? 
+Luca: My -F mother Finn -F. 
+Luca: I arrive -PAST here child -INS. 
+Luca: I wanted check -INF, how here. 
+Emanuel pour -s more wine -GEN. 
+Luca: And you, you always here live -PAST? 
+Sofia: Emanuel live -PRES -s here ten years. 
+Emanuel: I soon get_used -FUT to winter -DAT. Maybe be. 
+Evening pass -s calm -ly. 
+They speak -PL about work -LOC and about winter -LOC. 
+Food end -REFL itself. 
+Sofia bring -s dessert. 
+All taste -PL. 
+Luca look -s at table. 
+He look -s at other -PL. 
+Moment -SUBJ quiet -STATE. 
+Sofia: Very tasty -STATE. 
+Emanuel: You -DAT need make this again. 
 Olli nod -s approving -ly. 
-Luca smile -s. 
-Outside -at is dark -some. 
-Is already late. 
-Luca put -s coat -the on -to. 
-Luca: Thanks, was really nice -some. 
-Sofia: See -will_be at_work -in. 
-Emanuel: And maybe sauna -in. 
-Luca walk -s home -to. 
-Snow -flake -s fall -they slow -ly. 
+Luca smile -REFL. 
+On street -LOC dark -STATE. 
+Already late -STATE. 
+Luca put_on -s coat -OBJ. 
+Luca: Thanks, be -PAST very pleasant -ly. 
+Sofia: See -FUTPL at work -LOC. 
+Emanuel: And maybe be in sauna -LOC. 
+Luca go -PRES home. 
+Snow -ADJ flake -PL fall -PL slow -ly. 
 `;
 
 const storyEnglish = `
@@ -167,59 +167,59 @@ Snowflakes fall slowly.
 `;
 
 const storySpokenFinnish = `
-Luca soitta -a ovi -kello =o. 
-Emanuel avaa ove -n. 
-Emanuel: Tervetuloo! 
-Luca: Kiitti, tosi mukava -a, et kutsu -i =t. 
-Sofia tule -e eteis -een. 
-Sofia on kans Lucan ja Emanuelin työ -kaveri. 
-Ja Emanuelin tyttö -ystävä. 
-Sofia: Hei Luca. 
-Luca: Hei. 
-Luca anta -a jälki -ruoa =n. 
-Ne mene -e pöytä -än. 
-Pöydä -l on keitto -o ja leipä -ä. 
-Pöydä -s istu -u kans neljäs työ -kaveri Olli. 
-Luca ja Olli kättele -e. 
-Olli: Jarno kert -o, et sä et pelän -ny jää -tä. 
-Luca: Pelkäsi -n vähän. 
-Olli: Hyvä. 
-Emanuel: Olli vie me -iät joskus Lappi -in. 
-Olli kohautta -a olkapä -i =tä -än. 
-Olli: Lapi -s on ainoo oikee luonto. 
-Luca: Oli -s hieno -o käydä sie -l. 
-Sofia: Syö -dään ennen ku keitto jäähty -y. 
-Emanuel nosta -a viini -lasi =n. 
-Emanuel: Tervetuloo Luca, ja onnittelu -t eka -st projekti -st! 
-Kaikki nosta -a viini -lasi =t. 
-Sofia: Miks muut -i =t Suome -en? 
-Luca: Mun -äiti on suoma -lainen. 
-Luca: Käv -i =n tääl lapse -na. 
-Luca: Halu -si =n kokeilla, millas -ta tääl on. 
-Emanuel kaata -a lisää viini -i. 
-Luca: Entä te, oo -te =ko aina asu -nu tääl? 
-Sofia: Emanuel on asu -nu tääl kymmenen vuotta. 
-Emanuel: Ihan koht totu -n talve -en. Ehkä. 
-Ilta etene -e rauhallise -sti. 
-Ne puhu -u työ -st ja talve -st. 
-Ruoka loppu -u. 
-Sofia hake -e jälki -ruoa =n. 
-Kaikki maista -a. 
-Luca katto -o pöytä -ä. 
-Se katto -o mui -ta. 
-Hetke -n on hiljas -ta. 
-Sofia: Tosi hyvä -ä. 
-Emanuel: Su -n pitää tehä tätä uudestaan. 
-Olli nyökkä -ä hyväksyvä -sti. 
-Luca hymyile -e. 
-Ulko -na on pimee -tä. 
-On jo myöhä. 
-Luca laitta -a taki -n pää -lle. 
-Luca: Kiitti, oli tosi mukava -a. 
-Sofia: Näh -ään töi -ssä. 
-Emanuel: Ja ehkä sauna -s. 
-Luca kävele -e koti -in. 
-Lumi -hiutalee =t tippu -u hitaa -sti. 
+Лука звон -ит в двер -ной звонок. 
+Эмануэль открыва -ет дверь. 
+Эмануэль: Добро пожаловать! 
+Лука: Спасибо, очень приятн -о, что приглас -и =л. 
+София подход -ит в прихож -ую. 
+София тоже коллег -а Лука -ы и Эмануэл -я. 
+И девушк -а Эмануэл -я. 
+София: Привет Лука. 
+Лука: Привет. 
+Лука переда -ёт десерт. 
+Они ид -ут к стол -у. 
+На стол -е суп и хлеб. 
+За стол -ом сид -ит тоже четвёрт -ый коллег -а Олли. 
+Лука и Олли здорова -ются за рук -у. 
+Олли: Ярно сказа -л, что ты не боя -лся лёд -а. 
+Лука: Боял -ся немного. 
+Олли: Хорош -о. 
+Эмануэль: Олли иногда везёт н -ас в Лаппи -ю. 
+Олли пожима -ет плеч -ам =и. 
+Олли: В Лаппи -и един -ственн -ая настоящ -ая природ -а. 
+Лука: Был -о бы здоров -о съездить туда. 
+София: Дава -йте поед -им, пока суп не ост -ыл. 
+Эмануэль поднима -ет вин -ный бокал. 
+Эмануэль: Добро пожаловать, Лука, и поздравлени -я с перв -ым проект -ом! 
+Все поднима -ют вин -ные бокал -ы. 
+София: Почему перееха -л =ли ты в Финлянди -ю? 
+Лука: Мо -я мама фин -ка. 
+Лука: Я приеха -л сюда ребёнк -ом. 
+Лука: Я хотел провер -ить, как здесь. 
+Эмануэль налива -ет ещё вин -а. 
+Лука: А вы, вы всегда здесь ж -или? 
+София: Эмануэль ж -ив -ёт здесь десять лет. 
+Эмануэль: Я скоро привыкн -у к зим -е. Может быть. 
+Вечер проход -ит спокойн -о. 
+Они говори -ат о работ -е и о зим -е. 
+Ед -а заканчива -ется. 
+София принос -ит десерт. 
+Все пробу -ют. 
+Лука смотр -ит на стол. 
+Он смотр -ит на друг -их. 
+Мгновени -е тих -о. 
+София: Очень вкусн -о. 
+Эмануэль: Теб -е надо сделать это снова. 
+Олли кив -ает одобрител -но. 
+Лука улыба -ется. 
+На улиц -е темн -о. 
+Уже поздн -о. 
+Лука надева -ет пальт -о. 
+Лука: Спасибо, был -о очень приятн -о. 
+София: Увид -имся на работ -е. 
+Эмануэль: И может быть в саун -е. 
+Лука ид -ёт домой. 
+Снеж -ные хлопь -я пада -ют медленн -о. 
 `;
 
 const createWordArrays = () => {
