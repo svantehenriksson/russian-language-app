@@ -1,42 +1,42 @@
 
 const storyFinnish = `
-Luca menee hissi -in. 
-Hissi -ssä on nainen. 
-Nainen seiso -o hiljaa. 
-Luca seiso -o myös hiljaa. 
-Luca katso -o nais -ta. 
-Nainen katso -o Luca -a. 
-Luca sano -o: "Hei." 
-Nainen sano -o: "Moi." 
-Nainen hymyil -ee. 
-Luca hymyil -ee myös. 
-Luca kysy -y: "Mikä sinu -n nime -si on?" 
-Nainen sano -o: "Aino." 
-Luca: "Minu -n nime -ni on Luca." 
-Luca: "Asu -n toise -ssa kerrokse -ssa." 
-Aino: "Asu -n yläkerra -ssa =si." 
-Hissi pysähty -y. 
+Luca id -yot v lift. 
+V lift -e zhenshchina. 
+Zhenshchina stoy -it tikh -o. 
+Luca stoy -it tozhe tikh -o. 
+Luca smotr -it na zhenshchin -u. 
+Zhenshchina smotr -it na Luca -u. 
+Luca govor -it: "Privet." 
+Zhenshchina govor -it: "Privet." 
+Zhenshchina ulyba -etsya. 
+Luca ulyba -etsya tozhe. 
+Luca sprashiva -et: "Kak teb -ya zov -ut?" 
+Zhenshchina govor -it: "Aino." 
+Luca: "Men -ya zov -ut Luca." 
+Luca: "Ya zhiv -u na vtor -om etazh -e." 
+Aino: "Ya zhiv -u etazh -om vysh -e teb -ya." 
+Lift ostanavliva -etsya. 
 Ding! 
-Luca astu -u ulos.`;
+Luca vykhod -it naruzhu.`;
 
 
 const storyFakeEnglish = `
-Luca goes elevator -into. 
-Elevator -in is woman. 
-Woman stand -s silently. 
-Luca stand -s also silently. 
-Luca look -s woman -at. 
-Woman look -s Luca -at. 
-Luca say -s: "Hello." 
+Luca go -es in elevator. 
+In elevator -in woman. 
+Woman stand -s quiet -ly. 
+Luca stand -s also quiet -ly. 
+Luca look -s at woman -obj. 
+Woman look -s at Luca -obj. 
+Luca say -s: "Hi." 
 Woman say -s: "Hi." 
-Woman smile -s. 
-Luca smile -s also. 
-Luca ask -s: "What your 's name -yours is?" 
+Woman smile -s_self. 
+Luca smile -s_self also. 
+Luca ask -s: "How you -obj call -they?" 
 Woman say -s: "Aino." 
-Luca: "I 's name -my is Luca." 
-Luca: "Live -I second -in floor -in". 
-Aino: "Live -I upstairs -in -yours." 
-Elevator stop -s. 
+Luca: "Me -obj call -they Luca." 
+Luca: "I live -1sg on second -in floor -in." 
+Aino: "I live -1sg floor -ins higher -comp you -obj." 
+Elevator stop -s_self. 
 Ding! 
 Luca step -s out. 
 `;
@@ -63,24 +63,24 @@ Ding!
 Luca steps out.`;
 
 const storySpokenFinnish = `
-Luca menee hissi -i. 
-Hissi -s on nainen. 
-Nainen seiso -o hiljaa. 
-Luca seiso -o kans hiljaa. 
-Luca katto -o nais -ta. 
-Nainen katto -o Luca -a. 
-Luca sano -o: "Hei." 
-Nainen sano -o: "Moi." 
-Nainen hymyil -ee. 
-Luca hymyil -ee kans. 
-Luca kysy -y: "Mikä su -n nime -s on?" 
-Nainen sano -o: "Aino." 
-Luca: "Mu -n nimi - on Luca." 
-Luca: "Asu -n toka -s kerrokse -s." 
-Aino: "Asu -n yläkerra -ssa -s." 
-Hissi pysähty -y. 
+Лука ид -ёт в лифт. 
+В лифт -е женщина. 
+Женщина сто -ит тих -о. 
+Лука сто -ит тоже тих -о. 
+Лука смотр -ит на женщин -у. 
+Женщина смотр -ит на Лука -у. 
+Лука говор -ит: "Привет." 
+Женщина говор -ит: "Привет." 
+Женщина улыба -ется. 
+Лука улыба -ется тоже. 
+Лука спрашива -ет: "Как теб -я зов -ут?" 
+Женщина говор -ит: "Аино." 
+Лука: "Мен -я зов -ут Лука." 
+Лука: "Я жив -у на втор -ом этаж -е." 
+Аино: "Я жив -у этаж -ом выш -е теб -я." 
+Лифт останавлива -ется. 
 Ding! 
-Luca astu -u ulos.`;
+Лука выход -ит наружу.`;
 
 
 const createWordArrays = () => {
