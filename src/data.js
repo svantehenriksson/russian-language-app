@@ -12,2189 +12,2189 @@
 // Also scan for duplicates later
 export const wordPairs = [
   {
-    finnish: 'olla',
+    finnish: 'byt - быть',
     english: 'to be',
-    exampleFI: 'Tämä voi olla vaikeaa.',
+    exampleFI: 'Это может быть трудно.',
     exampleEN: 'This can be difficult.',
     audio: 'olla.mp3'
   },
   {
-    finnish: 'ei',
+    finnish: 'net - нет',
     english: 'no / not',
-    exampleFI: 'Tom ei puhu suomea.',
+    exampleFI: 'Том не говорит по-фински.',
     exampleEN: 'Tom does not speak Finnish.',
     audio: 'ei.mp3'
   },
   {
-    finnish: 'ja',
+    finnish: 'i - и',
     english: 'and',
-    exampleFI: 'Kahvi ja hiljaisuus, kiitos.',
+    exampleFI: 'Кофе и тишина, пожалуйста.',
     exampleEN: 'Coffee and silence, please.',
     audio: 'ja.mp3'
   },
   {
-    finnish: 'se',
+    finnish: 'eto - это',
     english: 'it',
-    exampleFI: 'Se on poro, ei koira.',
+    exampleFI: 'Это олень, а не собака.',
     exampleEN: 'It is a reindeer, not a dog.',
     audio: 'se.mp3'
   },
   {
-    finnish: 'hän',
+    finnish: 'on / ona - он / она',
     english: 'he / she',
-    exampleFI: 'Hän saunoo joka päivä.',
+    exampleFI: 'Он(а) ходит в сауну каждый день.',
     exampleEN: 'He/She takes a sauna every day.',
     audio: 'hän.mp3'
   },
   {
-    finnish: 'mikä',
+    finnish: 'chto - что',
     english: 'what / which / what kind',
-    exampleFI: 'Mikä tämä ruoka on?',
+    exampleFI: 'Что это за еда?',
     exampleEN: 'What is this food?',
     audio: 'mikä.mp3'
   },
   {
-    finnish: 'että',
+    finnish: 'chto - что',
     english: 'that',
-    exampleFI: 'Sanoin, että olen väsynyt.',
+    exampleFI: 'Я сказал, что я устал.',
     exampleEN: 'I said that I’m tired.',
     audio: 'että.mp3'
   },
   {
-    finnish: 'niin',
+    finnish: 'tak - так',
     english: 'so',
-    exampleFI: 'Niin kylmä, että nenä jäätyy.',
+    exampleFI: 'Так холодно, что нос замерзает.',
     exampleEN: 'So cold that your nose freezes.',
     audio: 'niin.mp3'
   },
   {
-    finnish: 'mutta',
+    finnish: 'no - но',
     english: 'but',
-    exampleFI: 'Haluan jäätelöä, mutta on -20°C.',
+    exampleFI: 'Я хочу мороженое, но на улице -20°C.',
     exampleEN: 'I want ice cream, but it’s -20°C.',
     audio: 'mutta.mp3'
   },
   {
-    finnish: 'vain',
+    finnish: 'tolko - только',
     english: 'only / just',
-    exampleFI: 'Vain yksi kahvi päivässä?',
+    exampleFI: 'Только один кофе в день?',
     exampleEN: 'Only one coffee per day?',
     audio: 'vain.mp3'
   },
   {
-    finnish: 'minä',
+    finnish: 'ya - я',
     english: 'I',
-    exampleFI: 'Minä pidän auringosta.',
+    exampleFI: 'Мне нравится солнце.',
     exampleEN: 'I like the sun.',
     audio: 'minä.mp3'
   },
   {
-    finnish: 'jos',
+    finnish: 'yesli - если',
     english: 'if',
-    exampleFI: 'Jos oppisin suomea, saisin ehkä pullaa.',
+    exampleFI: 'Если бы я выучил финский, я бы, может быть, получил булочку.',
     exampleEN: 'If I learned Finnish, I might get cinnamon buns.',
     audio: 'jos.mp3'
   },
   {
-    finnish: 'tämä',
+    finnish: 'eto - это',
     english: 'this',
-    exampleFI: 'Tämä talvi ei lopu koskaan.',
+    exampleFI: 'Эта зима никогда не заканчивается.',
     exampleEN: 'This winter never ends.',
     audio: 'tämä.mp3'
   },
   {
-    finnish: 'nyt',
+    finnish: 'seychas - сейчас',
     english: 'now',
-    exampleFI: 'Nyt on hyvä aika opetella suomea.',
+    exampleFI: 'Сейчас хорошее время учить финский.',
     exampleEN: 'Now is a good time to learn Finnish.',
     audio: 'nyt.mp3'
   },
   {
-    finnish: 'voida',
+    finnish: 'moch - мочь',
     english: 'can / to be able to',
-    exampleFI: 'Voinko mennä kotiin?',
+    exampleFI: 'Могу я пойти домой?',
     exampleEN: 'Can I go home?',
     audio: 'voida.mp3'
   },
   {
-    finnish: 'sinä',
+    finnish: 'ty - ты',
     english: 'you',
-    exampleFI: 'Sinä selvisit talvesta!',
+    exampleFI: 'Ты пережил зиму!',
     exampleEN: 'You survived the winter!',
     audio: 'sinä.mp3'
   },
   {
-    finnish: 'kun',
+    finnish: 'kogda - когда',
     english: 'when',
-    exampleFI: 'Kun sataa lunta, suomalainen hymyilee.',
+    exampleFI: 'Когда идет снег, финн улыбается.',
     exampleEN: 'When it snows, the Finn smiles.',
     audio: 'kun.mp3'
   },
   {
-    finnish: 'kuin',
+    finnish: 'chem - чем',
     english: 'than / as',
-    exampleFI: 'Hiljaisempi kuin suomalainen hississä.',
+    exampleFI: 'Тише, чем финн в лифте.',
     exampleEN: 'Quieter than a Finn in an elevator.',
     audio: 'kuin.mp3'
   },
   {
-    finnish: 'täällä',
+    finnish: 'zdes - здесь',
     english: 'here',
-    exampleFI: 'Täällä ei ole kiire, eikä aurinkoa.',
+    exampleFI: 'Здесь нет спешки и нет солнца.',
     exampleEN: 'There’s no rush here, and no sun.',
     audio: 'täällä.mp3'
   },
   {
-    finnish: 'kaikki',
+    finnish: 'vse - все',
     english: 'all / everyone',
-    exampleFI: 'Kaikki rakastavat lyhyttä kesää.',
+    exampleFI: 'Все любят короткое лето.',
     exampleEN: 'Everyone loves the short summer.',
     audio: 'kaikki.mp3'
   },
   {
-    finnish: 'hyvä',
+    finnish: 'khoroshiy - хороший',
     english: 'good',
-    exampleFI: 'Villasukat kesälläkin on hyvä idea.',
+    exampleFI: 'Шерстяные носки даже летом - хорошая идея.',
     exampleEN: 'Wool socks even in summer are a good idea.',
     audio: 'hyvä.mp3'
   },
   {
-    finnish: 'sitten',
+    finnish: 'potom - потом',
     english: 'then / after that',
-    exampleFI: 'Söin mämmiä. Sitten hymyilin.',
+    exampleFI: 'Я ел мямми. Потом я улыбался.',
     exampleEN: 'I ate mämmi. Then I smiled.',
     audio: 'sitten.mp3'
   },
   {
-    finnish: 'miksi',
+    finnish: 'pochemu - почему',
     english: 'why',
-    exampleFI: 'Miksi kukaan ei puhu hississä?',
+    exampleFI: 'Почему никто не разговаривает в лифте?',
     exampleEN: 'Why does no one talk in the elevator?',
     audio: 'miksi.mp3'
   },
   {
-    finnish: 'miten',
+    finnish: 'kak - как',
     english: 'how',
-    exampleFI: 'Miten ihmiset oppivat suomea?',
+    exampleFI: 'Как люди учат финский?',
     exampleEN: 'How do people learn Finnish?',
     audio: 'miten.mp3'
   },
   {
-    finnish: 'mikään',
+    finnish: 'chto-libo / nichto - что-либо / ничто',
     english: 'anything / nothing',
-    exampleFI: 'Mikään ei auta, on maanantai.',
+    exampleFI: 'Ничто не помогает, сегодня понедельник.',
     exampleEN: 'Nothing helps, it’s Monday.',
     audio: 'mikään.mp3'
   },
 
 
 {
-  finnish: 'kyllä',
+  finnish: 'da - да',
   english: 'yes',
-  exampleFI: 'Kyllä, sataa taas lunta.',
+  exampleFI: 'Да, опять идет снег.',
   exampleEN: 'Yes, it’s snowing again.',
   audio: 'kyllä.mp3'
 },
 {
-  finnish: 'kiitos',
+  finnish: 'spasibo - спасибо',
   english: 'thank you',
-  exampleFI: 'Kiitos hiljaisuudesta.',
+  exampleFI: 'Спасибо за тишину.',
   exampleEN: 'Thank you for the silence.',
   audio: 'kiitos.mp3'
 },
 {
-  finnish: 'hei',
+  finnish: 'privet - привет',
   english: 'hello',
-  exampleFI: 'Hei, puhutko suomea?',
+  exampleFI: 'Привет, ты говоришь по-фински?',
   exampleEN: 'Hello, do you speak Finnish?',
   audio: 'hei.mp3'
 },
 {
-  finnish: 'kanssa',
+  finnish: 's - с',
   english: 'with',
-  exampleFI: 'Tulitko bussilla muiden kanssa?',
+  exampleFI: 'Ты приехал на автобусе с остальными?',
   exampleEN: 'Did you come by bus with the others?',
   audio: 'kanssa.mp3'
 },
 {
-  finnish: 'pitää',
+  finnish: 'nravitsya - нравиться',
   english: 'to like / to keep',
-  exampleFI: 'Pitävätkö suomalaiset todella salmiakista?',
+  exampleFI: 'Финны действительно любят салмиак?',
   exampleEN: 'Do Finns really like salty licorice?',
   audio: 'pitää.mp3'
 },
 {
-  finnish: 'joka',
+  finnish: 'kotoryy - который',
   english: 'every / which / , who',
-  exampleFI: 'Bussi, joka tulee kerran tunnissa.',
+  exampleFI: 'Автобус, который приходит раз в час.',
   exampleEN: 'A bus that comes once per hour.',
   audio: 'joka.mp3'
 },
 {
-  finnish: 'tai',
+  finnish: 'ili - или',
   english: 'or',
-  exampleFI: 'Kahvi tai väsymys.',
+  exampleFI: 'Кофе или усталость.',
   exampleEN: 'Coffee or tiredness.',
   audio: 'tai.mp3'
 },
 {
-  finnish: 'tietää',
+  finnish: 'znat - знать',
   english: 'to know',
-  exampleFI: 'En tiedä, miksi teen tämän.',
+  exampleFI: 'Я не знаю, почему я это делаю.',
   exampleEN: 'I don’t know why I’m doing this.',
   audio: 'tietää.mp3'
 },
 {
-  finnish: 'jokin',
+  finnish: 'chto-to - что-то',
   english: 'something',
-  exampleFI: 'Tässä kahvissa on jokin ongelma.',
+  exampleFI: 'С этим кофе какая-то проблема.',
   exampleEN: 'There’s some problem with this coffee.',
   audio: 'jokin.mp3'
 },
 {
-  finnish: 'ehkä',
+  finnish: 'mozhet byt - может быть',
   english: 'maybe / perhaps',
-  exampleFI: 'Ehkä opin suomea ennen eläkeikää.',
+  exampleFI: 'Может быть, я выучу финский до пенсии.',
   exampleEN: 'Maybe I’ll learn Finnish before retirement.',
   audio: 'ehkä.mp3'
 },
 {
-  finnish: 'tuoda',
+  finnish: 'prinosit - приносить',
   english: 'to bring',
-  exampleFI: 'Voitko tuoda villapaidan?',
+  exampleFI: 'Можешь принести шерстяной свитер?',
   exampleEN: 'Can you bring me a woolen sweater?',
   audio: 'tuoda.mp3'
 },
 {
-  finnish: 'kuka',
+  finnish: 'kto - кто',
   english: 'who',
-  exampleFI: 'Kuka söi viimeisen karjalanpiirakan?',
+  exampleFI: 'Кто съел последний карельский пирожок?',
   exampleEN: 'Who ate the last Karelian pie?',
   audio: 'kuka.mp3'
 },
 {
-  finnish: 'hyvin',
+  finnish: 'khorosho - хорошо',
   english: 'well',
-  exampleFI: 'Kaikki menee ehkä hyvin.',
+  exampleFI: 'Возможно, все идет хорошо.',
   exampleEN: 'Everything’s maybe going well.',
   audio: 'hyvin.mp3'
 },
 {
-  finnish: 'anteeksi',
+  finnish: 'izvinite - извините',
   english: 'sorry / excuse me',
-  exampleFI: 'Anteeksi, missä on lähin sauna?',
+  exampleFI: 'Извините, где ближайшая сауна?',
   exampleEN: 'Excuse me, where’s the nearest sauna?',
   audio: 'anteeksi.mp3'
 },
 {
-  finnish: 'vielä',
+  finnish: 'eshchyo - ещё',
   english: 'still / yet',
-  exampleFI: 'Onko vielä toukokuussa lunta?',
+  exampleFI: 'В мае еще есть снег?',
   exampleEN: 'Is there still snow in May?',
   audio: 'vielä.mp3'
 },
 {
-  finnish: 'jo',
+  finnish: 'uzhe - уже',
   english: 'already',
-  exampleFI: 'Onko kesä jo ohi?',
+  exampleFI: 'Лето уже закончилось?',
   exampleEN: 'Is summer already over?',
   audio: 'jo.mp3'
 },
 {
-  finnish: 'koska',
+  finnish: 'potomu chto / kogda - потому что / когда',
   english: 'because / when',
-  exampleFI: 'En voi tulla, koska sataa vaakasuoraan.',
+  exampleFI: 'Я не могу прийти, потому что дождь идет горизонтально.',
   exampleEN: 'I can’t come because it’s raining sideways.',
   audio: 'koska.mp3'
 },
 {
-  finnish: 'haluta',
+  finnish: 'khotet - хотеть',
   english: 'to want',
-  exampleFI: 'Haluan vain nukkua.',
+  exampleFI: 'Я просто хочу спать.',
   exampleEN: 'I just want to sleep.',
   audio: 'haluta.mp3'
 },
 {
-  finnish: 'tehdä',
+  finnish: 'delat - делать',
   english: 'do / make',
-  exampleFI: 'Mitä suomalaiset tekevät juhannuksena?',
+  exampleFI: 'Что финны делают на Иванов день?',
   exampleEN: 'What do Finns do on midsummer?',
   audio: 'tehdä.mp3'
 },
 {
-  finnish: 'tänne',
+  finnish: 'syuda - сюда',
   english: 'to here',
-  exampleFI: 'Tänne tuli hiljaisuus ja yksi poro.',
+  exampleFI: 'Сюда пришли тишина и один олень.',
   exampleEN: 'Silence and one reindeer came here.',
   audio: 'tänne.mp3'
 },
 {
-  finnish: 'saada',
+  finnish: 'poluchat - получать',
   english: 'to get / to receive',
-  exampleFI: 'Voinko saada vielä yhden korvapuustin?',
+  exampleFI: 'Можно мне еще одну булочку с корицей?',
   exampleEN: 'Can I get one more cinnamon roll?',
   audio: 'saada.mp3'
 },
 {
-  finnish: 'tulla',
+  finnish: 'prikhodit - приходить',
   english: 'to come',
-  exampleFI: 'Talvi tulee.',
+  exampleFI: 'Зима приближается.',
   exampleEN: 'Winter is coming.',
   audio: 'tulla.mp3'
 },
 {
-  finnish: 'paljon',
+  finnish: 'mnogo - много',
   english: 'a lot / many / much',
-  exampleFI: 'Täällä on paljon kirjastoja.',
+  exampleFI: 'Здесь много библиотек.',
   exampleEN: 'There is a lot of libraries here.',
   audio: 'paljon.mp3'
 },
 {
-  finnish: 'siellä',
+  finnish: 'tam - там',
   english: 'there (often distant)',
-  exampleFI: 'Siellä kaukana on jo kesä.',
+  exampleFI: 'Там, далеко, уже лето.',
   exampleEN: 'There, far away, it is already summer.',
   audio: 'siellä.mp3'
 },
 
 
 {
-  finnish: 'antaa',
+  finnish: 'davat - давать',
   english: 'to give',
-  exampleFI: 'Voitko antaa sokerin?',
+  exampleFI: 'Можешь передать сахар?',
   exampleEN: 'Can you give me the sugar?',
   audio: 'antaa.mp3'
 },
 {
-  finnish: 'pois',
+  finnish: 'proch - прочь',
   english: 'away / off',
-  exampleFI: 'Ota kengät pois.',
+  exampleFI: 'Сними обувь.',
   exampleEN: 'Take your shoes off.',
   audio: 'pois.mp3'
 },
 {
-  finnish: 'ennen',
+  finnish: 'do - до',
   english: 'before',
-  exampleFI: 'Ennen ensimmäistä kahvia en ole ihminen.',
+  exampleFI: 'До первого кофе я не человек.',
   exampleEN: 'Before the first coffee, I’m not human.',
   audio: 'ennen.mp3'
 },
 {
-  finnish: 'täytyä',
+  finnish: 'dolzhen - должен',
   english: 'must / to have to',
-  exampleFI: 'Täytyy ostaa lisää villasukkia.',
+  exampleFI: 'Нужно купить еще шерстяных носков.',
   exampleEN: 'Must buy more wool socks.',
   audio: 'täytyä.mp3'
 },
 {
-  finnish: 'aina',
+  finnish: 'vsegda - всегда',
   english: 'always',
-  exampleFI: 'On aina hyvä hetki saunalle.',
+  exampleFI: 'Для сауны всегда хороший момент.',
   exampleEN: 'It’s always a good time for sauna.',
   audio: 'aina.mp3'
 },
 {
-  finnish: 'enää',
+  finnish: 'bolshe ne - больше не',
   english: 'anymore',
-  exampleFI: 'Ei ole enää valoisaa.',
+  exampleFI: 'Уже не светло.',
   exampleEN: 'It’s no longer bright.',
   audio: 'enää.mp3'
 },
 {
-  finnish: 'takaisin',
+  finnish: 'obratno - обратно',
   english: 'back',
-  exampleFI: 'Haluan takaisin kesään 2018.',
+  exampleFI: 'Я хочу обратно в лето 2018 года.',
   exampleEN: 'I want to go back to summer 2018.',
   audio: 'takaisin.mp3'
 },
 {
-  finnish: 'herra',
+  finnish: 'gospodin - господин',
   english: 'sir / mister',
-  exampleFI: 'Herra Virtanen unohti taas hanskat.',
+  exampleFI: 'Господин Виртанен снова забыл перчатки.',
   exampleEN: 'Mr. Virtanen forgot his gloves again.',
   audio: 'herra.mp3'
 },
 {
-  finnish: 'selvä',
+  finnish: 'ponyatno - понятно',
   english: 'clear / alright',
-  exampleFI: 'Selvä, en kysy enää mitään.',
+  exampleFI: 'Ладно, я больше ничего не спрашиваю.',
   exampleEN: 'Alright, I won’t ask anything else.',
   audio: 'selvä.mp3'
 },
 {
-  finnish: 'yksi',
+  finnish: 'odin - один',
   english: 'one',
-  exampleFI: 'Yksi kahvi ei riitä talvella.',
+  exampleFI: 'Одного кофе зимой недостаточно.',
   exampleEN: 'One coffee is not enough in winter.',
   audio: 'yksi.mp3'
 },
 {
-  finnish: 'juuri',
+  finnish: 'imenno - именно',
   english: 'just / exactly',
-  exampleFI: 'Juuri nyt sataa lunta vaakasuoraan.',
+  exampleFI: 'Прямо сейчас снег идет горизонтально.',
   exampleEN: 'Right now it’s snowing sideways.',
   audio: 'juuri.mp3'
 },
 {
-  finnish: 'näin',
+  finnish: 'tak / ya videl - так / я видел',
   english: 'like this / I saw',
-  exampleFI: 'Näin unta, että oli aurinkoista.',
+  exampleFI: 'Мне приснилось, что было солнечно.',
   exampleEN: 'I dreamed that it was sunny.',
   audio: 'näin.mp3'
 },
 {
-  finnish: 'kuinka',
+  finnish: 'kak - как',
   english: 'how',
-  exampleFI: 'Kuinka monta kerrosta vaatteita tarvitset?',
+  exampleFI: 'Сколько слоев одежды тебе нужно?',
   exampleEN: 'How many layers of clothing do you need?',
   audio: 'kuinka.mp3'
 },
 {
-  finnish: 'vai',
+  finnish: 'ili - или',
   english: 'or (in questions)',
-  exampleFI: 'Onko tämä sarkasmia vai kulttuuria?',
+  exampleFI: 'Это сарказм или культура?',
   exampleEN: 'Is this sarcasm or culture?',
   audio: 'vai.mp3'
 },
 {
-  finnish: 'koko',
+  finnish: 'ves - весь',
   english: 'whole / entire',
-  exampleFI: 'Koko päivä meni etsiessä bussipysäkkiä.',
+  exampleFI: 'Весь день ушел на поиски автобусной остановки.',
   exampleEN: 'The whole day went into finding a bus stop.',
   audio: 'koko.mp3'
 },
 {
-  finnish: 'joku',
+  finnish: 'kto-to - кто-то',
   english: 'someone / somebody',
-  exampleFI: 'Joku söi viimeisen munkin.',
+  exampleFI: 'Кто-то съел последний пончик.',
   exampleEN: 'Someone ate the last donut.',
   audio: 'joku.mp3'
 },
 {
-  finnish: 'kaksi',
+  finnish: 'dva - два',
   english: 'two',
-  exampleFI: 'Vain kaksi kuukautta pimeyttä jäljellä!',
+  exampleFI: 'Осталось только два месяца темноты!',
   exampleEN: 'Only two months of darkness left!',
   audio: 'kaksi.mp3'
 },
 {
-  finnish: 'mennä',
+  finnish: 'idti - идти',
   english: 'to go',
-  exampleFI: 'Voimmeko mennä sisään?',
+  exampleFI: 'Мы можем войти?',
   exampleEN: 'Can we go inside?',
   audio: 'mennä.mp3'
 },
 {
-  finnish: 'koskaan',
+  finnish: 'kogda-libo - когда-либо',
   english: 'ever / never',
-  exampleFI: 'En ole koskaan nähnyt niin paljon lunta.',
+  exampleFI: 'Я никогда не видел так много снега.',
   exampleEN: 'I have never seen so much snow.',
   audio: 'koskaan.mp3'
 },
 {
-  finnish: 'kai',
+  finnish: 'navernoye - наверное',
   english: 'probably / I guess',
-  exampleFI: 'Kevät tulee kai joskus.',
+  exampleFI: 'Весна, наверное, когда-нибудь придет.',
   exampleEN: 'I guess spring will come someday.',
   audio: 'kai.mp3'
 },
 {
-  finnish: 'mies',
+  finnish: 'muzhchina - мужчина',
   english: 'man',
-  exampleFI: 'Mies bussissa puhui minulle.',
+  exampleFI: 'Мужчина в автобусе заговорил со мной.',
   exampleEN: 'A man on the bus talked to me.',
   audio: 'mies.mp3'
 },
 {
-  finnish: 'joten',
+  finnish: 'poetomu - поэтому',
   english: 'so / therefore',
-  exampleFI: 'On kylmä, joten pysyn peiton alla.',
+  exampleFI: 'Холодно, поэтому я остаюсь под одеялом.',
   exampleEN: 'It’s cold, so I’m staying under the blanket.',
   audio: 'joten.mp3'
 },
 {
-  finnish: 'aivan',
+  finnish: 'sovershenno - совершенно',
   english: 'completely / exactly',
-  exampleFI: 'On aivan normaalia, että toukokuussa sataa lunta.',
+  exampleFI: 'Совершенно нормально, что в мае идет снег.',
   exampleEN: 'It is completely normal that it snows in May.',
   audio: 'aivan.mp3'
 },
 {
-  finnish: 'ihan',
+  finnish: 'vpolne - вполне',
   english: 'really / quite',
-  exampleFI: 'Tämä on ihan hyvä kahvi – suomalaisittain.',
+  exampleFI: 'Это вполне хороший кофе - по-фински.',
   exampleEN: 'This is quite good coffee – by Finnish standards.',
   audio: 'ihan.mp3'
 },
 {
-  finnish: 'no',
+  finnish: 'nu - ну',
   english: 'well...',
-  exampleFI: 'No, se on vähän monimutkaista.',
+  exampleFI: 'Ну, это немного сложно.',
   exampleEN: 'Well… it’s a bit complicated.',
   audio: 'no.mp3'
 },
 
 {
-  finnish: 'siis',
+  finnish: 'to est - то есть',
   english: 'so / I mean / like',
-  exampleFI: 'Siis pitääkö minun opetella 15 sijamuotoa?',
+  exampleFI: 'То есть мне нужно выучить 15 падежей?',
   exampleEN: 'So do I really have to learn 15 cases?',
   audio: 'siis.mp3'
 },
 {
-  finnish: 'totta',
+  finnish: 'pravda - правда',
   english: 'true',
-  exampleFI: 'Onko totta, että Suomessa on kesä?',
+  exampleFI: 'Правда, что в Финляндии есть лето?',
   exampleEN: 'Is it true that summer exists in Finland?',
   audio: 'totta.mp3'
 },
 {
-  finnish: 'isä',
+  finnish: 'otets - отец',
   english: 'father',
-  exampleFI: 'Isä rakastaa hiljaisuutta enemmän kuin kahvia.',
+  exampleFI: 'Отец любит тишину больше, чем кофе.',
   exampleEN: 'Dad loves silence more than coffee.',
   audio: 'isä.mp3'
 },
 {
-  finnish: 'entä',
+  finnish: 'a kak naschet - а как насчет',
   english: 'what about',
-  exampleFI: 'Minä selvisin talvesta. Entä sinä?',
+  exampleFI: 'Я пережил зиму. А ты?',
   exampleEN: 'I survived the winter. What about you?',
   audio: 'entä.mp3'
 },
 {
-  finnish: 'aika',
+  finnish: 'vremya - время',
   english: 'time / quite',
-  exampleFI: 'On aika oppia suomea – tai ainakin yrittää.',
+  exampleFI: 'Пора учить финский - или хотя бы попытаться.',
   exampleEN: 'It’s time to learn Finnish – or at least try.',
   audio: 'aika.mp3'
 },
 {
-  finnish: 'oikein',
+  finnish: 'pravilno - правильно',
   english: 'really / correctly',
-  exampleFI: 'Miten tämä sana lausutaan oikein?',
+  exampleFI: 'Как правильно произносится это слово?',
   exampleEN: 'How is this word pronounced correctly?',
   audio: 'oikein.mp3'
 },
 {
-  finnish: 'kuten',
+  finnish: 'kak - как',
   english: 'like / as',
-  exampleFI: 'Tee kuten suomalaiset: hymyile sisäisesti.',
+  exampleFI: 'Делай как финны: улыбайся внутренне.',
   exampleEN: 'Do like the Finns: smile internally.',
   audio: 'kuten.mp3'
 },
 {
-  finnish: 'vähän',
+  finnish: 'nemnogo - немного',
   english: 'a little / few',
-  exampleFI: 'Tarvitsen vain vähän apua ja paljon kahvia.',
+  exampleFI: 'Мне нужно немного помощи и много кофе.',
   exampleEN: 'I just need a little help and a lot of coffee.',
   audio: 'vähän.mp3'
 },
 {
-  finnish: 'edes',
+  finnish: 'khotya by - хотя бы',
   english: 'even',
-  exampleFI: 'Voinko edes sanoa “moi” hississä?',
+  exampleFI: 'Могу я хотя бы сказать "привет" в лифте?',
   exampleEN: 'Can I even say “hi” in the elevator?',
   audio: 'edes.mp3'
 },
 {
-  finnish: 'äiti',
+  finnish: 'mama - мама',
   english: 'mother',
-  exampleFI: 'Äiti sanoi, että tarvitset villapaidan.',
+  exampleFI: 'Мама сказала, что тебе нужен шерстяной свитер.',
   exampleEN: 'Mom said you need a wool sweater.',
   audio: 'äiti.mp3'
 },
 {
-  finnish: 'todella',
+  finnish: 'deystvitelno - действительно',
   english: 'really / truly',
-  exampleFI: 'Onko tämä todella kesä?',
+  exampleFI: 'Это действительно лето?',
   exampleEN: 'Is this really summer?',
   audio: 'todella.mp3'
 },
 {
-  finnish: 'kukaan',
+  finnish: 'nikto - никто',
   english: 'nobody / anyone',
-  exampleFI: 'Kukaan ei naura täällä ääneen.',
+  exampleFI: 'Никто здесь не смеется вслух.',
   exampleEN: 'Nobody laughs out loud here.',
   audio: 'kukaan.mp3'
 },
 {
-  finnish: 'mukaan',
+  finnish: 'vmeste - вместе',
   english: 'along / with',
-  exampleFI: 'Tule mukaan mökille.',
+  exampleFI: 'Поехали вместе на дачу.',
   exampleEN: 'Come along to the cottage.',
   audio: 'mukaan.mp3'
 },
 {
-  finnish: 'kunto',
+  finnish: 'forma - форма',
   english: 'condition / fitness',
-  exampleFI: 'Minun kuntoni on hyvä – jos ei tarvitse nousta sohvalta.',
+  exampleFI: 'У меня хорошая форма - если не нужно вставать с дивана.',
   exampleEN: 'My fitness is great – if I don’t have to get off the couch.',
   audio: 'kunto.mp3'
 },
 {
-  finnish: 'itse',
+  finnish: 'sam - сам',
   english: 'oneself',
-  exampleFI: 'Opin vaihtamaan renkaat itse.',
+  exampleFI: 'Я научился менять шины сам.',
   exampleEN: 'I learned to change the tyres myself.',
   audio: 'itse.mp3'
 },
 {
-  finnish: 'myös',
+  finnish: 'tozhe - тоже',
   english: 'also',
-  exampleFI: 'Sauna on myös toimisto.',
+  exampleFI: 'Сауна - это тоже офис.',
   exampleEN: 'The sauna is also an office.',
   audio: 'myös.mp3'
 },
 {
-  finnish: 'vaan',
+  finnish: 'a - а',
   english: 'but (instead)',
-  exampleFI: 'Ei kylmä, vaan raikas.',
+  exampleFI: 'Не холодно, а свежо.',
   exampleEN: 'Not cold, but fresh.',
   audio: 'vaan.mp3'
 },
 {
-  finnish: 'sanoa',
+  finnish: 'govorit - говорить',
   english: 'to say',
-  exampleFI: 'On vaikea sanoa mitään.',
+  exampleFI: 'Трудно что-либо сказать.',
   exampleEN: 'It is hard to say anything.',
   audio: 'sanoa.mp3'
 },
 {
-  finnish: 'noin',
+  finnish: 'tak - так',
   english: 'about / approximately / like that',
-  exampleFI: 'Tee se noin tai älä tee ollenkaan.',
+  exampleFI: 'Сделай так или не делай вообще.',
   exampleEN: 'Do it like that or don’t do it at all.',
   audio: 'noin.mp3'
 },
 {
-  finnish: 'ulos',
+  finnish: 'naruzhu - наружу',
   english: 'out / outside',
-  exampleFI: 'Ulos meneminen vaatii suunnittelua.',
+  exampleFI: 'Выход на улицу требует планирования.',
   exampleEN: 'Going outside requires planning.',
   audio: 'ulos.mp3'
 },
 {
-  finnish: 'auttaa',
+  finnish: 'pomogat - помогать',
   english: 'to help',
-  exampleFI: 'Voiko suklaa auttaa kielen oppimisessa?',
+  exampleFI: 'Может ли шоколад помочь в изучении языка?',
   exampleEN: 'Can chocolate help with language learning?',
   audio: 'auttaa.mp3'
 },
 {
-  finnish: 'taas',
+  finnish: 'snova - снова',
   english: 'again',
-  exampleFI: 'Sataa taas.',
+  exampleFI: 'Снова идет дождь.',
   exampleEN: 'It’s raining again',
   audio: 'taas.mp3'
 },
 {
-  finnish: 'jälkeen',
+  finnish: 'posle - после',
   english: 'after',
-  exampleFI: 'Sateen jälkeen voi tulla lisää sadetta.',
+  exampleFI: 'После дождя может пойти еще больше дождя.',
   exampleEN: 'After the rain, more rain may come.',
   audio: 'jälkeen.mp3'
 },
 {
-  finnish: 'katsoa',
+    finnish: 'smotret - смотреть',
   english: 'to watch / to look',
-  exampleFI: 'Katson paljon televisiota talvella.',
+    exampleFI: 'Зимой я много смотрю телевизор.',
   exampleEN: 'I watch a lot of television in winter.',
   audio: 'katsoa.mp3'
 },
 
   {
-    finnish: 'päästä',
+    finnish: 'dobratsya - добраться',
     english: 'to get to',
-    exampleFI: 'En pääse saunaan, koska se on varattu.',
+    exampleFI: 'Я не могу попасть в сауну, потому что она занята.',
     exampleEN: 'I can’t get to the sauna because it is booked.',
     audio: 'päästä.mp3'
   },
   {
-    finnish: 'puhua',
+    finnish: 'govorit - говорить',
     english: 'to speak',
-    exampleFI: 'Hän puhuu suomea, mutta hyvin hiljaa.',
+    exampleFI: 'Он говорит по-фински, но очень тихо.',
     exampleEN: 'He speaks Finnish, but very quietly.',
     audio: 'puhua.mp3'
   },
   {
-    finnish: 'tänään',
+    finnish: 'segodnya - сегодня',
     english: 'today',
-    exampleFI: 'Tänään sataa taas.',
+    exampleFI: 'Сегодня снова идет дождь.',
     exampleEN: 'Today it’s raining again.',
     audio: 'tänään.mp3'
   },
   {
-    finnish: 'pahoillaan',
+    finnish: 'sozhaleyushchiy - сожалеющий',
     english: 'sorry',
-    exampleFI: 'Olen pahoillani, että join kaiken kahvin.',
+    exampleFI: 'Мне жаль, что я выпил весь кофе.',
     exampleEN: 'I’m sorry I drank all the coffee.',
     audio: 'pahoillaan.mp3'
   },
   {
-    finnish: 'kerro',
+    finnish: 'rasskazhi - расскажи',
     english: 'tell',
-    exampleFI: 'Kerro minulle, miksi posti ei tullut tänään.',
+    exampleFI: 'Расскажи мне, почему почта сегодня не пришла.',
     exampleEN: 'Tell me why the mail didn’t come today.',
     audio: 'kerro.mp3'
   },
   {
-    finnish: 'vaikka',
+    finnish: 'khotya - хотя',
     english: 'even though, or for example',
-    exampleFI: 'Voit ottaa vaikka kolme pullaa.',
+    exampleFI: 'Можешь взять хоть три булочки.',
     exampleEN: 'You can take three cinnamon buns, for example.',
     audio: 'vaikka.mp3'
   },
   {
-    finnish: 'liian',
+    finnish: 'slishkom - слишком',
     english: 'too (much)',
-    exampleFI: 'Onko liian kylmä mennä ulos?',
+    exampleFI: 'Слишком холодно, чтобы выходить на улицу?',
     exampleEN: 'Is it too cold to go outside?',
     audio: 'liian.mp3'
   },
   {
-    finnish: 'koti',
+    finnish: 'domoy - домой',
     english: 'home',
-    exampleFI: 'Haluan mennä kotiin.',
+    exampleFI: 'Я хочу пойти домой.',
     exampleEN: 'I want to go home.',
     audio: 'koti.mp3'
   },
   {
-    finnish: 'muu',
+    finnish: 'drugoe - другое',
     english: 'other',
-    exampleFI: 'Kun pääsen saunaan, kaikki muu unohtuu.',
+    exampleFI: 'Когда я попадаю в сауну, все остальное забывается.',
     exampleEN: 'When I get to the sauna, everything else is forgotten.',
     audio: 'muu.mp3'
   },
   {
-    finnish: 'näyttää',
+    finnish: 'vyglyadet - выглядеть',
     english: 'to look like / show',
-    exampleFI: 'Näytät siltä, että tarvitset kahvia.',
+    exampleFI: 'Ты выглядишь так, будто тебе нужен кофе.',
     exampleEN: 'You look like you need coffee.',
     audio: 'näyttää.mp3'
   },
   {
-    finnish: 'vuosi',
+    finnish: 'god - год',
     english: 'year',
-    exampleFI: 'Olen ollut Suomessa yhden vuoden.',
+    exampleFI: 'Я был в Финляндии один год.',
     exampleEN: 'I’ve been in Finland for one year.',
     audio: 'vuosi.mp3'
   },
   {
-    finnish: 'kiinni',
+    finnish: 'zakryto - закрыто',
     english: 'closed / attached to',
-    exampleFI: 'On sunnuntai, joten kaikki on kiinni.',
+    exampleFI: 'Сегодня воскресенье, поэтому все закрыто.',
     exampleEN: 'It’s Sunday, so everything is closed.',
     audio: 'kiinni.mp3'
   },
   {
-    finnish: 'nähdä',
+    finnish: 'videt - видеть',
     english: 'to see',
-    exampleFI: 'Halusin nähdä revontulet, mutta nukahdin.',
+    exampleFI: 'Я хотел увидеть северное сияние, но уснул.',
     exampleEN: 'I wanted to see the northern lights, but I fell asleep.',
     audio: 'nähdä.mp3'
   },
   {
-    finnish: 'ilman',
+    finnish: 'bez - без',
     english: 'without',
-    exampleFI: 'Ilman kahvia en voi aloittaa päivää.',
+    exampleFI: 'Без кофе я не могу начать день.',
     exampleEN: 'Without coffee, I can’t start the day.',
     audio: 'ilman.mp3'
   },
   {
-    finnish: 'tapahtua',
+    finnish: 'proiskhodit - происходить',
     english: 'to happen',
-    exampleFI: 'Mitä voi tapahtua jos menen avantoon?',
+    exampleFI: 'Что может случиться, если я пойду в прорубь?',
     exampleEN: 'What could happen if I go ice swimming?',
     audio: 'tapahtua.mp3'
   },
   {
-    finnish: 'sinne',
+    finnish: 'tuda - туда',
     english: 'there (to)',
-    exampleFI: 'Mennään sinne, missä kahvi on ilmaista.',
+    exampleFI: 'Пойдем туда, где кофе бесплатный.',
     exampleEN: 'Let’s go to where the coffee is free.',
     audio: 'sinne.mp3'
   },
   {
-    finnish: 'heti',
+    finnish: 'srazu - сразу',
     english: 'immediately',
-    exampleFI: 'Tarvitsen korvapuustin heti.',
+    exampleFI: 'Мне нужна булочка с корицей прямо сейчас.',
     exampleEN: 'I need a cinnamon bun immediately.',
     audio: 'heti.mp3'
   },
   {
-    finnish: 'haluatko',
+    finnish: 'ty khochesh - ты хочешь',
     english: 'do you want',
-    exampleFI: 'Haluatko oppia suomea vai nukkua?',
+    exampleFI: 'Ты хочешь учить финский или спать?',
     exampleEN: 'Do you want to learn Finnish or sleep?',
     audio: 'haluatko.mp3'
   },
   {
-    finnish: 'varmasti',
+    finnish: 'navernyaka - наверняка',
     english: 'surely',
-    exampleFI: 'Tämä on varmasti oikea raitiovaunu.',
+    exampleFI: 'Это наверняка правильный трамвай.',
     exampleEN: 'This is surely the right tram.',
     audio: 'varmasti.mp3'
   },
   {
-    finnish: 'tietäa',  
+    finnish: 'znat - знать',  
     english: 'to know',
-    exampleFI: 'En tiedä, miten tämä toimii.',
+    exampleFI: 'Я не знаю, как это работает.',
     exampleEN: 'I don’t know how this works.',
     audio: 'tietää.mp3'
   },
   {
-    finnish: 'kolme',
+    finnish: 'tri - три',
     english: 'three',
-    exampleFI: 'Minulla on kolme villapaitaa päällä.',
+    exampleFI: 'На мне три свитера.',
     exampleEN: 'I’m wearing three sweaters.',
     audio: 'kolme.mp3'
   },
   {
-    finnish: 'tarvita',
+    finnish: 'nuzhdatsya - нуждаться',
     english: 'to need',
-    exampleFI: 'Tarvitsen paljon unta.',
+    exampleFI: 'Мне нужно много сна.',
     exampleEN: 'I need a lot of sleep.',
     audio: 'tarvita.mp3'
   },
   {
-    finnish: 'kertoa',
+    finnish: 'rasskazyvat - рассказывать',
     english: 'to tell',
-    exampleFI: 'Voitko kertoa, mitä juuri tapahtui?',
+    exampleFI: 'Можешь рассказать, что только что произошло?',
     exampleEN: 'Can you tell me what just happened?',
     audio: 'kertoa.mp3'
   },
   {
-    finnish: 'ottaa',
+    finnish: 'brat - брать',
     english: 'to take',
-    exampleFI: 'Otan vielä yhden korvapuustin.',
+    exampleFI: 'Я возьму еще одну булочку с корицей.',
     exampleEN: 'I’ll take one more cinnamon bun.',
     audio: 'ottaa.mp3'
   },
   {
-    finnish: 'ottaa',
+    finnish: 'brat - брать',
     english: 'to take',
-    exampleFI: 'Saako saunassa ottaa selfieitä?',
+    exampleFI: 'Можно в сауне делать селфи?',
     exampleEN: 'Can you take selfies in the sauna?',
     audio: 'ottaa.mp3'
   },
   {
-    finnish: 'pian',
+    finnish: 'skoro - скоро',
     english: 'soon',
-    exampleFI: 'Pian alkaa jääkiekko!',
+    exampleFI: 'Скоро начнется хоккей!',
     exampleEN: 'The hockey starts soon!',
     audio: 'pian.mp3'
   },
   {
-    finnish: 'odottaa',
+    finnish: 'zhdat - ждать',
     english: 'to wait',
-    exampleFI: 'Odotin bussia -30 asteessa.',
+    exampleFI: 'Я ждал автобус при -30 градусах.',
     exampleEN: 'I waited for the bus in -30 degrees.',
     audio: 'odottaa.mp3'
   },
   {
-    finnish: 'lukea',
+    finnish: 'chitat - читать',
     english: 'to read',
-    exampleFI: 'Luen mökillä vanhoja sarjakuvia.',
+    exampleFI: 'На даче я читаю старые комиксы.',
     exampleEN: 'I read old comic books in the cottage.',
     audio: 'lukea.mp3'
   },
   {
-    finnish: 'enemmän',
+    finnish: 'bolshe - больше',
     english: 'more',
-    exampleFI: 'Tarvitsen enemmän villasukkia.',
+    exampleFI: 'Мне нужно больше шерстяных носков.',
     exampleEN: 'I need more wool socks.',
     audio: 'enemmän.mp3'
   },
   {
-    finnish: 'täältä',
+    finnish: 'otsyuda - отсюда',
     english: 'from here',
-    exampleFI: 'Voiko täältä nähdä Tallinnaan?',
+    exampleFI: 'Можно отсюда увидеть Таллинн?',
     exampleEN: 'Can you see Tallinn from here?',
     audio: 'täältä.mp3'
   },
   {
-    finnish: 'vastaan',
+    finnish: 'protiv - против',
     english: 'against',
-    exampleFI: 'Suomi pelaa Ruotsia vastaan.',
+    exampleFI: 'Финляндия играет против Швеции.',
     exampleEN: 'Finland plays against Sweden.',
     audio: 'vastaan.mp3'
   },
   {
-    finnish: 'uskoa',
+    finnish: 'verit - верить',
     english: 'to believe',
-    exampleFI: 'En voi uskoa, että aurinko paistaa yöllä.',
+    exampleFI: 'Я не могу поверить, что солнце светит ночью.',
     exampleEN: 'I can’t believe the sun shines at night.',
     audio: 'uskoa.mp3'
   },
   {
-    finnish: 'takia',
+    finnish: 'iz-za - из-за',
     english: 'because of',
-    exampleFI: 'Jäätelö suli auringon takia.',
+    exampleFI: 'Мороженое растаяло из-за солнца.',
     exampleEN: 'The ice cream melted because of the sun.',
     audio: 'takia.mp3'
   },
   {
-    finnish: 'sisään',
+    finnish: 'vnutr - внутрь',
     english: 'in / inside',
-    exampleFI: 'Kun sataa, menen sisään.',
+    exampleFI: 'Когда идет дождь, я захожу внутрь.',
     exampleEN: 'When it rains, I go inside',
     audio: 'sisään.mp3'
   },
   {
-    finnish: 'käydä',
+    finnish: 'khodit - ходить',
     english: 'to visit / go',
-    exampleFI: 'Käyn mökillä joka juhannus.',
+    exampleFI: 'Я езжу на дачу каждый Иванов день.',
     exampleEN: 'I go to the cottage every midsummer.',
     audio: 'käydä.mp3'
   },
   {
-    finnish: 'poika',
+    finnish: 'malchik - мальчик',
     english: 'boy / son',
-    exampleFI: 'Poika oppi hiihtämään ennen kävelemistä.',
+    exampleFI: 'Мальчик научился кататься на лыжах раньше, чем ходить.',
     exampleEN: 'The boy learned to ski before he could walk.',
     audio: 'poika.mp3'
   },
   {
-    finnish: 'asia',
+    finnish: 'veshch - вещь',
     english: 'thing / matter',
-    exampleFI: 'Sauna ei ole vain asia, se on tunne.',
+    exampleFI: 'Сауна - это не просто вещь, это чувство.',
     exampleEN: 'Sauna is not just a thing, it’s a feeling.',
     audio: 'asia.mp3'
   },
   {
-    finnish: 'luulla',
+    finnish: 'dumat - думать',
     english: 'to think / suppose',
-    exampleFI: 'Luulin rallikuskin olevan hiljaisempi.',
+    exampleFI: 'Я думал, что гонщик ралли будет тише.',
     exampleEN: 'I thought the rally driver would be quieter.',
     audio: 'luulla.mp3'
   },
   {
-    finnish: 'varmaan',
+    finnish: 'navernoye - наверное',
     english: 'probably',
-    exampleFI: 'Tämä on varmaan maailman hiljaisin kaupunki.',
+    exampleFI: 'Это, наверное, самый тихий город в мире.',
     exampleEN: 'This is probably the quietest city in the world.',
     audio: 'varmaan.mp3'
   },
   {
-    finnish: 'yhä',
+    finnish: 'vse eshchyo - всё ещё',
     english: 'still / yet',
-    exampleFI: 'Onko ulkona yhä -25?',
+    exampleFI: 'На улице всё ещё -25?',
     exampleEN: 'Is it still -25 outside?',
     audio: 'yhä.mp3'
   },
   {
-    finnish: 'hieno',
+    finnish: 'otlichnyy - отличный',
     english: 'fine / great',
-    exampleFI: 'Se oli hieno kalareissu, vaikka kalaa ei tullut.',
+    exampleFI: 'Это была отличная рыбалка, хотя рыбы не было.',
     exampleEN: 'It was a great fishing trip, even though we caught nothing.',
     audio: 'hieno.mp3'
   },
   {
-    finnish: 'tuo',
+    finnish: 'tot - тот',
     english: 'that (thing)',
-    exampleFI: 'Tuo poro näyttää vihaiselta.',
+    exampleFI: 'Тот олень выглядит сердитым.',
     exampleEN: 'That reindeer looks angry.',
     audio: 'tuo.mp3'
   },
   {
-    finnish: 'ikinä',
+    finnish: 'nikogda - никогда',
     english: 'ever',
-    exampleFI: 'En ole ikinä nähnyt niin paljon lunta.',
+    exampleFI: 'Я никогда не видел так много снега.',
     exampleEN: 'I’ve never seen so much snow.',
     audio: 'ikinä.mp3'
   },
   {
-    finnish: 'tuolla',
+    finnish: 'von tam - вон там',
     english: 'over there',
-    exampleFI: 'Tuolla on kahvila metsän keskellä!',
+    exampleFI: 'Вон там кафе посреди леса!',
     exampleEN: 'There’s a café in the middle of the forest!',
     audio: 'tuolla.mp3'
   },
   {
-    finnish: 'tiedätkö',
+    finnish: 'ty znaesh - ты знаешь',
     english: 'do you know',
-    exampleFI: 'Tiedätkö, missä on lähin makkarakioski?',
+    exampleFI: 'Ты знаешь, где ближайший киоск с сосисками?',
     exampleEN: 'Do you know where the nearest sausage kiosk is?',
     audio: 'tiedätkö.mp3'
   },
   {
-    finnish: 'varma',
+    finnish: 'uverennyy - уверенный',
     english: 'sure',
-    exampleFI: 'Oletko varma, että tämä on moottoritie?',
+    exampleFI: 'Ты уверен, что это шоссе?',
     exampleEN: 'Are you sure this is a highway?',
     audio: 'varma.mp3'
   },
   {
-    finnish: 'yhdessä',
+    finnish: 'vmeste - вместе',
     english: 'together',
-    exampleFI: 'Juodaan glögiä yhdessä jouluna.',
+    exampleFI: 'Давайте пить глёгг вместе на Рождество.',
     exampleEN: 'Let’s drink glögi together at Christmas.',
     audio: 'yhdessä.mp3'
   },
 
   {
-    finnish: 'rakastaa',
+    finnish: 'lyubit - любить',
     english: 'to love',
-    exampleFI: 'Opin rakastamaan salmiakkia.',
+    exampleFI: 'Я научился любить салмиак.',
     exampleEN: 'I learned to love salmiakki.',
     audio: 'rakastaa.mp3'
   },
   {
-    finnish: 'joo',
+    finnish: 'aga - ага',
     english: 'yeah',
-    exampleFI: 'Joo, kylmää on.',
+    exampleFI: 'Ага, холодно.',
     exampleEN: 'Yeah, it’s cold.',
     audio: 'joo.mp3'
   },
   {
-    finnish: 'juttu',
+    finnish: 'istoriya - история',
     english: 'thing / story',
-    exampleFI: 'Tämä on vanha juttu suomalaisista ja kahvista.',
+    exampleFI: 'Это старая история о финнах и кофе.',
     exampleEN: 'This is an old story about Finns and coffee.',
     audio: 'juttu.mp3'
   },
   {
-    finnish: 'kuolla',
+    finnish: 'umirat - умирать',
     english: 'to die',
-    exampleFI: 'En kuollut vaikka kävin avannossa.',
+    exampleFI: 'Я не умер, хотя окунулся в прорубь.',
     exampleEN: 'I didn’t die, even though I went ice swimming.',
     audio: 'kuolla.mp3'
   },
   {
-    finnish: 'siksi',
+    finnish: 'poetomu - поэтому',
     english: 'because of that',
-    exampleFI: 'Ostin toiset hanskat, siksi että on kylmä.',
+    exampleFI: 'Я купил вторые перчатки, потому что холодно.',
     exampleEN: 'I bought a second pair of gloves, because it is cold',
     audio: 'siksi.mp3'
   },
   {
-    finnish: 'oikea',
+    finnish: 'pravilnyy - правильный',
     english: 'right / correct',
-    exampleFI: 'Tämä ei ole oikea bussi.',
+    exampleFI: 'Это не тот автобус.',
     exampleEN: 'This is not the right bus.',
     audio: 'oikea.mp3'
   },
   {
-    finnish: 'kerran',
+    finnish: 'odin raz - один раз',
     english: 'once',
-    exampleFI: 'Kävin kerran Helsingissä.',
+    exampleFI: 'Я однажды был в Хельсинки.',
     exampleEN: 'I visited Helsinki once.',
     audio: 'kerran.mp3'
   },
   {
-    finnish: 'lähteä',
+    finnish: 'ukhodit - уходить',
     english: 'to leave',
-    exampleFI: 'Haluan lähteä ennen lumimyrskyä.',
+    exampleFI: 'Я хочу уйти до снежной бури.',
     exampleEN: 'I want to leave before the snowstorm.',
     audio: 'lähteä.mp3'
   },
   {
-    finnish: 'minne',
+    finnish: 'kuda - куда',
     english: 'where to',
-    exampleFI: 'Minne tämä juna menee?',
+    exampleFI: 'Куда идет этот поезд?',
     exampleEN: 'Where is this train going?',
     audio: 'minne.mp3'
   },
   {
-    finnish: 'tappaa',
+    finnish: 'ubivat - убивать',
     english: 'to kill',
-    exampleFI: 'Tapoin hyttysen.',
+    exampleFI: 'Я убил комара.',
     exampleEN: 'I killed a mosquito.',
     audio: 'tappaa.mp3'
   },
   {
-    finnish: 'valmis',
+    finnish: 'gotov - готов',
     english: 'ready',
-    exampleFI: 'En ole valmis talveen.',
+    exampleFI: 'Я не готов к зиме.',
     exampleEN: 'I’m not ready for winter.',
     audio: 'valmis.mp3'
   },
   {
-    finnish: 'toinen',
+    finnish: 'vtoroy - второй',
     english: 'another / second',
-    exampleFI: 'Ostin toisen pipon, varmuuden vuoksi.',
+    exampleFI: 'Я купил вторую шапку на всякий случай.',
     exampleEN: 'I bought a second beanie, just in case.',
     audio: 'toinen.mp3'
   },
   {
-    finnish: 'ihminen',
+    finnish: 'chelovek - человек',
     english: 'person / human',
-    exampleFI: 'Jokainen ihminen tarvitsee villasukkia.',
+    exampleFI: 'Каждому человеку нужны шерстяные носки.',
     exampleEN: 'Every person needs wool socks.',
     audio: 'ihminen.mp3'
   },
   {
-    finnish: 'silloin',
+    finnish: 'togda - тогда',
     english: 'then / at that time',
-    exampleFI: 'Silloin oli vielä valoisaa klo 23.',
+    exampleFI: 'Тогда в 23:00 было еще светло.',
     exampleEN: 'Back then it was still light at 11 PM.',
     audio: 'silloin.mp3'
   },
   {
-    finnish: 'hauska',
+    finnish: 'vesyolyy - весёлый',
     english: 'fun / funny',
-    exampleFI: 'Oli hauska juhannus vaikka satoi.',
+    exampleFI: 'Это был веселый Иванов день, хотя шел дождь.',
     exampleEN: 'It was a fun midsummer, even though it rained.',
     audio: 'hauska.mp3'
   },
   {
-    finnish: 'tyttö',
+    finnish: 'devochka - девочка',
     english: 'girl',
-    exampleFI: 'Tyttö ui järvessä kuin kala.',
+    exampleFI: 'Девочка плавает в озере как рыба.',
     exampleEN: 'The girl swims in the lake like a fish.',
     audio: 'tyttö.mp3'
   },
   {
-    finnish: 'teidät',
+    finnish: 'vas (mnozh., vin.) - вас (мн., вин.)',
     english: 'you (plural, object)',
-    exampleFI: 'Näin teidät eilen lätkämatsissa.',
+    exampleFI: 'Я видел вас вчера на хоккейном матче.',
     exampleEN: 'I saw you at the hockey game yesterday.',
     audio: 'teidät.mp3'
   },
   {
-    finnish: 'nainen',
+    finnish: 'zhenshchina - женщина',
     english: 'woman',
-    exampleFI: 'Nainen hiihti töihin.',
+    exampleFI: 'Женщина поехала на работу на лыжах.',
     exampleEN: 'The woman skied to work.',
     audio: 'nainen.mp3'
   },
   {
-    finnish: 'rouva',
+    finnish: 'gospozha - госпожа',
     english: 'Mrs. / lady',
-    exampleFI: 'Rouva istui hiljaa bussissa.',
+    exampleFI: 'Госпожа тихо сидела в автобусе.',
     exampleEN: 'The lady sat quietly on the bus.',
     audio: 'rouva.mp3'
   },
   {
-    finnish: 'kyse',
+    finnish: 'vopros - вопрос',
     english: 'a matter of',
-    exampleFI: 'Onko tässä kyse suomalaisesta logiikasta?',
+    exampleFI: 'Здесь речь о финской логике?',
     exampleEN: 'Is this a matter of Finnish logic?',
     audio: 'kyse.mp3'
   },
   {
-    finnish: 'kauan',
+    finnish: 'dolgo - долго',
     english: 'a long time',
-    exampleFI: 'Odotin kahvia liian kauan.',
+    exampleFI: 'Я слишком долго ждал кофе.',
     exampleEN: 'I waited for coffee too long.',
     audio: 'kauan.mp3'
   },
   {
-    finnish: 'raha',
+    finnish: 'dengi - деньги',
     english: 'money',
-    exampleFI: 'Raha ei tuo lämpöä, takki tuo.',
+    exampleFI: 'Деньги не приносят тепло, а куртка приносит.',
     exampleEN: 'Money doesn’t bring warmth, a coat does.',
     audio: 'raha.mp3'
   },
   {
-    finnish: 'ensin',
+    finnish: 'snachala - сначала',
     english: 'first',
-    exampleFI: 'Ensin juodaan kahvia, sitten puhutaan.',
+    exampleFI: 'Сначала пьем кофе, потом говорим.',
     exampleEN: 'First we drink coffee, then we talk.',
     audio: 'ensin.mp3'
   },
   {
-    finnish: 'lisätä',
+    finnish: 'dobavit - добавить',
     english: 'to add',
-    exampleFI: 'Voinko lisätä sinut WhatsApp-ryhmään?',
+    exampleFI: 'Могу я добавить тебя в группу WhatsApp?',
     exampleEN: 'Can I add you to the WhatsApp group?',
     audio: 'lisätä.mp3'
   },
   {
-    finnish: 'apu',
+    finnish: 'pomoshch - помощь',
     english: 'help',
-    exampleFI: 'Tarvitsetko apua saunassa?',
+    exampleFI: 'Тебе нужна помощь в сауне?',
     exampleEN: 'Do you need help in the sauna?',
     audio: 'apu.mp3'
   },
   {
-    finnish: 'lopettaa',
+    finnish: 'prekratit - прекратить',
     english: 'to stop',
-    exampleFI: 'Voitko lopettaa valittamisen säästä?',
+    exampleFI: 'Можешь прекратить жаловаться на погоду?',
     exampleEN: 'Can you stop complaining about the weather?',
     audio: 'lopettaa.mp3'
   },
   {
-    finnish: 'kulta',
+    finnish: 'dorogaya / dorogoy - дорогая / дорогой',
     english: 'darling',
-    exampleFI: 'Kulta, missä ovat villasukat?',
+    exampleFI: 'Дорогая, где шерстяные носки?',
     exampleEN: 'Darling, where are the wool socks?',
     audio: 'kulta.mp3'
   },
   {
-    finnish: 'päivä',
+    finnish: 'den - день',
     english: 'day',
-    exampleFI: 'Tänään on hyvä päivä mennä metsään.',
+    exampleFI: 'Сегодня хороший день, чтобы пойти в лес.',
     exampleEN: 'Today is a good day to go to the forest.',
     audio: 'päivä.mp3'
   },
   {
-    finnish: 'pari',
+    finnish: 'para - пара',
     english: 'a couple / pair',
-    exampleFI: 'Ostin parin uusia lapasia.',
+    exampleFI: 'Я купил пару новых варежек.',
     exampleEN: 'I bought a pair of new mittens.',
     audio: 'pari.mp3'
   },
   {
-    finnish: 'kerta',
+    finnish: 'raz - раз',
     english: 'time (instance)',
-    exampleFI: 'Se oli elämäni paras kerta avannossa.',
+    exampleFI: 'Это был лучший раз в проруби в моей жизни.',
     exampleEN: 'It was the best time in my life in the ice hole.',
     audio: 'kerta.mp3'
   },
   {
-    finnish: 'tohtori',
+    finnish: 'doktor - доктор',
     english: 'doctor',
-    exampleFI: 'Hän on tohtori Helsingin yliopistolta.',
+    exampleFI: 'Он(а) доктор из Хельсинкского университета.',
     exampleEN: 'He/she is a PhD from the University of Helsinki.',
     audio: 'tohtori.mp3'
   },
   {
-    finnish: 'tuntua',
+    finnish: 'kazatsya - казаться',
     english: 'to feel',
-    exampleFI: 'Tuntuu kuin olisi marraskuu.',
+    exampleFI: 'Кажется, будто сейчас ноябрь.',
     exampleEN: 'It feels like November.',
     audio: 'tuntua.mp3'
   },
   {
-    finnish: 'jotta',
+    finnish: 'chtoby - чтобы',
     english: 'so that',
-    exampleFI: 'Syön karjalanpiirakoita, jotta integroidun Suomeen.',
+    exampleFI: 'Я ем карельские пирожки, чтобы интегрироваться в Финляндию.',
     exampleEN: 'I eat Karelian pies so that I integrate into Finland.',
     audio: 'jotta.mp3'
   },
   {
-    finnish: 'huomenna',
+    finnish: 'zavtra - завтра',
     english: 'tomorrow',
-    exampleFI: 'Huomenna voi sataa tai paistaa – kuka tietää.',
+    exampleFI: 'Завтра может идти дождь или светить солнце - кто знает.',
     exampleEN: 'Tomorrow it might rain or shine – who knows.',
     audio: 'huomenna.mp3'
   },
   {
-    finnish: 'myöhemmin',
+    finnish: 'pozzhe - позже',
     english: 'later',
-    exampleFI: 'Puhutaan tästä myöhemmin saunan jälkeen.',
+    exampleFI: 'Поговорим об этом позже, после сауны.',
     exampleEN: 'Let’s talk about this later, after sauna.',
     audio: 'myöhemmin.mp3'
   },
   {
-    finnish: 'uusi',
+    finnish: 'novyy - новый',
     english: 'new',
-    exampleFI: 'Tarvitsen uuden tuulipuvun.',
+    exampleFI: 'Мне нужен новый спортивный костюм.',
     exampleEN: 'I need a new tracksuit.',
     audio: 'uusi.mp3'
   },
   {
-    finnish: 'tavata',
+    finnish: 'vstretit - встретить',
     english: 'to meet',
-    exampleFI: 'Voimmeko tavata torilla?',
+    exampleFI: 'Мы можем встретиться на рыночной площади?',
     exampleEN: 'Can we meet at the market square?',
     audio: 'tavata.mp3'
   },
   {
-    finnish: 'ainoa',
+    finnish: 'edinstvennyy - единственный',
     english: 'only',
-    exampleFI: 'En ole ainoa, joka unohtaa saunavuoroja.',
+    exampleFI: 'Я не единственный, кто забывает время сауны.',
     exampleEN: 'I’m not the only one who forgets sauna times.',
     audio: 'ainoa.mp3'
   },
   {
-    finnish: 'milloin',
+    finnish: 'kogda - когда',
     english: 'when',
-    exampleFI: 'Milloin mennään taas avantoon?',
+    exampleFI: 'Когда снова пойдем в прорубь?',
     exampleEN: 'When are we going to the ice hole again?',
     audio: 'milloin.mp3'
   },
   {
-    finnish: 'silti',
+    finnish: 'vse ravno - всё равно',
     english: 'still / nevertheless',
-    exampleFI: 'On kylmä, mutta silti haluan jäätelöä.',
+    exampleFI: 'Холодно, но я всё равно хочу мороженое.',
     exampleEN: 'It’s cold, but I still want ice cream.',
     audio: 'silti.mp3'
   },
   {
-    finnish: 'viedä',
+    finnish: 'otnesti - отнести',
     english: 'to take',
-    exampleFI: 'Voitko viedä nämä kaljat jääkaappiin?',
+    exampleFI: 'Можешь отнести это пиво в холодильник?',
     exampleEN: 'Can you take these beers to the fridge?',
     audio: 'viedä.mp3'
   },
   {
-    finnish: 'osata',
+    finnish: 'umet - уметь',
     english: 'to know how to',
-    exampleFI: 'Osaatko laulaa suomeksi',
+    exampleFI: 'Ты умеешь петь по-фински?',
     exampleEN: 'Do you know how to sing in Finnish?',
     audio: 'osata.mp3'
   },
   {
-    finnish: 'viime',
+    finnish: 'proshlyy - прошлый',
     english: 'last',
-    exampleFI: 'Viime kesä oli yllättävän lämmin.',
+    exampleFI: 'Прошлое лето было удивительно теплым.',
     exampleEN: 'Last summer was surprisingly warm.',
     audio: 'viime.mp3'
   },
   {
-    finnish: 'alas',
+    finnish: 'vniz - вниз',
     english: 'down',
-    exampleFI: 'Laskettelin alas tunturia kuin Kalle Palander.',
+    exampleFI: 'Я спускался вниз с сопки как Калле Паландер.',
     exampleEN: 'I skied down the fell like Kalle Palander.',
     audio: 'alas.mp3'
   },
   {
-    finnish: 'paikka',
+    finnish: 'mesto - место',
     english: 'place',
-    exampleFI: 'Tämä on hyvä paikka grillata makkaraa.',
+    exampleFI: 'Это хорошее место, чтобы жарить сосиски.',
     exampleEN: 'This is a good place to grill sausage.',
     audio: 'paikka.mp3'
   },
   {
-    finnish: 'kuulua',
+    finnish: 'prinadlezhat - принадлежать',
     english: 'to belong',
-    exampleFI: 'Tämä sauna kuuluu kaikille.',
+    exampleFI: 'Эта сауна принадлежит всем.',
     exampleEN: 'This sauna belongs to everyone.',
     audio: 'kuulua.mp3'
   },
   {
-    finnish: 'ajatella',
+    finnish: 'dumat - думать',
     english: 'to think',
-    exampleFI: 'Ajattelitko laittaa pipon?',
+    exampleFI: 'Ты подумал надеть шапку?',
     exampleEN: 'Did you think of wearing a beanie?',
     audio: 'ajatella.mp3'
   },
   {
-    finnish: 'ylös',
+    finnish: 'vverkh - вверх',
     english: 'up',
-    exampleFI: 'Nousin ylös kello viisi.',
+    exampleFI: 'Я встал в пять часов.',
     exampleEN: 'I got up at five o’clock.',
     audio: 'ylös.mp3'
   },
   {
-    finnish: 'okei',
+    finnish: 'okei - окей',
     english: 'okay',
-    exampleFI: 'Okei, mennään avantoon.',
+    exampleFI: 'Окей, пойдем в прорубь.',
     exampleEN: 'Okay, let’s go into the ice hole.',
     audio: 'okei.mp3'
   },
   {
-    finnish: 'alkaa',
+    finnish: 'nachinatsya - начинаться',
     english: 'to begin',
-    exampleFI: 'Lätkämatsi alkaa nyt!',
+    exampleFI: 'Хоккейный матч начинается сейчас!',
     exampleEN: 'The hockey game starts now!',
     audio: 'alkaa.mp3'
   },
   {
-    finnish: 'ymmärtää',
+    finnish: 'ponimat - понимать',
     english: 'to understand',
-    exampleFI: 'Ymmärrän nyt mitä “sisu” tarkoittaa.',
+    exampleFI: 'Теперь я понимаю, что значит "sisu".',
     exampleEN: 'Now I understand what “sisu” means.',
     audio: 'ymmärtää.mp3'
   },
   {
-    finnish: 'hetki',
+    finnish: 'moment - момент',
     english: 'moment',
-    exampleFI: 'Odota hetki, kahvi on pian valmis.',
+    exampleFI: 'Подожди момент, кофе скоро будет готов.',
     exampleEN: 'Wait a moment, the coffee is soon ready.',
     audio: 'hetki.mp3'
   },
   {
-    finnish: 'ohi',
+    finnish: 'zakonchen - закончен',
     english: 'over',
-    exampleFI: 'Talvi ei ole vielä ohi.',
+    exampleFI: 'Зима еще не закончилась.',
     exampleEN: 'Winter is not over yet.',
     audio: 'ohi.mp3'
   },
   {
-    finnish: 'sama',
+    finnish: 'tot zhe - тот же',
     english: 'same',
-    exampleFI: 'Sama pipo joka päivä?',
+    exampleFI: 'Та же шапка каждый день?',
     exampleEN: 'Same beanie every day?',
     audio: 'sama.mp3'
   },
   {
-    finnish: 'hieman',
+    finnish: 'nemnogo - немного',
     english: 'a bit',
-    exampleFI: 'On hieman kylmä ilman hanskoja.',
+    exampleFI: 'Немного холодно без перчаток.',
     exampleEN: 'It’s a bit cold without gloves.',
     audio: 'hieman.mp3'
   },
   {
-    finnish: 'yli',
+    finnish: 'cherez - через',
     english: 'over',
-    exampleFI: 'Kävelin jään yli.',
+    exampleFI: 'Я прошел через лед.',
     exampleEN: 'I walked over the ice.',
     audio: 'yli.mp3'
   },
   {
-    finnish: 'muistaa',
+    finnish: 'pomnit - помнить',
     english: 'to remember',
-    exampleFI: 'Muista ottaa saunaolut mukaan.',
+    exampleFI: 'Не забудь взять с собой пиво для сауны.',
     exampleEN: 'Remember to bring the sauna beer.',
     audio: 'muistaa.mp3'
   },
   {
-    finnish: 'yrittää',
+    finnish: 'pytatsya - пытаться',
     english: 'to try',
-    exampleFI: 'Yritän ymmärtää postia suomeksi.',
+    exampleFI: 'Я пытаюсь понять почту на финском.',
     exampleEN: 'I’m trying to understand the mail in Finnish.',
     audio: 'yrittää.mp3'
   },
   {
-    finnish: 'kuunnella',
+    finnish: 'slushat - слушать',
     english: 'to listen',
-    exampleFI: 'Kuuntelen Yleä joka aamu.',
+    exampleFI: 'Я слушаю Yle каждое утро.',
     exampleEN: 'I listen to Yle every morning.',
     audio: 'kuunnella.mp3'
   },
   {
-    finnish: 'pieni',
+    finnish: 'malenkiy - маленький',
     english: 'small',
-    exampleFI: 'Tämä mökki on pieni mutta lämmin.',
+    exampleFI: 'Этот домик маленький, но теплый.',
     exampleEN: 'This cottage is small but warm.',
     audio: 'pieni.mp3'
   },
   {
-    finnish: 'riittää',
+    finnish: 'khvatat - хватать',
     english: 'to be enough',
-    exampleFI: 'Yksi kahvi riittää kesällä.',
+    exampleFI: 'Одного кофе летом хватает.',
     exampleEN: 'One coffee is enough in summer.',
     audio: 'riittää.mp3'
   },
   {
-    finnish: 'neiti',
+    finnish: 'miss - мисс',
     english: 'miss',
-    exampleFI: 'Neiti, unohditte sateenvarjon.',
+    exampleFI: 'Мисс, вы забыли зонтик.',
     exampleEN: 'Miss, you forgot the umbrella.',
     audio: 'neiti.mp3'
   },
   {
-    finnish: 'toivottavasti',
+    finnish: 'nadeyus - надеюсь',
     english: 'hopefully',
-    exampleFI: 'Toivottavasti bussi tulee ajoissa.',
+    exampleFI: 'Надеюсь, автобус придет вовремя.',
     exampleEN: 'Hopefully the bus comes on time.',
     audio: 'toivottavasti.mp3'
   },
   {
-    finnish: 'tarkoittaa',
+    finnish: 'oznachat - означать',
     english: 'to mean',
-    exampleFI: 'Mitä sisu tarkoittaa?',
+    exampleFI: 'Что означает sisu?',
     exampleEN: 'What does “sisu” mean?',
     audio: 'tarkoittaa.mp3'
   },
   {
-    finnish: 'vanha',
+    finnish: 'staryy - старый',
     english: 'old',
-    exampleFI: 'Vanha talo, uusi omistaja.',
+    exampleFI: 'Старый дом, новый владелец.',
     exampleEN: 'Old house, new owner.',
     audio: 'vanha.mp3'
   },
   {
-    finnish: 'poissa',
+    finnish: 'otsutstvuet - отсутствует',
     english: 'away',
-    exampleFI: 'Opettaja on poissa tänään.',
+    exampleFI: 'Учитель сегодня отсутствует.',
     exampleEN: 'The teacher is away today.',
     audio: 'poissa.mp3'
   },
   {
-    finnish: 'läpi',
+    finnish: 'skvoz - сквозь',
     english: 'through',
-    exampleFI: 'Kävelin sumun läpi kauppaan.',
+    exampleFI: 'Я прошел сквозь туман в магазин.',
     exampleEN: 'I walked through the fog to the store.',
     audio: 'läpi.mp3'
   },
   {
-    finnish: 'muuten',
+    finnish: 'kstati - кстати',
     english: 'by the way',
-    exampleFI: 'Muuten, puhutko jo suomea?',
+    exampleFI: 'Кстати, ты уже говоришь по-фински?',
     exampleEN: 'By the way, do you already speak Finnish?',
     audio: 'muuten.mp3'
   },
   { 
-    finnish: 'soittaa', 
+    finnish: 'zvonit - звонить', 
     english: 'to call', 
-    exampleFI: 'Voitko soittaa äidillesi?', 
+    exampleFI: 'Можешь позвонить своей маме?', 
     exampleEN: 'Can you call your mom?', 
     audio: 'soittaa.mp3' },
   { 
-    finnish: 'saanko', 
+    finnish: 'mozhno mne - можно мне', 
     english: 'may I', 
-    exampleFI: 'Saanko tulla saunaan?', 
+    exampleFI: 'Можно мне прийти в сауну?', 
     exampleEN: 'May I come to the sauna?', 
     audio: 'saanko.mp3' },
   { 
-    finnish: 'pyytää', 
+    finnish: 'prosit - просить', 
     english: 'to ask', 
-    exampleFI: 'Voitko pyytää anteeksi hiljempaa?', 
+    exampleFI: 'Можешь попросить прощения потише?', 
     exampleEN: 'Can you ask for forgiveness more quietly?', 
     audio: 'pyytää.mp3' },
   { 
-    finnish: 'nopeasti', 
+    finnish: 'bystro - быстро', 
     english: 'quickly', 
-    exampleFI: 'Hän söi karjalanpiirakan nopeasti.', 
+    exampleFI: 'Он быстро съел карельский пирожок.', 
     exampleEN: 'He ate the Karelian pie quickly.', 
     audio: 'nopeasti.mp3' },
-  { finnish: 'oikeasti', 
+  { finnish: 'na samom dele - на самом деле', 
     english: 'really', 
-    exampleFI: 'Oikeasti, älä valita säästä.', 
+    exampleFI: 'Серьезно, не жалуйся на погоду.', 
     exampleEN: 'Seriously, stop complaining about the weather.', 
     audio: 'oikeasti.mp3' },
-  { finnish: 'voinko', 
+  { finnish: 'mogu li ya - могу ли я', 
     english: 'can I', 
-    exampleFI: 'Voinko mennä jäälle nyt?', 
+    exampleFI: 'Могу я сейчас выйти на лед?', 
     exampleEN: 'Can I go onto the ice now?', 
     audio: 'voinko.mp3' },
   { 
-    finnish: 'täysin', 
+    finnish: 'polnostyu - полностью', 
     english: 'completely', 
-    exampleFI: 'Olen täysin valmis mökkiviikonloppuun.', 
+    exampleFI: 'Я полностью готов к выходным на даче.', 
     exampleEN: 'I’m completely ready for the cottage weekend.', 
     audio: 'täysin.mp3' },
   { 
-    finnish: 'nimi', 
+    finnish: 'imya - имя', 
     english: 'name', 
-    exampleFI: 'Hänen nimensä on Matti, tietenkin.', 
+    exampleFI: 'Его зовут Матти, конечно.', 
     exampleEN: 'His name is Matti, of course.', 
     audio: 'nimi.mp3' },
   { 
-    finnish: 'kunnes', 
+    finnish: 'poka ne - пока не', 
     english: 'until', 
-    exampleFI: 'Odota kunnes kahvi on valmista.', 
+    exampleFI: 'Подожди, пока кофе не будет готов.', 
     exampleEN: 'Wait until the coffee is ready.', 
     audio: 'kunnes.mp3' },
   { 
-    finnish: 'löytää', 
+    finnish: 'nayti - найти', 
     english: 'to find', 
-    exampleFI: 'Yritän löytää toisen sukan.', 
+    exampleFI: 'Я пытаюсь найти второй носок.', 
     exampleEN: 'I’m trying to find the other sock.', 
     audio: 'löytää.mp3' },
   { 
-    finnish: 'vasta', 
+    finnish: 'tolko - только', 
     english: 'only just', 
-    exampleFI: 'Heräsin vasta yhdeltätoista.', 
+    exampleFI: 'Я проснулся только в одиннадцать.', 
     exampleEN: 'I just woke up at eleven.', 
     audio: 'vasta.mp3' },
   { 
-    finnish: 'tarpeeksi', 
+    finnish: 'dostatochno - достаточно', 
     english: 'enough', 
-    exampleFI: 'Onko sinulla tarpeeksi makkaraa?', 
+    exampleFI: 'У тебя достаточно сосисок?', 
     exampleEN: 'Do you have enough sausage?', 
     audio: 'tarpeeksi.mp3' },
   { 
-    finnish: 'iso', 
+    finnish: 'bolshoy - большой', 
     english: 'big', 
-    exampleFI: 'Iso karhu tuli uniin.', 
+    exampleFI: 'Большой медведь пришел во сны.', 
     exampleEN: 'A big bear appeared in the dreams.', 
     audio: 'iso.mp3' },
   { 
-    finnish: 'työ', 
+    finnish: 'rabota - работа', 
     english: 'work', 
-    exampleFI: 'Työ on tärkeää, mutta niin on saunakin.', 
+    exampleFI: 'Работа важна, но сауна тоже.', 
     exampleEN: 'Work is important, but so is sauna.', 
     audio: 'työ.mp3' },
   { 
-    finnish: 'käyttää', 
+    finnish: 'ispolzovat - использовать', 
     english: 'to use', 
-    exampleFI: 'Osaatko käyttää moottorisahaa?', 
+    exampleFI: 'Ты умеешь пользоваться бензопилой?', 
     exampleEN: 'Do you know how to use a chainsaw?', 
     audio: 'käyttää.mp3' },
   { 
-    finnish: 'poliisi', 
+    finnish: 'politsiya - полиция', 
     english: 'police', 
-    exampleFI: 'Poliisi pysäytti poron.', 
+    exampleFI: 'Полиция остановила оленя.', 
     exampleEN: 'The police stopped a reindeer.', 
     audio: 'poliisi.mp3'},
   { 
-    finnish: 'asti', 
+    finnish: 'do - до', 
     english: 'until', 
-    exampleFI: 'Juhlat jatkuvat aamuun asti.', 
+    exampleFI: 'Вечеринка продолжается до утра.', 
     exampleEN: 'The party goes on until morning.', 
     audio: 'asti.mp3' },
   { 
-    finnish: 'viisi', 
+    finnish: 'pyat - пять', 
     english: 'five', 
-    exampleFI: 'Viisi suomalaista istui hiljaa.', 
+    exampleFI: 'Пять финнов сидели молча.', 
     exampleEN: 'Five Finns sat silently.', 
     audio: 'viisi.mp3' },
   { 
-    finnish: 'irti', 
+    finnish: 'proch - прочь', 
     english: 'off/loose', 
-    exampleFI: 'Hanskat irti, nyt pelataan.', 
+    exampleFI: 'Перчатки прочь, теперь играем.', 
     exampleEN: 'Gloves off, now we play.', 
     audio: 'irti.mp3' },
   { 
-    finnish: 'kohta', 
+    finnish: 'skoro - скоро', 
     english: 'soon', 
-    exampleFI: 'Kohta aurinko nousee taas.', 
+    exampleFI: 'Скоро солнце снова взойдет.', 
     exampleEN: 'The sun will rise again soon.', 
     audio: 'kohta.mp3' },
   { 
-    finnish: 'kuulostaa', 
+    finnish: 'zvuchit - звучит', 
     english: 'sounds like', 
-    exampleFI: 'Kuulostaa ihan siltä, että sataa taas.', 
+    exampleFI: 'Звучит так, будто снова идет дождь.', 
     exampleEN: 'Sounds like it’s raining again.', 
     audio: 'kuulostaa.mp3' },
   { 
-    finnish: 'kuitenkin', 
+    finnish: 'vse zhe - всё же', 
     english: 'however', 
-    exampleFI: 'Oli kylmä, mutta menin kuitenkin uimaan.', 
+    exampleFI: 'Было холодно, но я всё же пошел плавать.', 
     exampleEN: 'It was cold, but I went swimming anyway.', 
     audio: 'kuitenkin.mp3' },
   { 
-    finnish: 'tahansa', 
+    finnish: 'lyuboy - любой', 
     english: 'any', 
-    exampleFI: 'Valitse mikä tahansa sauna.', 
+    exampleFI: 'Выбери любую сауну.', 
     exampleEN: 'Pick any sauna.', 
     audio: 'tahansa.mp3' },
   {
-    finnish: 'kiltti',
+    finnish: 'dobryy - добрый',
     english: 'kind',
-    exampleFI: 'Ole kiltti ja anna suklaa takaisin.',
+    exampleFI: 'Будь добр и верни шоколад обратно.',
     exampleEN: 'Be kind and give the chocolate back.',
     audio: 'kiltti.mp3'
   },
   {
-    finnish: 'kiva',
+    finnish: 'priyatno - приятно',
     english: 'nice',
-    exampleFI: 'On kivaa kun bussi tulee ajoissa.',
+    exampleFI: 'Приятно, когда автобус приходит вовремя.',
     exampleEN: 'It’s nice when the bus is on time.',
     audio: 'kiva.mp3'
   },
   {
-    finnish: 'ainakin',
+    finnish: 'po krayney mere - по крайней мере',
     english: 'at least',
-    exampleFI: 'On kylmä, mutta ainakin on valoisaa.',
+    exampleFI: 'Холодно, но по крайней мере светло.',
     exampleEN: 'It’s cold, but at least it’s bright.',
     audio: 'ainakin.mp3'
   },
   {
-    finnish: 'hiljaa',
+    finnish: 'tikho - тихо',
     english: 'quietly',
-    exampleFI: 'Puhu hiljaa kirjastossa.',
+    exampleFI: 'Говори тихо в библиотеке.',
     exampleEN: 'Speak quietly in the library.',
     audio: 'hiljaa.mp3'
   },
   {
-    finnish: 'mukana',
+    finnish: 's soboy - с собой',
     english: 'along / with',
-    exampleFI: 'Onko sinulla passi mukana?',
+    exampleFI: 'У тебя с собой паспорт?',
     exampleEN: 'Do you have your passport with you?',
     audio: 'mukana.mp3'
   },
   {
-    finnish: 'eli',
+    finnish: 'to est - то есть',
     english: 'that is / so / i.e.',
-    exampleFI: 'Sisu, eli suomalainen supervoima.',
+    exampleFI: 'Сису, то есть финская суперсила.',
     exampleEN: 'Sisu, that is the Finnish superpower.',
     audio: 'eli.mp3'
   },
   {
-    finnish: 'sellainen',
+    finnish: 'takoy - такой',
     english: 'such / that kind',
-    exampleFI: 'Hän on sellainen hiljainen suomalainen.',
+    exampleFI: 'Он такой тихий финн.',
     exampleEN: 'He is that kind of quiet Finn.',
     audio: 'sellainen.mp3'
   },
   {
-    finnish: 'pakko',
+    finnish: 'nuzhno - нужно',
     english: 'must / have to',
-    exampleFI: 'On pakko mennä ulos.',
+    exampleFI: 'Нужно выйти на улицу.',
     exampleEN: 'I have to go outside.',
     audio: 'pakko.mp3'
   },
   {
-    finnish: 'ensimmäinen',
+    finnish: 'pervyy - первый',
     english: 'first',
-    exampleFI: 'Ensimmäinen muuttolintu tuli takaisin.',
+    exampleFI: 'Первая перелетная птица вернулась.',
     exampleEN: 'The first migratory bird returned.',
     audio: 'ensimmäinen.mp3'
   },
   {
-    finnish: 'eilen',
+    finnish: 'vchera - вчера',
     english: 'yesterday',
-    exampleFI: 'Eilen oli +25°C.',
+    exampleFI: 'Вчера было +25°C.',
     exampleEN: 'Yesterday was +25°C..',
     audio: 'eilen.mp3'
   },
   {
-    finnish: 'neljä',
+    finnish: 'chetyre - четыре',
     english: 'four',
-    exampleFI: 'Neljä kuppia kahvia, kiitos.',
+    exampleFI: 'Четыре чашки кофе, пожалуйста.',
     exampleEN: 'Four cups of coffee, please.',
     audio: 'neljä.mp3'
   },
   {
-    finnish: 'kaunis',
+    finnish: 'krasivyy - красивый',
     english: 'beautiful',
-    exampleFI: 'Onko tämä sana kaunis vai vaikea?',
+    exampleFI: 'Это слово красивое или трудное?',
     exampleEN: 'Is this word beautiful or hard?',
     audio: 'kaunis.mp3'
   },
   {
-    finnish: 'pysyä',
+    finnish: 'ostavatsya - оставаться',
     english: 'to stay',
-    exampleFI: 'Voinko pysyä täällä, jos opin suomea?',
+    exampleFI: 'Могу я остаться здесь, если выучу финский?',
     exampleEN: 'Can I stay here if I learn Finnish?',
     audio: 'pysyä.mp3'
   },
   {
-    finnish: 'kello',
+    finnish: 'chasy - часы',
     english: 'clock / time',
-    exampleFI: 'Kello on jo kahdeksan!',
+    exampleFI: 'Уже восемь часов!',
     exampleEN: 'It’s already eight!',
     audio: 'kello.mp3'
   },
   {
-    finnish: 'liikaa',
+    finnish: 'slishkom mnogo - слишком много',
     english: 'too much',
-    exampleFI: 'Liikaa kahvia, liikaa hiljaisuutta.',
+    exampleFI: 'Слишком много кофе, слишком много тишины.',
     exampleEN: 'Too much coffee, too much silence.',
     audio: 'liikaa.mp3'
   },
   {
-    finnish: 'kuulla',
+    finnish: 'slyshat - слышать',
     english: 'to hear',
-    exampleFI: 'En kuule, mitä sanot.',
+    exampleFI: 'Я не слышу, что ты говоришь.',
     exampleEN: 'I can’t what you are saying.',
     audio: 'kuulla.mp3'
   },
   {
-    finnish: 'tuntea',
+    finnish: 'chuvstvovat - чувствовать',
     english: 'to feel / to know (a person)',
-    exampleFI: 'Haluan tuntea tämän maan kunnolla.',
+    exampleFI: 'Я хочу по-настоящему почувствовать эту страну.',
     exampleEN: 'I want to truly know this country.',
     audio: 'tuntea.mp3'
   },
   {
-    finnish: 'mieli',
+    finnish: 'nastroenie - настроение',
     english: 'mind / mood',
-    exampleFI: 'Mitä hänellä oli mielessä?',
+    exampleFI: 'Что у него было на уме?',
     exampleEN: 'What was on his/her mind?',
     audio: 'mieli.mp3'
   },
   {
-    finnish: 'varten',
+    finnish: 'dlya - для',
     english: 'for (someone or something)',
-    exampleFI: 'Tämä kahvi on expatteja varten.',
+    exampleFI: 'Этот кофе для экспатов.',
     exampleEN: 'This coffee is for expats.',
     audio: 'varten.mp3'
   },
   {
-    finnish: 'mukava',
+    finnish: 'priyatnyy - приятный',
     english: 'nice / comfortable',
-    exampleFI: 'Tämä mökki on mukava, vaikka ei ole wifiä.',
+    exampleFI: 'Этот домик приятный, даже без вайфая.',
     exampleEN: 'This cabin is nice, even without wifi.',
     audio: 'mukava.mp3'
   },
   {
-    finnish: 'dollari',
+    finnish: 'dollar - доллар',
     english: 'dollar',
-    exampleFI: 'Euro ja dollari ovat taas samanarvoiset',
+    exampleFI: 'Евро и доллар снова равны по стоимости.',
     exampleEN: 'The euro and the dollar are worth the same again.',
     audio: 'dollari.mp3'
   },
   {
-    finnish: 'hitto',
+    finnish: 'chert - чёрт',
     english: 'damn',
-    exampleFI: 'Hitto, unohdin ostaa saunamakkaraa!',
+    exampleFI: 'Чёрт, я забыл купить сосиски для сауны!',
     exampleEN: 'Damn, I forgot to buy sauna sausage!',
     audio: 'hitto.mp3'
   },
   {
-    finnish: 'kotona',
+    finnish: 'doma - дома',
     english: 'at home',
-    exampleFI: 'Oletko taas kotona koko viikonlopun?',
+    exampleFI: 'Ты снова дома все выходные?',
     exampleEN: 'Are you at home all weekend again?',
     audio: 'kotona.mp3'
   },
   {
-    finnish: 'melkein',
+    finnish: 'pochti - почти',
     english: 'almost',
-    exampleFI: 'Melkein ymmärsin tämän kieliopin.',
+    exampleFI: 'Я почти понял эту грамматику.',
     exampleEN: 'I almost understood this grammar.',
     audio: 'melkein.mp3'
   },
   {
-    finnish: 'tunne',
+    finnish: 'chuvstvo - чувство',
     english: 'feeling',
-    exampleFI: 'On outo tunne, kun aurinko ei laske.',
+    exampleFI: 'Странное чувство, когда солнце не садится.',
     exampleEN: 'It’s a strange feeling when the sun doesn’t set.',
     audio: 'tunne.mp3'
   },
   {
-    finnish: 'kaveri',
+    finnish: 'drug - друг',
     english: 'friend / buddy',
-    exampleFI: 'Jokaisella suomalaisella on yksi hyvä kaveri.',
+    exampleFI: 'У каждого финна есть один хороший друг.',
     exampleEN: 'Every Finn has one good buddy.',
     audio: 'kaveri.mp3'
   },
   {
-    finnish: 'eri',
+    finnish: 'drugoy - другой',
     english: 'different (one)',
-    exampleFI: 'Tämä on eri auto kuin ilmoituksessa.',
+    exampleFI: 'Это другая машина, чем в объявлении.',
     exampleEN: 'This car is different than in the advert.',
     audio: 'eri.mp3'
   },
   {
-    finnish: 'pystyä',
+    finnish: 'moch - мочь',
     english: 'to be able to',
-    exampleFI: 'En pysty menemään avantoon.',
+    exampleFI: 'Я не могу пойти в прорубь.',
     exampleEN: 'I can’t go into the ice hole.',
     audio: 'pystyä.mp3'
   },
   {
-    finnish: 'jopa',
+    finnish: 'dazhe - даже',
     english: 'even',
-    exampleFI: 'Jopa suomalaiset puhuvat joskus tunteistaan.',
+    exampleFI: 'Даже финны иногда говорят о своих чувствах.',
     exampleEN: 'Even Finns sometimes talk about their feelings.',
     audio: 'jopa.mp3'
   },
   {
-    finnish: 'usko',
+    finnish: 'vera - вера',
     english: 'belief / trust / faith',
-    exampleFI: 'Älä menetä uskoa, kesä tulee vielä.',
+    exampleFI: 'Не теряй веру, лето еще придет.',
     exampleEN: 'Do not lose faith, summer will come.',
     audio: 'usko.mp3'
   },
   {
-    finnish: 'osa',
+    finnish: 'chast - часть',
     english: 'part',
-    exampleFI: 'Tämä on vain pieni osa kielestä.',
+    exampleFI: 'Это только маленькая часть языка.',
     exampleEN: 'This is just a small part of the language.',
     audio: 'osa.mp3'
   },
   {
-    finnish: 'kapteeni',
+    finnish: 'kapitan - капитан',
     english: 'captain',
-    exampleFI: 'Kapteeni puhui lentokoneessa.',
+    exampleFI: 'Капитан говорил в самолете.',
     exampleEN: 'The captain spoke on the plane.',
     audio: 'kapteeni.mp3'
   },
   {
-    finnish: 'paitsi',
+    finnish: 'krome - кроме',
     english: 'except',
-    exampleFI: 'Kaikki ymmärsivät, paitsi minä.',
+    exampleFI: 'Все поняли, кроме меня.',
     exampleEN: 'Everyone understood except me.',
     audio: 'paitsi.mp3'
   },
   {
-    finnish: 'äiti',
+    finnish: 'mama - мама',
     english: 'mother',
-    exampleFI: 'Äiti sanoo aina: käytä pipoa.',
+    exampleFI: 'Мама всегда говорит: носи шапку.',
     exampleEN: 'Mother always says: wear a beanie.',
     audio: 'äiti.mp3'
   },
   {
-    finnish: 'vuoksi',
+    finnish: 'iz-za - из-за',
     english: 'because of (for something or someone)',
-    exampleFI: 'Sinun vuoksesi hypään vaikka avantoon.',
+    exampleFI: 'Ради тебя я даже прыгну в прорубь.',
     exampleEN: 'For you I will even jump into the ice hole',
     audio: 'vuoksi.mp3'
   },
   {
-    finnish: 'suoraan',
+    finnish: 'pryamo - прямо',
     english: 'directly / straight',
-    exampleFI: 'Mene suoraan kunnes näet poron.',
+    exampleFI: 'Иди прямо, пока не увидишь оленя.',
     exampleEN: 'Go straight until you see a reindeer.',
     audio: 'suoraan.mp3'
   },
   {
-    finnish: 'sieltä',
+    finnish: 'ottuda - оттуда',
     english: 'from there',
-    exampleFI: 'Onko tuo lippalakki sieltä Teneriffalta?',
+    exampleFI: 'Эта кепка оттуда, с Тенерифе?',
     exampleEN: 'Is that cap from there in Tenerife?',
     audio: 'sieltä.mp3'
   },
   {
-    finnish: 'tietenkin',
+    finnish: 'konechno - конечно',
     english: 'of course',
-    exampleFI: 'Tietenkin meillä on kahvia!',
+    exampleFI: 'Конечно, у нас есть кофе!',
     exampleEN: 'Of course we have coffee!',
     audio: 'tietenkin.mp3'
   },
   {
-    finnish: 'ystävä',
+    finnish: 'drug - друг',
     english: 'friend',
-    exampleFI: 'Hän on minun ensimmäinen suomalainen ystäväni.',
+    exampleFI: 'Он мой первый финский друг.',
     exampleEN: 'He is my first Finnish friend.',
     audio: 'ystävä.mp3'
   },
   {
-    finnish: 'minuutti',
+    finnish: 'minuta - минута',
     english: 'minute',
-    exampleFI: 'Kaurapuuro valmistuu minuutissa.',
+    exampleFI: 'Овсянка готовится за минуту.',
     exampleEN: 'The oatmeal cooks in a minute.',
     audio: 'minuutti.mp3'
   },
   {
-    finnish: 'hätä',
+    finnish: 'avariya - авария',
     english: 'emergency',
-    exampleFI: 'Ei hätää vaikka kahvi loppui.',
+    exampleFI: 'Не беда, даже если кофе закончился.',
     exampleEN: 'It’s not an emergency even if the coffee ran out.',
     audio: 'hätä.mp3'
   },
   {
-    finnish: 'toki',
+    finnish: 'konechno - конечно',
     english: 'of course',
-    exampleFI: 'Toki voit tulla mökille.',
+    exampleFI: 'Конечно, ты можешь приехать на дачу.',
     exampleEN: 'Of course you can come to the cottage.',
     audio: 'toki.mp3'
   },
   {
-    finnish: 'maailma',
+    finnish: 'mir - мир',
     english: 'world',
-    exampleFI: 'Pieni maailma.',
+    exampleFI: 'Маленький мир.',
     exampleEN: 'Small world..',
     audio: 'maailma.mp3'
   },
   {
-    finnish: 'tietysti',
+    finnish: 'estestvenno - естественно',
     english: 'naturally',
-    exampleFI: 'Tietysti sauna on lämmin.',
+    exampleFI: 'Естественно, сауна теплая.',
     exampleEN: 'Naturally the sauna is warm.',
     audio: 'tietysti.mp3'
   },
   {
-    finnish: 'palata',
+    finnish: 'vernutsya - вернуться',
     english: 'to return',
-    exampleFI: 'Haluan palata Suomeen jäätelön takia.',
+    exampleFI: 'Я хочу вернуться в Финляндию из-за мороженого.',
     exampleEN: 'I want to return to Finland for the ice cream.',
     audio: 'palata.mp3'
   },
   {
-    finnish: 'pikku',
+    finnish: 'malenkiy - маленький',
     english: 'little',
-    exampleFI: 'Pikku ongelma: en ymmärrä suomea.',
+    exampleFI: 'Маленькая проблема: я не понимаю финский.',
     exampleEN: 'A little problem: I don’t understand Finnish.',
     audio: 'pikku.mp3'
   },
   {
-    finnish: 'Jumala',
+    finnish: 'bog - бог',
     english: 'God',
-    exampleFI: 'Jumala loi suomalaiset ja sitten saunan.',
+    exampleFI: 'Бог создал финнов, а потом сауну.',
     exampleEN: 'God created the Finns and then the sauna.',
     audio: 'Jumala.mp3'
   },
   {
-    finnish: 'maksaa',
+    finnish: 'platit / stoit - платить / стоить',
     english: 'to pay / cost',
-    exampleFI: 'Kalja maksaa 10 euroa.',
+    exampleFI: 'Пиво стоит 10 евро.',
     exampleEN: 'Beer costs 10 euros.',
     audio: 'maksaa.mp3'
   },
   {
-    finnish: 'hetkinen',
+    finnish: 'sekundu - секунду',
     english: 'just a moment',
-    exampleFI: 'Hetkinen... missä minun kännykkäni on?',
+    exampleFI: 'Секунду... где мой телефон?',
     exampleEN: 'Just a moment... where is my phone?',
     audio: 'hetkinen.mp3'
   },
   {
-    finnish: 'auto',
+    finnish: 'mashina - машина',
     english: 'car',
-    exampleFI: 'Auto ei käynnisty, on liian kylmä.',
+    exampleFI: 'Машина не заводится, слишком холодно.',
     exampleEN: 'The car won’t start, it’s too cold.',
     audio: 'auto.mp3'
   },
   {
-    finnish: 'tunti',
+    finnish: 'chas - час',
     english: 'hour',
-    exampleFI: 'Yksi tunti suomea päivässä riittää.',
+    exampleFI: 'Одного часа финского в день достаточно.',
     exampleEN: 'One hour of Finnish per day is enough.',
     audio: 'tunti.mp3'
   },
   {
-    finnish: 'jäädä',
+    finnish: 'ostavatsya - оставаться',
     english: 'to stay',
-    exampleFI: 'Voit jäädä, jos osaat grillata makkaraa.',
+    exampleFI: 'Ты можешь остаться, если умеешь жарить сосиски.',
     exampleEN: 'You can stay if you know how to grill sausage.',
     audio: 'jäädä.mp3'
   },
   {
-    finnish: 'tervetuloa',
+    finnish: 'dobro pozhalovat - добро пожаловать',
     english: 'welcome',
-    exampleFI: 'Tervetuloa Suomeen!',
+    exampleFI: 'Добро пожаловать в Финляндию!',
     exampleEN: 'Welcome to Finland!',
     audio: 'tervetulo.mp3'
   },
   {
-    finnish: 'lähellä',
+    finnish: 'ryadom - рядом',
     english: 'nearby',
-    exampleFI: 'Toivottavasti lähellä on kahvila.',
+    exampleFI: 'Надеюсь, рядом есть кафе.',
     exampleEN: 'I hope there is a café nearby.',
     audio: 'lähellä.mp3'
   },
   {
-    finnish: 'elää',
+    finnish: 'zhit - жить',
     english: 'to live',
-    exampleFI: 'Suomessa voi elää hyvin jos on kahvia ja huumoria.',
+    exampleFI: 'В Финляндии можно хорошо жить, если есть кофе и чувство юмора.',
     exampleEN: 'You can live well in Finland if you have coffee and a sense of humor.',
     audio: 'elää.mp3'
   },
   {
-    finnish: 'kovin',
+    finnish: 'ochen - очень',
     english: 'very',
-    exampleFI: 'Ei ole kovin lämmin tänäänkään.',
+    exampleFI: 'Сегодня тоже не очень тепло.',
     exampleEN: 'It is not very warm today either.',
     audio: 'kovin.mp3'
   },
   {
-    finnish: 'ongelma',
+    finnish: 'problema - проблема',
     english: 'problem',
-    exampleFI: 'Minun ongelmani: liikaa ääkkösiä!',
+    exampleFI: 'Моя проблема: слишком много букв с умлаутом!',
     exampleEN: 'My problem: too many ä’s and ö’s!',
     audio: 'ongelma.mp3'
   },
   {
-    finnish: 'yö',
+    finnish: 'noch - ночь',
     english: 'night',
-    exampleFI: 'Yö on pitkä, mutta kirkas kesällä.',
+    exampleFI: 'Ночь длинная, но летом светлая.',
     exampleEN: 'The night is long, but bright in summer.',
     audio: 'yö.mp3'
   },
   {
-    finnish: 'jättää',
+    finnish: 'ostavit - оставить',
     english: 'to leave',
-    exampleFI: 'Jätä kengät eteiseen.',
+    exampleFI: 'Оставь обувь в прихожей.',
     exampleEN: 'Leave your shoes in the hall.',
     audio: 'jättää.mp3'
   },
   {
-    finnish: 'hullu',
+    finnish: 'sumasshedshiy - сумасшедший',
     english: 'crazy',
-    exampleFI: 'Olen ihan hulluna suomenkieleen!',
+    exampleFI: 'Я просто без ума от финского языка!',
     exampleEN: 'I’m totally crazy about the Finnish language!',
     audio: 'hulla.mp3'
   },
   {
-    finnish: 'tapa',
+    finnish: 'sposob - способ',
     english: 'way / method',
-    exampleFI: 'Paras tapa oppia on mokailla julkisesti.',
+    exampleFI: 'Лучший способ учиться - ошибаться публично.',
     exampleEN: 'The best way to learn is to mess up publicly.',
     audio: 'tapa.mp3'
   },
   {
-    finnish: 'ai',
+    finnish: 'a - а',
     english: 'oh / really?',
-    exampleFI: 'Ai, et tiennyt että kesäkuussa voi sataa lunta?',
+    exampleFI: 'А, ты не знал, что в июне может идти снег?',
     exampleEN: 'Oh, you didn’t know it can snow in June?',
     audio: 'ai.mp3'
   },
 {
-  finnish: 'lapsi',
+  finnish: 'rebyonok - ребёнок',
   english: 'child',
-  exampleFI: 'Lapsi syö lunta, taas.',
+  exampleFI: 'Ребенок снова ест снег.',
   exampleEN: 'The child is eating snow, again.',
   audio: 'lapsi.mp3'
 },
 {
-  finnish: 'aiemmin',
+  finnish: 'ranshe - раньше',
   english: 'earlier',
-  exampleFI: 'Työskentelin aiemmin Dubaissa.',
+  exampleFI: 'Раньше я работал в Дубае.',
   exampleEN: 'I worked in Dubai earlier.',
   audio: 'aiemmin.mp3'
 },
 {
-  finnish: 'ensi',
+  finnish: 'sledyushchiy - следующий',
   english: 'next / first',
-  exampleFI: 'Pukeudu lämpimämmin ensi kerralla.',
+  exampleFI: 'В следующий раз одевайся теплее.',
   exampleEN: 'Dress warmer next time.',
   audio: 'ensi.mp3'
 },
 {
-  finnish: 'yhtään',
+  finnish: 'sovsem - совсем',
   english: 'at all',
-  exampleFI: 'Et puhu suomea yhtään?',
+  exampleFI: 'Ты совсем не говоришь по-фински?',
   exampleEN: 'You don’t speak Finnish at all?',
   audio: 'yhtään.mp3'
 },
 {
-  finnish: 'sopia',
+  finnish: 'podkhodit - подходить',
   english: 'to fit / to agree',
-  exampleFI: 'Tämä kahvi ei sovi ranskalaiseen makuun.',
+  exampleFI: 'Этот кофе не подходит французскому вкусу.',
   exampleEN: 'This coffee doesn’t suit French taste.',
   audio: 'sopia.mp3'
 },
 {
-  finnish: 'viimeinen',
+  finnish: 'posledniy - последний',
   english: 'last',
-  exampleFI: 'Viimeinen metro meni jo, tietenkin.',
+  exampleFI: 'Последнее метро уже ушло, конечно.',
   exampleEN: 'The last metro is gone, of course.',
   audio: 'viimeinen.mp3'
 },
 {
-  finnish: 'onni',
+  finnish: 'schastye - счастье',
   english: 'luck / happiness',
-  exampleFI: 'Onni on villasukat ja glögiä takan äärellä.',
+  exampleFI: 'Счастье - это шерстяные носки и глёгг у камина.',
   exampleEN: 'Happiness is wool socks and glögi by the fire place.',
   audio: 'onni.mp3'
 },
 {
-  finnish: 'oma',
+  finnish: 'sobstvennyy - собственный',
   english: 'own',
-  exampleFI: 'Minulla on oma lumitraktori.',
+  exampleFI: 'У меня есть свой снежный трактор.',
   exampleEN: 'I have my own snow tractor.',
   audio: 'oma.mp3'
 },
 {
-  finnish: 'terve',
+  finnish: 'zdorovyy - здоровый',
   english: 'healthy / hi',
-  exampleFI: 'Pysyn terveenä saunan ja mustikoiden avulla.',
+  exampleFI: 'Я остаюсь здоровым благодаря сауне и чернике.',
   exampleEN: 'I stay healthy thanks to sauna and bilberries.',
   audio: 'terve.mp3'
 },
 {
-  finnish: 'samoin',
+  finnish: 'vzaimno - взаимно',
   english: 'likewise',
-  exampleFI: 'Samoin - hyvää kesälomaa sinullekin!',
+  exampleFI: 'Взаимно - хороших летних каникул и тебе!',
   exampleEN: 'Likewise - have a nice holiday you too!',
   audio: 'samoin.mp3'
 },
 {
-  finnish: 'suuri',
+  finnish: 'bolshoy - большой',
   english: 'big',
-  exampleFI: 'On suuri virhe aliarvioida suomalaista hiljaisuutta.',
+  exampleFI: 'Большая ошибка - недооценивать финскую тишину.',
   exampleEN: 'It is a big mistake to underestimate Finnish silence.',
   audio: 'suuri.mp3'
 },
 {
-  finnish: 'hoitaa',
+  finnish: 'zabotitsya - заботиться',
   english: 'to take care of',
-  exampleFI: 'Voitko hoitaa tämän paperisodan?',
+  exampleFI: 'Можешь разобраться с этой бумажной войной?',
   exampleEN: 'Can you handle this paperwork mess?',
   audio: 'hoitaa.mp3'
 },
 {
-  finnish: 'vaiva',
+  finnish: 'khlopoty - хлопоты',
   english: 'trouble / effort',
-  exampleFI: 'Anteeksi vaivasta, en tarvinnutkaan sitä.',
+  exampleFI: 'Извини за хлопоты, мне это все-таки не понадобилось.',
   exampleEN: 'Sorry for the effort, I did not need it after all.',
   audio: 'vaiva.mp3'
 },
 {
-  finnish: 'huono',
+  finnish: 'plokhoy - плохой',
   english: 'bad',
-  exampleFI: 'Shortsit tammikuussa on huono idea.',
+  exampleFI: 'Шорты в январе - плохая идея.',
   exampleEN: 'Wearing shorts in January is a bad idea.',
   audio: 'huono.mp3'
 },
 {
-  finnish: 'tuli',
+  finnish: 'ogon - огонь',
   english: 'fire / came',
-  exampleFI: 'Takassa on tuli ja hellalla on glögiä.',
+  exampleFI: 'В камине огонь, а на плите глёгг.',
   exampleEN: 'There is a fire in the fireplace and glögi on the stove.',
   audio: 'tuli.mp3'
 },
 {
-  finnish: 'molemmat',
+  finnish: 'oba - оба',
   english: 'both',
-  exampleFI: 'Kahvi tai tee? – Molemmat, kiitos.',
+  exampleFI: 'Кофе или чай? - Оба, пожалуйста.',
   exampleEN: 'Coffee or tea? – Both, please.',
   audio: 'molemmat.mp3'
 },
 {
-  finnish: 'vaikea',
+  finnish: 'trudnyy - трудный',
   english: 'difficult',
-  exampleFI: 'Vaikea kieli, mutta hyvät pullat.',
+  exampleFI: 'Трудный язык, но отличные булочки.',
   exampleEN: 'A difficult language, but great pastries.',
   audio: 'vaikea.mp3'
 },
@@ -2203,356 +2203,356 @@ export const wordPairs = [
 
 
 {
-  finnish: 'aamu',
+  finnish: 'utro - утро',
   english: 'morning',
-  exampleFI: 'Kahvi on tärkein asia aamulla.',
+  exampleFI: 'Кофе - самое важное утром.',
   exampleEN: 'Coffee is the most important thing in the morning.',
   audio: 'aamu.mp3'
 },
 
 {
-  finnish: 'kysyä',
+  finnish: 'sprashivat - спрашивать',
   english: 'to ask',
-  exampleFI: 'Saat kysyä yhden tyhmän kysymyksen per päivä.',
+  exampleFI: 'Ты можешь задавать один глупый вопрос в день.',
   exampleEN: 'You may ask one dumb question per day.',
   audio: 'kysyä.mp3'
 },
 {
-  finnish: 'väärin',
+  finnish: 'nepravilno - неправильно',
   english: 'wrong',
-  exampleFI: 'Tämä ei ole väärin, tämä on suomalainen tapa.',
+  exampleFI: 'Это не неправильно, это финский способ.',
   exampleEN: 'This isn’t wrong, it’s the Finnish way.',
   audio: 'väärin.mp3'
 },
 {
-  finnish: 'väli',
+  finnish: 'distantsiya - дистанция',
   english: 'gap / space / between',
-  exampleFI: 'Pidetään vähän väliä – suomalaisittain.',
+  exampleFI: 'Давайте держать небольшую дистанцию - по-фински.',
   exampleEN: 'Let’s keep some space – the Finnish way.',
   audio: 'väli.mp3'
 },
 {
-  finnish: 'mahtava',
+  finnish: 'otlichnyy - отличный',
   english: 'awesome',
-  exampleFI: 'Mahtava idea – mennään avantoon!',
+  exampleFI: 'Отличная идея - пойдем в прорубь!',
   exampleEN: 'Awesome idea – let’s go ice swimming!',
   audio: 'mahtava.mp3'
 },
 {
-  finnish: 'viitsiä',
+  finnish: 'khotet vozitsya - хотеть возиться',
   english: 'to bother',
-  exampleFI: 'En viitsi lähteä kotoa. Ulkona on -28.',
+  exampleFI: 'Не хочется выходить из дома. На улице -28.',
   exampleEN: 'I can’t be bothered to leave home. It’s -28 outside.',
   audio: 'viitsiä.mp3'
 },
 {
-  finnish: 'muka',
+  finnish: 'yakoby - якобы',
   english: 'supposedly / as claimed',
-  exampleFI: 'Hän muka ei ymmärrä suomea.',
+  exampleFI: 'Он якобы не понимает финский.',
   exampleEN: 'He supposedly doesn’t understand Finnish.',
   audio: 'muka.mp3'
 },
 {
-  finnish: 'moni',
+  finnish: 'mnogie - многие',
   english: 'many (people / things)',
-  exampleFI: 'Moni on yrittänyt oppia sijamuodot.',
+  exampleFI: 'Многие пытались выучить падежи.',
   exampleEN: 'Many have tried to learn the Finnish cases.',
   audio: 'moni.mp3'
 },
 {
-  finnish: 'luo',
+  finnish: 'k - к',
   english: 'to / towards (a person)',
-  exampleFI: 'Mene isän luo kysymään lupa.',
+  exampleFI: 'Иди к отцу просить разрешение.',
   exampleEN: 'Go to your father to ask for permission.',
   audio: 'luo.mp3'
 },
 {
-  finnish: 'vauhti',
+  finnish: 'skorost - скорость',
   english: 'speed',
-  exampleFI: 'Laita lisää vauhtia potkukelkkaan!',
+  exampleFI: 'Добавь скорости санкам!',
   exampleEN: 'Add more speed to the kicksled!',
   audio: 'vauhti.mp3'
 },
 {
-  finnish: 'aikoa',
+  finnish: 'sobiratsya - собираться',
   english: 'to intend',
-  exampleFI: 'Aion oppia kaikki sijamuodot ennen kesää.',
+  exampleFI: 'Я собираюсь выучить все падежи до лета.',
   exampleEN: 'I intend to learn all the cases before summer.',
   audio: 'aikoa.mp3'
 },
 {
-  finnish: 'onneksi',
+  finnish: 'k schastyu - к счастью',
   english: 'luckily',
-  exampleFI: 'Onneksi on sauna. Aina.',
+  exampleFI: 'К счастью, есть сауна. Всегда.',
   exampleEN: 'Luckily, there’s always a sauna.',
   audio: 'onneksi.mp3'
 },
 {
-  finnish: 'vastata',
+  finnish: 'otvechat - отвечать',
   english: 'to answer',
-  exampleFI: 'Et voi vain hymyillä – pitää myös vastata.',
+  exampleFI: 'Нельзя просто улыбаться - нужно и отвечать.',
   exampleEN: 'You can’t just smile – you also have to answer.',
   audio: 'vastata.mp3'
 },
 {
-  finnish: 'syy',
+  finnish: 'prichina - причина',
   english: 'reason',
-  exampleFI: 'Mikä on syy siihen, että aina sataa?',
+  exampleFI: 'Какая причина того, что всегда идет дождь?',
   exampleEN: 'What’s the reason it’s always raining?',
   audio: 'syy.mp3'
 },
 {
-  finnish: 'takana',
+  finnish: 'pozadi - позади',
   english: 'behind',
-  exampleFI: 'Seisotko jo oven takana?',
+  exampleFI: 'Ты уже стоишь за дверью?',
   exampleEN: 'Are you already standing behind the door?',
   audio: 'takana.mp3'
 },
 {
-  finnish: 'uudelleen',
+  finnish: 'snova - снова',
   english: 'again / anew',
-  exampleFI: 'Aloitetaan uudelleen – nyt suomalaisella kärsivällisyydellä.',
+  exampleFI: 'Начнем снова - теперь с финским терпением.',
   exampleEN: 'Let’s start again – with Finnish patience this time.',
   audio: 'uudelleen.mp3'
 },
 {
-  finnish: 'rauhoittua',
+  finnish: 'uspokoitsya - успокоиться',
   english: 'to calm down',
-  exampleFI: 'Rauhoitu nyt, se oli vain lumipallo.',
+  exampleFI: 'Успокойся, это был всего лишь снежок.',
   exampleEN: 'Calm down, it was just a snowball.',
   audio: 'rauhoittua.mp3'
 },
 {
-  finnish: 'unohtaa',
+  finnish: 'zabyvat - забывать',
   english: 'to forget',
-  exampleFI: 'Unohditko pipon taas?',
+  exampleFI: 'Ты опять забыл шапку?',
   exampleEN: 'Did you forget the beanie again?',
   audio: 'unohtaa.mp3'
 },
 {
-  finnish: 'toimia',
+  finnish: 'rabotat - работать',
   english: 'to function / to take action',
-  exampleFI: 'Tämä ryhmätyö ei toimi ilman kahvia.',
+  exampleFI: 'Эта групповая работа не работает без кофе.',
   exampleEN: 'This group work doesn’t work without coffee.',
   audio: 'toimia.mp3'
 },
 {
-  finnish: 'saattaa',
+  finnish: 'mozhet - может',
   english: 'might / may',
-  exampleFI: 'Saattaa tulla kylmä, jos nukut metsässä.',
+  exampleFI: 'Может стать холодно, если спишь в лесу.',
   exampleEN: 'You might get cold if you sleep in the forest.',
   audio: 'saattaa.mp3'
 },
 {
-  finnish: 'tärkeä',
+  finnish: 'vazhnyy - важный',
   english: 'important',
-  exampleFI: 'Tärkeä sääntö: älä sano pahaa saunasta.',
+  exampleFI: 'Важное правило: не говори плохо о сауне.',
   exampleEN: 'Important rule: don’t say bad things about sauna.',
   audio: 'tärkeä.mp3'
 },
 {
-  finnish: 'paha',
+  finnish: 'plokhoy - плохой',
   english: 'bad (bad taste, evil)',
-  exampleFI: 'Ei paha, mutta ei hyväkään.',
+  exampleFI: 'Неплохо, но и не хорошо.',
   exampleEN: 'Not bad, but not good either.',
   audio: 'paha.mp3'
 },
 {
-  finnish: 'sisällä',
+  finnish: 'vnutri - внутри',
   english: 'inside',
-  exampleFI: 'Täällä on kylmä jopa sisällä.',
+  exampleFI: 'Здесь холодно даже внутри.',
   exampleEN: 'It’s cold even inside here.',
   audio: 'sisällä.mp3'
 },
 {
-  finnish: 'uudestaan',
+  finnish: 'snova - снова',
   english: 'again',
-  exampleFI: 'Voimmeko yrittää uudestaan huomenna?',
+  exampleFI: 'Можем попробовать снова завтра?',
   exampleEN: 'Can we try again tomorrow?',
   audio: 'uudestaan.mp3'
 },
 {
-  finnish: 'tuskin',
+  finnish: 'vryad li - вряд ли',
   english: 'hardly',
-  exampleFI: 'Tuskin näet aurinkoa marraskuussa.',
+  exampleFI: 'В ноябре ты вряд ли увидишь солнце.',
   exampleEN: 'You hardly see the sun in November.',
   audio: 'tuskin.mp3'
 },
 {
-  finnish: 'etkä',
+  finnish: 'i ne - и не',
   english: 'and not (you)',
-  exampleFI: 'Et tiedä sanaa, etkä kysy.',
+  exampleFI: 'Ты не знаешь слово и не спрашиваешь.',
   exampleEN: 'You don’t know the word, and you don’t ask.',
   audio: 'etkä.mp3'
 },
 {
-  finnish: 'taitaa',
+  finnish: 'pohozhe - похоже',
   english: 'seems to / might',
-  exampleFI: 'Taitaa tulla lumimyrsky taas.',
+  exampleFI: 'Похоже, снова будет снежная буря.',
   exampleEN: 'Looks like another snowstorm is coming.',
   audio: 'taitaa.mp3'
 },
 {
-  finnish: 'kysymys',
+  finnish: 'vopros - вопрос',
   english: 'question',
-  exampleFI: 'Onko tämä kysymys vai filosofiaa?',
+  exampleFI: 'Это вопрос или философия?',
   exampleEN: 'Is this a question or philosophy?',
   audio: 'kysymys.mp3'
 },
 {
-  finnish: 'ruoka',
+  finnish: 'eda - еда',
   english: 'food',
-  exampleFI: 'Tämä ruoka ei ole mausteista. Se on suomalaista.',
+  exampleFI: 'Эта еда не острая. Она финская.',
   exampleEN: 'This food isn’t spicy. It’s Finnish.',
   audio: 'ruoka.mp3'
 },
 {
-  finnish: 'ilta',
+  finnish: 'vecher - вечер',
   english: 'evening',
-  exampleFI: 'Hyvää iltaa, ota villasukat.',
+  exampleFI: 'Добрый вечер, возьми шерстяные носки.',
   exampleEN: 'Good evening, take wool socks.',
   audio: 'ilta.mp3'
 },
 {
-  finnish: 'ovi',
+  finnish: 'dver - дверь',
   english: 'door',
-  exampleFI: 'Ovi jäätyi kiinni – taas.',
+  exampleFI: 'Дверь примерзла - снова.',
   exampleEN: 'The door froze shut – again.',
   audio: 'ovi.mp3'
 },
 {
-  finnish: 'elo',
+  finnish: 'zhizn - жизнь',
   english: 'life',
-  exampleFI: 'Hiljainen elo on paras elo.',
+  exampleFI: 'Тихая жизнь - лучшая жизнь.',
   exampleEN: 'Quiet life is the best life.',
   audio: 'elo.mp3'
 },
 {
-  finnish: 'hoitaa',
+  finnish: 'zanimatsya - заниматься',
   english: 'take care of',
-  exampleFI: 'Hoida itse, minä saunon.',
+  exampleFI: 'Займись сам, а я в сауне.',
   exampleEN: 'Take care of it yourself, I’m in the sauna.',
   audio: 'hoitaa.mp3'
 },
 {
-  finnish: 'outo',
+  finnish: 'strannyy - странный',
   english: 'weird',
-  exampleFI: 'Tämä kala haisee… vähän oudolta.',
+  exampleFI: 'Эта рыба пахнет... немного странно.',
   exampleEN: 'This fish smells… kind of weird.',
   audio: 'outo.mp3'
 },
 
 {
-  finnish: 'kestää',
+  finnish: 'dlitsya - длиться',
   english: 'to last',
-  exampleFI: 'Talvi kestää vain kahdeksan kuukautta.',
+  exampleFI: 'Зима длится всего восемь месяцев.',
   exampleEN: 'Winter only lasts eight months.',
   audio: 'kestää.mp3'
 },
 {
-  finnish: 'ulkona',
+  finnish: 'snaruzhi - снаружи',
   english: 'outside',
-  exampleFI: 'Ulkona on -25°C. Tervetuloa Suomeen!',
+  exampleFI: 'Снаружи -25°C. Добро пожаловать в Финляндию!',
   exampleEN: 'It’s -25°C outside. Welcome to Finland!',
   audio: 'ulkona.mp3'
 },
 {
-  finnish: 'muuttaa',
+  finnish: 'pereekhat / izmenit - переехать / изменить',
   english: 'to move (house) / to change',
-  exampleFI: 'Aina voi muuttaa maalle ja kasvattaa perunoita.',
+  exampleFI: 'Всегда можно переехать в деревню и выращивать картошку.',
   exampleEN: 'One can always move to the countryside and grow potatoes.',
   audio: 'muuttaa.mp3'
 },
 {
-  finnish: 'kunhan',
+  finnish: 'lish by - лишь бы',
   english: 'as long as',
-  exampleFI: 'Hyvä, kunhan ei sada lunta sisälle asti.',
+  exampleFI: 'Хорошо, лишь бы снег не задувало внутрь.',
   exampleEN: 'Good, as long as the snow doesn’t get inside.',
   audio: 'kunhan.mp3'
 },
 
 {
-  finnish: 'ase',
+  finnish: 'oruzhie - оружие',
   english: 'weapon',
-  exampleFI: 'Kahvi on ainoa ase, jota tarvitsen aamulla.',
+  exampleFI: 'Кофе - единственное оружие, которое мне нужно утром.',
   exampleEN: 'Coffee is the only weapon I need in the morning.',
   audio: 'ase.mp3'
 },
 {
-  finnish: 'elämä',
+  finnish: 'zhizn - жизнь',
   english: 'life',
-  exampleFI: 'Elämä Suomessa on hiljaista – ja kylmää.',
+  exampleFI: 'Жизнь в Финляндии тихая - и холодная.',
   exampleEN: 'Life in Finland is quiet – and cold.',
   audio: 'elämä.mp3'
 },
 {
-  finnish: 'maa',
+  finnish: 'strana - страна',
   english: 'land / country',
-  exampleFI: 'Suomi on maa, jossa on enemmän saunoja kuin ihmisiä.',
+  exampleFI: 'Финляндия - страна, где саун больше, чем людей.',
   exampleEN: 'Finland is a country with more saunas than people.',
   audio: 'maa.mp3'
 },
 {
-  finnish: 'tyyppi',
+  finnish: 'tip - тип',
   english: 'person / guy / gal',
-  exampleFI: 'Kuka tuo tyyppi on, joka hymyilee bussissa?',
+  exampleFI: 'Кто этот тип, который улыбается в автобусе?',
   exampleEN: 'Who is that guy smiling on the bus?',
   audio: 'tyyppi.mp3'
 },
 {
-  finnish: 'täynnä',
+  finnish: 'polnyy - полный',
   english: 'full',
-  exampleFI: 'Juna on täynnä – istu vaikka lumihangessa.',
+  exampleFI: 'Поезд полный - сиди хоть в сугробе.',
   exampleEN: 'The train is full – go sit in a snowdrift.',
   audio: 'täynnä.mp3'
 },
 {
-  finnish: 'oikeastaan',
+  finnish: 'na samom dele - на самом деле',
   english: 'actually',
-  exampleFI: 'Oikeastaan tämä makkara ei ole lihaa.',
+  exampleFI: 'На самом деле эта сосиска не мясо.',
   exampleEN: 'Actually, this sausage isn’t meat.',
   audio: 'oikeastaan.mp3'
 },
 {
-  finnish: 'yleensä',
+  finnish: 'obychno - обычно',
   english: 'usually',
-  exampleFI: 'Yleensä suomalaiset eivät puhu – paitsi saunassa.',
+  exampleFI: 'Обычно финны не разговаривают - кроме сауны.',
   exampleEN: 'Usually Finns don’t talk – except in the sauna.',
   audio: 'yleensä.mp3'
 },
 {
-  finnish: 'avata',
+  finnish: 'otkryt - открыть',
   english: 'to open',
-  exampleFI: 'Voitko avata oven? Minulla on kahdeksan kassia.',
+  exampleFI: 'Можешь открыть дверь? У меня восемь сумок.',
   exampleEN: 'Can you open the door? I have eight bags.',
   audio: 'avata.mp3'
 },
 {
-  finnish: 'puoli',
+  finnish: 'polovina - половина',
   english: 'half / side',
-  exampleFI: 'Tämä on väärä puoli leivästä voille.',
+  exampleFI: 'Это неправильная сторона хлеба для масла.',
   exampleEN: 'This is the wrong side of the bread for butter.',
   audio: 'puoli.mp3'
 },
 {
-  finnish: 'sekä',
+  finnish: 'a takzhe - а также',
   english: 'as well as',
-  exampleFI: 'Jäätelö sekä sauna – täydellinen päivä.',
+  exampleFI: 'Мороженое и сауна - идеальный день.',
   exampleEN: 'Ice cream as well as sauna – a perfect day.',
   audio: 'sekä.mp3'
 },
 {
-  finnish: 'hakea',
+  finnish: 'zabrat - забрать',
   english: 'to fetch / apply',
-  exampleFI: 'Voitko hakea minut hiihtoladulta?',
+  exampleFI: 'Можешь забрать меня с лыжной трассы?',
   exampleEN: 'Can you pick me up from the ski trail?',
   audio: 'hakea.mp3'
 },
 
 {
-  finnish: 'kuusi',
+  finnish: 'shest / yel - шесть / ель',
   english: 'six / spruce tree',
-  exampleFI: 'Kuusi kuusta seisoo kuusen takana.',
+  exampleFI: 'Шесть елей стоят за елью.',
   exampleEN: 'Six spruces stand behind the spruce.',
   audio: 'kuusi.mp3'
 },
@@ -2566,448 +2566,448 @@ export const wordPairs = [
 
 
 {
-  finnish: 'toivoa',
+  finnish: 'nadeyatsya - надеяться',
   english: 'to hope',
-  exampleFI: 'Voimme vain toivoa, ettei sada lisää räntää.',
+  exampleFI: 'Мы можем только надеяться, что мокрого снега больше не будет.',
   exampleEN: 'We can only hope it doesn’t rain more slush.',
   audio: 'toivoa.mp3'
 },
 {
-  finnish: 'laittaa',
+  finnish: 'polozhit - положить',
   english: 'to put',
-  exampleFI: 'Mihin voin laittaa villasukat kuivumaan?',
+  exampleFI: 'Куда я могу положить шерстяные носки сушиться?',
   exampleEN: 'Where can I put my wool socks to dry?',
   audio: 'laittaa.mp3'
 },
 {
-  finnish: 'jatkaa',
+  finnish: 'prodolzhat - продолжать',
   english: 'to continue',
-  exampleFI: 'Jatketaan hiljaisuutta, eikö vaan?',
+  exampleFI: 'Продолжим тишину, не так ли?',
   exampleEN: 'Let’s continue the silence, shall we?',
   audio: 'jatkaa.mp3'
 },
 {
-  finnish: 'ikävä',
+  finnish: 'skuchat - скучать',
   english: 'sad / unpleasant / missing (someone / something)',
-  exampleFI: 'Minulla on ikävä aurinkoa.',
+  exampleFI: 'Я скучаю по солнцу.',
   exampleEN: 'I miss the sun.',
   audio: 'ikävä.mp3'
 },
 {
-  finnish: 'tilanne',
+  finnish: 'situatsiya - ситуация',
   english: 'situation',
-  exampleFI: 'Tilanne on hallinnassa – jääkaapissa on kaljaa.',
+  exampleFI: 'Ситуация под контролем - в холодильнике есть пиво.',
   exampleEN: 'The situation is under control – there’s beer in the fridge.',
   audio: 'tilanne.mp3'
 },
 {
-  finnish: 'mahdollinen',
+  finnish: 'vozmozhnyy - возможный',
   english: 'possible',
-  exampleFI: 'Onko mökkireissu vielä mahdollinen marraskuussa?',
+  exampleFI: 'Поездка на дачу в ноябре еще возможна?',
   exampleEN: 'Is a cottage trip still possible in November?',
   audio: 'mahdollinen.mp3'
 },
 {
-  finnish: 'erittäin',
+  finnish: 'chrezvychayno - чрезвычайно',
   english: 'very / extremely',
-  exampleFI: 'Tämä porokeitto on erittäin hyvä.',
+  exampleFI: 'Этот суп из оленины чрезвычайно хорош.',
   exampleEN: 'This reindeer soup is extremely good.',
   audio: 'erittäin.mp3'
 },
 {
-  finnish: 'veri',
+  finnish: 'krov - кровь',
   english: 'blood',
-  exampleFI: 'Veri on lämmin – toisin kuin ilma.',
+  exampleFI: 'Кровь теплая - в отличие от воздуха.',
   exampleEN: 'The blood is warm – unlike the air.',
   audio: 'veri.mp3'
 },
   {
-    finnish: 'vaikuttaa',
+    finnish: 'vliyat - влиять',
     english: 'to seem / to affect',
-    exampleFI: 'Sää vaikuttaa suomalaisten mielialaan.',
+    exampleFI: 'Погода влияет на настроение финнов.',
     exampleEN: 'The weather affects Finnish moods.',
     audio: 'vaikuttaa.mp3'
   },
   {
-    finnish: 'seurata',
+    finnish: 'sledovat - следовать',
     english: 'to follow',
-    exampleFI: 'Voitko seurata minua metsään?',
+    exampleFI: 'Можешь последовать за мной в лес?',
     exampleEN: 'Can you follow me to the forest?',
     audio: 'seurata.mp3'
   },
   {
-    finnish: 'homma',
+    finnish: 'delo - дело',
     english: 'thing / job / task',
-    exampleFI: 'Tämä homma ei ole rakettitiedettä.',
+    exampleFI: 'Это дело не ракетостроение.',
     exampleEN: 'This job isn’t rocket science.',
     audio: 'homma.mp3'
   },
   {
-    finnish: 'pitkä',
+    finnish: 'dlinnyy - длинный',
     english: 'long / tall',
-    exampleFI: 'Suomalainen talvi on todella pitkä.',
+    exampleFI: 'Финская зима действительно длинная.',
     exampleEN: 'The Finnish winter is really long.',
     audio: 'pitkä.mp3'
   },
   {
-    finnish: 'luona',
+    finnish: 'u - у',
     english: 'at someone’s place',
-    exampleFI: 'Olen tänään ystävän luona.',
+    exampleFI: 'Я сегодня у друга.',
     exampleEN: 'I’m at a friend’s place today.',
     audio: 'luona.mp3'
   },
   {
-    finnish: 'kuulemma',
+    finnish: 'govoryat - говорят',
     english: 'apparently / reportedly',
-    exampleFI: 'Kuulemma lunta voi sataa myös juhannuksena.',
+    exampleFI: 'Говорят, снег может идти даже в Иванов день.',
     exampleEN: 'Apparently it can snow even at midsummer.',
     audio: 'kuulemma.mp3'
   },
   {
-    finnish: 'vaimo',
+    finnish: 'zhena - жена',
     english: 'wife',
-    exampleFI: 'Vaimo haluaa muuttaa mökille pysyvästi.',
+    exampleFI: 'Жена хочет переехать на дачу навсегда.',
     exampleEN: 'My wife wants to move to the summer cottage permanently.',
     audio: 'vaimo.mp3'
   },
   {
-    finnish: 'vesi',
+    finnish: 'voda - вода',
     english: 'water',
-    exampleFI: 'Järven vesi on jääkylmää.',
+    exampleFI: 'Вода в озере ледяная.',
     exampleEN: 'The lake water is ice-cold.',
     audio: 'vesi.mp3'
   },
   {
-    finnish: 'nuori',
+    finnish: 'molodoy - молодой',
     english: 'young',
-    exampleFI: 'Olin nuori ja luulin, että opin suomen nopeasti.',
+    exampleFI: 'Я был молод и думал, что быстро выучу финский.',
     exampleEN: 'I was young and thought I’d learn Finnish quickly.',
     audio: 'nuori.mp3'
   },
   {
-    finnish: 'alla',
+    finnish: 'pod - под',
     english: 'under',
-    exampleFI: 'Auto on lumen alla.',
+    exampleFI: 'Машина под снегом.',
     exampleEN: 'The car is under the snow.',
     audio: 'alla.mp3'
   },
   {
-    finnish: 'auki',
+    finnish: 'otkryto - открыто',
     english: 'open',
-    exampleFI: 'Onko mikään kauppa auki sunnuntaina?',
+    exampleFI: 'Какой-нибудь магазин открыт в воскресенье?',
     exampleEN: 'Is any shop open on Sunday?',
     audio: 'auki.mp3'
   },
   {
-    finnish: 'kenen',
+    finnish: 'chey - чей',
     english: 'whose',
-    exampleFI: 'Kenen idea oli saunoa kahdesti päivässä?',
+    exampleFI: 'Чья это была идея - ходить в сауну дважды в день?',
     exampleEN: 'Whose idea was it to sauna twice a day?',
     audio: 'kenen.mp3'
   },
   {
-    finnish: 'yhteen',
+    finnish: 'vmeste - вместе',
     english: 'together (into one)',
-    exampleFI: 'Me muutamme yhteen – mökille tietenkin.',
+    exampleFI: 'Мы съезжаемся вместе - конечно, на даче.',
     exampleEN: 'We’re moving in together – to the cottage of course.',
     audio: 'yhteen.mp3'
   },
   {
-    finnish: 'jokainen',
+    finnish: 'kazhdyy - каждый',
     english: 'everyone / each',
-    exampleFI: 'Jokainen suomalainen tietää, miten grillataan makkaraa.',
+    exampleFI: 'Каждый финн знает, как жарить сосиску.',
     exampleEN: 'Every Finn knows how to grill a sausage.',
     audio: 'jokainen.mp3'
   },
   {
-    finnish: 'vihainen',
+    finnish: 'serdityy - сердитый',
     english: 'angry',
-    exampleFI: 'Olen vihainen, kun bussissa ei saa puhua.',
+    exampleFI: 'Я злюсь, когда в автобусе нельзя говорить.',
     exampleEN: 'I’m angry when you’re not allowed to talk on the bus.',
     audio: 'vihainen.mp3'
   },
   {
-    finnish: 'jutella',
+    finnish: 'boltat - болтать',
     english: 'to chat',
-    exampleFI: 'Voimmeko jutella säästä taas?',
+    exampleFI: 'Можем снова поболтать о погоде?',
     exampleEN: 'Can we chat about the weather again?',
     audio: 'jutella.mp3'
   },
   {
-    finnish: 'puolesta',
+    finnish: 'ot imeni - от имени',
     english: 'on behalf of / for',
-    exampleFI: 'Puhun kaikkien ulkomaalaisten puolesta.',
+    exampleFI: 'Я говорю от имени всех иностранцев.',
     exampleEN: 'I speak on behalf of all foreigners.',
     audio: 'puolesta.mp3'
   },
 
   {
-    finnish: 'turva',
+    finnish: 'bezopasnost - безопасность',
     english: 'safety / protection',
-    exampleFI: 'Turva on tärkeää, etenkin jäillä.',
+    exampleFI: 'Безопасность важна, особенно на льду.',
     exampleEN: 'Safety is important, especially on the ice.',
     audio: 'turva.mp3'
   },
   {
-    finnish: 'usein',
+    finnish: 'chasto - часто',
     english: 'often',
-    exampleFI: 'Hän käy saunassa usein – jopa lounastauolla.',
+    exampleFI: 'Он часто ходит в сауну - даже в обеденный перерыв.',
     exampleEN: 'He goes to the sauna often – even during lunch break.',
     audio: 'usein.mp3',
   },
   {
-    finnish: 'välillä',
+    finnish: 'inogda - иногда',
     english: 'sometimes',
-    exampleFI: 'Välillä Suomessa sataa, välillä sataa enemmän.',
+    exampleFI: 'Иногда в Финляндии идет дождь, иногда дождя еще больше.',
     exampleEN: 'Sometimes in Finland it rains, sometimes it rains more.',
     audio: 'välillä.mp3',
   },
   {
-    finnish: 'uskomaton',
+    finnish: 'neveroyatnyy - невероятный',
     english: 'unbelievable',
-    exampleFI: 'Uskomaton juttu: hän oppi suomea eikä luovuttanut!',
+    exampleFI: 'Невероятно: он выучил финский и не сдался!',
     exampleEN: 'Unbelievable thing: she learned Finnish and didn’t give up!',
     audio: 'uskomaton.mp3',
   },
   {
-    finnish: 'voittaa',
+    finnish: 'pobezhdat - побеждать',
     english: 'to win',
-    exampleFI: 'Suomi voitti jääkiekossa! Kukaan ei ollut yllättynyt.',
+    exampleFI: 'Финляндия победила в хоккее! Никто не удивился.',
     exampleEN: 'Finland won in hockey! No one was surprised.',
     audio: 'voittaa.mp3',
   },
   {
-    finnish: 'iloinen',
+    finnish: 'radostnyy - радостный',
     english: 'happy',
-    exampleFI: 'Olen iloinen, koska kahvi oli vahvaa ja sää harmaata.',
+    exampleFI: 'Я рад, потому что кофе был крепкий, а погода серая.',
     exampleEN: 'I’m happy because the coffee was strong and the weather gray.',
     audio: 'iloinen.mp3',
   },
   {
-    finnish: 'luottaa',
+    finnish: 'doveryat - доверять',
     english: 'to trust',
-    exampleFI: 'Opettaja luottaa minuun, vaikka laitan ketsuppia makkaraan.',
+    exampleFI: 'Учитель мне доверяет, хотя я кладу кетчуп на сосиску.',
     exampleEN: 'The teacher trusts me, even though I put ketchup on sausage.',
     audio: 'luottaa.mp3',
   },
   {
-    finnish: 'väärä',
+    finnish: 'nepravilnyy - неправильный',
     english: 'wrong',
-    exampleFI: 'Valitsin väärän oven – siellä oli sauna, ei kokous.',
+    exampleFI: 'Я выбрал не ту дверь - там была сауна, а не собрание.',
     exampleEN: 'I chose the wrong door – it was a sauna, not the meeting room.',
     audio: 'väärä.mp3',
   },
   {
-    finnish: 'pelastaa',
+    finnish: 'spasti - спасти',
     english: 'to save',
-    exampleFI: 'Kahvi voi pelastaa aamun, tai ainakin hetken.',
+    exampleFI: 'Кофе может спасти утро, или хотя бы момент.',
     exampleEN: 'Coffee can save the morning – or at least the moment.',
     audio: 'pelastaa.mp3',
   },
   {
-    finnish: 'edessä',
+    finnish: 'pered - перед',
     english: 'in front of',
-    exampleFI: 'Poro seisoi auton edessä. Tervetuloa Lappiin!',
+    exampleFI: 'Олень стоял перед машиной. Добро пожаловать в Лапландию!',
     exampleEN: 'A reindeer stood in front of the car. Welcome to Lapland!',
     audio: 'edessä.mp3',
   },
   {
-    finnish: 'sentään',
+    finnish: 'khotya by - хотя бы',
     english: 'at least',
-    exampleFI: 'On kylmä, mutta ei sentään sada lunta – vielä.',
+    exampleFI: 'Холодно, но хотя бы снег пока не идет.',
     exampleEN: 'It’s cold, but at least it’s not snowing – yet.',
     audio: 'sentään.mp3',
   },
   {
-    finnish: 'päällä',
+    finnish: 'na - на',
     english: 'on (top)',
-    exampleFI: 'Kissa nukkuu tietokoneen päällä juuri silloin kun tarvitset sitä.',
+    exampleFI: 'Кот спит на компьютере именно тогда, когда он тебе нужен.',
     exampleEN: 'The cat sleeps on top of the computer exactly when you need it.',
     audio: 'päällä.mp3'
   },
   {
-    finnish: 'tosiaan',
+    finnish: 'deystvitelno - действительно',
     english: 'indeed',
-    exampleFI: 'Tosiaan, kahvi oli taas loppu.',
+    exampleFI: 'Действительно, кофе опять закончился.',
     exampleEN: 'Indeed, the coffee was out again.',
     audio: 'tosiaan.mp3'
   },
   {
-    finnish: 'niinpä',
+    finnish: 'nu konechno - ну конечно',
     english: 'of course, exactly (a statement)',
-    exampleFI: 'Ulkona sataa? Niinpä tietenkin.',
+    exampleFI: 'На улице дождь? Ну конечно.',
     exampleEN: 'Is it raining outside? Exactly.',
     audio: 'niinpä.mp3'
   },
   {
-    finnish: 'kautta',
+    finnish: 'cherez - через',
     english: 'through',
-    exampleFI: 'Matkustimme Lapin kautta Norjaan.',
+    exampleFI: 'Мы путешествовали через Лапландию в Норвегию.',
     exampleEN: 'We traveled through Lapland to Norway.',
     audio: 'kautta.mp3'
   },
   {
-    finnish: 'onpa',
+    finnish: 'vot eto - вот это',
     english: 'oh (how it is)',
-    exampleFI: 'Onpa hieno mökki sinulla!',
+    exampleFI: 'Вот это у тебя отличный домик!',
     exampleEN: 'Oh what a nice cabin you have!',
     audio: 'onpa.mp3'
   },
   {
-    finnish: 'päin',
+    finnish: 'v napravlenii - в направлении',
     english: 'towards',
-    exampleFI: 'Hän juoksi suoraan päin lumiukkoa.',
+    exampleFI: 'Он побежал прямо в направлении снеговика.',
     exampleEN: 'He ran straight towards the snowman.',
     audio: 'päin.mp3'
   },
   {
-    finnish: 'mahtaa',
+    finnish: 'dolzhno byt - должно быть',
     english: 'might (guess) / can help',
-    exampleFI: 'Mikähän tämä outo ruoka mahtaa olla?',
+    exampleFI: 'Что же это за странная еда, должно быть?',
     exampleEN: 'What might this strange food be?',
     audio: 'mahtaa.mp3'
   },
   {
-    finnish: 'matka',
+    finnish: 'poezdka - поездка',
     english: 'trip / journey',
-    exampleFI: 'Matka mökille kestää kolme tuntia.',
+    exampleFI: 'Поездка на дачу длится три часа.',
     exampleEN: 'The trip to the cabin takes three hours.',
     audio: 'matka.mp3'
   },
   {
-    finnish: 'pää',
+    finnish: 'golova - голова',
     english: 'head',
-    exampleFI: 'Jäätelö suli suoraan päähän.',
+    exampleFI: 'Мороженое растаяло прямо на голову.',
     exampleEN: 'The ice cream melted right onto my head.',
     audio: 'pää.mp3'
   },
   {
-    finnish: 'alle',
+    finnish: 'pod - под',
     english: 'to under',
-    exampleFI: 'Tyttö piilotti porkkanan lumiukon alle.',
+    exampleFI: 'Девочка спрятала морковь под снеговика.',
     exampleEN: 'The girl hid a carrot under the snowman.',
     audio: 'alle.mp3'
   },
   {
-    finnish: 'viimeksi',
+    finnish: 'v posledniy raz - в последний раз',
     english: 'last time',
-    exampleFI: 'Milloin kävit saunassa viimeksi?',
+    exampleFI: 'Когда ты в последний раз был в сауне?',
     exampleEN: 'When was the last time you went to sauna?',
     audio: 'viimeksi.mp3'
   },
   {
-    finnish: 'kymmenen',
+    finnish: 'desyat - десять',
     english: 'ten',
-    exampleFI: 'Kymmenen astetta? Se on kesä täällä.',
+    exampleFI: 'Десять градусов? Здесь это лето.',
     exampleEN: 'Ten degrees? That’s summer here.',
     audio: 'kymmenen.mp3'
   },
   {
-    finnish: 'yhteys',
+    finnish: 'svyaz - связь',
     english: 'connection',
-    exampleFI: 'Ei yhteyttä – olet Lapissa.',
+    exampleFI: 'Нет связи - ты в Лапландии.',
     exampleEN: 'No connection – you’re in Lapland.',
     audio: 'yhteys.mp3'
   },
   {
-    finnish: 'velka',
+    finnish: 'dolg - долг',
     english: 'debt',
-    exampleFI: 'Velka on kuin marraskuu: pimeä ja pitkä.',
+    exampleFI: 'Долг как ноябрь: темный и длинный.',
     exampleEN: 'Debt is like November: dark and long.',
     audio: 'velka.mp3'
   },
   {
-    finnish: 'kaukana',
+    finnish: 'daleko - далеко',
     english: 'far away',
-    exampleFI: 'Lähin kauppa on kaukana – 45 km.',
+    exampleFI: 'Ближайший магазин далеко - 45 км.',
     exampleEN: 'The nearest store is far away – 45 km.',
     audio: 'kaukana.mp3'
   },
   {
-    finnish: 'helppo',
+    finnish: 'lyogkiy - лёгкий',
     english: 'easy',
-    exampleFI: 'Suomi ei ole helppo kieli.',
+    exampleFI: 'Финский - не легкий язык.',
     exampleEN: 'Finnish is not an easy language.',
     audio: 'helppo.mp3'
   },
   {
-    finnish: 'haitata',
+    finnish: 'meshat - мешать',
     english: 'to cause trouble / to bother',
-    exampleFI: 'Saisiko avata ikkunan vai haittaako se?',
+    exampleFI: 'Можно открыть окно или это мешает?',
     exampleEN: 'May I open the window or does it bother you?',
     audio: 'haitata.mp3'
   },
   {
-    finnish: 'idea',
+    finnish: 'ideya - идея',
     english: 'idea',
-    exampleFI: 'Hyvä idea! Mennään avantoon.',
+    exampleFI: 'Хорошая идея! Пойдем в прорубь.',
     exampleEN: 'Great idea! Let’s go ice swimming.',
     audio: 'idea.mp3'
   },
   {
-    finnish: 'suomennos',
+    finnish: 'perevod na finskiy - перевод на финский',
     english: 'translation (to Finnish)',
-    exampleFI: 'Tämä suomennos on vähän hassu.',
+    exampleFI: 'Этот перевод на финский немного забавный.',
     exampleEN: 'This translation is a bit funny.',
     audio: 'suomennos.mp3'
   },
   {
-    finnish: 'nimetä',
+    finnish: 'nazvat - назвать',
     english: 'to name',
-    exampleFI: 'Saimme nimetä kissan itse.',
+    exampleFI: 'Мы сами смогли назвать кота.',
     exampleEN: 'We got to name the cat ourselves.',
     audio: 'nimetä.mp3'
   },
   {
-    finnish: 'tapaus',
+    finnish: 'sluchay - случай',
     english: 'case (situation)',
-    exampleFI: 'Oli taas mielenkiintoinen tapaus bussissa.',
+    exampleFI: 'В автобусе опять был интересный случай.',
     exampleEN: 'There was an interesting case on the bus again.',
     audio: 'tapaus.mp3'
   },
   {
-    finnish: 'ajaa',
+    finnish: 'vodit - водить',
     english: 'to drive',
-    exampleFI: 'Opettelin ajamaan traktorilla ennen polkupyörää.',
+    exampleFI: 'Я научился водить трактор раньше велосипеда.',
     exampleEN: 'I learned to drive a tractor before a bicycle.'
   },
   {
-    finnish: 'kunnon',
+    finnish: 'normalnyy - нормальный',
     english: 'proper / decent',
-    exampleFI: 'Tarvitsen kunnon kahvia, ei tätä suodatettua soppaa.',
+    exampleFI: 'Мне нужен нормальный кофе, а не этот фильтрованный суп.',
     exampleEN: 'I need proper coffee, not this filtered soup.'
   },
   {
-    finnish: 'samalla',
+    finnish: 'odnovremenno - одновременно',
     english: 'at the same time',
-    exampleFI: 'Suomalaiset voivat samalla olla hiljaisia ja ystävällisiä.',
+    exampleFI: 'Финны могут одновременно быть тихими и дружелюбными.',
     exampleEN: 'Finns can be quiet and friendly at the same time.'
   },
   {
-    finnish: 'selittää',
+    finnish: 'obyasnyat - объяснять',
     english: 'to explain',
-    exampleFI: 'Selitän kaiken, kunhan saan munkkikahvia.',
+    exampleFI: 'Я все объясню, лишь бы мне дали кофе с пончиком.',
     exampleEN: 'I’ll explain everything once I get some coffee and a donut.'
   },
 
   {
-    finnish: 'syödä',
+    finnish: 'est - есть',
     english: 'to eat',
-    exampleFI: 'Voiko ruisleipää syödä liikaa? Kysyn ystävän puolesta.',
+    exampleFI: 'Можно ли съесть слишком много ржаного хлеба? Спрашиваю для друга.',
     exampleEN: 'Can you eat too much rye bread? Asking for a friend.'
   },
 
   {
-    finnish: 'tuosta',
+    finnish: 'ob etom - об этом',
     english: 'from that / about that',
-    exampleFI: 'Tuosta ei puhuta enää. Se oli mökillä.',
+    exampleFI: 'Об этом больше не говорят. Это было на даче.',
     exampleEN: 'We won’t talk about that anymore. It was at the cabin.'
   },
 
   {
-    finnish: 'pitkään',
+    finnish: 'dolgo - долго',
     english: 'for a long time',
-    exampleFI: 'Odotin bussia pitkään, mutta se meni jo.',
+    exampleFI: 'Я долго ждал автобус, но он уже ушел.',
     exampleEN: 'I waited for the bus for a long time, but it left already.'
   }
 
