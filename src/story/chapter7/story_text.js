@@ -1,57 +1,57 @@
 const storyFinnish = `
-Uusi asunto on hieno. 
-Asunto on Ullanlinna -ssa. 
-Asunno -sta on meri -näkö =ala. 
-Mutta asunno -ssa on hiljais -ta. 
-Liian hiljais -ta. 
+Nov -aya kvartir -a khorosh -aya. 
+Kvartir -a v Ullanlinn -e. 
+Iz kvartir -y vid -en mor -e. 
+No v kvartir -e tikh -o. 
+Slishkom tikh -o. 
 
-Luca haluaa saada ystäv -iä. 
-Hän tarvitse -e harrastuk -sen. 
-Hän menee internet -iin. 
-Hän ets -ii jalka -pallo =seuro -ja. 
-Futsal -seura Hakanieme -ssä. 
-Harjoituk -set tunni -n pää -stä. 
-Täydellis -tä. 
+Luca khochet nayti drug -ey. 
+Yemu nuzh -en khobb -i. 
+On id -yot v internet. 
+On ishch -et futb -ol klub -y. 
+Futzal -klub v Hakaniem -i. 
+Trenirovk -a cherez chas. 
+Idealn -o. 
 
-Luca matkustaa Hakaniem -een raitiovaunu -lla. 
-Hän löytää halli -n. 
-Kentä -n viere -llä on muutama pelaaja. 
-Luca: Moi, olet -te =ko FC Pallura -sta? 
-Pelaaja: Kyllä. 
-Luca: Voi -n =ko tulla pelaa -maan? 
-Pelaaja: Et. 
-Pelaaja: Kesken kaude -n ei pääse mukaan. 
-Luca: Ai, harmi, ol -i =si oll -ut hauska -a. 
-Pelaaja 2: Mei -tä on tänään vain seitsemän. 
-Pelaaja 2: Vaih -da vaatte -et. Saada -an neljä vastaan neljä. 
+Luca yed -et v Hakaniem -i tramvay -em. 
+On nakhod -it zal. 
+Ryad -om s pole -m neskolko igrok -ov. 
+Luca: Privet, vy iz FC Pallura? 
+Igrok: Da. 
+Luca: Mog -u =li priyti igrat? 
+Igrok: Net. 
+Igrok: V seredin -e sezon -a nelzya voyti. 
+Luca: Ay, zhal, eto b -yl -o by veselo. 
+Igrok 2: Nas segodnya tolko sem. 
+Igrok 2: Pereode -n -sya. Bud -et chetyre protiv chetyre. 
 `;
 
 const storyFakeEnglish = `
-New apartment is fine. 
-Apartment is Ullanlinna -in. 
-Apartment -from is sea -view =area. 
-But apartment -in is quiet -some. 
-Too quiet -some. 
+New -ish apartment -a good -ish. 
+Apartment -a in Ullanlinna -in. 
+From apartment -of seen -is sea -a. 
+But in apartment -in quiet -ly. 
+Too quiet -ly. 
 
-Luca wants get friend -s. 
-He need -s hobby -the. 
-He goes internet -to. 
-He search -es foot -ball =club -s. 
-Futsal -club Hakanieme -in. 
-Practice -s hour -'s end -from. 
-Perfect -some. 
+Luca wants find friend -s. 
+To_him need -is hobby -a. 
+He go -es to internet. 
+He search -es foot -ball club -s. 
+Futsal -club in Hakaniemi -in. 
+Training -a in_an hour. 
+Perfect -ly. 
 
-Luca travels Hakaniem -to tram -by. 
-He finds hall -the. 
-Field -'s beside -at is some player. 
-Luca: Hi, are -you =? FC Ballie -from? 
+Luca go -es to Hakaniemi -in by_tram -by. 
+He find -s hall. 
+Beside -by with field -by few player -s. 
+Luca: Hi, you from FC Pallura? 
 Player: Yes. 
-Luca: Can -I -? come play -to? 
-Player: You_not. 
-Player: Mid season -'s no get along. 
-Luca: Oh, pity, be -have -would be -en fun -some. 
-Player 2: We -of is today only seven. 
-Player 2: Chang -e clothes -s. Get -is four against four. 
+Luca: Can -I =Q come play? 
+Player: No. 
+Player: In middle -of season -of cannot join. 
+Luca: Ah, pity, it b -was -it by fun. 
+Player 2: Us today only seven. 
+Player 2: Change -imp -self. Will -be four against four. 
 `;
 
 const storyEnglish = `
@@ -83,31 +83,31 @@ Player 2: Change clothes. We'll get four against four.
 `;
 
 const storySpokenFinnish = `
-Uus kämppä on hieno. 
-Kämppä on Ullanlinna -s. 
-Kämpä -st on meri -näkö =ala. 
-Mut kämpä -s on hiljas -t. 
-Liian hiljas -t. 
+Нов -ая квартир -а хорош -ая. 
+Квартир -а в Улланлинн -е. 
+Из квартир -ы вид -ен мор -е. 
+Но в квартир -е тих -о. 
+Слишком тих -о. 
 
-Luca haluu saada ystäv -ii. 
-Se tartte -e harrastuk -sen. 
-Se menee netti -in. 
-Hän ets -ii jalka -pallo =seuro -ja. 
-Futsal -seura Hakanieme -ssä. 
-Harjotuk -set tunni -n pää -stä. 
-Täydellis -t. 
+Лука хочет найти друг -ей. 
+Ему нуж -ен хобб -и. 
+Он ид -ёт в интернет. 
+Он ищ -ет футб -ол клуб -ы. 
+Футзал -клуб в Хаканием -и. 
+Тренировк -а через час. 
+Идеальн -о. 
 
-Luca matkustaa Hakaniem -een ratik -al. 
-Se löytää halli -n. 
-Kentä -n viere -l on muutama pelaaja. 
-Luca: Moi, oot -te =kste FC Pallura -st? 
-Pelaaja: Kyllä. 
-Luca: Voi -n =ks tulla pela -a? 
-Pelaaja: Et. 
-Pelaaja: Kesken kaude -n ei pääse mukaan. 
-Luca: Ai, harmi. Ol -i =s oll -u hauska -a. 
-Pelaaja 2: Mei -t on tänään vain seittemän. 
-Pelaaja 2: Vaih -da vaatte -et. Saada -an neljä vastaan neljä. 
+Лука ед -ет в Хаканием -и трамвай -ем. 
+Он наход -ит зал. 
+Ряд -ом с поле -м несколько игрок -ов. 
+Лука: Привет, вы из FC Pallura? 
+Игрок: Да. 
+Лука: Мог -у =ли прийти играть? 
+Игрок: Нет. 
+Игрок: В середин -е сезон -а нельзя войти. 
+Лука: Ай, жаль, это б -ыл -о бы весело. 
+Игрок 2: Нас сегодня только семь. 
+Игрок 2: Переоде -н -ся. Буд -ет четыре против четыре. 
 `;
 
 const createWordArrays = () => {
