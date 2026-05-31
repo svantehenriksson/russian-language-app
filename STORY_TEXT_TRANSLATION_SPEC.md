@@ -1,117 +1,91 @@
-# Story Text Translation Specification
+# Russian Story Translation Notes (Agent Guide)
 
-## Purpose
-Define exact structure and translation behavior for chapter story files.
+## Scope
+Use these notes when translating chapter stories in `src/story/chapter*/`, especially `story_text.js`.
 
-## File Scope
-Applies only to chapter content files under: `src/story/chapter*/`
+The source baseline is:
+- ready Finnish sentence lines
+- ready natural English lines
 
-## Required Chapter Files
-When `storyFinnish` appears, the chapter must include:
-- `story_text.js`
-- `grammar.js`
-- `quiz_questions.js`
-- `words_and_start_times.js`
+The target for Russian chapters is:
+- `storyFinnish` -> Russian in Latin transliteration
+- `storySpokenFinnish` -> Russian in Cyrillic
+- `storyFakeEnglish` -> over-literal morpheme mapping from `storyFinnish`
+- `storyEnglish` -> natural English (keep meaning aligned)
 
-## `story_text.js` Requirements
+## Core Goal
+Keep strict one-to-one alignment between:
+- `storyFinnish` (Latin Russian)
+- `storyFakeEnglish`
+- `storySpokenFinnish` (Cyrillic Russian)
 
-### Required Arrays
+Alignment must hold per line and per token/morpheme segment.
+
+## Required `story_text.js` Arrays
 - `storyFinnish`
 - `storyFakeEnglish`
 - `storyEnglish`
 - `storySpokenFinnish`
 
-### Line Alignment
-- All arrays must have the same number of lines.
-- Line `N` in every array must correspond to the same content unit.
-- Preserve original line order from `storyFinnish`.
+## Translation Workflow
+1. Start from existing Finnish + English source lines.
+2. Write `storyFinnish` as Russian transliteration (Latin).
+3. Add morpheme splits in `storyFinnish` where pedagogically useful.
+4. Build `storySpokenFinnish` as exact Cyrillic mirror of `storyFinnish`.
+5. Build `storyFakeEnglish` as explicit morpheme-level gloss of `storyFinnish`.
+6. Keep `storyEnglish` natural and line-faithful.
+7. Validate line/token alignment with helper script.
 
-### Translation Rules
+## Morpheme Split Policy (Russian)
+Split only where it helps learning and can be mirrored consistently:
+- adjective endings: `krasiv -yy`
+- noun case endings: `sneg -a`
+- verb endings: `govor -it`, `ulyba -etsya`
+- adverb/adjective endings where useful: `kholodn -o`
 
-#### `storyFakeEnglish` (over-literal)
-- Translate line by line from `storyFinnish`.
-- Preserve Finnish word-part structure as literally as possible.
-- Represent suffixes/parts in English with explicit part mapping style.
-- Use hyphen and apostrophe conventions shown in existing chapters.
-- Examples of style:
-  - `talo -ssa` -> `house -in`
-  - `jää -kieko =n` -> `ice -hockey -'s`
+Do not over-split roots/prefixes unless needed.
+Do not split in one array and leave unsplit in matching arrays.
 
-Translate meaning, don't "explain" unless necessary
+## Mirror Rule for Cyrillic
+`storySpokenFinnish` must preserve the same token boundaries as `storyFinnish`.
+
+Example:
+- Latin: `Luca gov or -it` (bad if inconsistent)
+- Cyrillic must match exactly token-for-token.
+
+Good pattern:
+- `Luca govor -it ...`
+- `Лука говор -ит ...`
+
+## `storyFakeEnglish` Rule
+Use over-literal grammatical mapping that mirrors token boundaries.
 
 Examples:
+- `krasiv -yy` -> `beautiful -is`
+- `govor -it` -> `speak -s`
+- `sneg -a` -> `snow -of`
 
-- `Kari -n auto` -> `Kari -'s car` (NOT `Kari - GEN car`)
-- `Kolme auto -a` -> `Three car -s` (NOT `Three car -PL`)
+Prefer consistency over perfect idiomatic English in this array.
 
-Even for partitive and accusative forms, we have following types of translations options.
+## Spacing and Punctuation
+- Keep one source sentence per line in all four arrays.
+- Preserve line order across arrays.
+- End each line with punctuation plus one trailing space.
 
-Examples:
+## Validation
+Use:
+- `npm run validate:story-lines -- chapterN`
 
-- `Luca juo kahvi -a` -> `Luca drinks coffee -some`
-- `Kissa katso -o koira -a` -> `Cat look -s dog -some`
-- `Koira söi keksi -n` -> `Dog ate biscuit -one`
+This checks line-by-line token count equality across:
+- `storyFinnish`
+- `storyFakeEnglish`
+- `storySpokenFinnish`
 
-#### `storyEnglish` (natural)
-- Translate each line into natural, idiomatic English.
-- Keep meaning faithful to the source line while sounding normal.
-- Maintain strict line-by-line correspondence with `storyFinnish`.
+Fix mismatches immediately before further chapter edits.
 
-#### `storySpokenFinnish` (part-exact spoken mapping)
-- Convert `storyFinnish` into spoken Finnish line by line.
-- Central rule: each word or word-part in `storyFinnish` must have an exact corresponding spoken form unit.
-- If a source word is split into multiple parts, preserve equivalent part segmentation in spoken output.
-- Do not collapse multiple source parts into one spoken part if it breaks one-to-one correspondence.
-
-### Punctuation and Spacing (Strict)
-- Every string line in all story arrays must end with exactly one trailing space.
-- The trailing space comes after final punctuation (for example `.`, `?`, `!`, `?!`).
-
-## `grammar.js` Requirements
-- Export `grammarNotes` array.
-- Count grammar notes by rendered sentence, not by raw line.
-- Sentence splitting follows punctuation (`.`, `?`, `!`), so one note per sentence.
-- Default placeholder note text:
-  - `No grammar notes for this line yet.`
-- You can add actual grammar notes to some of the lines if you want, but add only stuff like:
-  - for a verb that's not completely common, like for example juosta add juosta = to run \n Minä juoksen = I run \n Sinä juokset = You run \n Hän juoksee = He/she runs .., or for a noun like koira you can add koira = dog \n kaksi koiraa = two dogs. koiria = dogs (indefinite plural). Just very basic dictionary-like notes, no deep insight.
-- Add a comment after each note with the corresponding storyFinnish source sentence.
-
-## `quiz_questions.js` Requirements
-- Export `quizQuestions` array.
-- Provide questions for all words that appear to be new.
-- Prioritize the most difficult/advanced words in the chapter (best-guess selection is acceptable).
-- There should be roughly 2 words per 3 lines as a main rule. So a 30-line story gets 20 items in quiz.
-- Each item must include:
-  - `fi`
-  - `answer`
-  - `options` (3 options total, includes the answer)
-
-## `words_and_start_times.js` Requirements
-- Export `words` array and `startTimes` array.
-- `words` should be a good-best-guess narration token list for the chapter.
-- `startTimes` should be a good-best-guess ascending timeline aligned to `words`.
-
-## Consistency
-- Keep capitalization, names, and entities consistent across arrays/files.
-- Keep terminology choices consistent within a chapter.
-
-## Canonical Examples
-Use earlier chapters as style references for:
-- over-literal morphology mapping in `storyFakeEnglish`
-- natural phrasing in `storyEnglish`
-- part-exact mapping style in `storySpokenFinnish`
-- grammar note formatting with sentence comments
-- quiz item structure and option style
-- words + start-time export format
-
-## Quick Manual Checklist (before marking chapter done)
-- `story_text.js`, `grammar.js`, `quiz_questions.js`, `words_and_start_times.js` all exist.
-- In `story_text.js`, line mapping is 1:1 across all four arrays.
-- `storyFakeEnglish` is explicitly over-literal and part-preserving.
-- `storyEnglish` is natural and idiomatic.
-- `storySpokenFinnish` preserves exact word/part correspondence.
-- Every line in story arrays ends with exactly one trailing space after final punctuation.
-- `grammarNotes` count matches rendered sentence count.
-- `quizQuestions` contains a number of items about 2/3 of the amount of sentence lines in storyFinnish.
-- `startTimes` is ascending and plausibly aligned to `words`.
+## Quality Checklist
+- Same number of non-empty lines across arrays.
+- Same token count per corresponding line (for aligned arrays).
+- Cyrillic transliteration mapping is faithful to Latin line.
+- Natural English line meaning still matches.
+- Names/entities are consistent in the chapter.

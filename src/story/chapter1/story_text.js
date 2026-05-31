@@ -1,7 +1,7 @@
 const storyFinnish = `
 Luca v aeroport -e. 
 Luca ustal -yy. 
-Luca pyot kofe. 
+Luca py -ot kofe. 
 Kofe dorog -oy. 
 Kofe nemnog -o strann -yy. 
 No kofe pomoga -et. 
@@ -68,9 +68,9 @@ This is Finland.`;
 const storySpokenFinnish = `
 Лука в аэропорт -е. 
 Лука устал -ый. 
-Лука пьёт кофе. 
+Лука пь -ёт кофе. 
 Кофе дорог -ой. 
-Кофе немного странн -ый. 
+Кофе немног -о странн -ый. 
 Но кофе помога -ет. 
 Финн -ы пьют это кажд -ый день? 
 Лука ищ -ет автобус. 
