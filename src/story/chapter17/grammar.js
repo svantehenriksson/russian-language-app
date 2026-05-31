@@ -1,68 +1,53 @@
 export const grammarNotes = [
-  `on ollut = has been. Other similar tenses: \n
-  Päivä oli pitkä = The day was long. \n
-  Päivä oli ollut pitkä = The day had been long.`, // Päivä on oll -ut pitkä.
-  `The ending -lle means "onto/to."`, // Luca istu -u sohva -lle.
-  `kurkku = throat, but coincidentally also kurkku = cucumber. \n
-  kirvellä = tingle / burn / itch unpleasantly. No exact equivalent in English.`, // Kurkku -a kirvele -e.
-  `No grammar notes for this line yet.`, // Pää -tä särke -e.
-  `No grammar notes for this line yet.`, // Luca juo vet -tä.
-  `No grammar notes for this line yet.`, // Ehkä hän on vain väsy -nyt.
-  `Palelee means "feels cold."`, // Myöhemmin illa -lla Luca alkaa pale -lla.
-  `No grammar notes for this line yet.`, // Nenä vuota -a.
-  `No grammar notes for this line yet.`, // Luca laitta -a käde -n otsa -lle =en.
-  `No grammar notes for this line yet.`, // Otsa on lämmin.
-  `Äidilleen means "to his/her mother."`, // Luca soitta -a äidi -lle =en.
-  `No grammar notes for this line yet.`, // Äiti vasta -a nopea -sti.
-  `Olevansa is a reporting form meaning roughly "that he is."`, // Luca kerto -o oleva -nsa sairas.
-  `No grammar notes for this line yet.`, // Kurkku on kipeä ja pää -tä särke -e.
-  `No grammar notes for this line yet.`, // Äiti kuuntele -e.
-  `pitää = to have to. \n
-  pitää also means to like something like in: \n
-  Minä pidän jäätelöstä = I like ice cream. \n 
-  Hän pitää salmiakiasta = He/she likes salmiakki \n
-  And pitää can also mean keep. Examples: \n
-  Hän pitää vanhan sohvan = He/she keeps the old sofa. \n
-  And further: pitää kiinni = to hold on to. \n
-  So "pitää" has many meanings.
-  `, // Äiti: Sinu -n pitä -ä levä -tä.
-  `No grammar notes for this line yet.`, // Luca lupa -a levä -tä.
-  `No grammar notes for this line yet.`, // Äiti: Muista juoda paljon.
-  `No grammar notes for this line yet.`, // Äiti: Ja mene huomenna lääkäri -in.
-  `ettei combines että = that, which and ei into a single word.`, // Luca sano -o, ett -ei ehkä tarvitse.
-  `No grammar notes for this line yet.`, // Tö -i =stä voi olla koto -na kaksi päivä -ä ilman lääkäri -n =todistus -ta.
-  `Silti means "still / anyway."`, // Äiti: Mene silti lääkäri -in.
-  `No grammar notes for this line yet.`, // Luca lupa -a mennä.
-  `Torstaina and aamulla are time expressions: "on Thursday morning."`, // Torstai -na aamu -lla Luca soitta -a töi -hin.
-  `Sairausloma means sick leave.`, // Hän otta -a sairaus -loma =a.
-  `Asemalle means "to the station/clinic."`, // Sitten Luca soitta -a lääkäri -asema =lle.
-  `Puolen tunnin päästä means "in half an hour."`, // Hän saa aja -n puole -n tunni -n pää -stä.
-  `Työterveyshuolto means occupational health care.`, // Työ -terveys =huolto toimi -i nopea -sti.
-  `Joutuu odottamaan means "has to wait."`, // Julkise -lla terveys -asema =lla joutu -u usein odotta -maan.
-  `Tiskillä means "at the desk."`, // Luca ilmoittautu -u lääkäri -asema -n tiski -llä.
-  `Huoneeseen means "into the room."`, // Hetke -n kuluttua lääkäri kutsu -u Luca -n huonee -seen.
-  `Keuhkot is plural: lungs.`, // Lääkäri kuuntele -e keuhko -t.
-  `Kurkkuun means "into the throat."`, // Hän katso -o kurkku -un.
-  `Puutikku means wooden stick / tongue depressor.`, // Lääkäri otta -a esiin puu -tiku =n.
-  `No grammar notes for this line yet.`, // Luca avaa suu -n.
-  `No grammar notes for this line yet.`, // Lääkäri: Sano “aaa”.
-  `No grammar notes for this line yet.`, // Luca sano -o “aaa”.
-  `Puutikulla uses -lla to mark the instrument: with the wooden stick.`, // Lääkäri työntä -ä Luca -n kiel -tä puu -tiku =lla.
-  `No grammar notes for this line yet.`, // Lääkäri: Sano “aaaaaa”.
-  `No grammar notes for this line yet.`, // Luca melkein oksenta -a.
-  `Kuumee -n is the object form here: the fever/temperature.`, // Lääkäri mitta -a kuumee -n.
-  `Astetta is partitive after a number.`, // 38 astet -ta.
-  `Muutaman means "a few."`, // Lääkäri kysy -y muutama -n kysymykse -n.
-  `No grammar notes for this line yet.`, // Sitten lääkäri hymyile -e hieman.
-  `Kyseessä on means "it is a matter of / it is."`, // Kysee -ssä on tavallinen flunssa.
-  `No grammar notes for this line yet.`, // Luca arva -si se -n jo.
-  `Kahdeksi päiväksi means "for two days."`, // Lääkäri kirjoitta -a sairaus -loma =a kahde -ksi päivä -ksi.
-  `No grammar notes for this line yet.`, // Hän anta -a särky -lääke =ttä mukaan.
-  `juoda = to drink. juo = drink (command, prompt). Imperative, commanding forms are often short:\n
-  syödä = to eat. syö = eat (command) \n
-  mennä = to go. mene = go (command) \n
-  olla = to be. ole = be (command), for example: \n
-  Ole hiljaa! = Be quiet!`, // Lääkäri: Lepää kunno -lla ja juo paljon neste -ttä.
-  `No grammar notes for this line yet.`, // Luca nyökkä -ä.
-  `-nsä is an ending that means "his/her/its".`, // Sama -t neuvo -t anto -i myös häne -n äiti -nsä.
+  `byl = was; dolgim = long (instrumental form here).`, //Den byl dolg-im.
+  `sidet = to sit; sid-it = sits.`, //Luca sid-it na divan-e.
+  `zhzhet = stings/burns.`, //Gorl-o zhzhy-ot.
+  `bolet = to ache; bol-it = aches.`, //Golov-a bol-it.
+  `No grammar notes for this line yet.`, //Luca pyot vod-u.
+  `No grammar notes for this line yet.`, //Mozhet, on prosto ustal-yy.
+  `nachinat = to begin; nachina-et = starts.`, //Pozzhe vecher-om Luca nachina-et myorznut.
+  `tech = to run/leak; techy-ot = runs.`, //Nos techy-ot.
+  `No grammar notes for this line yet.`, //Luca klady-ot ruk-u na lob =y.
+  `No grammar notes for this line yet.`, //Lob tyoplyy.
+  `zvonit = to call; zvon-it = calls.`, //Luca zvon-it mam-e =y.
+  `otvechat = to answer; otvecha-et = answers.`, //Mama otvecha-et bystr-o.
+  `No grammar notes for this line yet.`, //Luca govori-t, chto on bolen.
+  `No grammar notes for this line yet.`, //Gorl-o bolit i golov-a bol-it.
+  `No grammar notes for this line yet.`, //Mama slusha-et.
+  `tebe nado = you need to.`, //Mama: Teb-e nado otdykhat.
+  `No grammar notes for this line yet.`, //Luca obeshcha-et otdykhat.
+  `No grammar notes for this line yet.`, //Mama: Ne zabud pit mnogo.
+  `No grammar notes for this line yet.`, //Mama: I idi zavtra k vrach-u.
+  `No grammar notes for this line yet.`, //Luca govori-t, chto =ne mozhet i ne nado.
+  `bez spravki = without a certificate.`, //S rabot-y mozhno ostat-sya doma dva dnya bez vrach-a =spravk-i.
+  `vsyo ravno = anyway.`, //Mama: Vsyo ravno idi k vrach-u.
+  `No grammar notes for this line yet.`, //Luca obeshcha-et poyti.
+  `No grammar notes for this line yet.`, //V chetverg utro-m Luca zvon-it na rabot-u.
+  `bolnichnyy otpusk = sick leave.`, //On bery-ot bolnichnyy =otpusk.
+  `No grammar notes for this line yet.`, //Potom Luca zvon-it v poliklinik-u.
+  `cherez polchasa = in half an hour.`, //On polucha-et vrem-ya cherez pol =chas-a.
+  `No grammar notes for this line yet.`, //Raboch-aya meditsinsk-aya pomoshch rabota-et bystr-o.
+  `prikhoditsya + infinitive = have to do something.`, //V gosudarstvenn-oy poliklinik-e prikhod-itsya chasto zhdat.
+  `No grammar notes for this line yet.`, //Luca registriru-etsya v poliklinik-e na stojk-e.
+  `zvat = to call; zovy-ot = calls over.`, //Cherez mgnoveni-e vrach zovy-ot Luca-u v komnat-u.
+  `lyogkie = lungs (plural).`, //Vrach slusha-et lyogk-ie.
+  `No grammar notes for this line yet.`, //On smotr-it v gorl-o.
+  `No grammar notes for this line yet.`, //Vrach dosta-yot derevyann-uyu palochk-u.
+  `No grammar notes for this line yet.`, //Luca otkryva-et rot.
+  `No grammar notes for this line yet.`, //Vrach: Skazhi “aaa”.
+  `No grammar notes for this line yet.`, //Luca govori-t “aaa”.
+  `No grammar notes for this line yet.`, //Vrach nazhima-et Luca-y yazyk derevyann-oy palochk-oy.
+  `No grammar notes for this line yet.`, //Vrach: Skazhi “aaaaaa”.
+  `rvat = to vomit; rv-yot = vomits.`, //Luca pochti rv-yot.
+  `izmeryat = to measure.`, //Vrach izmerya-et temperatur-u.
+  `No grammar notes for this line yet.`, //38 gradus-ov.
+  `No grammar notes for this line yet.`, //Vrach sprashiva-et neskolko vopros-ov.
+  `No grammar notes for this line yet.`, //Potom vrach ulyba-etsya nemnogo.
+  `No grammar notes for this line yet.`, //Rech-o obychn-oy prostud-e.
+  `ugadat = to guess; ugada-l = guessed.`, //Luca uzhe ugada-l eto.
+  `vypisyvat = to prescribe/write out.`, //Vrach vypisyva-et bolnichnyy =otpusk na dva dni.
+  `obezbolivayushchee lekarstvo = pain medicine.`, //On da-yot obezbolivayushch-ee =lekarstv-o s soboy.
+  `No grammar notes for this line yet.`, //Vrach: Otdykhay kak sledu-et i pey mnogo zhidkost-i.
+  `No grammar notes for this line yet.`, //Luca kiv-ayet.
+  `No grammar notes for this line yet.`, //Tak-ie sovet-y da-la tozhe ego mat.
 ];

@@ -1,62 +1,62 @@
 const storyFinnish = `
 
-Päivä on oll -ut pitkä. 
-Luca istu -u sohva -lle. 
-Kurkku -a kirvele -e. 
-Pää -tä särke -e. 
-Luca juo vet -tä. 
-Ehkä hän on vain väsynyt. 
-Myöhemmin illa -lla Luca alka -a palella. 
-Nenä vuota -a. 
-Luca laitta -a käde -n otsa -lle =en. 
-Otsa on lämmin. 
-Luca soitta -a äidi -lle =en. 
-Äiti vasta -a nopea -sti. 
-Luca kerto -o ole -va =nsa sairas. 
-Kurkku on kipeä ja pää -tä särke -e. 
-Äiti kuuntele -e. 
-Äiti: Sinu -n pitää levätä. 
-Luca lupa -a levätä. 
-Äiti: Muista juoda paljon. 
-Äiti: Ja mene huomenna lääkäri -in. 
-Luca sano -o, ett -ei ehkä tarvitse. 
-Tö -i =stä voi olla koto -na kaksi päivä -ä ilman lääkäri -n =todistus -ta. 
-Äiti: Mene silti lääkäri -in. 
-Luca lupa -a mennä. 
-Torstai -na aamu -lla Luca soitta -a töi -hin. 
-Hän otta -a sairaus -loma =a. 
-Sitten Luca soitta -a lääkäri -asema =lle. 
-Hän saa aja -n puole -n tunni -n pää -stä. 
-Työ -terveys =huolto toimi -i nopea -sti. 
-Julkise -lla terveys -asema =lla joutu -u usein odotta -maan. 
-Luca ilmoittautu -u lääkäri -asema -n tiski -llä. 
-Hetke -n kuluttua lääkäri kutsu -u Luca -n huonee -seen. 
-Lääkäri kuuntele -e keuhko -t. 
-Hän katso -o kurkku -un. 
-Lääkäri otta -a esiin puu -tiku =n. 
-Luca avaa suu -n. 
-Lääkäri: Sano “aaa”. 
-Luca sano -o “aaa”. 
-Lääkäri työntä -ä Luca -n kiel -tä puu -tiku =lla. 
-Lääkäri: Sano “aaaaaa”. 
-Luca melkein oksenta -a. 
-Lääkäri mitta -a kuumee -n. 
-38 astet -ta. 
-Lääkäri kysy -y muutama -n kysymykse -n. 
-Sitten lääkäri hymyile -e hieman. 
-Kysee -ssä on tavallinen flunssa. 
-Luca arva -si se -n jo. 
-Lääkäri kirjoitta -a sairaus -loma =a kahde -ksi päivä -ksi. 
-Hän anta -a särky -lääke =ttä mukaan. 
-Lääkäri: Lepää kunno -lla ja juo paljon neste -ttä. 
-Luca nyökkä -ä. 
-Sama -t neuvo -t anto -i myös häne -n äiti -nsä. 
+Den byl dolg -im. 
+Luca sid -it na divan -e. 
+Gorl -o zhzhy -ot. 
+Golov -a bol -it. 
+Luca pyot vod -u. 
+Mozhet, on prosto ustal -yy. 
+Pozzhe vecher -om Luca nachina -et myorznut. 
+Nos techy -ot. 
+Luca klady -ot ruk -u na lob =y. 
+Lob tyoplyy. 
+Luca zvon -it mam -e =y. 
+Mama otvecha -et bystr -o. 
+Luca govori -t, chto on bolen. 
+Gorl -o bolit i golov -a bol -it. 
+Mama slusha -et. 
+Mama: Teb -e nado otdykhat. 
+Luca obeshcha -et otdykhat. 
+Mama: Ne zabud pit mnogo. 
+Mama: I idi zavtra k vrach -u. 
+Luca govori -t, chto =ne mozhet i ne nado. 
+S rabot -y mozhno ostat -sya doma dva dnya bez vrach -a =spravk -i. 
+Mama: Vsyo ravno idi k vrach -u. 
+Luca obeshcha -et poyti. 
+V chetverg utro -m Luca zvon -it na rabot -u. 
+On bery -ot bolnichnyy =otpusk. 
+Potom Luca zvon -it v poliklinik -u. 
+On polucha -et vrem -ya cherez pol =chas -a. 
+Raboch -aya meditsinsk -aya pomoshch rabota -et bystr -o. 
+V gosudarstvenn -oy poliklinik -e prikhod -itsya chasto zhdat. 
+Luca registriru -etsya v poliklinik -e na stojk -e. 
+Cherez mgnoveni -e vrach zovy -ot Luca -u v komnat -u. 
+Vrach slusha -et lyogk -ie. 
+On smotr -it v gorl -o. 
+Vrach dosta -yot derevyann -uyu palochk -u. 
+Luca otkryva -et rot. 
+Vrach: Skazhi “aaa”. 
+Luca govori -t “aaa”. 
+Vrach nazhima -et Luca -y yazyk derevyann -oy palochk -oy. 
+Vrach: Skazhi “aaaaaa”. 
+Luca pochti rv -yot. 
+Vrach izmerya -et temperatur -u. 
+38 gradus -ov. 
+Vrach sprashiva -et neskolko vopros -ov. 
+Potom vrach ulyba -etsya nemnogo. 
+Rech -o obychn -oy prostud -e. 
+Luca uzhe ugada -l eto. 
+Vrach vypisyva -et bolnichnyy =otpusk na dva dni. 
+On da -yot obezbolivayushch -ee =lekarstv -o s soboy. 
+Vrach: Otdykhay kak sledu -et i pey mnogo zhidkost -i. 
+Luca kiv -ayet. 
+Tak -ie sovet -y da -la tozhe ego mat. 
 `;
 
 const storyFakeEnglish = `
 
-Day is be -en long. 
-Luca sit -s couch -onto. 
+Day be -en long. 
+Luca sit -s on couch -onto. 
 Throat -some sting -s. 
 Head -some ache -s. 
 Luca drinks water -some. 
@@ -64,30 +64,30 @@ Maybe he is only tired.
 Later evening -on Luca begin -s freezing. 
 Nose leak -s. 
 Luca put -s hand -one forehead -onto =his. 
-Forehead is warm. 
+Forehead warm. 
 Luca call -s mother -to =his. 
 Mother answer -s quick -ly. 
-Luca tell -s be -ing -his sick. 
+Luca tell -s be -ing sick. 
 Throat is sore and head -some ache -s. 
 Mother listen -s. 
 Mother: You -'s must rest. 
 Luca promise -s rest. 
-Mother: Remember drink much. 
-Mother: And go tomorrow doctor -to. 
-Luca say -s, that -not maybe need. 
-Work -s =from can be home -at two day -s without doctor -'s =certificate -some. 
-Mother: Go still doctor -to. 
+Mother: Remember drink much water. 
+Mother: And go tomorrow to doctor -to. 
+Luca say -s, that -not maybe you do need. 
+Work -s =from can home -at two day -s without doctor -'s =certificate -some. 
+Mother: Go still to doctor -to now. 
 Luca promise -s go. 
-Thursday -as morning -on Luca call -s work -to. 
-He take -s sick -leave -some. 
+Thursday -as morning -on Luca call -s work -to today. 
+He take -s leave -some. 
 Then Luca call -s doctor -station -to. 
-He gets time -one half -one hour -'s end -from. 
-Work -health =care work -s quick -ly. 
-Public -on health -station -on must -s often wait -to. 
-Luca register -s doctor -station -'s counter -on. 
-Moment -'s after doctor call -s Luca -one room -into. 
+He gets time -one half -one hour -'s -from. 
+Work -health =care service work -s quick -ly now. 
+Public -on health -station -on must -s wait -to. 
+Luca register -s doctor -station -'s counter -on there. 
+Moment -'s after doctor call -s Luca -one room -into inside. 
 Doctor listen -s lung -s. 
-He look -s throat -into. 
+He look -s into throat -into. 
 Doctor take -s out wood -stick -one. 
 Luca opens mouth -one. 
 Doctor: Say “aaa”. 
@@ -97,15 +97,15 @@ Doctor: Say “aaaaaa”.
 Luca almost vomit -s. 
 Doctor measure -s fever -one. 
 38 degree -s. 
-Doctor ask -s few -ones questions -ones. 
+Doctor ask -s -ones questions -ones. 
 Then doctor smile -s a_bit. 
-Question -in is ordinary cold. 
-Luca guess -ed it -one already. 
-Doctor write -s sick -leave -some two -into day -into. 
-He give -s pain -medicine -some along. 
-Doctor: Rest proper -ly and drink much liquid -some. 
+Question -in is ordinary very cold. 
+Luca guess -ed it -one. 
+Doctor write -s leave -some for day -into. 
+He give -s pain -medicine -some along with him. 
+Doctor: Rest proper -ly and drink much warm liquid -some. 
 Luca nod -s. 
-Same -s advice -s give -ed also he -'s mother -his. 
+Same -s advice -s give -ed also mother -his. 
 `;
 
 const storyEnglish = `
@@ -165,57 +165,57 @@ His mother had given the same advice too.
 
 const storySpokenFinnish = `
 
-Päivä on oll -u pitkä. 
-Luca istu -u sohva -lle. 
-Kurkku -u kirvele -e. 
-Pää -tä särke -e. 
-Luca juo vet -tä. 
-Ehkä se on vaan väsyny. 
-Myöhemmin illa -l Luca alka -a palelee. 
-Nenä vuota -a. 
-Luca laitta -a käde -n otsa -lle =en. 
-Otsa on lämmin. 
-Luca soitta -a äidi -lle =en. 
-Äiti vasta -a nopee -sti. 
-Luca kerto -o et se on sairas. 
-Kurkku on kipee ja pää -tä särke -e. 
-Äiti kuuntele -e. 
-Äiti: Su -n pitää levätä. 
-Luca lupa -a levätä. 
-Äiti: Muista juoda paljon. 
-Äiti: Ja mene huomenna lääkäri -in. 
-Luca sano -o, ett -ei ehkä tarvi. 
-Tö -i =stä voi olla koto -na kaks päivä -ä ilman lääkäri -n =todistus -t. 
-Äiti: Meee silti lääkäri -in. 
-Luca lupa -a mennä. 
-Torstai -na aamu -l Luca soitta -a töi -hin. 
-Se otta -a sairaus -loma =a. 
-Sit Luca soitta -a lääkäri -asema =lle. 
-Se saa aja -n puole -n tunni -n pää -s. 
-Työ -terveys =huolto toimi -i nopee -sti. 
-Julkise -l terveys -asema =l joutu -u usein odotta -a. 
-Luca ilmottautu -u lääkäri -asema -n tiski -l. 
-Hetke -n kuluttuu lääkäri kutsu -u Luca -n huonee -seen. 
-Lääkäri kuuntele -e keuhko -t. 
-Se katso -o kurkku -un. 
-Lääkäri otta -a esiin puu -tiku =n. 
-Luca avaa suu -n. 
-Lääkäri: Sano “aaa”. 
-Luca sano -o “aaa”. 
-Lääkäri työntä -ä Luca -n kiel -t puu -tiku =l. 
-Lääkäri: Sano “aaaaaa”. 
-Luca melkeen oksenta -a. 
-Lääkäri mitta -a kuumee -n. 
-38 astet -t. 
-Lääkäri kysy -y muutama -n kysymykse -n. 
-Sit lääkäri hymyile -e vähän. 
-Kysee -s on tavallinen flunssa. 
-Luca arva -s se -n jo. 
-Lääkäri kirjotta -a sairaus -loma =a kahe -ks päivä -ks. 
-Se anta -a särky -lääke =t mukaan. 
-Lääkäri: Lepää kunno -l ja juo paljo neste -t. 
-Luca nyökkä -ä. 
-Sama -t neuvo -t ant -o kans sen -n äiti - . 
+День был долг -им. 
+Лука сид -ит на диван -е. 
+Горл -о жжё -от. 
+Голов -а бол -ит. 
+Лука пьот вод -у. 
+Может, он просто устал -ый. 
+Позже вечер -ом Лука начина -ет мёрзнуть. 
+Нос течы -от. 
+Лука клады -от рук -у на лоб =ы. 
+Лоб тёплый. 
+Лука звон -ит мам -е =ы. 
+Мама отвеча -ет быстр -о. 
+Лука говори -т, что он болен. 
+Горл -о болит и голов -а бол -ит. 
+Мама слуша -ет. 
+Мама: Теб -е надо отдыхать. 
+Лука обеща -ет отдыхать. 
+Мама: Не забудь пить много. 
+Мама: И иди завтра к врач -у. 
+Лука говори -т, что =не может и не надо. 
+С работ -ы можно остат -ся дома два дня без врач -а =справк -и. 
+Мама: Всё равно иди к врач -у. 
+Лука обеща -ет пойти. 
+В четверг утро -м Лука звон -ит на работ -у. 
+Он беры -от больничный =отпуск. 
+Потом Лука звон -ит в поликлиник -у. 
+Он получа -ет врем -я через пол =час -а. 
+Рабоч -ая медицинск -ая помощь работа -ет быстр -о. 
+В государственн -ой поликлиник -е приход -ится часто ждать. 
+Лука регистриру -ется в поликлиник -е на стойк -е. 
+Через мгновени -е врач зовы -от Лука -у в комнат -у. 
+Врач слуша -ет лёгк -ие. 
+Он смотр -ит в горл -о. 
+Врач доста -ёт деревянн -ую палочк -у. 
+Лука открыва -ет рот. 
+Врач: Скажи “aaa”. 
+Лука говори -т “aaa”. 
+Врач нажима -ет Лука -ы язык деревянн -ой палочк -ой. 
+Врач: Скажи “aaaaaa”. 
+Лука почти рв -ёт. 
+Врач измеря -ет температур -у. 
+38 градус -ов. 
+Врач спрашива -ет несколько вопрос -ов. 
+Потом врач улыба -ется немного. 
+Речь -о обычн -ой простуд -е. 
+Лука уже угада -л это. 
+Врач выписыва -ет больничный =отпуск на два дни. 
+Он да -ёт обезболивающ -ее =лекарств -о с собой. 
+Врач: Отдыхай как следу -ет и пей много жидкост -и. 
+Лука кив -ает. 
+Так -ие совет -ы да -ла тоже его мат. 
 `;
 
 const createWordArrays = () => {
