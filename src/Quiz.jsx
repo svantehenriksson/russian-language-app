@@ -409,7 +409,7 @@ export default function Quiz({ initialLevel = 1 }) {
           <div className="card quiz-card">
             <div className="card-header">
               <div className="card-title">
-                Ready to practice Finnish words {startWordNumber} to {endWordNumber}? 💪 🧠
+                Ready to practice Russian words {startWordNumber} to {endWordNumber}? 💪 🧠
               </div>
               <div className="card-chip">{WORDS_PER_LEVEL} words • ~{estimatedMinutes} min</div>
             </div>
